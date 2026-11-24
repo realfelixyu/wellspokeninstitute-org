@@ -1,0 +1,830 @@
+{
+  "curtis1988field": {
+    "authors": "Curtis, B., Krasner, H., & Iscoe, N.",
+    "year": 1988,
+    "title": "A field study of the software design process for large systems",
+    "container": "Communications of the ACM, 31(11), 1268-1287",
+    "doi": "10.1145/50087.50089",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "A field study of the software design process for large systems"
+    }
+  },
+  "ko2007information": {
+    "authors": "Ko, A. J., DeLine, R., & Venolia, G.",
+    "year": 2007,
+    "title": "Information Needs in Collocated Software Development Teams",
+    "container": "Proceedings of the 29th International Conference on Software Engineering (ICSE '07), 344-353",
+    "doi": "10.1109/ICSE.2007.45",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Information Needs in Collocated Software Development Teams"
+    }
+  },
+  "stray2016standup": {
+    "authors": "Stray, V., Sjøberg, D. I. K., & Dybå, T.",
+    "year": 2016,
+    "title": "The daily stand-up meeting: A grounded theory study",
+    "container": "Journal of Systems and Software, 114, 101-124",
+    "doi": "10.1016/j.jss.2016.01.004",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The daily stand-up meeting: A grounded theory study"
+    }
+  },
+  "davis2006elicitation": {
+    "authors": "Davis, A., Dieste, O., Hickey, A., Juristo, N., & Moreno, A. M.",
+    "year": 2006,
+    "title": "Effectiveness of Requirements Elicitation Techniques: Empirical Results Derived from a Systematic Review",
+    "container": "14th IEEE International Requirements Engineering Conference (RE'06), 179-188",
+    "doi": "10.1109/RE.2006.17",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Effectiveness of Requirements Elicitation Techniques: Empirical Results Derived from a Systematic Review"
+    }
+  },
+  "hall2014techsupport": {
+    "authors": "Hall, J. A., Verghis, P., Stockton, W., & Goh, J. X.",
+    "year": 2014,
+    "title": "It Takes Just 120 Seconds: Predicting Satisfaction in Technical Support Calls",
+    "container": "Psychology & Marketing, 31(7), 500-508",
+    "doi": "10.1002/mar.20711",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "It Takes Just 120 Seconds: Predicting Satisfaction in Technical Support Calls"
+    }
+  },
+  "pentland1992moves": {
+    "authors": "Pentland, B. T.",
+    "year": 1992,
+    "title": "Organizing Moves in Software Support Hot Lines",
+    "container": "Administrative Science Quarterly, 37(4), 527-548",
+    "doi": "10.2307/2393471",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Organizing Moves in Software Support Hot Lines"
+    }
+  },
+  "das2003techsupport": {
+    "authors": "Das, A.",
+    "year": 2003,
+    "title": "Knowledge and Productivity in Technical Support Work",
+    "container": "Management Science, 49(4), 416-431",
+    "doi": "10.1287/mnsc.49.4.416.14419",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Knowledge and Productivity in Technical Support Work"
+    }
+  },
+  "henderson2008pm": {
+    "authors": "Henderson, L. S.",
+    "year": 2008,
+    "title": "The Impact of Project Managers' Communication Competencies: Validation and Extension of a Research Model for Virtuality, Satisfaction, and Productivity on Project Teams",
+    "container": "Project Management Journal, 39(2), 48-59",
+    "doi": "10.1002/pmj.20044",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The Impact of Project Managers’ Communication Competencies: Validation and Extension of a Research Model for Virtuality, Satisfaction, and Productivity on Project Teams"
+    }
+  },
+  "hoegl2001teamwork": {
+    "authors": "Hoegl, M., & Gemuenden, H. G.",
+    "year": 2001,
+    "title": "Teamwork Quality and the Success of Innovative Projects: A Theoretical Concept and Empirical Evidence",
+    "container": "Organization Science, 12(4), 435-449",
+    "doi": "10.1287/orsc.12.4.435.10635",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Teamwork Quality and the Success of Innovative Projects: A Theoretical Concept and Empirical Evidence"
+    }
+  },
+  "andersen2006projectsuccess": {
+    "authors": "Andersen, E. S., Birchall, D., Jessen, S. A., & Money, A. H.",
+    "year": 2006,
+    "title": "Exploring project success",
+    "container": "Baltic Journal of Management, 1(2), 127-147",
+    "doi": "10.1108/17465260610663854",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Exploring project success"
+    }
+  },
+  "sturdy2006dinner": {
+    "authors": "Sturdy, A., Schwarz, M., & Spicer, A.",
+    "year": 2006,
+    "title": "Guess who's coming to dinner? Structures and uses of liminality in strategic management consultancy",
+    "container": "Human Relations, 59(7), 929-960",
+    "doi": "10.1177/0018726706067597",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Guess who's coming to dinner? Structures and uses of liminality in                 strategic management consultancy"
+    }
+  },
+  "lewis1999change": {
+    "authors": "Lewis, L. K.",
+    "year": 1999,
+    "title": "Disseminating Information and Soliciting Input during Planned Organizational Change",
+    "container": "Management Communication Quarterly, 13(1), 43-75",
+    "doi": "10.1177/0893318999131002",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Disseminating Information and Soliciting Input during Planned Organizational Change"
+    }
+  },
+  "kakabadse2006consultant": {
+    "authors": "Kakabadse, N. K., Louchart, E., & Kakabadse, A.",
+    "year": 2006,
+    "title": "Consultant's role: a qualitative inquiry from the consultant's perspective",
+    "container": "Journal of Management Development, 25(5), 416-500",
+    "doi": "10.1108/02621710610666268",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Consultant's role: a qualitative inquiry from the consultant's perspective"
+    }
+  },
+  "fincham1999consultant": {
+    "authors": "Fincham, R.",
+    "year": 1999,
+    "title": "The Consultant-Client Relationship: Critical Perspectives on the Management of Organizational Change",
+    "container": "Journal of Management Studies, 36(3), 335-351",
+    "doi": "10.1111/1467-6486.00139",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The Consultant–Client Relationship: Critical Perspectives on the Management of Organizational Change"
+    }
+  },
+  "luthans1985managers": {
+    "authors": "Luthans, F., Rosenkrantz, S. A., & Hennessey, H. W.",
+    "year": 1985,
+    "title": "What Do Successful Managers Really Do? An Observation Study of Managerial Activities",
+    "container": "The Journal of Applied Behavioral Science, 21(3), 255-270",
+    "doi": "10.1177/002188638502100303",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "What Do Successful Managers Really Do? An Observation Study of Managerial Activities"
+    }
+  },
+  "tengblad2006managerial": {
+    "authors": "Tengblad, S.",
+    "year": 2006,
+    "title": "Is there a 'New Managerial Work'? A Comparison with Henry Mintzberg's Classic Study 30 Years Later",
+    "container": "Journal of Management Studies, 43(7), 1437-1461",
+    "doi": "10.1111/j.1467-6486.2006.00651.x",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Is there a ‘New Managerial Work’? A Comparison with Henry Mintzberg's Classic Study 30 Years Later*"
+    }
+  },
+  "kauffeld2012meetings": {
+    "authors": "Kauffeld, S., & Lehmann-Willenbrock, N.",
+    "year": 2012,
+    "title": "Meetings Matter",
+    "container": "Small Group Research, 43(2), 130-158",
+    "doi": "10.1177/1046496411429599",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Meetings Matter"
+    }
+  },
+  "mayew2012voice": {
+    "authors": "Mayew, W. J., & Venkatachalam, M.",
+    "year": 2012,
+    "title": "The Power of Voice: Managerial Affective States and Future Firm Performance",
+    "container": "The Journal of Finance, 67(1), 1-43",
+    "doi": "10.1111/j.1540-6261.2011.01705.x",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The Power of Voice: Managerial Affective States and Future Firm Performance"
+    }
+  },
+  "mayew2013pitch": {
+    "authors": "Mayew, W. J., Parsons, C. A., & Venkatachalam, M.",
+    "year": 2013,
+    "title": "Voice pitch and the labor market success of male chief executive officers",
+    "container": "Evolution and Human Behavior, 34(4), 243-248",
+    "doi": "10.1016/j.evolhumbehav.2013.03.001",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Voice pitch and the labor market success of male chief executive officers"
+    }
+  },
+  "bandiera2020ceo": {
+    "authors": "Bandiera, O., Prat, A., Hansen, S., & Sadun, R.",
+    "year": 2020,
+    "title": "CEO Behavior and Firm Performance",
+    "container": "Journal of Political Economy, 128(4), 1325-1369",
+    "doi": "10.1086/705331",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "CEO Behavior and Firm Performance"
+    }
+  },
+  "matsumoto2011calls": {
+    "authors": "Matsumoto, D., Pronk, M., & Roelofsen, E.",
+    "year": 2011,
+    "title": "What Makes Conference Calls Useful? The Information Content of Managers' Presentations and Analysts' Discussion Sessions",
+    "container": "The Accounting Review, 86(4), 1383-1414",
+    "doi": "10.2308/accr-10034",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "What Makes Conference Calls Useful? The Information Content of Managers' Presentations and Analysts' Discussion Sessions"
+    }
+  },
+  "hollander2010silence": {
+    "authors": "Hollander, S., Pronk, M., & Roelofsen, E.",
+    "year": 2010,
+    "title": "Does Silence Speak? An Empirical Analysis of Disclosure Choices During Conference Calls",
+    "container": "Journal of Accounting Research, 48(3), 531-563",
+    "doi": "10.1111/j.1475-679X.2010.00365.x",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Does Silence Speak? An Empirical Analysis of Disclosure Choices During Conference Calls"
+    }
+  },
+  "larcker2012deceptive": {
+    "authors": "Larcker, D. F., & Zakolyukina, A. A.",
+    "year": 2012,
+    "title": "Detecting Deceptive Discussions in Conference Calls",
+    "container": "Journal of Accounting Research, 50(2), 495-540",
+    "doi": "10.1111/j.1475-679X.2012.00450.x",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Detecting Deceptive Discussions in Conference Calls"
+    }
+  },
+  "chen2018diurnal": {
+    "authors": "Chen, J., Demers, E., & Lev, B.",
+    "year": 2018,
+    "title": "Oh What a Beautiful Morning! Diurnal Influences on Executives and Analysts: Evidence from Conference Calls",
+    "container": "Management Science, 64(12), 5899-5924",
+    "doi": "10.1287/mnsc.2017.2888",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Oh What a Beautiful Morning! Diurnal Influences on Executives and Analysts: Evidence from Conference Calls"
+    }
+  },
+  "maltz1996dissemination": {
+    "authors": "Maltz, E., & Kohli, A. K.",
+    "year": 1996,
+    "title": "Market Intelligence Dissemination across Functional Boundaries",
+    "container": "Journal of Marketing Research, 33(1), 47-61",
+    "doi": "10.1177/002224379603300105",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Market Intelligence Dissemination across Functional Boundaries"
+    }
+  },
+  "homburg2007thoughtworlds": {
+    "authors": "Homburg, C., & Jensen, O.",
+    "year": 2007,
+    "title": "The Thought Worlds of Marketing and Sales: Which Differences Make a Difference?",
+    "container": "Journal of Marketing, 71(3), 124-142",
+    "doi": "10.1509/jmkg.71.3.124",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The Thought Worlds of Marketing and Sales: Which Differences Make a Difference?"
+    }
+  },
+  "griffin1996rdmarketing": {
+    "authors": "Griffin, A., & Hauser, J. R.",
+    "year": 1996,
+    "title": "Integrating R&D and Marketing: A Review and Analysis of the Literature",
+    "container": "Journal of Product Innovation Management, 13(3), 191-215",
+    "doi": "10.1111/1540-5885.1330191",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Integrating R&amp;D and Marketing: A Review and Analysis of the Literature"
+    }
+  },
+  "dahling2016coaching": {
+    "authors": "Dahling, J. J., Taylor, S. R., Chau, S. L., & Dwight, S. A.",
+    "year": 2016,
+    "title": "Does Coaching Matter? A Multilevel Model Linking Managerial Coaching Skill and Frequency to Sales Goal Attainment",
+    "container": "Personnel Psychology, 69(4), 863-894",
+    "doi": "10.1111/peps.12123",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Does Coaching Matter? A Multilevel Model Linking Managerial Coaching Skill and Frequency to Sales Goal Attainment"
+    }
+  },
+  "jaworski1991feedback": {
+    "authors": "Jaworski, B. J., & Kohli, A. K.",
+    "year": 1991,
+    "title": "Supervisory Feedback: Alternative Types and Their Impact on Salespeople's Performance and Satisfaction",
+    "container": "Journal of Marketing Research, 28(2), 190-201",
+    "doi": "10.1177/002224379102800206",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Supervisory Feedback: Alternative Types and Their Impact on Salespeople's Performance and Satisfaction"
+    }
+  },
+  "mayfield1998motivating": {
+    "authors": "Mayfield, J. R., Mayfield, M. R., & Kopf, J.",
+    "year": 1998,
+    "title": "The effects of leader motivating language on subordinate performance and satisfaction",
+    "container": "Human Resource Management, 37(3-4), 235-248",
+    "doi": "10.1002/(SICI)1099-050X(199823/24)37:3/4<235::AID-HRM6>3.0.CO;2-X",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The effects of leader motivating language on subordinate performance and satisfaction"
+    }
+  },
+  "franke2006adaptive": {
+    "authors": "Franke, G. R., & Park, J.-E.",
+    "year": 2006,
+    "title": "Salesperson Adaptive Selling Behavior and Customer Orientation: A Meta-Analysis",
+    "container": "Journal of Marketing Research, 43(4), 693-702",
+    "doi": "10.1509/jmkr.43.4.693",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Salesperson Adaptive Selling Behavior and Customer Orientation: A Meta-Analysis"
+    }
+  },
+  "drollinger2013listening": {
+    "authors": "Drollinger, T., & Comer, L. B.",
+    "year": 2013,
+    "title": "Salesperson's listening ability as an antecedent to relationship selling",
+    "container": "Journal of Business & Industrial Marketing, 28(1), 50-59",
+    "doi": "10.1108/08858621311285714",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Salesperson's listening ability as an antecedent to relationship selling"
+    }
+  },
+  "hall2015intuition": {
+    "authors": "Hall, Z. R., Ahearne, M., & Sujan, H.",
+    "year": 2015,
+    "title": "The Importance of Starting Right: The Influence of Accurate Intuition on Performance in Salesperson-Customer Interactions",
+    "container": "Journal of Marketing, 79(3), 91-109",
+    "doi": "10.1509/jm.13.0505",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The Importance of Starting Right: The Influence of Accurate Intuition on Performance in Salesperson–Customer Interactions"
+    }
+  },
+  "verbeke2011drivers": {
+    "authors": "Verbeke, W., Dietz, B., & Verwaal, E.",
+    "year": 2011,
+    "title": "Drivers of sales performance: a contemporary meta-analysis. Have salespeople become knowledge brokers?",
+    "container": "Journal of the Academy of Marketing Science, 39(3), 407-428",
+    "doi": "10.1007/s11747-010-0211-8",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Drivers of sales performance: a contemporary meta-analysis. Have salespeople become knowledge brokers?"
+    }
+  },
+  "jacob2011mimicry": {
+    "authors": "Jacob, C., Guéguen, N., Martin, A., & Boulbry, G.",
+    "year": 2011,
+    "title": "Retail salespeople's mimicry of customers: Effects on consumer behavior",
+    "container": "Journal of Retailing and Consumer Services, 18(5), 381-388",
+    "doi": "10.1016/j.jretconser.2010.11.006",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Retail salespeople's mimicry of customers: Effects on consumer behavior"
+    }
+  },
+  "tsai2002affective": {
+    "authors": "Tsai, W.-C., & Huang, Y.-M.",
+    "year": 2002,
+    "title": "Mechanisms linking employee affective delivery and customer behavioral intentions",
+    "container": "Journal of Applied Psychology, 87(5), 1001-1008",
+    "doi": "10.1037/0021-9010.87.5.1001",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Mechanisms linking employee affective delivery and customer behavioral intentions."
+    }
+  },
+  "gremler2000rapport": {
+    "authors": "Gremler, D. D., & Gwinner, K. P.",
+    "year": 2000,
+    "title": "Customer-Employee Rapport in Service Relationships",
+    "container": "Journal of Service Research, 3(1), 82-104",
+    "doi": "10.1177/109467050031006",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Customer-Employee Rapport in Service Relationships"
+    }
+  },
+  "silvester2003retail": {
+    "authors": "Silvester, J., Patterson, F., & Ferguson, E.",
+    "year": 2003,
+    "title": "Comparing two attributional models of job performance in retail sales: A field study",
+    "container": "Journal of Occupational and Organizational Psychology, 76(1), 115-132",
+    "doi": "10.1348/096317903321208916",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Comparing two attributional models of job performance in retail sales: A field study"
+    }
+  },
+  "snyder2011realestate": {
+    "authors": "Snyder, J. L., Claffey, G. F., & Cistulli, M. D.",
+    "year": 2011,
+    "title": "How Similar Are Real Estate Agents and Human-Service Workers?: A Study of Real Estate Agents' Responses to Distressed Clients",
+    "container": "Journal of Business Communication, 48(3), 300-318",
+    "doi": "10.1177/0021943611406275",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "How Similar Are Real Estate Agents and Human-Service Workers?: A Study of Real Estate Agents' Responses to Distressed Clients"
+    }
+  },
+  "levitt2008realestate": {
+    "authors": "Levitt, S. D., & Syverson, C.",
+    "year": 2008,
+    "title": "Market Distortions When Agents Are Better Informed: The Value of Information in Real Estate Transactions",
+    "container": "The Review of Economics and Statistics, 90(4), 599-611",
+    "doi": "10.1162/rest.90.4.599",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Market Distortions When Agents Are Better Informed: The Value of Information in Real Estate Transactions"
+    }
+  },
+  "cardella2016listprice": {
+    "authors": "Cardella, E., & Seiler, M. J.",
+    "year": 2016,
+    "title": "The Effect of Listing Price Strategy on Real Estate Negotiations: An Experimental Study",
+    "container": "Journal of Economic Psychology, 52, 71-90",
+    "doi": "10.1016/j.joep.2015.11.001",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The effect of listing price strategy on real estate negotiations: An experimental study"
+    }
+  },
+  "crosby1990relationship": {
+    "authors": "Crosby, L. A., Evans, K. R., & Cowles, D.",
+    "year": 1990,
+    "title": "Relationship Quality in Services Selling: An Interpersonal Influence Perspective",
+    "container": "Journal of Marketing, 54(3), 68-81",
+    "doi": "10.1177/002224299005400306",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Relationship Quality in Services Selling: An Interpersonal Influence Perspective"
+    }
+  },
+  "anagol2017insurance": {
+    "authors": "Anagol, S., Cole, S., & Sarkar, S.",
+    "year": 2017,
+    "title": "Understanding the Advice of Commissions-Motivated Agents: Evidence from the Indian Life Insurance Market",
+    "container": "The Review of Economics and Statistics, 99(1), 1-15",
+    "doi": "10.1162/REST_a_00625",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Understanding the Advice of Commissions-Motivated Agents: Evidence from the Indian Life Insurance Market"
+    }
+  },
+  "seligman1986explanatory": {
+    "authors": "Seligman, M. E. P., & Schulman, P.",
+    "year": 1986,
+    "title": "Explanatory style as a predictor of productivity and quitting among life insurance sales agents",
+    "container": "Journal of Personality and Social Psychology, 50(4), 832-838",
+    "doi": "10.1037/0022-3514.50.4.832",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Explanatory style as a predictor of productivity and quitting among life insurance sales agents."
+    }
+  },
+  "laudenbach2025personal": {
+    "authors": "Laudenbach, C., & Siegel, S.",
+    "year": 2025,
+    "title": "Personal Communication in an Automated World: Evidence from Loan Repayments",
+    "container": "The Journal of Finance, 80(1), 515-559",
+    "doi": "10.1111/jofi.13388",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Personal Communication in an Automated World: Evidence from Loan Repayments"
+    }
+  },
+  "drexler2014relationships": {
+    "authors": "Drexler, A., & Schoar, A.",
+    "year": 2014,
+    "title": "Do Relationships Matter? Evidence from Loan Officer Turnover",
+    "container": "Management Science, 60(11), 2722-2736",
+    "doi": "10.1287/mnsc.2014.1957",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Do Relationships Matter? Evidence from Loan Officer Turnover"
+    }
+  },
+  "verbeke2000anxiety": {
+    "authors": "Verbeke, W., & Bagozzi, R. P.",
+    "year": 2000,
+    "title": "Sales Call Anxiety: Exploring What it Means When Fear Rules a Sales Encounter",
+    "container": "Journal of Marketing, 64(3), 88-101",
+    "doi": "10.1509/jmkg.64.3.88.18032",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Sales Call Anxiety: Exploring What it Means When Fear Rules a Sales Encounter"
+    }
+  },
+  "mullainathan2012advice": {
+    "authors": "Mullainathan, S., Noeth, M., & Schoar, A.",
+    "year": 2012,
+    "title": "The Market for Financial Advice: An Audit Study",
+    "container": "NBER Working Paper No. 17929, National Bureau of Economic Research",
+    "doi": "10.3386/w17929",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The Market for Financial Advice: An Audit Study"
+    }
+  },
+  "lozza2022money": {
+    "authors": "Lozza, E., Castiglioni, C., Bonanomi, A., & Poli, F.",
+    "year": 2022,
+    "title": "Money as a symbol in the relationship between financial advisors and their clients: a dyadic study",
+    "container": "International Journal of Bank Marketing, 40(4), 613-630",
+    "doi": "10.1108/IJBM-04-2021-0124",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Money as a symbol in the relationship between financial advisors and their clients: a dyadic study"
+    }
+  },
+  "agnew2018first": {
+    "authors": "Agnew, J. R., Bateman, H., Eckert, C., Iskhakov, F., Louviere, J., & Thorp, S.",
+    "year": 2018,
+    "title": "First Impressions Matter: An Experimental Investigation of Online Financial Advice",
+    "container": "Management Science, 64(1), 288-307",
+    "doi": "10.1287/mnsc.2016.2590",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "First Impressions Matter: An Experimental Investigation of Online Financial Advice"
+    }
+  },
+  "gibbins2001negotiation": {
+    "authors": "Gibbins, M., Salterio, S., & Webb, A.",
+    "year": 2001,
+    "title": "Evidence About Auditor-Client Management Negotiation Concerning Client's Financial Reporting",
+    "container": "Journal of Accounting Research, 39(3), 535-563",
+    "doi": "10.1111/1475-679X.00027",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Evidence About Auditor–Client Management Negotiation Concerning Client’s Financial Reporting"
+    }
+  },
+  "kavanagh2008skills": {
+    "authors": "Kavanagh, M. H., & Drennan, L.",
+    "year": 2008,
+    "title": "What skills and attributes does an accounting graduate need? Evidence from student perceptions and employer expectations",
+    "container": "Accounting & Finance, 48(2), 279-300",
+    "doi": "10.1111/j.1467-629X.2007.00245.x",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "What skills and attributes does an accounting graduate need? Evidence from student perceptions and employer expectations"
+    }
+  },
+  "gardner2005apprehension": {
+    "authors": "Gardner, C. T., Milne, M. J., Stringer, C. P., & Whiting, R. H.",
+    "year": 2005,
+    "title": "Oral and written communication apprehension in accounting students: Curriculum impacts and impacts on academic performance",
+    "container": "Accounting Education, 14(3), 313-336",
+    "doi": "10.1080/06939280500077269",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Oral and written communication apprehension in accounting students: Curriculum impacts and impacts on academic performance"
+    }
+  },
+  "mcdaniel1994interviews": {
+    "authors": "McDaniel, M. A., Whetzel, D. L., Schmidt, F. L., & Maurer, S. D.",
+    "year": 1994,
+    "title": "The validity of employment interviews: A comprehensive review and meta-analysis",
+    "container": "Journal of Applied Psychology, 79(4), 599-616",
+    "doi": "10.1037/0021-9010.79.4.599",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The validity of employment interviews: A comprehensive review and meta-analysis."
+    }
+  },
+  "chapman2005attraction": {
+    "authors": "Chapman, D. S., Uggerslev, K. L., Carroll, S. A., Piasentin, K. A., & Jones, D. A.",
+    "year": 2005,
+    "title": "Applicant Attraction to Organizations and Job Choice: A Meta-Analytic Review of the Correlates of Recruiting Outcomes",
+    "container": "Journal of Applied Psychology, 90(5), 928-944",
+    "doi": "10.1037/0021-9010.90.5.928",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Applicant Attraction to Organizations and Job Choice: A Meta-Analytic Review of the Correlates of Recruiting Outcomes."
+    }
+  },
+  "barrick2009selfpresentation": {
+    "authors": "Barrick, M. R., Shaffer, J. A., & DeGrassi, S. W.",
+    "year": 2009,
+    "title": "What you see may not be what you get: Relationships among self-presentation tactics and ratings of interview and job performance",
+    "container": "Journal of Applied Psychology, 94(6), 1394-1411",
+    "doi": "10.1037/a0016532",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "What you see may not be what you get: Relationships among self-presentation tactics and ratings of interview and job performance."
+    }
+  },
+  "packard2018pronouns": {
+    "authors": "Packard, G., Moore, S. G., & McFerran, B.",
+    "year": 2018,
+    "title": "(I'm) Happy to Help (You): The Impact of Personal Pronoun Use in Customer-Firm Interactions",
+    "container": "Journal of Marketing Research, 55(4), 541-555",
+    "doi": "10.1509/jmr.16.0118",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "(I'm) Happy to Help (You): The Impact of Personal Pronoun Use in Customer–Firm Interactions"
+    }
+  },
+  "packard2021concrete": {
+    "authors": "Packard, G., & Berger, J.",
+    "year": 2021,
+    "title": "How Concrete Language Shapes Customer Satisfaction",
+    "container": "Journal of Consumer Research, 47(5), 787-806",
+    "doi": "10.1093/jcr/ucaa038",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "How Concrete Language Shapes Customer Satisfaction"
+    }
+  },
+  "deruyter2000listening": {
+    "authors": "de Ruyter, K., & Wetzels, M. G. M.",
+    "year": 2000,
+    "title": "The Impact of Perceived Listening Behavior in Voice-to-Voice Service Encounters",
+    "container": "Journal of Service Research, 2(3), 276-284",
+    "doi": "10.1177/109467050023005",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The Impact of Perceived Listening Behavior in Voice-to-Voice Service Encounters"
+    }
+  },
+  "marinova2018frontline": {
+    "authors": "Marinova, D., Singh, S. K., & Singh, J.",
+    "year": 2018,
+    "title": "Frontline Problem-Solving Effectiveness: A Dynamic Analysis of Verbal and Nonverbal Cues",
+    "container": "Journal of Marketing Research, 55(2), 178-192",
+    "doi": "10.1509/jmr.15.0243",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Frontline Problem-Solving Effectiveness: A Dynamic Analysis of Verbal and Nonverbal Cues"
+    }
+  },
+  "hewitt2009frontdesk": {
+    "authors": "Hewitt, H., McCloughan, L., & McKinstry, B.",
+    "year": 2009,
+    "title": "Front desk talk: discourse analysis of receptionist-patient interaction",
+    "container": "British Journal of General Practice, 59(565), e260-e266",
+    "doi": "10.3399/bjgp09X453774",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Front desk talk: discourse analysis of receptionist–patient interaction"
+    }
+  },
+  "hammond2013dragon": {
+    "authors": "Hammond, J., Gravenhorst, K., Funnell, E., Beatty, S., Hibbert, D., Lamb, J., et al.",
+    "year": 2013,
+    "title": "Slaying the dragon myth: an ethnographic study of receptionists in UK general practice",
+    "container": "British Journal of General Practice, 63(608), e177-e184",
+    "doi": "10.3399/bjgp13X664225",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Slaying the dragon myth: an ethnographic study of receptionists in UK general practice"
+    }
+  },
+  "neuwelt2015receptionists": {
+    "authors": "Neuwelt, P. M., Kearns, R. A., & Browne, A. J.",
+    "year": 2015,
+    "title": "The place of receptionists in access to primary care: Challenges in the space between community and consultation",
+    "container": "Social Science & Medicine, 133, 287-295",
+    "doi": "10.1016/j.socscimed.2014.10.010",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The place of receptionists in access to primary care: Challenges in the space between community and consultation"
+    }
+  },
+  "truss2013secretarial": {
+    "authors": "Truss, C., Alfes, K., Shantz, A., & Rosewarne, A.",
+    "year": 2013,
+    "title": "Still in the Ghetto? Experiences of Secretarial Work in the 21st Century",
+    "container": "Gender, Work & Organization, 20(4), 349-363",
+    "doi": "10.1111/j.1468-0432.2012.00587.x",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Still in the Ghetto? Experiences of Secretarial Work in the 21st Century"
+    }
+  },
+  "detert2011implicit": {
+    "authors": "Detert, J. R., & Edmondson, A. C.",
+    "year": 2011,
+    "title": "Implicit Voice Theories: Taken-for-Granted Rules of Self-Censorship at Work",
+    "container": "Academy of Management Journal, 54(3), 461-488",
+    "doi": "10.5465/amj.2011.61967925",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Implicit Voice Theories: Taken-for-Granted Rules of Self-Censorship at Work"
+    }
+  },
+  "rogelberg2006meetings": {
+    "authors": "Rogelberg, S. G., Leach, D. J., Warr, P. B., & Burnfield, J. L.",
+    "year": 2006,
+    "title": "\"Not Another Meeting!\" Are Meeting Time Demands Related to Employee Well-Being?",
+    "container": "Journal of Applied Psychology, 91(1), 83-96",
+    "doi": "10.1037/0021-9010.91.1.83",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "\"Not Another Meeting!\" Are Meeting Time Demands Related to Employee Well-Being?"
+    }
+  },
+  "garrity1990introduction": {
+    "authors": "Garrity, K., & Degelman, D.",
+    "year": 1990,
+    "title": "Effect of Server Introduction on Restaurant Tipping",
+    "container": "Journal of Applied Social Psychology, 20(2), 168-172",
+    "doi": "10.1111/j.1559-1816.1990.tb00405.x",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Effect of Server Introduction on Restaurant Tipping<sup>1</sup>"
+    }
+  },
+  "seiter2007ingratiation": {
+    "authors": "Seiter, J. S.",
+    "year": 2007,
+    "title": "Ingratiation and Gratuity: The Effect of Complimenting Customers on Tipping Behavior in Restaurants",
+    "container": "Journal of Applied Social Psychology, 37(3), 478-485",
+    "doi": "10.1111/j.1559-1816.2007.00169.x",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Ingratiation and Gratuity: The Effect of Complimenting Customers on Tipping Behavior in Restaurants"
+    }
+  },
+  "lynn1993posture": {
+    "authors": "Lynn, M., & Mynier, K.",
+    "year": 1993,
+    "title": "Effect of Server Posture on Restaurant Tipping",
+    "container": "Journal of Applied Social Psychology, 23(8), 678-685",
+    "doi": "10.1111/j.1559-1816.1993.tb01109.x",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Effect of Server Posture on Restaurant Tipping<sup>1</sup>"
+    }
+  }
+}

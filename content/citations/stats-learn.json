@@ -1,0 +1,641 @@
+{
+  "magee1996phobias": {
+    "authors": "Magee, W. J., Eaton, W. W., Wittchen, H. U., McGonagle, K. A., & Kessler, R. C.",
+    "year": 1996,
+    "title": "Agoraphobia, Simple Phobia, and Social Phobia in the National Comorbidity Survey",
+    "container": "Archives of General Psychiatry, 53(2), 159-168",
+    "doi": "10.1001/archpsyc.1996.01830020077009",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Agoraphobia, Simple Phobia, and Social Phobia in the National Comorbidity Survey"
+    }
+  },
+  "ferreiramarinho2017fear": {
+    "authors": "Ferreira Marinho, A. C., Mesquita de Medeiros, A., Côrtes Gama, A. C., & Caldas Teixeira, L.",
+    "year": 2017,
+    "title": "Fear of Public Speaking: Perception of College Students and Correlates",
+    "container": "Journal of Voice, 31(1), 127.e7-127.e11",
+    "doi": "10.1016/j.jvoice.2015.12.012",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Fear of Public Speaking: Perception of College Students and Correlates"
+    }
+  },
+  "blote2009psa": {
+    "authors": "Blöte, A. W., Kint, M. J., Miers, A. C., & Westenberg, P. M.",
+    "year": 2009,
+    "title": "The relation between public speaking anxiety and social anxiety: A review",
+    "container": "Journal of Anxiety Disorders, 23(3), 305-313",
+    "doi": "10.1016/j.janxdis.2008.11.007",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The relation between public speaking anxiety and social anxiety: A review"
+    }
+  },
+  "pull2012psa": {
+    "authors": "Pull, C. B.",
+    "year": 2012,
+    "title": "Current status of knowledge on public-speaking anxiety",
+    "container": "Current Opinion in Psychiatry, 25(1), 32-38",
+    "doi": "10.1097/yco.0b013e32834e06dc",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Current status of knowledge on public-speaking anxiety"
+    }
+  },
+  "yuan2006speakingrate": {
+    "authors": "Yuan, J., Liberman, M., & Cieri, C.",
+    "year": 2006,
+    "title": "Towards an integrated understanding of speaking rate in conversation",
+    "container": "Proceedings of Interspeech 2006",
+    "doi": "10.21437/interspeech.2006-204",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Towards an integrated understanding of speaking rate in conversation"
+    }
+  },
+  "brysbaert2019reading": {
+    "authors": "Brysbaert, M.",
+    "year": 2019,
+    "title": "How many words do we read per minute? A review and meta-analysis of reading rate",
+    "container": "Journal of Memory and Language, 109, 104047",
+    "doi": "10.1016/j.jml.2019.104047",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "How many words do we read per minute? A review and meta-analysis of reading rate"
+    }
+  },
+  "tauroza1990speechrates": {
+    "authors": "Tauroza, S., & Allison, D.",
+    "year": 1990,
+    "title": "Speech Rates in British English",
+    "container": "Applied Linguistics, 11(1), 90-105",
+    "doi": "10.1093/applin/11.1.90",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Speech Rates in British English"
+    }
+  },
+  "coupe2019information": {
+    "authors": "Coupé, C., Oh, Y. M., Dediu, D., & Pellegrino, F.",
+    "year": 2019,
+    "title": "Different languages, similar encoding efficiency: Comparable information rates across the human communicative niche",
+    "container": "Science Advances, 5(9), eaaw2594",
+    "doi": "10.1126/sciadv.aaw2594",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Different languages, similar encoding efficiency: Comparable information rates across the human communicative niche"
+    }
+  },
+  "griffiths1992speechrate": {
+    "authors": "Griffiths, R.",
+    "year": 1992,
+    "title": "Speech Rate and Listening Comprehension: Further Evidence of the Relationship",
+    "container": "TESOL Quarterly, 26(2), 385-390",
+    "doi": "10.2307/3587015",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Speech Rate and Listening Comprehension: Further Evidence of the Relationship"
+    }
+  },
+  "smithshaffer1995speed": {
+    "authors": "Smith, S. M., & Shaffer, D. R.",
+    "year": 1995,
+    "title": "Speed of Speech and Persuasion: Evidence for Multiple Effects",
+    "container": "Personality and Social Psychology Bulletin, 21(10), 1051-1060",
+    "doi": "10.1177/01461672952110006",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Speed of Speech and Persuasion: Evidence for Multiple Effects"
+    }
+  },
+  "miller1976speed": {
+    "authors": "Miller, N., Maruyama, G., Beaber, R. J., & Valone, K.",
+    "year": 1976,
+    "title": "Speed of speech and persuasion",
+    "container": "Journal of Personality and Social Psychology, 34(4), 615-624",
+    "doi": "10.1037/0022-3514.34.4.615",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Speed of speech and persuasion."
+    }
+  },
+  "zhao1997ratecontrol": {
+    "authors": "Zhao, Y.",
+    "year": 1997,
+    "title": "The Effects of Listeners' Control of Speech Rate on Second Language Comprehension",
+    "container": "Applied Linguistics, 18(1), 49-68",
+    "doi": "10.1093/applin/18.1.49",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The Effects of Listeners' Control of Speech Rate on Second Language Comprehension"
+    }
+  },
+  "clarkfoxtree2002uhum": {
+    "authors": "Clark, H. H., & Fox Tree, J. E.",
+    "year": 2002,
+    "title": "Using uh and um in spontaneous speaking",
+    "container": "Cognition, 84(1), 73-111",
+    "doi": "10.1016/s0010-0277(02)00017-3",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Using uh and um in spontaneous speaking"
+    }
+  },
+  "foxtree2001umuh": {
+    "authors": "Fox Tree, J. E.",
+    "year": 2001,
+    "title": "Listeners' uses of um and uh in speech comprehension",
+    "container": "Memory & Cognition, 29(2), 320-326",
+    "doi": "10.3758/bf03194926",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Listeners' uses ofum anduh in speech comprehension"
+    }
+  },
+  "bortfeld2001disfluency": {
+    "authors": "Bortfeld, H., Leon, S. D., Bloom, J. E., Schober, M. F., & Brennan, S. E.",
+    "year": 2001,
+    "title": "Disfluency Rates in Conversation: Effects of Age, Relationship, Topic, Role, and Gender",
+    "container": "Language and Speech, 44(2), 123-147",
+    "doi": "10.1177/00238309010440020101",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Disfluency Rates in Conversation: Effects of Age, Relationship, Topic, Role, and Gender"
+    }
+  },
+  "corley2007hesitations": {
+    "authors": "Corley, M., MacGregor, L. J., & Donaldson, D. I.",
+    "year": 2007,
+    "title": "It’s the way that you, er, say it: Hesitations in speech affect language comprehension",
+    "container": "Cognition, 105(3), 658-668",
+    "doi": "10.1016/j.cognition.2006.10.010",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "It’s the way that you, er, say it: Hesitations in speech affect language comprehension"
+    }
+  },
+  "christenfeld1995um": {
+    "authors": "Christenfeld, N.",
+    "year": 1995,
+    "title": "Does it hurt to say um?",
+    "container": "Journal of Nonverbal Behavior, 19(3), 171-186",
+    "doi": "10.1007/bf02175503",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Does it hurt to say um?"
+    }
+  },
+  "laserna2014filler": {
+    "authors": "Laserna, C. M., Seih, Y.-T., & Pennebaker, J. W.",
+    "year": 2014,
+    "title": "Um . . . Who Like Says You Know",
+    "container": "Journal of Language and Social Psychology, 33(3), 328-338",
+    "doi": "10.1177/0261927x14526993",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "<i>Um</i>\n                    . . . Who Like Says\n                    <i>You Know</i>: Filler Word Use as a Function of Age, Gender, and Personality"
+    }
+  },
+  "arnold2004disfluency": {
+    "authors": "Arnold, J. E., Tanenhaus, M. K., Altmann, R. J., & Fagnano, M.",
+    "year": 2004,
+    "title": "The Old and Thee, uh, New",
+    "container": "Psychological Science, 15(9), 578-582",
+    "doi": "10.1111/j.0956-7976.2004.00723.x",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The Old and Thee, uh, New: Disfluency and Reference Resolution"
+    }
+  },
+  "macgregor2010silence": {
+    "authors": "MacGregor, L. J., Corley, M., & Donaldson, D. I.",
+    "year": 2010,
+    "title": "Listening to the sound of silence: disfluent silent pauses in speech have consequences for listeners",
+    "container": "Neuropsychologia, 48(14), 3982-3992",
+    "doi": "10.1016/j.neuropsychologia.2010.09.024",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Listening to the sound of silence: disfluent silent pauses in speech have consequences for listeners"
+    }
+  },
+  "stivers2009turntaking": {
+    "authors": "Stivers, T., Enfield, N. J., Brown, P., Englert, C., Hayashi, M., Heinemann, T., et al.",
+    "year": 2009,
+    "title": "Universals and cultural variation in turn-taking in conversation",
+    "container": "Proceedings of the National Academy of Sciences, 106(26), 10587-10592",
+    "doi": "10.1073/pnas.0903616106",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Universals and cultural variation in turn-taking in conversation"
+    }
+  },
+  "levinson2015timing": {
+    "authors": "Levinson, S. C., & Torreira, F.",
+    "year": 2015,
+    "title": "Timing in turn-taking and its implications for processing models of language",
+    "container": "Frontiers in Psychology, 6, 731",
+    "doi": "10.3389/fpsyg.2015.00731",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Timing in turn-taking and its implications for processing models of language"
+    }
+  },
+  "campione2002pause": {
+    "authors": "Campione, E., & Véronis, J.",
+    "year": 2002,
+    "title": "A large-scale multilingual study of silent pause duration",
+    "container": "Speech Prosody 2002, 199-202",
+    "doi": "10.21437/speechprosody.2002-35",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "A large-scale multilingual study of silent pause duration"
+    }
+  },
+  "bosker2013fluent": {
+    "authors": "Bosker, H. R., Pinget, A.-F., Quené, H., Sanders, T., & de Jong, N. H.",
+    "year": 2013,
+    "title": "What makes speech sound fluent? The contributions of pauses, speed and repairs",
+    "container": "Language Testing, 30(2), 159-175",
+    "doi": "10.1177/0265532212455394",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "What makes speech sound fluent? The contributions of pauses, speed and repairs"
+    }
+  },
+  "derwingmunro1997accent": {
+    "authors": "Derwing, T. M., & Munro, M. J.",
+    "year": 1997,
+    "title": "Accent, Intelligibility, and Comprehensibility",
+    "container": "Studies in Second Language Acquisition, 19(1), 1-16",
+    "doi": "10.1017/s0272263197001010",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "ACCENT, INTELLIGIBILITY, AND COMPREHENSIBILITY: Evidence from Four\nL1s"
+    }
+  },
+  "munroderwing1995processing": {
+    "authors": "Munro, M. J., & Derwing, T. M.",
+    "year": 1995,
+    "title": "Processing Time, Accent, and Comprehensibility in the Perception of Native and Foreign-Accented Speech",
+    "container": "Language and Speech, 38(3), 289-306",
+    "doi": "10.1177/002383099503800305",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Processing Time, Accent, and Comprehensibility in the Perception of Native and Foreign-Accented Speech"
+    }
+  },
+  "derwing1998broad": {
+    "authors": "Derwing, T. M., Munro, M. J., & Wiebe, G.",
+    "year": 1998,
+    "title": "Evidence in Favor of a Broad Framework for Pronunciation Instruction",
+    "container": "Language Learning, 48(3), 393-410",
+    "doi": "10.1111/0023-8333.00047",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Evidence in Favor of a Broad Framework for Pronunciation Instruction"
+    }
+  },
+  "derwingmunro2005accent": {
+    "authors": "Derwing, T. M., & Munro, M. J.",
+    "year": 2005,
+    "title": "Second Language Accent and Pronunciation Teaching: A Research-Based Approach",
+    "container": "TESOL Quarterly, 39(3), 379",
+    "doi": "10.2307/3588486",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Second Language Accent and Pronunciation Teaching: A Research-Based Approach"
+    }
+  },
+  "flege1995accent": {
+    "authors": "Flege, J. E., Munro, M. J., & MacKay, I. R. A.",
+    "year": 1995,
+    "title": "Factors affecting strength of perceived foreign accent in a second language",
+    "container": "The Journal of the Acoustical Society of America, 97(5), 3125-3134",
+    "doi": "10.1121/1.413041",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Factors affecting strength of perceived foreign accent in a second language"
+    }
+  },
+  "kangrubin2009rls": {
+    "authors": "Kang, O., & Rubin, D. L.",
+    "year": 2009,
+    "title": "Reverse Linguistic Stereotyping: Measuring the Effect of Listener Expectations on Speech Evaluation",
+    "container": "Journal of Language and Social Psychology, 28(4), 441-456",
+    "doi": "10.1177/0261927x09341950",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Reverse Linguistic Stereotyping: Measuring the Effect of Listener Expectations on Speech Evaluation"
+    }
+  },
+  "rubin1992nnsta": {
+    "authors": "Rubin, D. L.",
+    "year": 1992,
+    "title": "Nonlanguage factors affecting undergraduates' judgments of nonnative English-speaking teaching assistants",
+    "container": "Research in Higher Education, 33(4), 511-531",
+    "doi": "10.1007/bf00973770",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Nonlanguage factors affecting undergraduates' judgments of nonnative English-speaking teaching assistants"
+    }
+  },
+  "vanginkel2015feedback": {
+    "authors": "van Ginkel, S., Gulikers, J., Biemans, H., & Mulder, M.",
+    "year": 2015,
+    "title": "The impact of the feedback source on developing oral presentation competence",
+    "container": "Studies in Higher Education, 42(9), 1671-1685",
+    "doi": "10.1080/03075079.2015.1117064",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The impact of the feedback source on developing oral presentation competence"
+    }
+  },
+  "broeckelmanpost2017hybrid": {
+    "authors": "Broeckelman-Post, M. A., & Pyle, A. S.",
+    "year": 2017,
+    "title": "Public speaking versus hybrid introductory communication courses: exploring four outcomes",
+    "container": "Communication Education, 66(2), 210-228",
+    "doi": "10.1080/03634523.2016.1259485",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Public speaking versus hybrid introductory communication courses: exploring four outcomes"
+    }
+  },
+  "levashina2014structured": {
+    "authors": "Levashina, J., Hartwell, C. J., Morgeson, F. P., & Campion, M. A.",
+    "year": 2014,
+    "title": "The Structured Employment Interview: Narrative and Quantitative Review of the Research Literature",
+    "container": "Personnel Psychology, 67(1), 241-293",
+    "doi": "10.1111/peps.12052",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The Structured Employment Interview: Narrative and Quantitative Review of the Research Literature"
+    }
+  },
+  "degroot1999vocal": {
+    "authors": "DeGroot, T., & Motowidlo, S. J.",
+    "year": 1999,
+    "title": "Why visual and vocal interview cues can affect interviewers' judgments and predict job performance",
+    "container": "Journal of Applied Psychology, 84(6), 986-993",
+    "doi": "10.1037/0021-9010.84.6.986",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Why visual and vocal interview cues can affect interviewers' judgments and predict job performance."
+    }
+  },
+  "swider2011initial": {
+    "authors": "Swider, B. W., Barrick, M. R., Harris, T. B., & Stoverink, A. C.",
+    "year": 2011,
+    "title": "Managing and creating an image in the interview: The role of interviewee initial impressions",
+    "container": "Journal of Applied Psychology, 96(6), 1275-1288",
+    "doi": "10.1037/a0024005",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Managing and creating an image in the interview: The role of interviewee initial impressions."
+    }
+  },
+  "ambady1993thinslices": {
+    "authors": "Ambady, N., & Rosenthal, R.",
+    "year": 1993,
+    "title": "Half a minute: Predicting teacher evaluations from thin slices of nonverbal behavior and physical attractiveness",
+    "container": "Journal of Personality and Social Psychology, 64(3), 431-441",
+    "doi": "10.1037/0022-3514.64.3.431",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Half a minute: Predicting teacher evaluations from thin slices of nonverbal behavior and physical attractiveness."
+    }
+  },
+  "weidmann2021teamplayers": {
+    "authors": "Weidmann, B., & Deming, D. J.",
+    "year": 2021,
+    "title": "Team Players: How Social Skills Improve Team Performance",
+    "container": "Econometrica, 89(6), 2637-2657",
+    "doi": "10.3982/ecta18461",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Team Players: How Social Skills Improve Team Performance"
+    }
+  },
+  "chiswickmiller2002earnings": {
+    "authors": "Chiswick, B. R., & Miller, P. W.",
+    "year": 2002,
+    "title": "Immigrant earnings: Language skills, linguistic concentrations and the business cycle",
+    "container": "Journal of Population Economics, 15(1), 31-57",
+    "doi": "10.1007/pl00003838",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Immigrant earnings: Language skills, linguistic concentrations and the business cycle"
+    }
+  },
+  "kossoudji1988english": {
+    "authors": "Kossoudji, S. A.",
+    "year": 1988,
+    "title": "English Language Ability and the Labor Market Opportunities of Hispanic and East Asian Immigrant Men",
+    "container": "Journal of Labor Economics, 6(2), 205-228",
+    "doi": "10.1086/298181",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "English Language Ability and the Labor Market Opportunities of Hispanic and East Asian Immigrant Men"
+    }
+  },
+  "wilkinson1965oracy": {
+    "authors": "Wilkinson, A.",
+    "year": 1965,
+    "title": "The Concept of Oracy",
+    "container": "English in Education, 2(A2), 3-5",
+    "doi": "10.1111/j.1754-8845.1965.tb01326.x",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "THE CONCEPT OF ORACY*"
+    }
+  },
+  "nimhsad": {
+    "authors": "National Institute of Mental Health",
+    "year": "n.d.",
+    "title": "Social Anxiety Disorder",
+    "container": "Mental Health Information: Statistics",
+    "publisher": "National Institute of Mental Health",
+    "url": "https://www.nimh.nih.gov/health/statistics/social-anxiety-disorder",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-24"
+    }
+  },
+  "mccroskeyprca24": {
+    "authors": "McCroskey, J. C.",
+    "year": "n.d.",
+    "title": "Personal Report of Communication Apprehension (PRCA-24)",
+    "publisher": "James C. McCroskey",
+    "url": "http://www.jamescmccroskey.com/measures/prca24.htm",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-24"
+    }
+  },
+  "ncesel2024": {
+    "authors": "National Center for Education Statistics",
+    "year": 2024,
+    "title": "English Learners in Public Schools",
+    "container": "Condition of Education",
+    "publisher": "U.S. Department of Education, Institute of Education Sciences",
+    "url": "https://nces.ed.gov/programs/coe/indicator/cgf",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-24"
+    }
+  },
+  "ncesadultlit2019": {
+    "authors": "Mamedova, S., & Pawlowski, E.",
+    "year": 2019,
+    "title": "Adult Literacy in the United States",
+    "container": "Data Point, NCES 2019-179",
+    "publisher": "National Center for Education Statistics",
+    "url": "https://nces.ed.gov/pubs2019/2019179/index.asp",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-24"
+    }
+  },
+  "ccrc2026adultesl": {
+    "authors": "Raufman, J., & Deutsch, A.",
+    "year": 2026,
+    "title": "Community Colleges as Providers of Adult Education ESL: The Role of Federal Policy",
+    "publisher": "Community College Research Center, Teachers College, Columbia University",
+    "url": "https://ccrc.tc.columbia.edu/wp-content/uploads/2026/03/community-colleges-providers-adult-education.pdf",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-24"
+    }
+  },
+  "brookings2014lep": {
+    "authors": "Wilson, J. H.",
+    "year": 2014,
+    "title": "Investing in English Skills: The Limited English Proficient Workforce in U.S. Metropolitan Areas",
+    "publisher": "Brookings Institution",
+    "url": "https://www.brookings.edu/articles/investing-in-english-skills-the-limited-english-proficient-workforce-in-u-s-metropolitan-areas/",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-24"
+    }
+  },
+  "dukecareerstar": {
+    "authors": "Duke University Career Center",
+    "year": "n.d.",
+    "title": "STAR Method for Responding to Interview Questions",
+    "publisher": "Duke University",
+    "url": "https://careerhub.students.duke.edu/resources/star-method-for-responding-to-interview-questions/",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-24"
+    }
+  },
+  "osucareerinterview": {
+    "authors": "Arts and Sciences Career Success, The Ohio State University",
+    "year": "n.d.",
+    "title": "Job Search Strategies, Interviewing, and Job Offers",
+    "publisher": "The Ohio State University",
+    "url": "https://asccareersuccess.osu.edu/job-search-strategies-interviewing-and-job-offers",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-24"
+    }
+  },
+  "umbcstar": {
+    "authors": "UMBC Career Center",
+    "year": "n.d.",
+    "title": "STAR Technique: Answering Behavioral Questions",
+    "publisher": "University of Maryland, Baltimore County",
+    "url": "https://careers.umbc.edu/students/interview/questions/star/",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-24"
+    }
+  },
+  "nacegap2025": {
+    "authors": "Gray, K.",
+    "year": 2025,
+    "title": "The Gap in Perceptions of New Grads’ Competency Proficiency and Resources to Shrink It",
+    "publisher": "National Association of Colleges and Employers",
+    "url": "https://naceweb.org/career-readiness/competencies/the-gap-in-perceptions-of-new-grads-competency-proficiency-and-resources-to-shrink-it",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-24"
+    }
+  },
+  "eeforallanguage": {
+    "authors": "Education Endowment Foundation",
+    "year": 2025,
+    "title": "Oral language interventions",
+    "container": "Teaching and Learning Toolkit",
+    "publisher": "Education Endowment Foundation",
+    "url": "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/oral-language-interventions",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-24"
+    }
+  },
+  "dfe2025curriculumreview": {
+    "authors": "Curriculum and Assessment Review",
+    "year": 2025,
+    "title": "Curriculum and Assessment Review final report",
+    "publisher": "UK Department for Education",
+    "url": "https://www.gov.uk/government/publications/curriculum-and-assessment-review-final-report",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-24"
+    }
+  },
+  "rcslt2024oracy": {
+    "authors": "Royal College of Speech and Language Therapists",
+    "year": 2024,
+    "title": "Calls for oracy to be recognised as equal to reading, writing and arithmetic",
+    "publisher": "Royal College of Speech and Language Therapists",
+    "url": "https://www.rcslt.org/news/calls-for-oracy-to-be-recognised-as-equal-to-reading-writing-and-arithmetic/",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-24"
+    }
+  }
+}
