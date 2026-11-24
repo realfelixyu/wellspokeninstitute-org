@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     images: [{ url: "/og-default.png", width: 1200, height: 630, alt: SITE.name }],
   },
   twitter: { card: "summary_large_image", title: SITE.name, description: SITE.description, images: ["/og-default.png"] },
-  icons: { icon: "/favicon.svg" },
+  icons: { icon: "/favicon.svg", apple: "/apple-touch-icon.png" },
   robots: { index: true, follow: true },
 };
 
