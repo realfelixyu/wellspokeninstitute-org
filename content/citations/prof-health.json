@@ -1,0 +1,744 @@
+{
+  "muller2018sbar": {
+    "authors": "Müller, M., Jürgens, J., Redaèlli, M., Klingberg, K., Hautz, W. E., & Stock, S.",
+    "year": 2018,
+    "title": "Impact of the communication and patient hand-off tool SBAR on patient safety: a systematic review",
+    "container": "BMJ Open, 8(8), e022202",
+    "doi": "10.1136/bmjopen-2018-022202",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Impact of the communication and patient hand-off tool SBAR on patient safety: a systematic review"
+    }
+  },
+  "riesenberg2010handoffs": {
+    "authors": "Riesenberg, L. A., Leisch, J., & Cunningham, J. M.",
+    "year": 2010,
+    "title": "Nursing Handoffs: A Systematic Review of the Literature",
+    "container": "American Journal of Nursing, 110(4), 24-34",
+    "doi": "10.1097/01.NAJ.0000370154.79857.09",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Nursing Handoffs: A Systematic Review of the Literature"
+    }
+  },
+  "hadinh2016teachback": {
+    "authors": "Ha Dinh, T. T., Bonner, A., Clark, R., Ramsbotham, J., & Hines, S.",
+    "year": 2016,
+    "title": "The effectiveness of the teach-back method on adherence and self-management in health education for people with chronic disease: a systematic review",
+    "container": "JBI Database of Systematic Reviews and Implementation Reports, 14(1), 210-247",
+    "doi": "10.11124/jbisrir-2016-2296",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The effectiveness of the teach-back method on adherence and self-management in health education for people with chronic disease: a systematic review"
+    }
+  },
+  "horrocks2002np": {
+    "authors": "Horrocks, S., Anderson, E., & Salisbury, C.",
+    "year": 2002,
+    "title": "Systematic review of whether nurse practitioners working in primary care can provide equivalent care to doctors",
+    "container": "BMJ, 324(7341), 819-823",
+    "doi": "10.1136/bmj.324.7341.819",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Systematic review of whether nurse practitioners working in primary care can provide equivalent care to doctors"
+    }
+  },
+  "laurant2018nurses": {
+    "authors": "Laurant, M., van der Biezen, M., Wijers, N., Watananirun, K., Kontopantelis, E., & van Vught, A. J.",
+    "year": 2018,
+    "title": "Nurses as substitutes for doctors in primary care",
+    "container": "Cochrane Database of Systematic Reviews, 2018(7), CD001271",
+    "doi": "10.1002/14651858.CD001271.pub3",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Nurses as substitutes for doctors in primary care"
+    }
+  },
+  "rubak2005mi": {
+    "authors": "Rubak, S., Sandbaek, A., Lauritzen, T., & Christensen, B.",
+    "year": 2005,
+    "title": "Motivational interviewing: a systematic review and meta-analysis",
+    "container": "British Journal of General Practice, 55(513), 305-312",
+    "publisher": "Royal College of General Practitioners",
+    "url": "https://bjgp.org/content/55/513/305",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-24"
+    }
+  },
+  "hojat2011empathy": {
+    "authors": "Hojat, M., Louis, D. Z., Markham, F. W., Wender, R., Rabinowitz, C., & Gonnella, J. S.",
+    "year": 2011,
+    "title": "Physicians' empathy and clinical outcomes for diabetic patients",
+    "container": "Academic Medicine, 86(3), 359-364",
+    "doi": "10.1097/ACM.0b013e3182086fe1",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Physiciansʼ Empathy and Clinical Outcomes for Diabetic Patients"
+    }
+  },
+  "levinson1997malpractice": {
+    "authors": "Levinson, W., Roter, D. L., Mullooly, J. P., Dull, V. T., & Frankel, R. M.",
+    "year": 1997,
+    "title": "Physician-patient communication: the relationship with malpractice claims among primary care physicians and surgeons",
+    "container": "JAMA, 277(7), 553-559",
+    "doi": "10.1001/jama.277.7.553",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Physician-Patient Communication&lt;subtitle&gt;The Relationship With Malpractice Claims Among Primary Care Physicians and Surgeons&lt;/subtitle&gt;"
+    }
+  },
+  "singhospina2019agenda": {
+    "authors": "Singh Ospina, N., Phillips, K. A., Rodriguez-Gutierrez, R., Castaneda-Guarderas, A., Gionfriddo, M. R., Branda, M. E., & Montori, V. M.",
+    "year": 2019,
+    "title": "Eliciting the Patient's Agenda- Secondary Analysis of Recorded Clinical Encounters",
+    "container": "Journal of General Internal Medicine, 34(1), 36-40",
+    "doi": "10.1007/s11606-018-4540-5",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Eliciting the Patient’s Agenda- Secondary Analysis of Recorded Clinical Encounters"
+    }
+  },
+  "arora2005signout": {
+    "authors": "Arora, V., Johnson, J., Lovinger, D., Humphrey, H. J., & Meltzer, D. O.",
+    "year": 2005,
+    "title": "Communication failures in patient sign-out and suggestions for improvement: a critical incident analysis",
+    "container": "Quality and Safety in Health Care, 14(6), 401-407",
+    "doi": "10.1136/qshc.2005.015107",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Communication failures in patient sign-out and suggestions for improvement: a critical incident analysis"
+    }
+  },
+  "back2007oncotalk": {
+    "authors": "Back, A. L., Arnold, R. M., Baile, W. F., Fryer-Edwards, K. A., Alexander, S. C., Barley, G. E., et al.",
+    "year": 2007,
+    "title": "Efficacy of communication skills training for giving bad news and discussing transitions to palliative care",
+    "container": "Archives of Internal Medicine, 167(5), 453-460",
+    "doi": "10.1001/archinte.167.5.453",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Efficacy of Communication Skills Training for Giving Bad News and Discussing Transitions to Palliative Care"
+    }
+  },
+  "hooker2019pasatisfaction": {
+    "authors": "Hooker, R. S., Moloney-Johns, A. J., & McFarland, M. M.",
+    "year": 2019,
+    "title": "Patient satisfaction with physician assistant/associate care: an international scoping review",
+    "container": "Human Resources for Health, 17(1), 104",
+    "doi": "10.1186/s12960-019-0428-7",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Patient satisfaction with physician assistant/associate care: an international scoping review"
+    }
+  },
+  "taylor2019pacommunication": {
+    "authors": "Taylor, F., Halter, M., & Drennan, V. M.",
+    "year": 2019,
+    "title": "Understanding patients' satisfaction with physician assistant/associate encounters through communication experiences: a qualitative study in acute hospitals in England",
+    "container": "BMC Health Services Research, 19(1), 603",
+    "doi": "10.1186/s12913-019-4410-9",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Understanding patients’ satisfaction with physician assistant/associate encounters through communication experiences: a qualitative study in acute hospitals in England"
+    }
+  },
+  "kessels2003memory": {
+    "authors": "Kessels, R. P. C.",
+    "year": 2003,
+    "title": "Patients' memory for medical information",
+    "container": "Journal of the Royal Society of Medicine, 96(5), 219-222",
+    "doi": "10.1177/014107680309600504",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Patients’ Memory for Medical Information"
+    }
+  },
+  "svarstad2004counseling": {
+    "authors": "Svarstad, B. L., Bultman, D. C., & Mount, J. K.",
+    "year": 2004,
+    "title": "Patient counseling provided in community pharmacies: effects of state regulation, pharmacist age, and busyness",
+    "container": "Journal of the American Pharmacists Association, 44(1), 22-29",
+    "doi": "10.1331/154434504322713192",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Patient Counseling Provided in Community Pharmacies: Effects of State Regulation, Pharmacist Age, and Busyness"
+    }
+  },
+  "wu2006telephone": {
+    "authors": "Wu, J. Y. F., Leung, W. Y. S., Chang, S., Lee, B., Zee, B., Tong, P. C. Y., & Chan, J. C. N.",
+    "year": 2006,
+    "title": "Effectiveness of telephone counselling by a pharmacist in reducing mortality in patients receiving polypharmacy: randomised controlled trial",
+    "container": "BMJ, 333(7567), 522",
+    "doi": "10.1136/bmj.38905.447118.2F",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Effectiveness of telephone counselling by a pharmacist in reducing mortality in patients receiving polypharmacy: randomised controlled trial"
+    }
+  },
+  "schnipper2006counseling": {
+    "authors": "Schnipper, J. L., Kirwin, J. L., Cotugno, M. C., Wahlstrom, S. A., Brown, B. A., Tarvin, E., et al.",
+    "year": 2006,
+    "title": "Role of pharmacist counseling in preventing adverse drug events after hospitalization",
+    "container": "Archives of Internal Medicine, 166(5), 565-571",
+    "doi": "10.1001/archinte.166.5.565",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Role of Pharmacist Counseling in Preventing Adverse Drug Events After Hospitalization"
+    }
+  },
+  "hall2010alliance": {
+    "authors": "Hall, A. M., Ferreira, P. H., Maher, C. G., Latimer, J., & Ferreira, M. L.",
+    "year": 2010,
+    "title": "The influence of the therapist-patient relationship on treatment outcome in physical rehabilitation: a systematic review",
+    "container": "Physical Therapy, 90(8), 1099-1110",
+    "doi": "10.2522/ptj.20090245",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The Influence of the Therapist-Patient Relationship on Treatment Outcome in Physical Rehabilitation: A Systematic Review"
+    }
+  },
+  "fuentes2014alliance": {
+    "authors": "Fuentes, J., Armijo-Olivo, S., Funabashi, M., Miciak, M., Dick, B., Warren, S., et al.",
+    "year": 2014,
+    "title": "Enhanced therapeutic alliance modulates pain intensity and muscle pain sensitivity in patients with chronic low back pain: an experimental controlled study",
+    "container": "Physical Therapy, 94(4), 477-489",
+    "doi": "10.2522/ptj.20130118",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Enhanced Therapeutic Alliance Modulates Pain Intensity and Muscle Pain Sensitivity in Patients With Chronic Low Back Pain: An Experimental Controlled Study"
+    }
+  },
+  "pinto2012communication": {
+    "authors": "Pinto, R. Z., Ferreira, M. L., Oliveira, V. C., Franco, M. R., Adams, R., Maher, C. G., & Ferreira, P. H.",
+    "year": 2012,
+    "title": "Patient-centred communication is associated with positive therapeutic alliance: a systematic review",
+    "container": "Journal of Physiotherapy, 58(2), 77-87",
+    "doi": "10.1016/S1836-9553(12)70087-5",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Patient-centred communication is associated with positive therapeutic alliance: a systematic review"
+    }
+  },
+  "louw2011neuroscience": {
+    "authors": "Louw, A., Diener, I., Butler, D. S., & Puentedura, E. J.",
+    "year": 2011,
+    "title": "The effect of neuroscience education on pain, disability, anxiety, and stress in chronic musculoskeletal pain",
+    "container": "Archives of Physical Medicine and Rehabilitation, 92(12), 2041-2056",
+    "doi": "10.1016/j.apmr.2011.07.198",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The Effect of Neuroscience Education on Pain, Disability, Anxiety, and Stress in Chronic Musculoskeletal Pain"
+    }
+  },
+  "jonsson2009tailored": {
+    "authors": "Jönsson, B., Öhrn, K., Oscarson, N., & Lindberg, P.",
+    "year": 2009,
+    "title": "The effectiveness of an individually tailored oral health educational programme on oral hygiene behaviour in patients with periodontal disease: a blinded randomized-controlled clinical trial (one-year follow-up)",
+    "container": "Journal of Clinical Periodontology, 36(12), 1025-1034",
+    "doi": "10.1111/j.1600-051X.2009.01453.x",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The effectiveness of an individually tailored oral health educational programme on oral hygiene behaviour in patients with periodontal disease: a blinded randomized‐controlled clinical trial (one‐year follow‐up)"
+    }
+  },
+  "gao2014mioral": {
+    "authors": "Gao, X., Lo, E. C. M., Kot, S. C. C., & Chan, K. C. W.",
+    "year": 2014,
+    "title": "Motivational interviewing in improving oral health: a systematic review of randomized controlled trials",
+    "container": "Journal of Periodontology, 85(3), 426-437",
+    "doi": "10.1902/jop.2013.130205",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Motivational Interviewing in Improving Oral Health: A Systematic Review of Randomized Controlled Trials"
+    }
+  },
+  "carr2012tobacco": {
+    "authors": "Carr, A. B., & Ebbert, J.",
+    "year": 2012,
+    "title": "Interventions for tobacco cessation in the dental setting",
+    "container": "Cochrane Database of Systematic Reviews, 2012(6), CD005084",
+    "doi": "10.1002/14651858.CD005084.pub3",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Interventions for tobacco cessation in the dental setting"
+    }
+  },
+  "corah1988dentist": {
+    "authors": "Corah, N. L., O'Shea, R. M., Bissell, G. D., Thines, T. J., & Mendola, P.",
+    "year": 1988,
+    "title": "The dentist-patient relationship: perceived dentist behaviors that reduce patient anxiety and increase satisfaction",
+    "container": "Journal of the American Dental Association, 116(1), 73-76",
+    "doi": "10.14219/jada.archive.1988.0162",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The dentist-patient relationship: perceived dentist behaviors that reduce patient anxiety and increase satisfaction"
+    }
+  },
+  "armfield2013anxiety": {
+    "authors": "Armfield, J. M., & Heaton, L. J.",
+    "year": 2013,
+    "title": "Management of fear and anxiety in the dental clinic: a review",
+    "container": "Australian Dental Journal, 58(4), 390-407",
+    "doi": "10.1111/adj.12118",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Management of fear and anxiety in the dental clinic: a review"
+    }
+  },
+  "sbaraini2012dental": {
+    "authors": "Sbaraini, A., Carter, S. M., Evans, R. W., & Blinkhorn, A.",
+    "year": 2012,
+    "title": "Experiences of dental care: what do patients value?",
+    "container": "BMC Health Services Research, 12, 177",
+    "doi": "10.1186/1472-6963-12-177",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Experiences of dental care: what do patients value?"
+    }
+  },
+  "willardgrace2015coaching": {
+    "authors": "Willard-Grace, R., Chen, E. H., Hessler, D., DeVore, D., Prado, C., Bodenheimer, T., & Thom, D. H.",
+    "year": 2015,
+    "title": "Health coaching by medical assistants to improve control of diabetes, hypertension, and hyperlipidemia in low-income patients: a randomized controlled trial",
+    "container": "Annals of Family Medicine, 13(2), 130-138",
+    "doi": "10.1370/afm.1768",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Health Coaching by Medical Assistants to Improve Control of Diabetes, Hypertension, and Hyperlipidemia in Low-Income Patients: A Randomized Controlled Trial"
+    }
+  },
+  "thom2015coaching": {
+    "authors": "Thom, D. H., Hessler, D., Willard-Grace, R., DeVore, D., Prado, C., Bodenheimer, T., & Chen, E. H.",
+    "year": 2015,
+    "title": "Health coaching by medical assistants improves patients' chronic care experience",
+    "container": "American Journal of Managed Care, 21(10), 685-691",
+    "publisher": "American Journal of Managed Care",
+    "url": "https://www.ajmc.com/view/health-coaching-by-medical-assistants-improves-patients-chronic-care-experience",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-24"
+    }
+  },
+  "fraher2021maroles": {
+    "authors": "Fraher, E. P., Cummings, A., & Neutze, D.",
+    "year": 2021,
+    "title": "The Evolving Role of Medical Assistants in Primary Care Practice: Divergent and Concordant Perspectives from MAs and Family Physicians",
+    "container": "Medical Care Research and Review, 78(1 suppl), 7S-17S",
+    "doi": "10.1177/1077558720966148",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The Evolving Role of Medical Assistants in Primary Care Practice: Divergent and Concordant Perspectives from MAs and Family Physicians"
+    }
+  },
+  "iedema2012imist": {
+    "authors": "Iedema, R., Ball, C., Daly, B., Young, J., Green, T., Middleton, P. M., et al.",
+    "year": 2012,
+    "title": "Design and trial of a new ambulance-to-emergency department handover protocol: 'IMIST-AMBO'",
+    "container": "BMJ Quality & Safety, 21(8), 627-633",
+    "doi": "10.1136/bmjqs-2011-000766",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Design and trial of a new ambulance-to-emergency department handover protocol: ‘IMIST-AMBO’"
+    }
+  },
+  "bost2010handover": {
+    "authors": "Bost, N., Crilly, J., Wallis, M., Patterson, E., & Chaboyer, W.",
+    "year": 2010,
+    "title": "Clinical handover of patients arriving by ambulance to the emergency department – A literature review",
+    "container": "International Emergency Nursing, 18(4), 210-220",
+    "doi": "10.1016/j.ienj.2009.11.006",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Clinical handover of patients arriving by ambulance to the emergency department – A literature review"
+    }
+  },
+  "talbot2007handover": {
+    "authors": "Talbot, R., & Bleetman, A.",
+    "year": 2007,
+    "title": "Retention of information by emergency department staff at ambulance handover: do standardised approaches work?",
+    "container": "Emergency Medicine Journal, 24(8), 539-542",
+    "doi": "10.1136/emj.2006.045906",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Retention of information by emergency department staff at ambulance handover: do standardised approaches work?"
+    }
+  },
+  "shaw2006vetcommunication": {
+    "authors": "Shaw, J. R., Bonnett, B. N., Adams, C. L., & Roter, D. L.",
+    "year": 2006,
+    "title": "Veterinarian-client-patient communication patterns used during clinical appointments in companion animal practice",
+    "container": "Journal of the American Veterinary Medical Association, 228(5), 714-721",
+    "doi": "10.2460/javma.228.5.714",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Veterinarian-client-patient communication patterns used during clinical appointments in companion animal practice"
+    }
+  },
+  "dysart2011solicitation": {
+    "authors": "Dysart, L. M. A., Coe, J. B., & Adams, C. L.",
+    "year": 2011,
+    "title": "Analysis of solicitation of client concerns in companion animal practice",
+    "container": "Journal of the American Veterinary Medical Association, 238(12), 1609-1615",
+    "doi": "10.2460/javma.238.12.1609",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Analysis of solicitation of client concerns in companion animal practice"
+    }
+  },
+  "kanji2012adherence": {
+    "authors": "Kanji, N., Coe, J. B., Adams, C. L., & Shaw, J. R.",
+    "year": 2012,
+    "title": "Effect of veterinarian-client-patient interactions on client adherence to dentistry and surgery recommendations in companion-animal practice",
+    "container": "Journal of the American Veterinary Medical Association, 240(4), 427-436",
+    "doi": "10.2460/javma.240.4.427",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Effect of veterinarian-client-patient interactions on client adherence to dentistry and surgery recommendations in companion-animal practice"
+    }
+  },
+  "brady2016aphasia": {
+    "authors": "Brady, M. C., Kelly, H., Godwin, J., Enderby, P., & Campbell, P.",
+    "year": 2016,
+    "title": "Speech and language therapy for aphasia following stroke",
+    "container": "Cochrane Database of Systematic Reviews, 2016(6), CD000425",
+    "doi": "10.1002/14651858.CD000425.pub4",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Speech and language therapy for aphasia following stroke"
+    }
+  },
+  "simmonsmackie2016partner": {
+    "authors": "Simmons-Mackie, N., Raymer, A., & Cherney, L. R.",
+    "year": 2016,
+    "title": "Communication Partner Training in Aphasia: An Updated Systematic Review",
+    "container": "Archives of Physical Medicine and Rehabilitation, 97(12), 2202-2221.e8",
+    "doi": "10.1016/j.apmr.2016.03.023",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Communication Partner Training in Aphasia: An Updated Systematic Review"
+    }
+  },
+  "lawton2018alliance": {
+    "authors": "Lawton, M., Sage, K., Haddock, G., Conroy, P., & Serrant, L.",
+    "year": 2018,
+    "title": "Speech and language therapists' perspectives of therapeutic alliance construction and maintenance in aphasia rehabilitation post-stroke",
+    "container": "International Journal of Language & Communication Disorders, 53(3), 550-563",
+    "doi": "10.1111/1460-6984.12368",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Speech and language therapists’ perspectives of therapeutic alliance construction and maintenance in aphasia rehabilitation post‐stroke"
+    }
+  },
+  "fluckiger2018alliance": {
+    "authors": "Flückiger, C., Del Re, A. C., Wampold, B. E., & Horvath, A. O.",
+    "year": 2018,
+    "title": "The alliance in adult psychotherapy: A meta-analytic synthesis",
+    "container": "Psychotherapy, 55(4), 316-340",
+    "doi": "10.1037/pst0000172",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The alliance in adult psychotherapy: A meta-analytic synthesis."
+    }
+  },
+  "elliott2018empathy": {
+    "authors": "Elliott, R., Bohart, A. C., Watson, J. C., & Murphy, D.",
+    "year": 2018,
+    "title": "Therapist empathy and client outcome: An updated meta-analysis",
+    "container": "Psychotherapy, 55(4), 399-410",
+    "doi": "10.1037/pst0000175",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Therapist empathy and client outcome: An updated meta-analysis."
+    }
+  },
+  "farber2018regard": {
+    "authors": "Farber, B. A., Suzuki, J. Y., & Lynch, D. A.",
+    "year": 2018,
+    "title": "Positive regard and psychotherapy outcome: A meta-analytic review",
+    "container": "Psychotherapy, 55(4), 411-423",
+    "doi": "10.1037/pst0000171",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Positive regard and psychotherapy outcome: A meta-analytic review."
+    }
+  },
+  "swift2012dropout": {
+    "authors": "Swift, J. K., & Greenberg, R. P.",
+    "year": 2012,
+    "title": "Premature discontinuation in adult psychotherapy: A meta-analysis",
+    "container": "Journal of Consulting and Clinical Psychology, 80(4), 547-559",
+    "doi": "10.1037/a0028226",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Premature discontinuation in adult psychotherapy: A meta-analysis."
+    }
+  },
+  "forrester2008communication": {
+    "authors": "Forrester, D., Kershaw, S., Moss, H., & Hughes, L.",
+    "year": 2008,
+    "title": "Communication skills in child protection: how do social workers talk to parents?",
+    "container": "Child & Family Social Work, 13(1), 41-51",
+    "doi": "10.1111/j.1365-2206.2007.00513.x",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Communication skills in child protection: how do social workers talk to parents?"
+    }
+  },
+  "forrester2012resistance": {
+    "authors": "Forrester, D., Westlake, D., & Glynn, G.",
+    "year": 2012,
+    "title": "Parental resistance and social worker skills: towards a theory of motivational social work",
+    "container": "Child & Family Social Work, 17(2), 118-129",
+    "doi": "10.1111/j.1365-2206.2012.00837.x",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Parental resistance and social worker skills: towards a theory of motivational social work"
+    }
+  },
+  "lamb2007nichd": {
+    "authors": "Lamb, M. E., Orbach, Y., Hershkowitz, I., Esplin, P. W., & Horowitz, D.",
+    "year": 2007,
+    "title": "A structured forensic interview protocol improves the quality and informativeness of investigative interviews with children: A review of research using the NICHD Investigative Interview Protocol",
+    "container": "Child Abuse & Neglect, 31(11-12), 1201-1231",
+    "doi": "10.1016/j.chiabu.2007.03.021",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "A structured forensic interview protocol improves the quality and informativeness of investigative interviews with children: A review of research using the NICHD Investigative Interview Protocol"
+    }
+  },
+  "nembhard2006inclusiveness": {
+    "authors": "Nembhard, I. M., & Edmondson, A. C.",
+    "year": 2006,
+    "title": "Making it safe: the effects of leader inclusiveness and professional status on psychological safety and improvement efforts in health care teams",
+    "container": "Journal of Organizational Behavior, 27(7), 941-966",
+    "doi": "10.1002/job.413",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Making it safe: the effects of leader inclusiveness and professional status on psychological safety and improvement efforts in health care teams"
+    }
+  },
+  "thomas2005walkrounds": {
+    "authors": "Thomas, E. J., Sexton, J. B., Neilands, T. B., Frankel, A., & Helmreich, R. L.",
+    "year": 2005,
+    "title": "The effect of executive walk rounds on nurse safety climate attitudes: A randomized trial of clinical units",
+    "container": "BMC Health Services Research, 5, 28",
+    "doi": "10.1186/1472-6963-5-28",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The effect of executive walk rounds on nurse safety climate attitudes: A randomized trial of clinical units"
+    }
+  },
+  "morello2013safetyculture": {
+    "authors": "Morello, R. T., Lowthian, J. A., Barker, A. L., McGinnes, R., Dunt, D., & Brand, C.",
+    "year": 2013,
+    "title": "Strategies for improving patient safety culture in hospitals: a systematic review",
+    "container": "BMJ Quality & Safety, 22(1), 11-18",
+    "doi": "10.1136/bmjqs-2011-000582",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Strategies for improving patient safety culture in hospitals: a systematic review"
+    }
+  },
+  "bobrow2016tcpr": {
+    "authors": "Bobrow, B. J., Spaite, D. W., Vadeboncoeur, T. F., Hu, C., Mullins, T., Tormala, W., et al.",
+    "year": 2016,
+    "title": "Implementation of a Regional Telephone Cardiopulmonary Resuscitation Program and Outcomes After Out-of-Hospital Cardiac Arrest",
+    "container": "JAMA Cardiology, 1(3), 294-302",
+    "doi": "10.1001/jamacardio.2016.0251",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Implementation of a Regional Telephone Cardiopulmonary Resuscitation Program and Outcomes After Out-of-Hospital Cardiac Arrest"
+    }
+  },
+  "riou2018cpr": {
+    "authors": "Riou, M., Ball, S., Whiteside, A., Bray, J., Perkins, G. D., Smith, K., et al.",
+    "year": 2018,
+    "title": "'We're going to do CPR': A linguistic study of the words used to initiate dispatcher-assisted CPR and their association with caller agreement",
+    "container": "Resuscitation, 133, 95-100",
+    "doi": "10.1016/j.resuscitation.2018.10.011",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "‘We’re going to do CPR’: A linguistic study of the words used to initiate dispatcher-assisted CPR and their association with caller agreement"
+    }
+  },
+  "kirby2021recognition": {
+    "authors": "Kirby, K., Voss, S., Bird, E., & Benger, J.",
+    "year": 2021,
+    "title": "Features of Emergency Medical System calls that facilitate or inhibit Emergency Medical Dispatcher recognition that a patient is in, or at imminent risk of, cardiac arrest: A systematic mixed studies review",
+    "container": "Resuscitation Plus, 8, 100173",
+    "doi": "10.1016/j.resplu.2021.100173",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Features of Emergency Medical System calls that facilitate or inhibit Emergency Medical Dispatcher recognition that a patient is in, or at imminent risk of, cardiac arrest: A systematic mixed studies review"
+    }
+  },
+  "mazerolle2013legitimacy": {
+    "authors": "Mazerolle, L., Bennett, S., Davis, J., Sargeant, E., & Manning, M.",
+    "year": 2013,
+    "title": "Legitimacy in Policing: A Systematic Review",
+    "container": "Campbell Systematic Reviews, 9(1)",
+    "doi": "10.4073/csr.2013.1",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Legitimacy in Policing: A Systematic Review"
+    }
+  },
+  "voigt2017respect": {
+    "authors": "Voigt, R., Camp, N. P., Prabhakaran, V., Hamilton, W. L., Hetey, R. C., Griffiths, C. M., et al.",
+    "year": 2017,
+    "title": "Language from police body camera footage shows racial disparities in officer respect",
+    "container": "Proceedings of the National Academy of Sciences, 114(25), 6521-6526",
+    "doi": "10.1073/pnas.1702413114",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Language from police body camera footage shows racial disparities in officer respect"
+    }
+  },
+  "engel2022deescalation": {
+    "authors": "Engel, R. S., Corsaro, N., Isaza, G. T., & McManus, H. D.",
+    "year": 2022,
+    "title": "Assessing the impact of de-escalation training on police behavior: Reducing police use of force in the Louisville, KY Metro Police Department",
+    "container": "Criminology & Public Policy, 21(2), 199-233",
+    "doi": "10.1111/1745-9133.12574",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Assessing the impact of de‐escalation training on police behavior: Reducing police use of force in the Louisville, KY Metro Police Department"
+    }
+  },
+  "pew2019sermons": {
+    "authors": "Pew Research Center",
+    "year": 2019,
+    "title": "The Digital Pulpit: A Nationwide Analysis of Online Sermons",
+    "publisher": "Pew Research Center",
+    "url": "https://www.pewresearch.org/religion/2019/12/16/the-digital-pulpit-a-nationwide-analysis-of-online-sermons/",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-24"
+    }
+  },
+  "pew2016congregation": {
+    "authors": "Pew Research Center",
+    "year": 2016,
+    "title": "Choosing a New Church or House of Worship",
+    "publisher": "Pew Research Center",
+    "url": "https://www.pewresearch.org/religion/2016/08/23/choosing-a-new-church-or-house-of-worship/",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-24"
+    }
+  },
+  "wang2003clergy": {
+    "authors": "Wang, P. S., Berglund, P. A., & Kessler, R. C.",
+    "year": 2003,
+    "title": "Patterns and correlates of contacting clergy for mental disorders in the United States",
+    "container": "Health Services Research, 38(2), 647-673",
+    "doi": "10.1111/1475-6773.00138",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Patterns and Correlates of Contacting Clergy for Mental Disorders in the United States"
+    }
+  },
+  "cfr121571": {
+    "authors": "Office of the Federal Register",
+    "year": 2026,
+    "title": "14 CFR § 121.571 - Briefing passengers before takeoff",
+    "container": "Code of Federal Regulations, Title 14, Part 121",
+    "publisher": "Legal Information Institute, Cornell Law School",
+    "url": "https://www.law.cornell.edu/cfr/text/14/121.571",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-24"
+    }
+  },
+  "tehrani2015briefings": {
+    "authors": "Tehrani, M., & Molesworth, B. R. C.",
+    "year": 2015,
+    "title": "Pre-flight safety briefings, mood and information retention",
+    "container": "Applied Ergonomics, 51, 377-382",
+    "doi": "10.1016/j.apergo.2015.06.015",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Pre-flight safety briefings, mood and information retention"
+    }
+  },
+  "molesworth2016celebrity": {
+    "authors": "Molesworth, B. R. C., Seneviratne, D., & Burgess, M.",
+    "year": 2016,
+    "title": "Selling safety: the use of celebrities in improving awareness of safety in commercial aviation",
+    "container": "Ergonomics, 59(7), 989-994",
+    "doi": "10.1080/00140139.2015.1109712",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Selling safety: the use of celebrities in improving awareness of safety in commercial aviation"
+    }
+  },
+  "chute1995cockpit": {
+    "authors": "Chute, R. D., & Wiener, E. L.",
+    "year": 1995,
+    "title": "Cockpit-Cabin Communication: I. A Tale of Two Cultures",
+    "container": "The International Journal of Aviation Psychology, 5(3), 257-276",
+    "doi": "10.1207/s15327108ijap0503_2",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Cockpit-Cabin Communication: I. A Tale of Two Cultures"
+    }
+  }
+}

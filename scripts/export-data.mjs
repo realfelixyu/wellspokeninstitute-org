@@ -20,7 +20,7 @@ const COLS = [
   ["publicSpeakingDailyPct", "Percent reporting public speaking every day"],
   ["faceToFaceFrequency", "Face-to-face discussion frequency (1-5)"],
   ["telephoneFrequency", "Telephone conversation frequency (1-5)"],
-  ["externalPublicFrequency", "Dealing with external customers or public frequency (1-5)"],
+  ["externalPublicFrequency", "Importance of dealing with external customers or the public (1-5)"],
   ["teachingImportance", "Training and teaching others importance (1-5)"],
   ["jobZone", "Job Zone (1-5)"],
   ["employment", "U.S. employment, May 2025 (SOC level)"],
