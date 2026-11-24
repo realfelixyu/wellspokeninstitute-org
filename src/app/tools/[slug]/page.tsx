@@ -40,7 +40,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const t = TOOLS.find((x) => x.slug === slug);
   if (!t) return {};
-  return pageMetadata({ title: `${t.name} (free)`, description: t.description, path: `/tools/${t.slug}` });
+  return pageMetadata({ title: /free/i.test(t.name) || t.name.endsWith("?") ? t.name : `Free ${t.name.charAt(0).toLowerCase()}${t.name.slice(1)}`, description: t.description, path: `/tools/${t.slug}` });
 }
 
 export default async function ToolPage({ params }: { params: Promise<{ slug: string }> }) {

@@ -1,6 +1,7 @@
 import type { ReactNode, ComponentProps } from "react";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import remarkGfm from "remark-gfm";
+import { SkillChart } from "@/components/SkillChart";
 
 function isExternal(href: string) {
   return /^https?:\/\//i.test(href) && !/^https?:\/\/(www\.)?wellspokeninstitute\.org/i.test(href);
@@ -54,6 +55,7 @@ export function buildComponents(citationKeys: string[]) {
     Cite,
     KeyStat,
     Callout,
+    SkillChart,
     a: (props: ComponentProps<"a">) => {
       const href = typeof props.href === "string" ? props.href : "";
       return isExternal(href) ? (

@@ -74,6 +74,6 @@ export const TOOLS: ToolInfo[] = [
     name: "How much does my job depend on speaking?",
     short: "Look up any occupation.",
     description:
-      "Search 900 occupations and see how important speaking is to each one, based on U.S. Department of Labor ratings.",
+      "Search 910 occupations and see how important speaking is to each one, based on U.S. Department of Labor ratings.",
   },
 ];
