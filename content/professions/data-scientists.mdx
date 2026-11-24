@@ -1,0 +1,65 @@
+---
+title: "Communication skills for data scientists: explaining models and uncertainty out loud"
+description: "Data scientists rank 477th of 910 occupations for speaking demands, but presenting results to decision-makers is a core task. Research on data science teams, uncertainty, and risk communication shows how to make findings land."
+kind: profession
+publishedAt: "2026-12-03"
+status: published
+contributors: ["felix-yu", "linfeng-du"]
+occupationCode: "15-2051.00"
+onet: true
+keyFindings:
+  - "O*NET lists delivering oral or written presentations of results to management among data scientists' core tasks, though speaking is rated 3.62 out of 5 for importance."
+  - "Data scientists at Microsoft said precision, recall, and ROC curves were less useful when presenting to decision-makers than business terms such as dollars saved."
+  - "Across five experiments, stating uncertainty around a number lowered trust only slightly, and mostly when the uncertainty was expressed in words."
+citations: ["onet31", "kim2016datascientists", "vanderbles2020uncertainty", "gigerenzer1995frequency", "wallsten1986probability"]
+---
+
+Data scientists rank low among occupations for speaking demands, yet their work only has an effect when someone acts on it, and that usually requires explaining it out loud. O\*NET® data rate speaking 3.62 out of 5 for importance, the "quite important" band, and the occupation ranks 477th of 910 on our Speaking Demand Score <Cite k="onet31" />. Delivering presentations of results to management is a core task. Research on data science teams and on how people understand numbers shows what makes those explanations work: business terms instead of model metrics, and plain, honest statements of uncertainty.
+
+## Where speaking shows up in the job
+
+The O\*NET task list includes "deliver oral or written presentations of the results of mathematical modeling and data analysis to management or other end users" and "recommend data-driven solutions to key stakeholders." Data scientists also identify business problems that analysis can address and identify solutions to decisions about budgeting, staffing, and marketing <Cite k="onet31" />. Each of these starts or ends with a conversation.
+
+Public speaking is rated 2.32 out of 5 for frequency, and 4% of surveyed data scientists report it weekly. Face-to-face discussion is rated 4.24 out of 5 and telephone use 3.77. Dealing with the public is rated only 2.08 for importance. Most of the talking happens inside the organization, in meetings with product managers, engineers, and executives.
+
+## What the research says
+
+**Data scientists must translate findings into business value.** Kim, Zimmermann, DeLine, and Begel interviewed 16 data scientists at Microsoft and identified five working styles, from insight providers who inform managers' decisions to modeling specialists and team leaders. Participants stressed the need to "translate" findings into business values such as dollars saved, customer calls prevented, or how many days early a product could ship. Precision, recall, and ROC curves, while popular with data scientists, were described as less useful when presenting to the people who use the findings. Team leaders emphasized communicating with stakeholders early and often to define the questions, and explaining findings in simple terms to non-experts, especially management <Cite k="kim2016datascientists" />.
+
+**Stating uncertainty costs little trust.** Van der Bles, van der Linden, Freeman, and Spiegelhalter ran five experiments with a total of 5,780 participants, including a field experiment on the BBC News website. People did perceive more uncertainty when it was communicated, but trust in the numbers and in the source dropped only slightly, and mostly when uncertainty was expressed in words rather than as a numeric range <Cite k="vanderbles2020uncertainty" />. A numeric range shows the limits of an estimate and, in these experiments, cost little credibility.
+
+**Frequencies are easier to reason with than probabilities.** Gigerenzer and Hoffrage showed that the format of statistical information changes how well people reason with it. They argued that Bayesian reasoning is computationally simpler with frequency formats than with probabilities, and when information was presented as frequencies, statistically naive participants reasoned in a Bayesian way in up to 50% of their inferences <Cite k="gigerenzer1995frequency" />. Saying "8 out of 100 customers" is easier to follow than "an 8% probability," especially when one rate depends on another.
+
+**Probability words mean different things to different people.** Wallsten and colleagues measured what people mean by terms such as "doubtful," "probable," and "likely." Individuals interpreted the same words very differently, although each person's interpretation was stable <Cite k="wallsten1986probability" />. So a forecast that something is "likely" can mean quite different numbers to different listeners.
+
+The Microsoft study is qualitative and from one company, while the number studies are experiments with general audiences. Together they suggest that data scientists' explanations are easier to act on when they use their listeners' units and quantify uncertainty plainly.
+
+## Speaking skills that matter most
+
+- **Leading with the decision.** Start a results talk with what the finding means for the decision at hand, then show the evidence.
+- **Translating metrics.** Convert model performance into the outcomes stakeholders care about, such as costs avoided or customers retained.
+- **Stating uncertainty with numbers.** Give a range ("between 3% and 7%") instead of a vague word like "probably."
+- **Using frequencies.** Describe rates as counts out of a reference group, such as "about 30 of every 1,000 users."
+- **Asking questions early.** Clarifying the stakeholder's real question before the analysis begins prevents a polished answer to the wrong problem.
+
+## How to practice
+
+1. **Write the so-what sentence.** For your current analysis, write one sentence that starts "This means we should..." and practice opening your next presentation with it.
+2. **Translate one metric.** Take a model metric you would normally report, such as AUC or recall, and rewrite it as a business outcome. Say both versions aloud and notice which one a non-specialist could repeat.
+3. **Replace probability words.** Search your slides and talking points for words like "likely" and "unlikely" and replace each with a number or range.
+4. **Rewrite a rate as a frequency.** Take one conditional result, such as a false positive rate, and explain it aloud as "out of every 1,000 cases."
+5. **Rehearse a three-minute readout.** Script a three-minute summary of your findings, test it with the [speakability checker](/tools/speakability-checker), and time it with the [speech length calculator](/tools/speech-length-calculator).
+
+## Frequently asked questions
+
+### How important is speaking for data scientists?
+
+Quite important. O\*NET rates speaking 3.62 out of 5 for data scientists, and presenting results to management and recommending solutions to stakeholders are core tasks.
+
+### Should data scientists report uncertainty when presenting results?
+
+Research suggests they can do so without losing much trust. In five experiments, communicating uncertainty lowered trust only slightly, and numeric ranges cost less trust than verbal hedges.
+
+### Why do model metrics fall flat with executives?
+
+Data scientists interviewed at Microsoft said metrics such as precision and recall were less useful for persuading decision-makers than business terms like dollars saved or days gained.
