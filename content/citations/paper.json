@@ -1,0 +1,626 @@
+{
+  "nace2025outlook": {
+    "authors": "National Association of Colleges and Employers",
+    "year": 2024,
+    "title": "What Are Employers Looking for When Reviewing College Students' Resumes?",
+    "container": "Job Outlook 2025 survey",
+    "publisher": "National Association of Colleges and Employers",
+    "url": "https://www.naceweb.org/talent-acquisition/candidate-selection/the-key-attributes-employers-are-looking-for-on-graduates-resumes",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-24"
+    }
+  },
+  "demingkahn2018skills": {
+    "authors": "Deming, D., & Kahn, L. B.",
+    "year": 2018,
+    "title": "Skill Requirements across Firms and Labor Markets: Evidence from Job Postings for Professionals",
+    "container": "Journal of Labor Economics, 36(S1), S337-S369",
+    "doi": "10.1086/694106",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Skill Requirements across Firms and Labor Markets: Evidence from Job Postings for Professionals"
+    }
+  },
+  "atalay2020evolution": {
+    "authors": "Atalay, E., Phongthiengtham, P., Sotelo, S., & Tannenbaum, D.",
+    "year": 2020,
+    "title": "The Evolution of Work in the United States",
+    "container": "American Economic Journal: Applied Economics, 12(2), 1-34",
+    "doi": "10.1257/app.20190070",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The Evolution of Work in the United States"
+    }
+  },
+  "weinberger2014complementarity": {
+    "authors": "Weinberger, C. J.",
+    "year": 2014,
+    "title": "The Increasing Complementarity between Cognitive and Social Skills",
+    "container": "The Review of Economics and Statistics, 96(5), 849-861",
+    "doi": "10.1162/REST_a_00449",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The Increasing Complementarity between Cognitive and Social Skills"
+    }
+  },
+  "borghans2014people": {
+    "authors": "Borghans, L., ter Weel, B., & Weinberg, B. A.",
+    "year": 2014,
+    "title": "People Skills and the Labor-Market Outcomes of Underrepresented Groups",
+    "container": "ILR Review, 67(2), 287-334",
+    "doi": "10.1177/001979391406700202",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "People Skills and the Labor-Market Outcomes of Underrepresented Groups"
+    }
+  },
+  "kuhnweinberger2005leadership": {
+    "authors": "Kuhn, P., & Weinberger, C.",
+    "year": 2005,
+    "title": "Leadership Skills and Wages",
+    "container": "Journal of Labor Economics, 23(3), 395-436",
+    "doi": "10.1086/430282",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Leadership Skills and Wages"
+    }
+  },
+  "edin2022noncognitive": {
+    "authors": "Edin, P.-A., Fredriksson, P., Nybom, M., & Öckert, B.",
+    "year": 2022,
+    "title": "The Rising Return to Noncognitive Skill",
+    "container": "American Economic Journal: Applied Economics, 14(2), 78-100",
+    "doi": "10.1257/app.20190199",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The Rising Return to Noncognitive Skill"
+    }
+  },
+  "heckmankautz2012soft": {
+    "authors": "Heckman, J. J., & Kautz, T.",
+    "year": 2012,
+    "title": "Hard evidence on soft skills",
+    "container": "Labour Economics, 19(4), 451-464",
+    "doi": "10.1016/j.labeco.2012.05.014",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Hard evidence on soft skills"
+    }
+  },
+  "hjetland2017predictors": {
+    "authors": "Hjetland, H. N., Brinchmann, E. I., Scherer, R., & Melby-Lervåg, M.",
+    "year": 2017,
+    "title": "Preschool predictors of later reading comprehension ability: a systematic review",
+    "container": "Campbell Systematic Reviews, 13(1)",
+    "doi": "10.4073/csr.2017.14",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Preschool predictors of later reading comprehension ability: a systematic review"
+    }
+  },
+  "law2009language": {
+    "authors": "Law, J., Rush, R., Schoon, I., & Parsons, S.",
+    "year": 2009,
+    "title": "Modeling Developmental Language Difficulties From School Entry Into Adulthood: Literacy, Mental Health, and Employment Outcomes",
+    "container": "Journal of Speech, Language, and Hearing Research, 52(6), 1401-1416",
+    "doi": "10.1044/1092-4388(2009/08-0142)",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Modeling Developmental Language Difficulties From School Entry Into Adulthood: Literacy, Mental Health, and Employment Outcomes"
+    }
+  },
+  "norbury2016prevalence": {
+    "authors": "Norbury, C. F., Gooch, D., Wray, C., Baird, G., Charman, T., Simonoff, E., Vamvakas, G., & Pickles, A.",
+    "year": 2016,
+    "title": "The impact of nonverbal ability on prevalence and clinical presentation of language disorder: evidence from a population study",
+    "container": "Journal of Child Psychology and Psychiatry, 57(11), 1247-1257",
+    "doi": "10.1111/jcpp.12573",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The impact of nonverbal ability on prevalence and clinical presentation of language disorder: evidence from a population study"
+    }
+  },
+  "fricke2013efficacy": {
+    "authors": "Fricke, S., Bowyer-Crane, C., Haley, A. J., Hulme, C., & Snowling, M. J.",
+    "year": 2013,
+    "title": "Efficacy of language intervention in the early years",
+    "container": "Journal of Child Psychology and Psychiatry, 54(3), 280-290",
+    "doi": "10.1111/jcpp.12010",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Efficacy of language intervention in the early years"
+    }
+  },
+  "fricke2017mainstream": {
+    "authors": "Fricke, S., Burgoyne, K., Bowyer-Crane, C., Kyriacou, M., Zosimidou, A., Maxwell, L., Lervåg, A., Snowling, M. J., & Hulme, C.",
+    "year": 2017,
+    "title": "The efficacy of early language intervention in mainstream school settings: a randomized controlled trial",
+    "container": "Journal of Child Psychology and Psychiatry, 58(10), 1141-1151",
+    "doi": "10.1111/jcpp.12737",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The efficacy of early language intervention in mainstream school settings: a randomized controlled trial"
+    }
+  },
+  "west2021neli": {
+    "authors": "West, G., Snowling, M. J., Lervåg, A., Buchanan-Worster, E., Duta, M., Hall, A., McLachlan, H., & Hulme, C.",
+    "year": 2021,
+    "title": "Early language screening and intervention can be delivered successfully at scale: evidence from a cluster randomized controlled trial",
+    "container": "Journal of Child Psychology and Psychiatry, 62(12), 1425-1434",
+    "doi": "10.1111/jcpp.13415",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Early language screening and intervention can be delivered successfully at scale: evidence from a cluster randomized controlled trial"
+    }
+  },
+  "hulme2020language": {
+    "authors": "Hulme, C., Snowling, M. J., West, G., Lervåg, A., & Melby-Lervåg, M.",
+    "year": 2020,
+    "title": "Children's Language Skills Can Be Improved: Lessons From Psychological Science for Educational Policy",
+    "container": "Current Directions in Psychological Science, 29(4), 372-377",
+    "doi": "10.1177/0963721420923684",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Children’s Language Skills Can Be Improved: Lessons From Psychological Science for Educational Policy"
+    }
+  },
+  "marulis2010vocabulary": {
+    "authors": "Marulis, L. M., & Neuman, S. B.",
+    "year": 2010,
+    "title": "The Effects of Vocabulary Intervention on Young Children's Word Learning",
+    "container": "Review of Educational Research, 80(3), 300-335",
+    "doi": "10.3102/0034654310377087",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The Effects of Vocabulary Intervention on Young Children’s Word Learning"
+    }
+  },
+  "rogde2019linguistic": {
+    "authors": "Rogde, K., Hagen, Å. M., Melby-Lervåg, M., & Lervåg, A.",
+    "year": 2019,
+    "title": "The effect of linguistic comprehension instruction on generalized language and reading comprehension skills: A systematic review",
+    "container": "Campbell Systematic Reviews, 15(4), e1059",
+    "doi": "10.1002/cl2.1059",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The effect of linguistic comprehension instruction on generalized language and reading comprehension skills: A systematic review"
+    }
+  },
+  "murphy2009discussion": {
+    "authors": "Murphy, P. K., Wilkinson, I. A. G., Soter, A. O., Hennessey, M. N., & Alexander, J. F.",
+    "year": 2009,
+    "title": "Examining the effects of classroom discussion on students' comprehension of text: A meta-analysis",
+    "container": "Journal of Educational Psychology, 101(3), 740-764",
+    "doi": "10.1037/a0015576",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Examining the effects of classroom discussion on students’ comprehension of text: A meta-analysis."
+    }
+  },
+  "howe2019dialogue": {
+    "authors": "Howe, C., Hennessy, S., Mercer, N., Vrikki, M., & Wheatley, L.",
+    "year": 2019,
+    "title": "Teacher-Student Dialogue During Classroom Teaching: Does It Really Impact on Student Outcomes?",
+    "container": "Journal of the Learning Sciences, 28(4-5), 462-512",
+    "doi": "10.1080/10508406.2019.1573730",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Teacher–Student Dialogue During Classroom Teaching: Does It Really Impact on Student Outcomes?"
+    }
+  },
+  "alexander2018dialogic": {
+    "authors": "Alexander, R.",
+    "year": 2018,
+    "title": "Developing dialogic teaching: genesis, process, trial",
+    "container": "Research Papers in Education, 33(5), 561-598",
+    "doi": "10.1080/02671522.2018.1481140",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Developing dialogic teaching: genesis, process, trial"
+    }
+  },
+  "gorard2017p4c": {
+    "authors": "Gorard, S., Siddiqui, N., & See, B. H.",
+    "year": 2017,
+    "title": "Can 'Philosophy for Children' Improve Primary School Attainment?",
+    "container": "Journal of Philosophy of Education, 51(1), 5-22",
+    "doi": "10.1111/1467-9752.12227",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Can ‘Philosophy for Children’ Improve Primary School Attainment?"
+    }
+  },
+  "mercer1999talk": {
+    "authors": "Mercer, N., Wegerif, R., & Dawes, L.",
+    "year": 1999,
+    "title": "Children's Talk and the Development of Reasoning in the Classroom",
+    "container": "British Educational Research Journal, 25(1), 95-111",
+    "doi": "10.1080/0141192990250107",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Children's Talk and the Development of Reasoning in the Classroom"
+    }
+  },
+  "oracycommission2024": {
+    "authors": "Oracy Education Commission",
+    "year": 2024,
+    "title": "We need to talk",
+    "container": "Report of the Commission on the Future of Oracy Education in England",
+    "publisher": "Oracy Education Commission",
+    "url": "https://oracyeducationcommission.co.uk/oec-report/",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-24"
+    }
+  },
+  "mccroskey1977oral": {
+    "authors": "McCroskey, J. C.",
+    "year": 1977,
+    "title": "Oral communication apprehension: A summary of recent theory and research",
+    "container": "Human Communication Research, 4(1), 78-96",
+    "doi": "10.1111/j.1468-2958.1977.tb00599.x",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "ORAL COMMUNICATION APPREHENSION: A SUMMARY OF RECENT THEORY AND RESEARCH"
+    }
+  },
+  "mccroskey1977classroom": {
+    "authors": "McCroskey, J. C.",
+    "year": 1977,
+    "title": "Classroom consequences of communication apprehension",
+    "container": "Communication Education, 26(1), 27-33",
+    "doi": "10.1080/03634527709378196",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Classroom consequences of communication apprehension"
+    }
+  },
+  "dalymccroskey1975": {
+    "authors": "Daly, J. A., & McCroskey, J. C.",
+    "year": 1975,
+    "title": "Occupational desirability and choice as a function of communication apprehension",
+    "container": "Journal of Counseling Psychology, 22(4), 309-313",
+    "doi": "10.1037/h0076748",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Occupational desirability and choice as a function of communication apprehension."
+    }
+  },
+  "bourhisallen1992": {
+    "authors": "Bourhis, J., & Allen, M.",
+    "year": 1992,
+    "title": "Meta-analysis of the relationship between communication apprehension and cognitive performance",
+    "container": "Communication Education, 41(1), 68-76",
+    "doi": "10.1080/03634529209378871",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Meta‐analysis of the relationship between communication apprehension and cognitive performance"
+    }
+  },
+  "stein1996publicspeaking": {
+    "authors": "Stein, M. B., Walker, J. R., & Forde, D. R.",
+    "year": 1996,
+    "title": "Public-Speaking Fears in a Community Sample",
+    "container": "Archives of General Psychiatry, 53(2), 169-174",
+    "doi": "10.1001/archpsyc.1996.01830020087010",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Public-Speaking Fears in a Community Sample"
+    }
+  },
+  "ruscio2008socialfears": {
+    "authors": "Ruscio, A. M., Brown, T. A., Chiu, W. T., Sareen, J., Stein, M. B., & Kessler, R. C.",
+    "year": 2008,
+    "title": "Social fears and social phobia in the USA: results from the National Comorbidity Survey Replication",
+    "container": "Psychological Medicine, 38(1), 15-28",
+    "doi": "10.1017/S0033291707001699",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Social fears and social phobia in the USA: results from the National Comorbidity Survey Replication"
+    }
+  },
+  "tillfors2007social": {
+    "authors": "Tillfors, M., & Furmark, T.",
+    "year": 2007,
+    "title": "Social phobia in Swedish university students: prevalence, subgroups and avoidant behavior",
+    "container": "Social Psychiatry and Psychiatric Epidemiology, 42(1), 79-86",
+    "doi": "10.1007/s00127-006-0143-2",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Social phobia in Swedish university students: prevalence, subgroups and avoidant behavior"
+    }
+  },
+  "dwyerdavidson2012": {
+    "authors": "Dwyer, K. K., & Davidson, M. M.",
+    "year": 2012,
+    "title": "Is Public Speaking Really More Feared Than Death?",
+    "container": "Communication Research Reports, 29(2), 99-107",
+    "doi": "10.1080/08824096.2012.667772",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Is Public Speaking Really More Feared Than Death?"
+    }
+  },
+  "chapmanfears2026": {
+    "authors": "Chapman University, Wilkinson College of Arts, Humanities, and Social Sciences",
+    "year": 2026,
+    "title": "The Chapman University Survey on American Fears",
+    "container": "Wave 12 (2026), Complete List of Fears",
+    "publisher": "Chapman University",
+    "url": "https://www.chapman.edu/wilkinson/research-centers/babbie-center/survey-american-fears.aspx",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-24"
+    }
+  },
+  "bodie2010psa": {
+    "authors": "Bodie, G. D.",
+    "year": 2010,
+    "title": "A Racing Heart, Rattling Knees, and Ruminative Thoughts: Defining, Explaining, and Treating Public Speaking Anxiety",
+    "container": "Communication Education, 59(1), 70-105",
+    "doi": "10.1080/03634520903443849",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "A Racing Heart, Rattling Knees, and Ruminative Thoughts: Defining, Explaining, and Treating Public Speaking Anxiety"
+    }
+  },
+  "starmer2014ipass": {
+    "authors": "Starmer, A. J., Spector, N. D., Srivastava, R., West, D. C., Rosenbluth, G., Allen, A. D., et al.",
+    "year": 2014,
+    "title": "Changes in Medical Errors after Implementation of a Handoff Program",
+    "container": "New England Journal of Medicine, 371(19), 1803-1812",
+    "doi": "10.1056/NEJMsa1405556",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Changes in Medical Errors after Implementation of a Handoff Program"
+    }
+  },
+  "lingard2004or": {
+    "authors": "Lingard, L., Espin, S., Whyte, S., Regehr, G., Baker, G. R., Reznick, R., Bohnen, J., Orser, B., Doran, D., & Grober, E.",
+    "year": 2004,
+    "title": "Communication failures in the operating room: an observational classification of recurrent types and effects",
+    "container": "Quality and Safety in Health Care, 13(5), 330-334",
+    "doi": "10.1136/qshc.2003.008425",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Communication failures in the operating room: an observational classification of recurrent types and effects"
+    }
+  },
+  "sutcliffe2004communication": {
+    "authors": "Sutcliffe, K. M., Lewton, E., & Rosenthal, M. M.",
+    "year": 2004,
+    "title": "Communication Failures: An Insidious Contributor to Medical Mishaps",
+    "container": "Academic Medicine, 79(2), 186-194",
+    "doi": "10.1097/00001888-200402000-00019",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Communication Failures: An Insidious Contributor to Medical Mishaps"
+    }
+  },
+  "neily2010teamtraining": {
+    "authors": "Neily, J., Mills, P. D., Young-Xu, Y., Carney, B. T., West, P., Berger, D. H., Mazzia, L. M., Paull, D. E., & Bagian, J. P.",
+    "year": 2010,
+    "title": "Association Between Implementation of a Medical Team Training Program and Surgical Mortality",
+    "container": "JAMA, 304(15), 1693-1700",
+    "doi": "10.1001/jama.2010.1506",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Association Between Implementation of a Medical Team Training Program and Surgical Mortality"
+    }
+  },
+  "zolnierek2009adherence": {
+    "authors": "Haskard Zolnierek, K. B., & DiMatteo, M. R.",
+    "year": 2009,
+    "title": "Physician Communication and Patient Adherence to Treatment",
+    "container": "Medical Care, 47(8), 826-834",
+    "doi": "10.1097/MLR.0b013e31819a5acc",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Physician Communication and Patient Adherence to Treatment"
+    }
+  },
+  "kelley2014relationship": {
+    "authors": "Kelley, J. M., Kraft-Todd, G., Schapira, L., Kossowsky, J., & Riess, H.",
+    "year": 2014,
+    "title": "The Influence of the Patient-Clinician Relationship on Healthcare Outcomes: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+    "container": "PLoS ONE, 9(4), e94207",
+    "doi": "10.1371/journal.pone.0094207",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The Influence of the Patient-Clinician Relationship on Healthcare Outcomes: A Systematic Review and Meta-Analysis of Randomized Controlled Trials"
+    }
+  },
+  "moore2018cochranecst": {
+    "authors": "Moore, P. M., Rivera, S., Bravo-Soto, G. A., Olivares, C., & Lawrie, T. A.",
+    "year": 2018,
+    "title": "Communication skills training for healthcare professionals working with people who have cancer",
+    "container": "Cochrane Database of Systematic Reviews, 2018(7), CD003751",
+    "doi": "10.1002/14651858.CD003751.pub4",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Communication skills training for healthcare professionals working with people who have cancer"
+    }
+  },
+  "barth2011oncology": {
+    "authors": "Barth, J., & Lannen, P.",
+    "year": 2011,
+    "title": "Efficacy of communication skills training courses in oncology: a systematic review and meta-analysis",
+    "container": "Annals of Oncology, 22(5), 1030-1040",
+    "doi": "10.1093/annonc/mdq441",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Efficacy of communication skills training courses in oncology: a systematic review and meta-analysis"
+    }
+  },
+  "acs2019language": {
+    "authors": "Dietrich, S., & Hernandez, E.",
+    "year": 2022,
+    "title": "Language Use in the United States: 2019",
+    "container": "American Community Survey Reports, ACS-50",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www.census.gov/library/publications/2022/acs/acs-50.html",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-24"
+    }
+  },
+  "bleakleychin2004": {
+    "authors": "Bleakley, H., & Chin, A.",
+    "year": 2004,
+    "title": "Language Skills and Earnings: Evidence from Childhood Immigrants",
+    "container": "Review of Economics and Statistics, 86(2), 481-496",
+    "doi": "10.1162/003465304323031067",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Language Skills and Earnings: Evidence from Childhood Immigrants*"
+    }
+  },
+  "dustmannfabbri2003": {
+    "authors": "Dustmann, C., & Fabbri, F.",
+    "year": 2003,
+    "title": "Language Proficiency and Labour Market Performance of Immigrants in the UK",
+    "container": "The Economic Journal, 113(489), 695-717",
+    "doi": "10.1111/1468-0297.t01-1-00151",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Language Proficiency and Labour Market Performance of Immigrants in the UK"
+    }
+  },
+  "munroderwing1995": {
+    "authors": "Munro, M. J., & Derwing, T. M.",
+    "year": 1995,
+    "title": "Foreign Accent, Comprehensibility, and Intelligibility in the Speech of Second Language Learners",
+    "container": "Language Learning, 45(1), 73-97",
+    "doi": "10.1111/j.1467-1770.1995.tb00963.x",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Foreign Accent, Comprehensibility, and Intelligibility in the Speech of Second Language Learners"
+    }
+  },
+  "levarikeysar2010": {
+    "authors": "Lev-Ari, S., & Keysar, B.",
+    "year": 2010,
+    "title": "Why don't we believe non-native speakers? The influence of accent on credibility",
+    "container": "Journal of Experimental Social Psychology, 46(6), 1093-1096",
+    "doi": "10.1016/j.jesp.2010.05.025",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Why don't we believe non-native speakers? The influence of accent on credibility"
+    }
+  },
+  "lee2015pronunciation": {
+    "authors": "Lee, J., Jang, J., & Plonsky, L.",
+    "year": 2015,
+    "title": "The Effectiveness of Second Language Pronunciation Instruction: A Meta-Analysis",
+    "container": "Applied Linguistics, 36(3), 345-366",
+    "doi": "10.1093/applin/amu040",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The Effectiveness of Second Language Pronunciation Instruction: A Meta-Analysis"
+    }
+  },
+  "saitoplonsky2019": {
+    "authors": "Saito, K., & Plonsky, L.",
+    "year": 2019,
+    "title": "Effects of Second Language Pronunciation Teaching Revisited: A Proposed Measurement Framework and Meta-Analysis",
+    "container": "Language Learning, 69(3), 652-708",
+    "doi": "10.1111/lang.12345",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Effects of Second Language Pronunciation Teaching Revisited: A Proposed Measurement Framework and Meta‐Analysis"
+    }
+  },
+  "ebrahimi2019fops": {
+    "authors": "Ebrahimi, O. V., Pallesen, S., Kenter, R. M. F., & Nordgreen, T.",
+    "year": 2019,
+    "title": "Psychological Interventions for the Fear of Public Speaking: A Meta-Analysis",
+    "container": "Frontiers in Psychology, 10, 488",
+    "doi": "10.3389/fpsyg.2019.00488",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Psychological Interventions for the Fear of Public Speaking: A Meta-Analysis"
+    }
+  },
+  "hunter2014speechcourse": {
+    "authors": "Hunter, K. M., Westwick, J. N., & Haleta, L. L.",
+    "year": 2014,
+    "title": "Assessing Success: The Impacts of a Fundamentals of Speech Course on Decreasing Public Speaking Anxiety",
+    "container": "Communication Education, 63(2), 124-135",
+    "doi": "10.1080/03634523.2013.875213",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Assessing Success: The Impacts of a Fundamentals of Speech Course on Decreasing Public Speaking Anxiety"
+    }
+  },
+  "rubin1997instruction": {
+    "authors": "Rubin, R. B., Rubin, A. M., & Jordan, F. F.",
+    "year": 1997,
+    "title": "Effects of Instruction on Communication Apprehension and Communication Competence",
+    "container": "Communication Education, 46(2), 104-114",
+    "doi": "10.1080/03634529709379080",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Effects of Instruction on Communication Apprehension and Communication Competence"
+    }
+  },
+  "hancock2010curriculum": {
+    "authors": "Hancock, A. B., Stone, M. D., Brundage, S. B., & Zeigler, M. T.",
+    "year": 2010,
+    "title": "Public Speaking Attitudes: Does Curriculum Make a Difference?",
+    "container": "Journal of Voice, 24(3), 302-307",
+    "doi": "10.1016/j.jvoice.2008.09.007",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "Public Speaking Attitudes: Does Curriculum Make a Difference?"
+    }
+  }
+}

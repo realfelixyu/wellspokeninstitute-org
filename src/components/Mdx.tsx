@@ -74,7 +74,11 @@ export function buildComponents(citationKeys: string[]) {
 
 /** "O*NET" contains a literal asterisk that Markdown would read as emphasis. */
 export function protectLiterals(source: string): string {
-  return source.replace(/O(?<!\\)\*NET/g, "O\\*NET");
+  // Escape only in Markdown text lines; JSX lines (component tags and their string props) stay literal.
+  return source
+    .split("\n")
+    .map((line) => (line.trimStart().startsWith("<") ? line.replace(/O\\\*NET/g, "O*NET") : line.replace(/O\*NET/g, "O\\*NET")))
+    .join("\n");
 }
 
 export function Mdx({ source, citationKeys }: { source: string; citationKeys: string[] }) {
