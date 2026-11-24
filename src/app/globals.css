@@ -211,4 +211,13 @@ body {
     background: #fff;
     color: #000;
   }
+  nav[aria-label="Breadcrumb"] {
+    display: none !important;
+  }
+  .prose-body a {
+    color: #000;
+  }
+  @page {
+    margin: 18mm 16mm;
+  }
 }

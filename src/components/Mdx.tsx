@@ -72,11 +72,16 @@ export function buildComponents(citationKeys: string[]) {
   };
 }
 
+/** "O*NET" contains a literal asterisk that Markdown would read as emphasis. */
+export function protectLiterals(source: string): string {
+  return source.replace(/O(?<!\\)\*NET/g, "O\\*NET");
+}
+
 export function Mdx({ source, citationKeys }: { source: string; citationKeys: string[] }) {
   return (
     <div className="prose-body">
       <MDXRemote
-        source={source}
+        source={protectLiterals(source)}
         components={buildComponents(citationKeys)}
         options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }}
       />

@@ -166,7 +166,9 @@ function clean(s: string): string {
   return s
     .replace(/<Cite[^>]*\/>/g, "")
     .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+    .replace(/O\\?\*NET/g, "O\u0000NET")
     .replace(/[*_`]/g, "")
+    .replace(/O\u0000NET/g, "O*NET")
     .replace(/\s+/g, " ")
     .trim();
 }

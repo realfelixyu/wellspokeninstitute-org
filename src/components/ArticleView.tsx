@@ -68,7 +68,7 @@ export function ArticleView({ entry }: { entry: ContentEntry }) {
             <span>{meta.readingMinutes} min read</span>
           </div>
           {meta.doi || meta.pdf ? (
-            <div className="mt-5 flex flex-wrap gap-3 text-sm">
+            <div className="no-print mt-5 flex flex-wrap gap-3 text-sm">
               {meta.pdf ? (
                 <a href={meta.pdf} className="rounded-md bg-accent px-4 py-2 font-medium text-accent-ink hover:opacity-90">
                   Download PDF
@@ -172,7 +172,7 @@ export function ArticleView({ entry }: { entry: ContentEntry }) {
 
         {meta.onet ? <OnetAttribution /> : null}
 
-        <div className="mt-14">
+        <div className="no-print mt-14">
           <NewsletterInline />
         </div>
       </div>
