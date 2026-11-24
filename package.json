@@ -1,0 +1,33 @@
+{
+  "name": "wellspokeninstitute-org",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --port 5040",
+    "prebuild": "node scripts/validate-content.mjs",
+    "build": "next build",
+    "postbuild": "node scripts/check-output.mjs",
+    "validate": "node scripts/validate-content.mjs",
+    "citations:verify": "node scripts/verify-citations.mjs",
+    "onet:import": "node scripts/onet-import.mjs",
+    "typecheck": "tsc --noEmit",
+    "serve": "npx --yes serve out -l 5041"
+  },
+  "dependencies": {
+    "gray-matter": "4.0.3",
+    "next": "15.5.29",
+    "next-mdx-remote": "6.0.0",
+    "react": "19.2.9",
+    "react-dom": "19.2.9",
+    "remark-gfm": "4.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.5",
+    "@types/node": "22.20.5",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.7",
+    "tailwindcss": "4.3.5",
+    "typescript": "5.9.3"
+  }
+}
