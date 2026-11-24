@@ -52,7 +52,7 @@ for (const [key, c] of Object.entries(reg)) {
       const r = await fetchText(`https://api.crossref.org/works/${encodeURIComponent(c.doi)}`);
       if (!r.ok) throw new Error(`crossref HTTP ${r.status}`);
       const msg = JSON.parse(r.text).message;
-      const ctitle = (msg.title || [])[0] || "";
+      const ctitle = [(msg.title || [])[0] || "", (msg.subtitle || [])[0] || ""].filter(Boolean).join(": ");
       const year = msg.issued?.["date-parts"]?.[0]?.[0];
       if (!titleMatch(c.title, ctitle)) throw new Error(`title mismatch. registry="${c.title}" crossref="${ctitle}"`);
       if (year && String(c.year) !== String(year) && Math.abs(Number(c.year) - year) > 1) {
