@@ -1,0 +1,36 @@
+{
+  "onet31": {
+    "authors": "National Center for O*NET Development",
+    "year": 2026,
+    "title": "O*NET 31.0 Database",
+    "publisher": "U.S. Department of Labor, Employment and Training Administration",
+    "url": "https://www.onetcenter.org/database.html",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-24"
+    }
+  },
+  "blsoews2025": {
+    "authors": "U.S. Bureau of Labor Statistics",
+    "year": 2026,
+    "title": "Occupational Employment and Wage Statistics",
+    "container": "May 2025 national occupational employment and wage estimates",
+    "url": "https://www.bls.gov/oes/",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-24"
+    }
+  },
+  "deming2017social": {
+    "authors": "Deming, D. J.",
+    "year": 2017,
+    "title": "The Growing Importance of Social Skills in the Labor Market",
+    "container": "The Quarterly Journal of Economics, 132(4), 1593-1640",
+    "doi": "10.1093/qje/qjx022",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-24",
+      "matched": "The Growing Importance of Social Skills in the Labor Market*"
+    }
+  }
+}

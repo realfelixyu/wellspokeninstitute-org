@@ -25,6 +25,7 @@
   "wages": {
     "occupationsWithWage": 755,
     "correlationScoreLogMedianWage": 0.588,
+    "rawPctWagePer10Points": 25.7,
     "quartiles": [
       {
         "quartile": 1,
@@ -66,7 +67,51 @@
         "medianOfMedianWages": 95780,
         "employment": 31285060
       }
-    ]
+    ],
+    "withinJobZone": {
+      "pooledWithinZoneR": 0.073,
+      "pctWagePer10PointsWithinZone": 3.3,
+      "byZone": [
+        {
+          "jobZone": 2,
+          "occupations": 313,
+          "r": 0.118,
+          "pctWagePer10Points": 3.4
+        },
+        {
+          "jobZone": 3,
+          "occupations": 169,
+          "r": 0.176,
+          "pctWagePer10Points": 6.5
+        },
+        {
+          "jobZone": 4,
+          "occupations": 153,
+          "r": -0.006,
+          "pctWagePer10Points": -0.4
+        },
+        {
+          "jobZone": 5,
+          "occupations": 120,
+          "r": -0.029,
+          "pctWagePer10Points": -2.6
+        }
+      ]
+    }
+  },
+  "skills": {
+    "occupations": 910,
+    "pctSpeakingAboveWriting": 77.8,
+    "pctSpeakingAtLeastWriting": 90.7,
+    "pctSpeakingAboveMathematics": 93.8,
+    "meanImportance": {
+      "speaking": 3.54,
+      "activeListening": 3.6,
+      "readingComprehension": 3.49,
+      "writing": 3.19,
+      "mathematics": 2.55,
+      "science": 1.93
+    }
   },
   "top25": [
     {

@@ -1,6 +1,5 @@
 // Content quality gate. Fails the build on:
 // - missing or invalid frontmatter
-// - future-dated publishedAt on published entries
 // - citations missing from content/citations.json, unverified, or unused/undeclared <Cite> keys
 // - too few sources for the content kind
 // - em dashes in body text
@@ -20,8 +19,24 @@ const PEOPLE = new Set(["felix-yu", "linfeng-du"]);
 const DUP_THRESHOLD = 0.22;
 const today = new Date().toISOString().slice(0, 10);
 
-const registry = JSON.parse(fs.readFileSync(path.join(ROOT, "content", "citations.json"), "utf8"));
 const errors = [];
+const registry = {};
+{
+  const dir = path.join(ROOT, "content", "citations");
+  for (const f of fs.readdirSync(dir).filter((x) => x.endsWith(".json")).sort()) {
+    let obj;
+    try {
+      obj = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"));
+    } catch (e) {
+      errors.push(`content/citations/${f}: invalid JSON (${e.message})`);
+      continue;
+    }
+    for (const [k, v] of Object.entries(obj)) {
+      if (registry[k]) errors.push(`content/citations/${f}: duplicate citation key "${k}"`);
+      registry[k] = v;
+    }
+  }
+}
 const warnings = [];
 const bodies = [];
 
@@ -72,7 +87,7 @@ for (const col of COLLECTIONS) {
     }
     if (data.kind && !KINDS.has(data.kind)) err(rel, `unknown kind "${data.kind}"`);
     if (!/^\d{4}-\d{2}-\d{2}$/.test(pub)) err(rel, `publishedAt must be YYYY-MM-DD, got "${pub}"`);
-    if (published && pub > today) err(rel, `publishedAt ${pub} is in the future`);
+    // Future publishedAt = scheduled: the daily rebuild publishes it on that date.
     if (data.description && String(data.description).length > 320) err(rel, "description over 320 characters");
     if (data.title && String(data.title).length > 110) err(rel, "title over 110 characters");
 
@@ -87,7 +102,7 @@ for (const col of COLLECTIONS) {
       if (!used.has(k)) warnings.push(`${rel}: citation "${k}" declared but never cited inline`);
       const c = registry[k];
       if (!c) err(rel, `citation "${k}" missing from content/citations.json`);
-      else if (published && !c.verified) err(rel, `citation "${k}" is not verified (run npm run citations:verify)`);
+      else if (published && !c.verified) err(rel, `citation "${k}" is not verified (run node scripts/verify-citations.mjs --file <file>)`);
     }
     const min = MIN_SOURCES[data.kind] ?? 3;
     if (published && declared.length < min) err(rel, `${data.kind} needs at least ${min} sources, has ${declared.length}`);

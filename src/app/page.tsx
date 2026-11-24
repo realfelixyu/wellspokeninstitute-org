@@ -11,7 +11,7 @@ export default function Home() {
   const research = getEntries("research").slice(0, 3);
   const learn = getEntries("learn").slice(0, 3);
   const w = SPEAKING_SUMMARY.workerWeighted;
-  const q = SPEAKING_SUMMARY.wages.quartiles;
+  const sk = SPEAKING_SUMMARY.skills;
 
   return (
     <>
@@ -68,11 +68,9 @@ export default function Home() {
               <p className="mt-2 text-ink-2">of workers hold jobs that involve face-to-face discussion at least weekly.</p>
             </div>
             <div>
-              <p className="font-serif text-4xl font-semibold text-ink">
-                {Math.round(q[3].medianOfMedianWages / 1000)}K vs {Math.round(q[0].medianOfMedianWages / 1000)}K
-              </p>
+              <p className="font-serif text-4xl font-semibold text-ink">{sk?.pctSpeakingAboveWriting}%</p>
               <p className="mt-2 text-ink-2">
-                typical median pay (USD) in the most vs least speaking-intensive quarter of occupations.
+                of occupations rate speaking as more important than writing. It outranks math in {sk?.pctSpeakingAboveMathematics}%.
               </p>
             </div>
           </div>

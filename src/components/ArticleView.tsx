@@ -7,6 +7,7 @@ import { Breadcrumbs } from "@/components/PageHeader";
 import { JsonLd, articleJsonLd, authorNames, breadcrumbJsonLd, contentPath, faqJsonLd } from "@/lib/seo";
 import { PEOPLE, SITE } from "@/data/site";
 import { NewsletterInline } from "@/components/Newsletter";
+import { OnetAttribution, OnetPanel } from "@/components/OnetPanel";
 
 const KIND_LABEL: Record<string, string> = {
   paper: "Research paper",
@@ -100,6 +101,8 @@ export function ArticleView({ entry }: { entry: ContentEntry }) {
           </section>
         ) : null}
 
+        {meta.occupationCode ? <OnetPanel code={meta.occupationCode} /> : null}
+
         <Mdx source={body} citationKeys={meta.citations} />
 
         {meta.dataSource ? (
@@ -132,7 +135,7 @@ export function ArticleView({ entry }: { entry: ContentEntry }) {
           </section>
         ) : null}
 
-        <section aria-labelledby="about-this" className="mt-12 grid gap-6 border-t border-rule pt-8 text-sm text-ink-2 sm:grid-cols-2">
+        <section aria-labelledby="about-this" className="mt-12 grid grid-cols-1 gap-6 border-t border-rule pt-8 text-sm text-ink-2 sm:grid-cols-2 [&>div]:min-w-0">
           <div>
             <h2 id="about-this" className="font-semibold text-ink">
               Contributors
@@ -162,10 +165,12 @@ export function ArticleView({ entry }: { entry: ContentEntry }) {
           </div>
           <div>
             <h2 className="font-semibold text-ink">How to cite</h2>
-            <p className="mt-2 rounded-md bg-paper-2 p-3 font-mono text-[0.8rem] leading-relaxed">{howToCite}</p>
+            <p className="mt-2 rounded-md bg-paper-2 p-3 font-mono text-[0.8rem] leading-relaxed break-words [overflow-wrap:anywhere]">{howToCite}</p>
             <p className="mt-2 text-xs text-ink-3">Licensed CC BY 4.0. Reuse with attribution.</p>
           </div>
         </section>
+
+        {meta.onet ? <OnetAttribution /> : null}
 
         <div className="mt-14">
           <NewsletterInline />

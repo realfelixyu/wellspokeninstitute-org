@@ -68,6 +68,9 @@ function pearson(xs, ys) {
   return sxy / Math.sqrt(sxx * syy);
 }
 
+const jobZoneBySoc = new Map();
+for (const r of rows) if (!jobZoneBySoc.has(r.soc) || r.code.endsWith(".00")) jobZoneBySoc.set(r.soc, r.jobZone);
+for (const r of socRows) r.jobZone = jobZoneBySoc.get(r.soc) ?? null;
 const wagePts = weighted.filter((r) => r.medianWage && r.speakingDemandScore != null);
 const sortedByScore = [...wagePts].sort((a, b) => a.speakingDemandScore - b.speakingDemandScore);
 const q = Math.floor(sortedByScore.length / 4);
@@ -83,6 +86,64 @@ const quartiles = [0, 1, 2, 3].map((i) => {
 });
 
 const r1 = (x) => Math.round(x * 1000) / 10;
+
+// Basic-skill comparison from the raw O*NET Essential Skills file (importance scale).
+function skillComparison() {
+  const file = path.join(ROOT, "data", "raw", "onet", "db_31_0_text", "Essential Skills.txt");
+  if (!fs.existsSync(file)) return null;
+  const im = {};
+  for (const line of fs.readFileSync(file, "utf8").trim().split(/\r?\n/).slice(1)) {
+    const c = line.split("\t");
+    if (c[3] !== "IM") continue;
+    (im[c[0]] ??= {})[c[2]] = Number(c[4]);
+  }
+  const occ = Object.keys(im);
+  const pct = (f) => r1(occ.filter((o) => f(im[o])).length / occ.length);
+  const mean = (k) => Math.round((occ.reduce((a, o) => a + (im[o][k] ?? 0), 0) / occ.length) * 100) / 100;
+  return {
+    occupations: occ.length,
+    pctSpeakingAboveWriting: pct((s) => s.Speaking > s.Writing),
+    pctSpeakingAtLeastWriting: pct((s) => s.Speaking >= s.Writing),
+    pctSpeakingAboveMathematics: pct((s) => s.Speaking > s.Mathematics),
+    meanImportance: {
+      speaking: mean("Speaking"),
+      activeListening: mean("Active Listening"),
+      readingComprehension: mean("Reading Comprehension"),
+      writing: mean("Writing"),
+      mathematics: mean("Mathematics"),
+      science: mean("Science"),
+    },
+  };
+}
+
+// Association with wages after holding Job Zone (preparation level) fixed.
+function withinJobZone(points) {
+  const zones = new Map();
+  for (const p of points) {
+    if (!p.jobZone) continue;
+    if (!zones.has(p.jobZone)) zones.set(p.jobZone, []);
+    zones.get(p.jobZone).push(p);
+  }
+  let sxy = 0, sxx = 0, syy = 0;
+  const byZone = [];
+  for (const [z, arr] of [...zones].sort((a, b) => a[0] - b[0])) {
+    const mx = arr.reduce((a, b) => a + b.speakingDemandScore, 0) / arr.length;
+    const my = arr.reduce((a, b) => a + Math.log(b.medianWage), 0) / arr.length;
+    let a = 0, b = 0, c = 0;
+    for (const p of arr) {
+      const dx = p.speakingDemandScore - mx;
+      const dy = Math.log(p.medianWage) - my;
+      a += dx * dy; b += dx * dx; c += dy * dy;
+    }
+    sxy += a; sxx += b; syy += c;
+    byZone.push({ jobZone: z, occupations: arr.length, r: Math.round((a / Math.sqrt(b * c)) * 1000) / 1000, pctWagePer10Points: Math.round((Math.exp((a / b) * 10) - 1) * 1000) / 10 });
+  }
+  return {
+    pooledWithinZoneR: Math.round((sxy / Math.sqrt(sxx * syy)) * 1000) / 1000,
+    pctWagePer10PointsWithinZone: Math.round((Math.exp((sxy / sxx) * 10) - 1) * 1000) / 10,
+    byZone,
+  };
+}
 
 const summary = {
   generatedAt: new Date().toISOString().slice(0, 10),
@@ -111,8 +172,18 @@ const summary = {
   wages: {
     occupationsWithWage: wagePts.length,
     correlationScoreLogMedianWage: Math.round(pearson(wagePts.map((r) => r.speakingDemandScore), wagePts.map((r) => Math.log(r.medianWage))) * 1000) / 1000,
+    rawPctWagePer10Points: (() => {
+      const n = wagePts.length;
+      const mx = wagePts.reduce((a, r) => a + r.speakingDemandScore, 0) / n;
+      const my = wagePts.reduce((a, r) => a + Math.log(r.medianWage), 0) / n;
+      let a = 0, b = 0;
+      for (const r of wagePts) { a += (r.speakingDemandScore - mx) * (Math.log(r.medianWage) - my); b += (r.speakingDemandScore - mx) ** 2; }
+      return Math.round((Math.exp((a / b) * 10) - 1) * 1000) / 10;
+    })(),
     quartiles,
+    withinJobZone: withinJobZone(wagePts),
   },
+  skills: skillComparison(),
   top25: rows.slice(0, 25).map((r) => ({ code: r.code, title: r.title, score: r.speakingDemandScore })),
   largestHighSpeakingOccupations: [...weighted]
     .filter((r) => r.speakingImportance >= 4)

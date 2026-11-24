@@ -80,8 +80,8 @@ export default function SpeakingByOccupation() {
             <p className="mt-2 text-sm text-ink-2">of workers ({millions(w.workersSpeakingVeryImportant)}) are in jobs rating speaking &ldquo;very important&rdquo; (4 of 5) or higher.</p>
           </div>
           <div className="rounded-xl border border-rule bg-card p-5">
-            <p className="font-serif text-3xl font-semibold text-accent">r = {s.wages.correlationScoreLogMedianWage.toFixed(2)}</p>
-            <p className="mt-2 text-sm text-ink-2">correlation between an occupation&rsquo;s Speaking Demand Score and its (log) median wage across {s.wages.occupationsWithWage} occupations.</p>
+            <p className="font-serif text-3xl font-semibold text-accent">{s.skills?.pctSpeakingAboveWriting}%</p>
+            <p className="mt-2 text-sm text-ink-2">of occupations rate speaking as more important than writing, and {s.skills?.pctSpeakingAboveMathematics}% rate it above mathematics.</p>
           </div>
         </section>
 
@@ -106,10 +106,13 @@ export default function SpeakingByOccupation() {
             can share one employment figure. Worker-weighted percentages count each SOC occupation once.
           </p>
           <p>
-            Wages and speaking demands are correlated, but this does not show that speaking skill causes higher pay.
-            Occupations that rely on speaking also tend to require more education and experience. Typical median
-            pay is {usd(s.wages.quartiles[3].medianOfMedianWages)} in the quarter of occupations with the highest
-            scores and {usd(s.wages.quartiles[0].medianOfMedianWages)} in the lowest quarter.
+            Occupations with higher Speaking Demand Scores tend to pay more: typical median pay is{" "}
+            {usd(s.wages.quartiles[3].medianOfMedianWages)} in the quarter of occupations with the highest scores and{" "}
+            {usd(s.wages.quartiles[0].medianOfMedianWages)} in the lowest quarter (correlation with log median wage, r ={" "}
+            {s.wages.correlationScoreLogMedianWage.toFixed(2)}). Most of that gap reflects education and preparation:
+            comparing occupations within the same O*NET Job Zone, the association falls to about{" "}
+            {s.wages.withinJobZone.pctWagePer10PointsWithinZone}% higher pay per 10 points (r ={" "}
+            {s.wages.withinJobZone.pooledWithinZoneR.toFixed(2)}). None of this shows that speaking skill causes higher pay.
           </p>
           <h2>Source and license</h2>
           <p>

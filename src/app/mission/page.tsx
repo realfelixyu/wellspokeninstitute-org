@@ -29,13 +29,16 @@ export default function MissionPage() {
         <p>
           Speaking is part of almost every job. In our analysis of U.S. Department of Labor ratings,{" "}
           {w.pctSpeakingImportantOrHigher}% of workers are in occupations where speaking is rated at least
-          &ldquo;important,&rdquo; and the more an occupation depends on speaking, the more it tends to pay (
+          &ldquo;important,&rdquo; and speaking is rated more important than writing in{" "}
+          {SPEAKING_SUMMARY.skills?.pctSpeakingAboveWriting}% of occupations (
           <Link href="/research/speaking-at-work-2026">see the data brief</Link>).
         </p>
         <p>
-          Yet speaking is rarely taught directly. Most people build the skill informally, through family, school
-          activities, and jobs that already expect it. That leaves the people with the least access to those
-          settings, including many English learners and first-generation students, to learn it the hard way.
+          Many people build the skill informally, through family, school activities, and jobs that already expect
+          it. People with less access to those settings, including many English learners and first-generation
+          students, often have to learn it the hard way. Our{" "}
+          <Link href="/research/why-speaking-skills-should-be-taught">evidence review</Link> examines what is known
+          about teaching it well.
         </p>
         <h2>What we believe</h2>
         <ul>

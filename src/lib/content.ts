@@ -29,6 +29,7 @@ export interface ContentMeta {
   keyFindings: string[];
   citations: string[];
   occupationCode?: string;
+  onet: boolean;
   topics: string[];
   readingMinutes: number;
 }
@@ -73,6 +74,7 @@ function readEntry(collection: Collection, file: string): ContentEntry {
       keyFindings: asStringArray(data.keyFindings),
       citations: asStringArray(data.citations),
       occupationCode: data.occupationCode ? String(data.occupationCode) : undefined,
+      onet: data.onet === true || Boolean(data.occupationCode),
       topics: asStringArray(data.topics),
       readingMinutes: Math.max(1, Math.round(words / 230)),
     },

@@ -1,0 +1,103 @@
+---
+title: "Speaking at Work 2026: How Much U.S. Jobs Depend on Speaking"
+description: "An analysis of U.S. Department of Labor ratings for 910 occupations finds that 85.5% of workers hold jobs where speaking is at least important, and speaking outranks writing in 78% of occupations."
+kind: brief
+publishedAt: "2026-11-24"
+status: published
+contributors: ["felix-yu", "linfeng-du"]
+onet: true
+keyFindings:
+  - "85.5% of U.S. workers, about 122 million people, are in occupations where speaking is rated at least important to the job."
+  - "Speaking is rated more important than writing in 77.8% of occupations and more important than mathematics in 93.8%."
+  - "No occupation rates speaking below somewhat important. Even the lowest-ranked job scores 2.12 on a 1 to 5 scale."
+  - "Speaking-intensive occupations pay more on average, but most of that gap reflects the education and preparation those jobs require."
+citations: ["onet31", "blsoews2025", "deming2017social"]
+---
+
+Almost every job in the United States asks people to talk. Using U.S. Department of Labor ratings for 910 occupations, we estimate that 85.5% of workers, about 122 million people, hold jobs where speaking is rated at least "important" <Cite k="onet31,blsoews2025" />. Speaking is rated more important than writing in 77.8% of occupations, and more important than mathematics in 93.8%. This brief explains how we measured it and what the numbers can and cannot tell us.
+
+## How we measured speaking demands
+
+The O*NET® program, sponsored by the U.S. Department of Labor, rates hundreds of skills and abilities for each occupation using surveys of workers and job analysts <Cite k="onet31" />. We used the O*NET 31.0 Database, released in August 2026, and three of its ratings:
+
+- **Speaking importance**, defined as "talking to others to convey information effectively," rated from 1 (not important) to 5 (extremely important).
+- **Speaking level**, the degree of skill a job requires, rated from 0 to 7.
+- **Oral Expression importance**, the ability to communicate ideas in speaking so others will understand, rated from 1 to 5.
+
+We rescaled each rating to run from 0 to 1 and averaged them into a **Speaking Demand Score** from 0 to 100. We matched each occupation to May 2025 national employment and median wage estimates from the Bureau of Labor Statistics <Cite k="blsoews2025" />. Worker-weighted figures count each six-digit SOC occupation once, using its main O*NET rating. Together these occupations cover about 143 million jobs.
+
+The full dataset is free to search and download on our [speaking by occupation](/data/speaking-by-occupation) page.
+
+## Finding 1: speaking matters in nearly every job
+
+| Speaking importance | Share of occupations | Share of workers |
+| --- | --- | --- |
+| At least important (3 or higher) | 89.1% | 85.5% |
+| At least 3.5 | 56.5% | 55.6% |
+| Very important or higher (4 or higher) | 29.6% | 26.4% |
+
+About 37.8 million workers are in occupations where speaking is rated "very important" or higher. The floor is also telling: no occupation in the data rates speaking below "somewhat important." The lowest-ranked occupation, pressers of textiles and garments, still scores 2.12 on the 1 to 5 scale.
+
+Spoken interaction is also frequent. In 90.2% of jobs, weighted by employment, workers report face-to-face discussions at least once a week.
+
+## Finding 2: work rates speaking above writing and math
+
+Across all 910 occupations, the average importance ratings for basic skills are:
+
+| Skill | Average importance (1 to 5) |
+| --- | --- |
+| Active listening | 3.60 |
+| Speaking | 3.54 |
+| Reading comprehension | 3.49 |
+| Writing | 3.19 |
+| Mathematics | 2.55 |
+| Science | 1.93 |
+
+Speaking is rated more important than writing in 77.8% of occupations, and at least as important in 90.7%. It outranks mathematics in 93.8%. Schools spend years on formal instruction in reading, writing, and math. These ratings suggest the workplace values spoken communication at least as much.
+
+## Finding 3: the jobs that depend on speaking most
+
+The highest Speaking Demand Scores belong to occupations built around explaining, persuading, and advising: postsecondary teachers, school administrators, lawyers (85.7), clergy (85.1), and broadcast announcers (84.2). The largest occupations among those rating speaking "very important" are everyday jobs:
+
+| Occupation | U.S. employment, May 2025 |
+| --- | --- |
+| General and operations managers | 3,503,020 |
+| Registered nurses | 3,379,720 |
+| Secretaries and administrative assistants | 1,706,790 |
+| First-line supervisors of office workers | 1,436,680 |
+| Elementary school teachers | 1,388,390 |
+| Wholesale and manufacturing sales representatives | 1,238,190 |
+| Secondary school teachers | 1,065,210 |
+
+## Finding 4: speaking-intensive jobs pay more, mostly because of their requirements
+
+Occupations with higher Speaking Demand Scores pay more on average. We split the 755 occupations with wage data into quarters by score. Typical median pay is 48,745 USD in the lowest quarter, 51,230 USD in the second, 71,145 USD in the third, and 95,780 USD in the highest. The score and the logarithm of median wage correlate at r = 0.59.
+
+That correlation does not mean speaking skill causes higher pay. Speaking-intensive occupations also tend to require more education, training, and experience. O*NET groups occupations into five Job Zones by preparation level. When we compare occupations only within the same Job Zone, the association nearly disappears: about 3.3% higher median pay per 10 points of score, with a within-zone correlation of r = 0.07. A modest positive link remains among jobs needing medium or limited preparation (Job Zones 2 and 3), and none among jobs needing extensive preparation.
+
+These results fit research showing that jobs combining social and cognitive demands have grown and been rewarded in the labor market since the 1980s <Cite k="deming2017social" />. Occupation averages cannot tell us what happens to an individual who improves their speaking. Answering that needs data on individual people, which we plan to study.
+
+## Limitations
+
+- O*NET ratings describe occupations, not individual workers. Within any occupation, speaking demands vary by employer and role.
+- Ratings come from surveys and analyst judgments, which can differ in how people interpret "importance."
+- Employment and wages are matched at the six-digit SOC level, so closely related O*NET occupations share one figure.
+- Wage comparisons are cross-sectional associations and say nothing about cause.
+
+## Data and reuse
+
+The derived dataset, including every occupation's ratings and score, is available as [CSV](/data/speaking-by-occupation.csv) and [JSON](/data/speaking-by-occupation.json) under CC BY 4.0. The analysis scripts are published with our site code. Journalists and researchers can request other cuts of the data at hello@wellspokeninstitute.org.
+
+## Frequently asked questions
+
+### What percentage of jobs require speaking skills?
+
+In O*NET ratings, speaking is rated at least important in 89.1% of 910 occupations. Weighted by employment, that covers 85.5% of U.S. workers, about 122 million people.
+
+### Is speaking more important than writing at work?
+
+By O*NET importance ratings, yes, in most jobs. Speaking is rated more important than writing in 77.8% of occupations and at least as important in 90.7%.
+
+### Do jobs that require more speaking pay more?
+
+On average yes, but mostly because those jobs also require more education and experience. Comparing occupations with similar preparation requirements, the pay difference is small.

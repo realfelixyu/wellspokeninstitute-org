@@ -17,8 +17,13 @@ let registry: Record<string, Omit<Citation, "key">> | null = null;
 
 function load(): Record<string, Omit<Citation, "key">> {
   if (!registry) {
-    const file = path.join(process.cwd(), "content", "citations.json");
-    registry = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, "utf8")) : {};
+    const dir = path.join(process.cwd(), "content", "citations");
+    registry = {};
+    if (fs.existsSync(dir)) {
+      for (const f of fs.readdirSync(dir).filter((x) => x.endsWith(".json")).sort()) {
+        Object.assign(registry, JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")));
+      }
+    }
   }
   return registry!;
 }

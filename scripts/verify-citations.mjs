@@ -1,15 +1,17 @@
 // Verifies every entry in content/citations.json against its source and records the result.
 //   DOI entries: fetched from the Crossref REST API; the registry title must match Crossref's title.
 //   URL entries: fetched directly; must return 2xx/3xx and contain most of the title's key words.
-// Usage: node scripts/verify-citations.mjs [--all] [key ...]
+// Usage: node scripts/verify-citations.mjs --file content/citations/<name>.json [--all] [key ...]
 // Without --all, only entries lacking a "verified" record are checked.
 
 import fs from "node:fs";
 import path from "node:path";
 
-const FILE = path.join(process.cwd(), "content", "citations.json");
-const reg = JSON.parse(fs.readFileSync(FILE, "utf8"));
 const args = process.argv.slice(2);
+const fileArg = args.indexOf("--file");
+const FILE = path.resolve(fileArg >= 0 ? args[fileArg + 1] : path.join("content", "citations", "core.json"));
+if (fileArg >= 0) args.splice(fileArg, 2);
+const reg = JSON.parse(fs.readFileSync(FILE, "utf8"));
 const all = args.includes("--all");
 const only = args.filter((a) => !a.startsWith("--"));
 const UA = "WellspokenInstituteCitationCheck/1.0 (mailto:hello@wellspokeninstitute.org)";
