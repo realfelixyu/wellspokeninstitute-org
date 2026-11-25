@@ -25,7 +25,7 @@ export const TOOLS: ToolInfo[] = [
     name: "Filler word counter",
     short: "Count um, uh, like, and you know.",
     description:
-      "Paste a transcript to count filler words and phrases, see them highlighted, and get your rate per 100 words.",
+      "Paste a transcript or dictate on a supported device to count filler words and phrases, see them highlighted, and get your rate per 100 words.",
   },
   {
     slug: "interview-answer-timer",
@@ -39,7 +39,7 @@ export const TOOLS: ToolInfo[] = [
     name: "Public speaking anxiety self-check",
     short: "A private self-reflection.",
     description:
-      "A short self-reflection on how you feel before and during speaking, with practical next steps. Runs entirely in your browser.",
+      "Use James C. McCroskey’s 34-item Personal Report of Public Speaking Anxiety and calculate your score privately.",
   },
   {
     slug: "speakability-checker",
@@ -53,7 +53,7 @@ export const TOOLS: ToolInfo[] = [
     name: "Pause practice trainer",
     short: "Practice deliberate pauses.",
     description:
-      "Reads your script back in phrases with timed gaps so you can rehearse pausing at natural breaks instead of filling silence.",
+      "Displays your script in phrases with timed gaps so you can rehearse pausing at natural breaks instead of filling silence.",
   },
   {
     slug: "teleprompter",
@@ -68,6 +68,12 @@ export const TOOLS: ToolInfo[] = [
     short: "Structure a 30 to 60 second introduction.",
     description:
       "Answer five short prompts and get a structured spoken introduction you can rehearse, with a timing estimate.",
+  },
+  {
+    slug: "speaking-self-assessment",
+    name: "How well-spoken are you?",
+    short: "Reflect on your speaking habits.",
+    description: "Answer 12 questions about everyday conversations and presentations. See which habits you feel sure of and choose one to practice.",
   },
   {
     slug: "speaking-demand-lookup",

@@ -7,7 +7,8 @@
     "url": "https://www.onetcenter.org/database.html",
     "verified": {
       "method": "url",
-      "date": "2026-11-24"
+      "date": "2026-11-25",
+      "fingerprint": "7be6bbc54b79e58ab3e76694966ba2cd07f740a0bbeec9a628f4800f2af305cc"
     }
   },
   "blsoews2025": {
@@ -18,7 +19,8 @@
     "url": "https://www.bls.gov/oes/",
     "verified": {
       "method": "url",
-      "date": "2026-11-24"
+      "date": "2026-11-25",
+      "fingerprint": "6ec96fe810663d5cada3bb1ce7635d6507b34fa7f1cd11136aef43afe8500b39"
     }
   },
   "deming2017social": {
@@ -29,8 +31,9 @@
     "doi": "10.1093/qje/qjx022",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "The Growing Importance of Social Skills in the Labor Market*"
+      "date": "2026-11-25",
+      "matched": "The Growing Importance of Social Skills in the Labor Market*",
+      "fingerprint": "dcc284bd9cd5cab1f3e5fb1ae7c94fb0533c193fa094432258b5e8091dabcf06"
     }
   }
 }

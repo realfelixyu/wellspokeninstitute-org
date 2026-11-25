@@ -14,16 +14,24 @@ function walk(dir) {
   });
 }
 
+// Keep the original public PDF links and place an identical copy beside each live paper for Scholar.
+for (const file of fs.readdirSync(path.join(OUT, "papers")).filter(name => name.endsWith(".pdf"))) {
+  const researchDir = path.join(OUT, "research");
+  if (fs.existsSync(path.join(researchDir, file.replace(/\.pdf$/, ".html")))) {
+    fs.copyFileSync(path.join(OUT, "papers", file), path.join(researchDir, file));
+  }
+}
+
 for (const f of walk(OUT)) {
   if (f.includes("__placeholder")) {
     fs.rmSync(f, { force: true });
     continue;
   }
-  if (!f.endsWith(".html")) continue;
+  if (!/\.(?:html|js|txt|xml|json)$/i.test(f)) continue;
   const rel = path.relative(OUT, f);
   const html = fs.readFileSync(f, "utf8");
   for (const re of BANNED) if (re.test(html)) errors.push(`${rel}: contains banned pattern ${re}`);
-  if (!PRODUCT_OK_PAGES.has(rel)) {
+  if (f.endsWith(".html") && !PRODUCT_OK_PAGES.has(rel)) {
     const visible = html
       .replace(/<script[\s\S]*?<\/script>/g, "")
       .replace(/Data: <\/span>[^<]*/g, "")

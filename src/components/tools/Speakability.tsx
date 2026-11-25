@@ -38,7 +38,7 @@ export default function Speakability() {
           </ul>
         </div>
       ) : (
-        <p className="mt-5 text-ink-2">No very long sentences. Listeners should be able to follow each one on first hearing.</p>
+        <p className="mt-5 text-ink-2">No sentence in this script exceeds 25 words.</p>
       )}
       <p className="mt-4 text-sm text-ink-3">
         Listeners cannot reread. Shorter sentences and familiar words are easier to follow by ear. The grade level is

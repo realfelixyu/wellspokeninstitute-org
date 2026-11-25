@@ -1,0 +1,50 @@
+{
+  "onetreleases": {
+    "authors": "National Center for O*NET Development",
+    "year": "n.d.",
+    "title": "O*NET Database Releases Archive",
+    "publisher": "O*NET Resource Center",
+    "url": "https://www.onetcenter.org/db_releases.html",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-25",
+      "fingerprint": "8b1c8f7d71ea7b3dec7dc2bd285b46dec8f96182d399116808a8967518f485cc"
+    }
+  },
+  "onettaxonomy": {
+    "authors": "National Center for O*NET Development",
+    "year": "n.d.",
+    "title": "The O*NET-SOC Taxonomy",
+    "publisher": "O*NET Resource Center",
+    "url": "https://www.onetcenter.org/taxonomy.html",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-25",
+      "fingerprint": "ce47abbaef85548f9c4635845928bb8b58d424632021e0ea893b0762b3130895"
+    }
+  },
+  "onetlicensedb": {
+    "authors": "National Center for O*NET Development",
+    "year": 2026,
+    "title": "O*NET 31.0 Database Content License",
+    "publisher": "O*NET Resource Center",
+    "url": "https://www.onetcenter.org/license_db.html",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-25",
+      "fingerprint": "bb5d3d7237749c900608e27565a07068945f77c4e7389c3663c1e9f5941ca572"
+    }
+  },
+  "blsoutlook2035": {
+    "authors": "U.S. Bureau of Labor Statistics",
+    "year": 2026,
+    "title": "Occupational projections and worker characteristics",
+    "publisher": "Employment Projections, Table 1.2 (2025 to 2035)",
+    "url": "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.Htm",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-25",
+      "fingerprint": "fd0ad614367a7c3f33f376ea8cae4f5102ed063436a796ed8617047fb9236e25"
+    }
+  }
+}

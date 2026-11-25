@@ -8,7 +8,8 @@
   --card: #ffffff;
   --ink: #16202e;
   --ink-2: #3c4655;
-  --ink-3: #6b7482;
+  --ink-3: #566272;
+  --control-rule: #737e86;
   --rule: #e3dfd4;
   --accent: #0b5d5a;
   --accent-ink: #ffffff;
@@ -24,7 +25,8 @@
     --card: #1a222c;
     --ink: #eef1f4;
     --ink-2: #c4ccd5;
-    --ink-3: #8f9aa6;
+    --ink-3: #a5afbb;
+    --control-rule: #768491;
     --rule: #2a3440;
     --accent: #5cc0b8;
     --accent-ink: #0b1a19;
@@ -40,7 +42,8 @@
   --card: #1a222c;
   --ink: #eef1f4;
   --ink-2: #c4ccd5;
-  --ink-3: #8f9aa6;
+  --ink-3: #a5afbb;
+    --control-rule: #768491;
   --rule: #2a3440;
   --accent: #5cc0b8;
   --accent-ink: #0b1a19;
@@ -221,3 +224,6 @@ body {
     margin: 18mm 16mm;
   }
 }
+
+:where(input, textarea, select, button, summary).border-rule { border-color: var(--control-rule); }
+:where(button, summary) { touch-action: manipulation; }

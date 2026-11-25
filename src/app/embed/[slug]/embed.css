@@ -1,0 +1,2 @@
+body:has([data-tool-embed]) > header,
+body:has([data-tool-embed]) > footer { display: none; }

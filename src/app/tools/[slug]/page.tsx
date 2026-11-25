@@ -1,34 +1,13 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import type { ComponentType } from "react";
 import { TOOLS } from "@/data/tools";
 import { Breadcrumbs } from "@/components/PageHeader";
 import { JsonLd, pageMetadata, breadcrumbJsonLd } from "@/lib/seo";
 import { SITE } from "@/data/site";
 import { TOOL_GUIDES } from "@/data/toolGuides";
-import SpeakingRate from "@/components/tools/SpeakingRate";
-import SpeechLength from "@/components/tools/SpeechLength";
-import FillerCounter from "@/components/tools/FillerCounter";
-import InterviewTimer from "@/components/tools/InterviewTimer";
-import AnxietyCheck from "@/components/tools/AnxietyCheck";
-import Speakability from "@/components/tools/Speakability";
-import PausePractice from "@/components/tools/PausePractice";
-import Teleprompter from "@/components/tools/Teleprompter";
-import PitchBuilder from "@/components/tools/PitchBuilder";
-import DemandLookup from "@/components/tools/DemandLookup";
-
-const COMPONENTS: Record<string, ComponentType> = {
-  "speaking-rate-calculator": SpeakingRate,
-  "speech-length-calculator": SpeechLength,
-  "filler-word-counter": FillerCounter,
-  "interview-answer-timer": InterviewTimer,
-  "public-speaking-anxiety-self-check": AnxietyCheck,
-  "speakability-checker": Speakability,
-  "pause-practice": PausePractice,
-  teleprompter: Teleprompter,
-  "elevator-pitch-builder": PitchBuilder,
-  "speaking-demand-lookup": DemandLookup,
-};
+import { TOOL_COMPONENTS } from "@/components/tools/registry";
+import { getCitations, citationHref, formatCitation } from "@/lib/citations";
+import { TOOL_SOURCES } from "@/data/toolGuides";
 
 export const dynamicParams = false;
 
@@ -46,8 +25,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function ToolPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const t = TOOLS.find((x) => x.slug === slug);
-  const C = COMPONENTS[slug];
+  const C = TOOL_COMPONENTS[slug];
   if (!t || !C) notFound();
+  const sources = getCitations(TOOL_SOURCES[slug]);
   const guide = TOOL_GUIDES[slug];
   const path = `/tools/${slug}`;
   const crumbs = [
@@ -91,6 +71,19 @@ export default async function ToolPage({ params }: { params: Promise<{ slug: str
           ))}
         </div>
       ) : null}
+      <section className="mx-auto max-w-3xl px-4 pb-8 sm:px-6">
+        <h2 className="font-serif text-xl font-semibold">Sources and further reading</h2>
+        <ul className="mt-3 space-y-2 text-sm text-ink-2">
+          {sources.map(source => <li key={source.key}><a className="underline" href={citationHref(source)}>{formatCitation(source)}</a></li>)}
+        </ul>
+        <details className="mt-6 rounded-lg border border-rule px-4 py-3">
+          <summary className="cursor-pointer font-medium">Embed this tool on your site</summary>
+          <label className="mt-3 block text-sm">HTML embed code
+            <textarea className="mt-2 w-full rounded border border-rule bg-paper p-2 font-mono" readOnly rows={4}
+              value={`<iframe title="${t.name}" src="${SITE.url}/embed/${slug}" width="100%" height="640"${slug === "filler-word-counter" ? ' allow="microphone; on-device-speech-recognition"' : ""} style="border:0" loading="lazy"></iframe>`} />
+          </label>
+        </details>
+      </section>
       <div className="mx-auto max-w-3xl px-4 pb-4 sm:px-6">
         <p className="text-sm text-ink-3">
           Free and private. This tool runs in your browser and does not send your text or audio to us.{" "}

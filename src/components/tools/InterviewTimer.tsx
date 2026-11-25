@@ -31,10 +31,10 @@ export default function InterviewTimer() {
   const verdict = !done
     ? null
     : elapsed < item.min
-      ? "Short. Add one concrete example or result so the answer feels complete."
+      ? "Below the practice target. Is there a specific example you want to add?"
       : elapsed > item.max
-        ? "Long. Lead with your main point and cut background the interviewer did not ask for."
-        : "On target. That length gives enough detail without losing the listener.";
+        ? "Above the practice target. Try a shorter version and compare the two."
+        : "Within this question’s practice target.";
 
   return (
     <Panel>
@@ -76,6 +76,7 @@ export default function InterviewTimer() {
         ) : (
           <Button
             onClick={() => {
+              setElapsed((Date.now() - start.current) / 1000);
               setRunning(false);
               setDone(true);
             }}

@@ -86,7 +86,7 @@ export function contentMetadata(meta: ContentMeta): Metadata {
   const other: Record<string, string | string[]> = {};
   if (scholarly) {
     other["citation_title"] = meta.title;
-    other["citation_author"] = [SITE.researchTeamByline, ...authorNames(meta)];
+    other["citation_author"] = SITE.researchTeamByline;
     other["citation_publication_date"] = meta.publishedAt.replace(/-/g, "/");
     other["citation_publisher"] = SITE.name;
     other["citation_abstract_html_url"] = `${SITE.url}${path}`;
@@ -118,10 +118,8 @@ export function articleJsonLd(meta: ContentMeta) {
     image: [`${SITE.url}/og-default.png`],
     datePublished: meta.publishedAt,
     dateModified: meta.updatedAt ?? meta.publishedAt,
-    author: [
-      { "@type": "Organization", name: SITE.researchTeamByline, url: `${SITE.url}/about` },
-      ...authorNames(meta).map((name) => ({ "@type": "Person", name })),
-    ],
+    author: { "@type": "Organization", name: SITE.researchTeamByline, url: `${SITE.url}/about` },
+    contributor: authorNames(meta).map(name => ({ "@type": "Person", name })),
     publisher: { "@id": `${SITE.url}/#organization`, "@type": "NGO", name: SITE.name },
     mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE.url}${path}` },
     isAccessibleForFree: true,

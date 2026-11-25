@@ -1,0 +1,52 @@
+{
+  "source_archives": {
+    "15": {
+      "url": "https://www.onetcenter.org/dl_files/db_15_0.zip",
+      "sha256": "7f460ad768adff84109139cd1b54b72721b8c73bad5f154285a477bc9b2673fe"
+    },
+    "31": {
+      "url": "https://www.onetcenter.org/dl_files/database/db_31_0_text.zip",
+      "sha256": "6883548adf5fde64cf6f801b35d15519c9225f2732c3cab0e281c652d16b23a9"
+    }
+  },
+  "source_credit": "O*NET 15.0 and 31.0 Databases, USDOL/ETA; matched and compared by Wellspoken Institute. USDOL/ETA has not approved, endorsed, or tested the modifications.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "eligible_15": 853,
+  "eligible_31": 910,
+  "same_code": 621,
+  "same_code_and_title": 538,
+  "same_code_title_definition": 227,
+  "newer_rating_date": 223,
+  "all_matches": {
+    "importance": {
+      "mean_change": -0.0366,
+      "median_change": 0.0,
+      "higher": 64,
+      "unchanged": 67,
+      "lower": 96
+    },
+    "level": {
+      "mean_change": 0.0743,
+      "median_change": 0.0,
+      "higher": 108,
+      "unchanged": 60,
+      "lower": 59
+    }
+  },
+  "newer_rating_date_only": {
+    "importance": {
+      "mean_change": -0.0372,
+      "median_change": 0.0,
+      "higher": 64,
+      "unchanged": 63,
+      "lower": 96
+    },
+    "level": {
+      "mean_change": 0.0756,
+      "median_change": 0.0,
+      "higher": 108,
+      "unchanged": 56,
+      "lower": 59
+    }
+  }
+}

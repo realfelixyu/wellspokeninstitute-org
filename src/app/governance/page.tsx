@@ -66,8 +66,8 @@ export default function GovernancePage() {
         </ul>
         <h2>Public filings</h2>
         <p>
-          We file the annual IRS Form 990 series return required for our size and make our determination letter
-          and filings available on request at <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
+          Read the <a href="/governance/irs-determination-letter.pdf">IRS determination letter (PDF)</a>.
+          To request an available annual filing, email <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
         </p>
       </Prose>
     </>

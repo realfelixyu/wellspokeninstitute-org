@@ -21,9 +21,11 @@ export function findOccupation(code: string): OccupationRow | undefined {
 
 export function percentileOf(code: string): number | null {
   const rows = occupations.rows;
-  const i = rows.findIndex((r) => r.code === code);
-  if (i < 0) return null;
-  return Math.round(((rows.length - 1 - i) / (rows.length - 1)) * 100);
+  const score = findOccupation(code)?.speakingDemandScore;
+  if (score == null) return null;
+  const rated = rows.filter(row => row.speakingDemandScore != null);
+  const lower = rated.filter(row => row.speakingDemandScore! < score);
+  return Math.round((lower.length / rated.length) * 100);
 }
 
 export function slugifyTitle(title: string): string {

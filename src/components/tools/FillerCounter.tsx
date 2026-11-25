@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import LocalDictation from "./LocalDictation";
 import { Panel, TextArea, Stat } from "./ui";
 import { FILLERS, wordCount } from "@/lib/text";
 
@@ -23,6 +24,7 @@ export default function FillerCounter() {
   return (
     <Panel>
       <TextArea label="Paste a transcript of yourself speaking" value={text} onChange={setText} rows={8} />
+      <LocalDictation append={chunk => setText(current => current === SAMPLE || !current.trim() ? chunk : current.trimEnd() + " " + chunk)} />
       <div className="mt-5 grid gap-3 sm:grid-cols-3">
         <Stat value={result.total} label="filler words and phrases" />
         <Stat value={result.n} label="total words" />

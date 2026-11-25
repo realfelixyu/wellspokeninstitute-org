@@ -1,16 +1,13 @@
+import { Turnstile } from "./Turnstile";
 import { SITE } from "@/data/site";
 
-/**
- * Newsletter signup. When NEXT_PUBLIC_NEWSLETTER_ACTION is configured the form
- * posts straight to the provider's hosted subscribe endpoint (provider is set
- * to redirect to /thanks?s=1 after a confirmed signup). Until then it falls
- * back to an email link so the page never ships a dead form.
- */
 export function NewsletterForm({ source = "site" }: { source?: string }) {
-  if (!SITE.newsletterAction) {
+  const siteKey = process.env.CF_PAGES === "1" ? process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY : "";
+  const action = siteKey ? "/api/subscribe" : SITE.newsletterAction;
+  if (!action) {
     return (
       <p className="text-[0.98rem] text-ink-2">
-        Our research newsletter opens with the first report. To be added now, email{" "}
+        To request the Institute’s research newsletter, email{" "}
         <a
           className="font-medium text-accent underline underline-offset-2"
           href={`mailto:${SITE.email}?subject=Add%20me%20to%20the%20research%20newsletter`}
@@ -22,7 +19,7 @@ export function NewsletterForm({ source = "site" }: { source?: string }) {
     );
   }
   return (
-    <form method="post" action={SITE.newsletterAction} className="flex flex-col gap-3 sm:flex-row">
+    <form method="post" action={action} className="flex flex-col items-start gap-3">
       <label htmlFor={`email-${source}`} className="sr-only">
         Email address
       </label>
@@ -30,12 +27,14 @@ export function NewsletterForm({ source = "site" }: { source?: string }) {
         id={`email-${source}`}
         name="email"
         type="email"
+        maxLength={254}
         required
         autoComplete="email"
         placeholder="you@example.org"
         className="h-12 w-full rounded-lg border border-rule bg-card px-4 text-ink placeholder:text-ink-3 sm:max-w-sm"
       />
       <input type="hidden" name="tag" value={source} />
+      {siteKey && <Turnstile siteKey={siteKey} />}
       <button
         type="submit"
         className="h-12 shrink-0 rounded-lg bg-accent px-6 font-medium text-accent-ink transition-opacity hover:opacity-90"

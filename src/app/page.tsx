@@ -42,7 +42,7 @@ export default function Home() {
             <figure className="fade-in rounded-2xl border border-rule bg-card p-7">
               <p className="font-serif text-6xl font-semibold text-accent">{w.pctSpeakingImportantOrHigher}%</p>
               <figcaption className="mt-3 text-[1.02rem] leading-relaxed text-ink-2">
-                of U.S. workers, about {millions(w.workersSpeakingImportantOrHigher)} people, are in occupations
+                of the {millions(SPEAKING_SUMMARY.employmentCovered)} jobs we could match are in occupations
                 where speaking is rated at least &ldquo;important&rdquo; to the job.
                 <span className="mt-3 block text-sm text-ink-3">
                   Wellspoken Institute analysis of O*NET® 31.0 and BLS May 2025 data.{" "}
@@ -61,11 +61,11 @@ export default function Home() {
           <div className="grid gap-8 py-14 sm:grid-cols-3">
             <div>
               <p className="font-serif text-4xl font-semibold text-ink">{millions(w.workersSpeakingVeryImportant)}</p>
-              <p className="mt-2 text-ink-2">workers are in jobs where speaking is rated &ldquo;very important&rdquo; or higher.</p>
+              <p className="mt-2 text-ink-2">matched jobs are in occupations where speaking is rated &ldquo;very important&rdquo; or higher.</p>
             </div>
             <div>
               <p className="font-serif text-4xl font-semibold text-ink">{w.pctFaceToFaceWeeklyOrMore}%</p>
-              <p className="mt-2 text-ink-2">of workers hold jobs that involve face-to-face discussion at least weekly.</p>
+              <p className="mt-2 text-ink-2">of matched jobs are in occupations whose average face-to-face discussion rating reaches the weekly threshold.</p>
             </div>
             <div>
               <p className="font-serif text-4xl font-semibold text-ink">{sk?.pctSpeakingAboveWriting}%</p>

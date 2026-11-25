@@ -1,0 +1,228 @@
+occupation_code,occupation_title,rating_date_15,rating_date_31,importance_15,importance_31,importance_change,level_15,level_31,level_change
+11-3021.00,Computer and Information Systems Managers,06/2010,07/2016,3.75,3.88,0.13,3.75,3.88,0.13
+11-3031.01,Treasurers and Controllers,06/2010,08/2026,3.75,4.0,0.25,3.88,4.38,0.5
+11-3051.00,Industrial Production Managers,06/2010,08/2021,3.75,4.0,0.25,3.88,4.0,0.12
+11-9051.00,Food Service Managers,06/2010,08/2025,3.88,3.88,0.0,3.5,4.0,0.5
+11-9081.00,Lodging Managers,06/2010,07/2017,4.12,4.0,-0.12,4.0,4.0,0.0
+11-9121.00,Natural Sciences Managers,06/2010,08/2021,4.12,3.88,-0.24,4.38,4.25,-0.13
+11-9199.01,Regulatory Affairs Managers,06/2010,08/2024,4.0,4.0,0.0,4.0,4.12,0.12
+13-1041.01,Environmental Compliance Inspectors,06/2010,08/2021,3.88,3.88,0.0,4.25,4.25,0.0
+13-1041.03,Equal Opportunity Representatives and Officers,06/2010,07/2015,4.25,4.0,-0.25,4.38,4.25,-0.13
+13-1041.04,Government Property Inspectors and Investigators,06/2010,07/2016,4.25,4.0,-0.25,4.25,4.12,-0.13
+13-1041.06,Coroners,06/2010,08/2024,3.75,4.12,0.37,4.25,4.0,-0.25
+13-1051.00,Cost Estimators,06/2010,08/2023,3.75,3.88,0.13,3.88,4.0,0.12
+13-2053.00,Insurance Underwriters,06/2010,08/2018,3.75,3.62,-0.13,3.75,3.62,-0.13
+13-2099.04,"Fraud Examiners, Investigators and Analysts",06/2010,08/2026,4.0,4.12,0.12,4.12,4.12,0.0
+15-2041.01,Biostatisticians,06/2010,08/2021,3.5,4.0,0.5,4.25,4.5,0.25
+17-1011.00,"Architects, Except Landscape and Naval",06/2010,08/2026,4.0,4.0,0.0,4.25,4.12,-0.13
+17-1022.00,Surveyors,06/2010,08/2023,3.62,3.62,0.0,3.5,3.88,0.38
+17-1022.01,Geodetic Surveyors,06/2010,08/2022,3.38,3.38,0.0,4.12,3.88,-0.24
+17-2021.00,Agricultural Engineers,06/2010,08/2024,3.75,4.0,0.25,3.75,4.0,0.25
+17-2041.00,Chemical Engineers,06/2010,08/2025,3.5,3.5,0.0,4.0,4.0,0.0
+17-2111.02,Fire-Prevention and Protection Engineers,06/2010,08/2025,3.88,4.0,0.12,4.12,4.0,-0.12
+17-3013.00,Mechanical Drafters,06/2010,08/2026,3.12,3.12,0.0,3.5,3.75,0.25
+19-1011.00,Animal Scientists,06/2010,08/2022,3.88,3.88,0.0,4.12,4.12,0.0
+19-1012.00,Food Scientists and Technologists,06/2010,08/2025,3.75,3.88,0.13,3.75,4.0,0.25
+19-1022.00,Microbiologists,06/2010,08/2024,3.62,3.88,0.26,4.0,4.0,0.0
+19-1029.02,Molecular and Cellular Biologists,06/2010,08/2021,3.75,4.0,0.25,4.62,4.75,0.13
+19-1029.03,Geneticists,06/2010,08/2021,4.0,4.0,0.0,4.12,4.12,0.0
+19-1031.02,Range Managers,06/2010,08/2026,3.88,4.0,0.12,4.0,4.0,0.0
+19-1031.03,Park Naturalists,06/2010,08/2026,4.12,4.0,-0.12,3.75,4.12,0.37
+19-3041.00,Sociologists,06/2010,08/2023,4.25,4.12,-0.13,4.5,4.62,0.12
+19-4051.02,Nuclear Monitoring Technicians,06/2010,07/2014,3.38,3.5,0.12,3.38,3.38,0.0
+19-4092.00,Forensic Science Technicians,06/2010,08/2023,3.75,4.0,0.25,4.38,4.12,-0.26
+21-1011.00,Substance Abuse and Behavioral Disorder Counselors,06/2010,08/2026,4.0,4.12,0.12,3.88,4.12,0.24
+21-1023.00,Mental Health and Substance Abuse Social Workers,06/2010,08/2021,4.12,4.12,0.0,4.25,4.0,-0.25
+21-1092.00,Probation Officers and Correctional Treatment Specialists,06/2010,08/2020,4.38,4.0,-0.38,4.12,4.0,-0.12
+21-2011.00,Clergy,06/2010,08/2023,4.5,4.75,0.25,4.75,4.75,0.0
+23-1022.00,"Arbitrators, Mediators, and Conciliators",06/2010,08/2024,4.38,4.12,-0.26,4.38,4.88,0.5
+25-4011.00,Archivists,06/2010,08/2024,3.25,3.5,0.25,3.75,3.88,0.13
+27-1023.00,Floral Designers,06/2010,08/2026,4.0,3.62,-0.38,3.5,3.0,-0.5
+27-1024.00,Graphic Designers,06/2010,08/2023,3.38,3.38,0.0,3.25,3.75,0.5
+27-1026.00,Merchandise Displayers and Window Trimmers,06/2010,07/2015,3.5,3.25,-0.25,3.12,3.25,0.13
+27-2012.04,Talent Directors,06/2010,08/2019,4.0,4.0,0.0,3.88,4.0,0.12
+27-2021.00,Athletes and Sports Competitors,06/2010,07/2016,3.62,3.88,0.26,3.0,3.0,0.0
+27-3042.00,Technical Writers,06/2010,07/2012,3.75,3.75,0.0,3.88,3.75,-0.13
+27-3043.05,"Poets, Lyricists and Creative Writers",06/2010,08/2024,3.5,3.88,0.38,3.88,3.88,0.0
+29-1023.00,Orthodontists,06/2010,08/2023,4.0,4.0,0.0,4.0,4.0,0.0
+29-1031.00,Dietitians and Nutritionists,06/2010,08/2021,4.0,4.0,0.0,4.38,4.12,-0.26
+29-1041.00,Optometrists,06/2010,08/2021,3.5,4.0,0.5,3.75,4.0,0.25
+29-1071.00,Physician Assistants,06/2010,08/2021,4.12,4.0,-0.12,4.0,4.0,0.0
+29-1081.00,Podiatrists,06/2010,08/2022,4.12,4.0,-0.12,4.25,4.12,-0.13
+29-1122.01,"Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation Therapists",06/2010,08/2021,4.0,4.0,0.0,3.75,4.0,0.25
+29-1126.00,Respiratory Therapists,06/2010,08/2026,4.0,3.88,-0.12,3.88,4.12,0.24
+29-1127.00,Speech-Language Pathologists,06/2010,08/2022,4.0,4.0,0.0,4.38,4.25,-0.13
+29-2011.00,Medical and Clinical Laboratory Technologists,06/2010,08/2025,3.25,3.12,-0.13,3.5,3.75,0.25
+29-2011.02,Cytotechnologists,06/2010,08/2021,3.25,3.12,-0.13,3.38,3.38,0.0
+29-2012.00,Medical and Clinical Laboratory Technicians,06/2010,08/2026,3.38,3.12,-0.26,3.38,3.0,-0.38
+31-2021.00,Physical Therapist Assistants,06/2010,08/2020,3.75,3.75,0.0,3.88,3.88,0.0
+31-2022.00,Physical Therapist Aides,06/2010,08/2023,3.25,3.0,-0.25,3.0,3.0,0.0
+31-9093.00,Medical Equipment Preparers,06/2010,07/2014,3.12,3.12,0.0,2.75,2.75,0.0
+31-9095.00,Pharmacy Aides,06/2010,07/2014,3.5,3.38,-0.12,3.0,2.88,-0.12
+33-3011.00,Bailiffs,06/2010,08/2020,3.88,3.38,-0.5,2.5,3.0,0.5
+33-3021.02,Police Identification and Records Officers,06/2010,08/2025,3.62,3.88,0.26,3.88,3.88,0.0
+33-3031.00,Fish and Game Wardens,06/2010,08/2026,3.75,3.88,0.13,3.38,3.88,0.5
+33-3052.00,Transit and Railroad Police,06/2010,07/2017,3.75,4.0,0.25,3.75,3.88,0.13
+33-9011.00,Animal Control Workers,06/2010,08/2025,3.62,3.62,0.0,3.38,3.12,-0.26
+35-2012.00,"Cooks, Institution and Cafeteria",06/2010,08/2019,3.0,3.12,0.12,2.75,2.88,0.13
+35-2015.00,"Cooks, Short Order",06/2010,08/2025,3.0,3.0,0.0,2.62,2.5,-0.12
+35-2021.00,Food Preparation Workers,06/2010,08/2024,2.88,2.88,0.0,2.0,2.12,0.12
+35-3011.00,Bartenders,06/2010,07/2017,3.38,3.12,-0.26,3.12,3.0,-0.12
+35-3031.00,Waiters and Waitresses,06/2010,08/2025,3.62,3.5,-0.12,2.25,2.62,0.37
+35-9021.00,Dishwashers,06/2010,08/2025,2.5,2.5,0.0,1.75,2.0,0.25
+35-9031.00,"Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop",06/2010,08/2025,3.38,3.12,-0.26,2.88,2.88,0.0
+37-2011.00,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners",06/2010,08/2023,2.62,3.0,0.38,2.12,2.12,0.0
+37-3011.00,Landscaping and Groundskeeping Workers,06/2010,08/2026,3.0,2.38,-0.62,2.5,1.88,-0.62
+39-3021.00,Motion Picture Projectionists,06/2010,08/2020,2.88,3.0,0.12,2.62,2.88,0.26
+39-3093.00,"Locker Room, Coatroom, and Dressing Room Attendants",06/2010,08/2026,3.88,3.38,-0.5,2.75,2.88,0.13
+39-4011.00,Embalmers,06/2010,08/2021,3.75,3.88,0.13,3.38,3.75,0.37
+39-5091.00,"Makeup Artists, Theatrical and Performance",06/2010,08/2025,3.38,3.75,0.37,3.0,3.12,0.12
+39-5092.00,Manicurists and Pedicurists,06/2010,07/2015,3.25,3.0,-0.25,2.5,2.62,0.12
+39-5093.00,Shampooers,06/2010,06/2010,3.25,3.25,0.0,2.5,2.5,0.0
+39-6011.00,Baggage Porters and Bellhops,06/2010,08/2018,3.62,3.62,0.0,2.38,2.62,0.24
+39-9011.01,Nannies,06/2010,08/2023,4.12,3.75,-0.37,3.25,3.0,-0.25
+39-9032.00,Recreation Workers,06/2010,07/2017,3.88,4.0,0.12,3.5,4.0,0.5
+41-2022.00,Parts Salespersons,06/2010,08/2023,4.25,4.0,-0.25,3.38,3.38,0.0
+41-4012.00,"Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",06/2010,08/2020,4.25,4.0,-0.25,3.75,4.0,0.25
+41-9011.00,Demonstrators and Product Promoters,06/2010,07/2016,3.75,3.88,0.13,3.62,3.88,0.26
+41-9021.00,Real Estate Brokers,06/2010,08/2026,4.25,4.0,-0.25,4.0,4.0,0.0
+41-9031.00,Sales Engineers,06/2010,08/2022,4.12,4.12,0.0,4.38,4.25,-0.13
+41-9091.00,"Door-to-Door Sales Workers, News and Street Vendors, and Related Workers",06/2010,08/2018,4.0,4.0,0.0,3.38,3.38,0.0
+43-2011.00,"Switchboard Operators, Including Answering Service",06/2010,08/2022,3.88,3.88,0.0,2.62,2.88,0.26
+43-3031.00,"Bookkeeping, Accounting, and Auditing Clerks",06/2010,07/2017,3.38,3.12,-0.26,3.38,3.12,-0.26
+43-3061.00,Procurement Clerks,06/2010,08/2022,4.12,4.0,-0.12,3.5,3.88,0.38
+43-3071.00,Tellers,06/2010,08/2018,3.38,3.25,-0.13,3.12,3.0,-0.12
+43-4061.00,"Eligibility Interviewers, Government Programs",06/2010,08/2023,4.5,4.25,-0.25,4.12,4.25,0.13
+43-4071.00,File Clerks,06/2010,08/2025,3.38,3.25,-0.13,2.62,3.0,0.38
+43-4111.00,"Interviewers, Except Eligibility and Loan",06/2010,08/2021,3.62,3.88,0.26,3.88,4.0,0.12
+43-4131.00,Loan Interviewers and Clerks,06/2010,07/2017,4.25,4.0,-0.25,3.88,4.0,0.12
+43-5032.00,"Dispatchers, Except Police, Fire, and Ambulance",06/2010,08/2021,4.12,4.0,-0.12,3.75,3.88,0.13
+43-5041.00,"Meter Readers, Utilities",06/2010,08/2026,3.12,3.0,-0.12,2.5,3.0,0.5
+43-5061.00,"Production, Planning, and Expediting Clerks",06/2010,08/2022,3.5,3.62,0.12,3.38,3.12,-0.26
+43-9021.00,Data Entry Keyers,06/2010,08/2018,3.38,2.88,-0.5,3.0,3.0,0.0
+43-9031.00,Desktop Publishers,06/2010,08/2021,3.5,3.5,0.0,3.62,3.62,0.0
+43-9071.00,"Office Machine Operators, Except Computer",06/2010,07/2017,3.0,3.0,0.0,2.5,3.0,0.5
+43-9111.00,Statistical Assistants,06/2010,07/2015,3.5,3.38,-0.12,3.62,3.75,0.13
+45-2011.00,Agricultural Inspectors,06/2010,07/2013,3.5,3.5,0.0,4.0,3.88,-0.12
+45-2041.00,"Graders and Sorters, Agricultural Products",06/2010,07/2017,2.75,2.75,0.0,2.25,2.25,0.0
+45-4021.00,Fallers,06/2010,08/2026,2.62,2.62,0.0,2.38,2.12,-0.26
+45-4023.00,Log Graders and Scalers,06/2010,07/2017,3.5,3.12,-0.38,2.88,2.88,0.0
+47-2011.00,Boilermakers,06/2010,08/2025,2.88,3.0,0.12,2.75,3.0,0.25
+47-2022.00,Stonemasons,06/2010,08/2025,3.0,3.0,0.0,2.62,2.5,-0.12
+47-2041.00,Carpet Installers,06/2010,07/2011,3.25,2.88,-0.37,2.5,2.25,-0.25
+47-2042.00,"Floor Layers, Except Carpet, Wood, and Hard Tiles",06/2010,06/2010,3.12,3.12,0.0,2.62,2.62,0.0
+47-2043.00,Floor Sanders and Finishers,06/2010,08/2021,2.75,2.75,0.0,2.38,2.25,-0.13
+47-2053.00,Terrazzo Workers and Finishers,06/2010,07/2015,3.0,2.88,-0.12,2.12,2.0,-0.12
+47-2073.00,Operating Engineers and Other Construction Equipment Operators,06/2010,08/2020,3.12,2.88,-0.24,2.5,2.5,0.0
+47-2082.00,Tapers,06/2010,08/2026,2.88,2.62,-0.26,2.25,2.0,-0.25
+47-2111.00,Electricians,06/2010,08/2022,3.12,3.38,0.26,3.12,3.12,0.0
+47-2121.00,Glaziers,06/2010,08/2023,3.12,3.0,-0.12,2.62,2.88,0.26
+47-2131.00,"Insulation Workers, Floor, Ceiling, and Wall",06/2010,07/2015,2.75,3.0,0.25,2.0,2.25,0.25
+47-2132.00,"Insulation Workers, Mechanical",06/2010,08/2023,3.0,2.88,-0.12,2.75,2.62,-0.13
+47-2141.00,"Painters, Construction and Maintenance",06/2010,08/2025,2.62,2.38,-0.24,2.12,2.0,-0.12
+47-2151.00,Pipelayers,06/2010,08/2025,2.75,3.0,0.25,2.62,2.88,0.26
+47-2161.00,Plasterers and Stucco Masons,06/2010,07/2015,3.12,2.88,-0.24,2.38,2.12,-0.26
+47-2221.00,Structural Iron and Steel Workers,06/2010,08/2026,3.0,2.88,-0.12,2.38,2.38,0.0
+47-4011.00,Construction and Building Inspectors,06/2010,08/2024,3.62,3.75,0.13,3.5,3.88,0.38
+47-4071.00,Septic Tank Servicers and Sewer Pipe Cleaners,06/2010,07/2017,3.12,2.75,-0.37,2.25,2.5,0.25
+47-5071.00,"Roustabouts, Oil and Gas",06/2010,08/2023,3.12,2.75,-0.37,2.38,2.0,-0.38
+49-2011.00,"Computer, Automated Teller, and Office Machine Repairers",06/2010,07/2015,3.38,3.25,-0.13,3.0,3.0,0.0
+49-2091.00,Avionics Technicians,06/2010,07/2015,3.62,3.38,-0.24,3.12,3.0,-0.12
+49-2092.00,"Electric Motor, Power Tool, and Related Repairers",06/2010,07/2017,3.0,3.0,0.0,2.75,3.0,0.25
+49-2093.00,"Electrical and Electronics Installers and Repairers, Transportation Equipment",06/2010,08/2019,3.0,3.0,0.0,2.75,3.0,0.25
+49-2094.00,"Electrical and Electronics Repairers, Commercial and Industrial Equipment",06/2010,08/2021,3.12,3.12,0.0,3.25,3.12,-0.13
+49-2095.00,"Electrical and Electronics Repairers, Powerhouse, Substation, and Relay",06/2010,07/2017,3.25,3.12,-0.13,2.88,2.88,0.0
+49-2096.00,"Electronic Equipment Installers and Repairers, Motor Vehicles",06/2010,07/2016,3.38,3.0,-0.38,3.12,3.0,-0.12
+49-2098.00,Security and Fire Alarm Systems Installers,06/2010,07/2015,3.12,3.38,0.26,3.12,3.0,-0.12
+49-3011.00,Aircraft Mechanics and Service Technicians,06/2010,08/2025,3.5,3.25,-0.25,3.25,3.25,0.0
+49-3021.00,Automotive Body and Related Repairers,06/2010,08/2019,3.0,3.0,0.0,2.5,2.75,0.25
+49-3022.00,Automotive Glass Installers and Repairers,06/2010,07/2014,3.12,3.0,-0.12,2.5,2.62,0.12
+49-3043.00,Rail Car Repairers,06/2010,08/2019,2.88,3.0,0.12,2.38,2.38,0.0
+49-3052.00,Motorcycle Mechanics,06/2010,08/2021,3.38,3.12,-0.26,2.62,3.0,0.38
+49-3091.00,Bicycle Repairers,06/2010,08/2026,3.38,3.0,-0.38,2.75,3.0,0.25
+49-3093.00,Tire Repairers and Changers,06/2010,08/2026,2.88,2.75,-0.13,2.25,2.12,-0.13
+49-9012.00,"Control and Valve Installers and Repairers, Except Mechanical Door",06/2010,07/2017,2.88,3.12,0.24,2.62,3.0,0.38
+49-9031.00,Home Appliance Repairers,06/2010,08/2018,3.5,3.5,0.0,2.88,3.0,0.12
+49-9043.00,"Maintenance Workers, Machinery",06/2010,08/2024,2.75,2.88,0.13,2.5,2.75,0.25
+49-9044.00,Millwrights,06/2010,08/2024,3.12,3.0,-0.12,2.62,3.0,0.38
+49-9051.00,Electrical Power-Line Installers and Repairers,06/2010,08/2021,3.25,2.88,-0.37,2.75,2.88,0.13
+49-9061.00,Camera and Photographic Equipment Repairers,06/2010,07/2015,2.88,3.0,0.12,2.62,3.0,0.38
+49-9062.00,Medical Equipment Repairers,06/2010,08/2023,2.88,2.88,0.0,3.12,3.0,-0.12
+49-9063.00,Musical Instrument Repairers and Tuners,06/2010,08/2025,3.12,3.0,-0.12,2.5,3.0,0.5
+49-9091.00,"Coin, Vending, and Amusement Machine Servicers and Repairers",06/2010,07/2017,3.0,2.88,-0.12,2.5,2.62,0.12
+49-9095.00,Manufactured Building and Mobile Home Installers,06/2010,06/2010,3.38,3.38,0.0,2.88,2.88,0.0
+49-9096.00,Riggers,06/2010,08/2020,2.88,3.0,0.12,2.5,2.75,0.25
+49-9097.00,Signal and Track Switch Repairers,06/2010,08/2021,3.0,2.88,-0.12,2.38,2.5,0.12
+51-2011.00,"Aircraft Structure, Surfaces, Rigging, and Systems Assemblers",06/2010,07/2015,2.88,3.0,0.12,2.75,3.0,0.25
+51-2021.00,"Coil Winders, Tapers, and Finishers",06/2010,07/2017,2.75,2.88,0.13,2.5,2.5,0.0
+51-2022.00,Electrical and Electronic Equipment Assemblers,06/2010,08/2026,3.38,2.62,-0.76,2.88,2.62,-0.26
+51-2023.00,Electromechanical Equipment Assemblers,06/2010,07/2017,2.88,3.0,0.12,2.62,2.62,0.0
+51-2031.00,Engine and Other Machine Assemblers,06/2010,07/2014,2.88,3.0,0.12,2.62,2.88,0.26
+51-3021.00,Butchers and Meat Cutters,06/2010,07/2016,3.12,3.0,-0.12,2.62,3.0,0.38
+51-3091.00,"Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders",06/2010,07/2017,3.0,3.0,0.0,2.62,2.88,0.26
+51-3092.00,Food Batchmakers,06/2010,08/2021,2.75,3.0,0.25,2.62,3.0,0.38
+51-3093.00,Food Cooking Machine Operators and Tenders,06/2010,08/2021,2.88,2.62,-0.26,2.12,2.38,0.26
+51-4021.00,"Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",06/2010,08/2026,2.88,3.0,0.12,2.62,2.62,0.0
+51-4022.00,"Forging Machine Setters, Operators, and Tenders, Metal and Plastic",06/2010,08/2026,3.0,2.88,-0.12,2.62,2.88,0.26
+51-4031.00,"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",06/2010,08/2025,3.0,3.0,0.0,2.88,2.88,0.0
+51-4032.00,"Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",06/2010,08/2022,2.75,3.0,0.25,2.75,3.0,0.25
+51-4033.00,"Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",06/2010,08/2026,3.0,2.75,-0.25,2.5,2.62,0.12
+51-4034.00,"Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic",06/2010,08/2024,2.75,2.75,0.0,2.62,2.62,0.0
+51-4035.00,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",06/2010,08/2023,3.0,2.88,-0.12,2.5,2.5,0.0
+51-4051.00,Metal-Refining Furnace Operators and Tenders,06/2010,08/2018,2.88,3.0,0.12,2.5,2.88,0.38
+51-4052.00,"Pourers and Casters, Metal",06/2010,08/2024,2.75,2.75,0.0,2.5,2.75,0.25
+51-4062.00,"Patternmakers, Metal and Plastic",06/2010,08/2026,2.88,3.0,0.12,2.75,2.88,0.13
+51-4071.00,Foundry Mold and Coremakers,06/2010,08/2023,2.62,2.62,0.0,1.88,1.88,0.0
+51-4072.00,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",06/2010,07/2016,2.88,3.0,0.12,2.25,2.38,0.13
+51-4081.00,"Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic",06/2010,08/2021,3.0,3.0,0.0,3.0,2.88,-0.12
+51-4111.00,Tool and Die Makers,06/2010,08/2021,2.62,2.88,0.26,2.38,2.75,0.37
+51-4194.00,"Tool Grinders, Filers, and Sharpeners",06/2010,08/2026,2.88,2.88,0.0,2.5,2.25,-0.25
+51-6021.00,"Pressers, Textile, Garment, and Related Materials",06/2010,07/2017,2.25,2.12,-0.13,1.75,2.0,0.25
+51-6031.00,Sewing Machine Operators,06/2010,07/2017,2.38,2.12,-0.26,2.0,1.88,-0.12
+51-6042.00,Shoe Machine Operators and Tenders,06/2010,08/2024,2.88,2.75,-0.13,2.62,2.75,0.13
+51-6051.00,"Sewers, Hand",06/2010,08/2024,2.62,2.62,0.0,1.88,1.88,0.0
+51-6052.00,"Tailors, Dressmakers, and Custom Sewers",06/2010,08/2020,2.88,3.0,0.12,2.75,2.88,0.13
+51-6061.00,Textile Bleaching and Dyeing Machine Operators and Tenders,06/2010,08/2023,3.0,2.88,-0.12,2.62,2.75,0.13
+51-6062.00,"Textile Cutting Machine Setters, Operators, and Tenders",06/2010,08/2019,3.0,3.0,0.0,2.12,2.12,0.0
+51-6063.00,"Textile Knitting and Weaving Machine Setters, Operators, and Tenders",06/2010,08/2023,2.88,2.88,0.0,2.5,2.38,-0.12
+51-6091.00,"Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers",06/2010,08/2019,3.12,3.0,-0.12,2.62,2.88,0.26
+51-6092.00,Fabric and Apparel Patternmakers,06/2010,07/2016,3.25,3.12,-0.13,3.0,3.0,0.0
+51-6093.00,Upholsterers,06/2010,07/2016,3.0,3.0,0.0,2.62,2.88,0.26
+51-7011.00,Cabinetmakers and Bench Carpenters,06/2010,08/2026,2.88,2.88,0.0,2.62,2.88,0.26
+51-7021.00,Furniture Finishers,06/2010,07/2017,3.0,3.0,0.0,2.25,2.38,0.13
+51-7031.00,"Model Makers, Wood",06/2010,08/2024,3.12,3.0,-0.12,2.88,2.88,0.0
+51-7032.00,"Patternmakers, Wood",06/2010,08/2021,2.75,2.88,0.13,2.25,2.5,0.25
+51-8012.00,Power Distributors and Dispatchers,06/2010,08/2024,3.62,3.5,-0.12,3.25,3.38,0.13
+51-8013.00,Power Plant Operators,06/2010,08/2024,3.62,3.38,-0.24,3.0,3.0,0.0
+51-8092.00,Gas Plant Operators,06/2010,08/2023,3.25,3.0,-0.25,3.25,3.0,-0.25
+51-9011.00,Chemical Equipment Operators and Tenders,06/2010,08/2026,3.25,2.88,-0.37,2.88,2.88,0.0
+51-9012.00,"Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and Tenders",06/2010,07/2015,3.12,2.88,-0.24,2.62,2.88,0.26
+51-9021.00,"Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders",06/2010,08/2024,3.25,3.0,-0.25,3.0,2.88,-0.12
+51-9023.00,"Mixing and Blending Machine Setters, Operators, and Tenders",06/2010,08/2023,3.12,3.0,-0.12,2.38,2.75,0.37
+51-9031.00,"Cutters and Trimmers, Hand",06/2010,08/2019,2.75,2.88,0.13,2.38,2.12,-0.26
+51-9032.00,"Cutting and Slicing Machine Setters, Operators, and Tenders",06/2010,08/2026,2.88,2.75,-0.13,2.62,2.62,0.0
+51-9061.00,"Inspectors, Testers, Sorters, Samplers, and Weighers",06/2010,08/2020,3.25,3.12,-0.13,3.0,3.0,0.0
+51-9071.06,Gem and Diamond Workers,06/2010,08/2026,3.12,3.0,-0.12,3.0,3.0,0.0
+51-9081.00,Dental Laboratory Technicians,06/2010,08/2022,2.88,3.0,0.12,2.62,3.0,0.38
+51-9111.00,Packaging and Filling Machine Operators and Tenders,06/2010,07/2017,2.88,2.75,-0.13,2.38,2.25,-0.13
+51-9192.00,"Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders",06/2010,07/2017,2.62,2.88,0.26,2.25,2.25,0.0
+51-9195.03,"Stone Cutters and Carvers, Manufacturing",06/2010,07/2015,2.5,2.88,0.38,2.38,2.38,0.0
+51-9195.04,"Glass Blowers, Molders, Benders, and Finishers",06/2010,08/2026,3.12,3.0,-0.12,2.75,3.0,0.25
+51-9195.05,"Potters, Manufacturing",06/2010,08/2020,2.88,2.88,0.0,2.88,2.88,0.0
+51-9196.00,"Paper Goods Machine Setters, Operators, and Tenders",06/2010,08/2018,2.88,3.0,0.12,2.5,2.75,0.25
+53-3011.00,"Ambulance Drivers and Attendants, Except Emergency Medical Technicians",06/2010,08/2026,3.38,3.38,0.0,2.88,3.25,0.37
+53-4011.00,Locomotive Engineers,06/2010,08/2026,3.25,3.38,0.13,3.0,3.0,0.0
+53-4013.00,"Rail Yard Engineers, Dinkey Operators, and Hostlers",06/2010,08/2021,3.5,3.5,0.0,2.62,3.12,0.5
+53-5031.00,Ship Engineers,06/2010,08/2024,3.5,3.5,0.0,3.12,3.0,-0.12
+53-6041.00,Traffic Technicians,06/2010,07/2016,3.38,3.25,-0.13,3.38,3.38,0.0
+53-6051.01,Aviation Inspectors,06/2010,08/2021,3.75,3.88,0.13,3.5,4.0,0.5
+53-7011.00,Conveyor Operators and Tenders,06/2010,07/2017,3.0,3.0,0.0,3.0,2.88,-0.12
+53-7021.00,Crane and Tower Operators,06/2010,07/2015,3.0,3.0,0.0,2.5,2.88,0.38
+53-7041.00,Hoist and Winch Operators,06/2010,06/2010,3.12,3.12,0.0,2.25,2.25,0.0
+53-7051.00,Industrial Truck and Tractor Operators,06/2010,08/2021,2.75,2.75,0.0,2.12,2.0,-0.12
+53-7061.00,Cleaners of Vehicles and Equipment,06/2010,08/2022,2.62,2.62,0.0,2.12,1.88,-0.24
+53-7063.00,Machine Feeders and Offbearers,06/2010,07/2016,2.88,2.75,-0.13,2.5,2.62,0.12
+53-7064.00,"Packers and Packagers, Hand",06/2010,08/2020,3.0,2.62,-0.38,2.12,2.0,-0.12
+53-7072.00,"Pump Operators, Except Wellhead Pumpers",06/2010,08/2021,3.12,3.12,0.0,2.62,2.88,0.26
+53-7073.00,Wellhead Pumpers,06/2010,08/2019,3.12,3.0,-0.12,2.88,3.0,0.12
+53-7081.00,Refuse and Recyclable Material Collectors,06/2010,08/2023,3.0,2.88,-0.12,2.38,2.0,-0.38

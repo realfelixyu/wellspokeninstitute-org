@@ -28,7 +28,7 @@ export default function MissionPage() {
         <h2>Why this matters</h2>
         <p>
           Speaking is part of almost every job. In our analysis of U.S. Department of Labor ratings,{" "}
-          {w.pctSpeakingImportantOrHigher}% of workers are in occupations where speaking is rated at least
+          {w.pctSpeakingImportantOrHigher}% of the jobs we could match are in occupations where speaking is rated at least
           &ldquo;important,&rdquo; and speaking is rated more important than writing in{" "}
           {SPEAKING_SUMMARY.skills?.pctSpeakingAboveWriting}% of occupations (
           <Link href="/research/speaking-at-work-2026">see the data brief</Link>).

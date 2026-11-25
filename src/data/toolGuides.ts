@@ -9,7 +9,7 @@ export const TOOL_GUIDES: Record<string, GuideSection[]> = {
       heading: "How to use it",
       paragraphs: [
         "Paste a passage you plan to say, press start, read it aloud at your natural pace, and press stop. The calculator divides the number of words by the time you took. You can also type the number of seconds if you timed yourself elsewhere.",
-        "Read the same passage two or three times. Your first run is usually faster than your real delivery because you are focused on the clock.",
+        "Repeat the passage after marking places to pause. Compare the two times.",
       ],
     },
     {
@@ -39,14 +39,14 @@ export const TOOL_GUIDES: Record<string, GuideSection[]> = {
     {
       heading: "How to get a transcript",
       paragraphs: [
-        "Record yourself answering a question or giving a short talk, then use any speech-to-text feature (many phones and video call apps have one) to get a transcript. Paste it here. Some transcription tools remove fillers automatically, so check that yours keeps them.",
+        "Paste a transcript, or start dictation if your browser offers English speech recognition on this device. The counter matches a short list of words and phrases. Transcription can drop “um” and “uh,” so compare highlighted words with what you remember saying.",
       ],
     },
     {
       heading: "Should you eliminate filler words?",
       paragraphs: [
-        "Not entirely. Words like um and uh are a normal part of spontaneous speech, and a few of them rarely bother listeners. What tends to distract people is a high rate, or fillers clustered at the start of every sentence.",
-        "The most reliable replacement for a filler is a short silent pause. Practice pausing on purpose at the end of a thought, and many fillers disappear on their own.",
+        "Words like “um” and “uh” occur in ordinary conversation. Check the context before deciding which words you would change. “Like” in “I like music” and “like” in “It took, like, an hour” do different jobs.",
+        "Listen back to a sentence with several fillers. Try saying it again with a silent pause where you need time to plan.",
       ],
     },
   ],
@@ -55,7 +55,7 @@ export const TOOL_GUIDES: Record<string, GuideSection[]> = {
       heading: "Why time your answers",
       paragraphs: [
         "Interview answers that run too short can sound unprepared, and answers that run too long lose the listener. Practicing with a timer helps you find a length that includes your main point, one concrete example, and a clear finish.",
-        "The time targets here are practical practice ranges, not strict rules. Behavioral questions that ask for an example usually need more time than simple fact questions.",
+        "The timer uses editorial rehearsal targets. The Institute has not published interview-length norms. Behavioral questions that ask for an example usually need more time than simple fact questions.",
       ],
     },
     {
@@ -65,21 +65,19 @@ export const TOOL_GUIDES: Record<string, GuideSection[]> = {
       ],
     },
   ],
-  "public-speaking-anxiety-self-check": [
-    {
-      heading: "About this self-check",
-      paragraphs: [
-        "This is a reflection exercise to help you notice how speaking affects you. It is not a clinical assessment and it is not a validated research questionnaire. Nothing you select is stored or sent anywhere.",
-      ],
-    },
-    {
-      heading: "What tends to help",
-      paragraphs: [
-        "Nervousness before speaking is extremely common and does not mean you are bad at it. Most people improve with repeated, gradual practice: rehearse out loud, practice in front of one or two supportive people, then take on slightly larger audiences.",
-        "If fear of speaking is limiting your work, studies, or daily life, consider talking to a licensed mental health professional.",
-      ],
-    },
-  ],
+  "public-speaking-anxiety-self-check": [{
+    heading: "How to interpret your score",
+    paragraphs: [
+      "The author’s scoring key reverses 12 of the 34 responses. A higher total reflects more self-reported anxiety about giving speeches. The published cutoffs describe responses to this questionnaire. A clinical diagnosis requires a separate assessment."
+    ],
+  }],
+  "speaking-self-assessment": [{
+    heading: "What the scores mean",
+    paragraphs: [
+      "Each pair of questions concerns one speaking habit. Choices earn zero to three points, giving each habit a score from zero to six. The scores reflect your judgments about recent conversations. They do not measure a speech sample or compare you with other speakers.",
+      "Pick one answer that surprised you. Ask someone who heard you speak last week what they noticed in that moment."
+    ],
+  }],
   "speakability-checker": [
     {
       heading: "Writing for the ear",
@@ -125,4 +123,19 @@ export const TOOL_GUIDES: Record<string, GuideSection[]> = {
       ],
     },
   ],
+};
+
+// Background readings. The exercises and editorial targets are described in each guide.
+export const TOOL_SOURCES: Record<string, string[]> = {
+  "speaking-rate-calculator": ["yuan2006speakingrate"],
+  "speech-length-calculator": ["yuan2006speakingrate", "campione2002pause"],
+  "filler-word-counter": ["bortfeld2001disfluency", "foxtree2001umuh"],
+  "interview-answer-timer": ["dukecareerstar"],
+  "public-speaking-anxiety-self-check": ["mccroskeyprpsa"],
+  "speakability-checker": ["cdcreadability"],
+  "pause-practice": ["campione2002pause"],
+  teleprompter: ["yuan2006speakingrate"],
+  "elevator-pitch-builder": ["dukeelevatorpitch"],
+  "speaking-demand-lookup": ["onet31", "blsoews2025"],
+  "speaking-self-assessment": ["vanginkel2015feedback"],
 };

@@ -1,9 +1,9 @@
 // Builds data/speaking-by-occupation.json from the O*NET 31.0 Database text files.
 // Source: O*NET 31.0 Database by USDOL/ETA, CC BY 4.0. Download db_31_0_text.zip from
-// https://www.onetcenter.org/database.html and unzip into data/raw/onet/.
+// https://www.onetcenter.org/dl_files/database/db_31_0_text.zip and unzip into data/raw/onet/.
 //
 // Wellspoken Institute derives a composite "Speaking Demand Score" from these ratings.
-// The method is documented on /data/speaking-by-occupation/methodology.
+// The method is documented on /data/speaking-by-occupation#method.
 
 import fs from "node:fs";
 import path from "node:path";
