@@ -30,6 +30,11 @@
       "percentChange": 9.7
     },
     {
+      "soc": "11-3121",
+      "title": "Human resources managers",
+      "percentChange": 5.5
+    },
+    {
       "soc": "11-9021",
       "title": "Construction managers",
       "percentChange": 9.1
@@ -243,6 +248,11 @@
       "soc": "29-2043",
       "title": "Paramedics",
       "percentChange": 5.7
+    },
+    {
+      "soc": "31-1131",
+      "title": "Nursing assistants",
+      "percentChange": 2.6
     },
     {
       "soc": "31-9092",

@@ -1,0 +1,80 @@
+{
+  "carpiacclaver2007manner": {
+    "authors": "Carpiac-Claver, M. L., & Levy-Storms, L.",
+    "year": 2007,
+    "title": "In a Manner of Speaking: Communication Between Nurse Aides and Older Adults in Long-Term Care Settings",
+    "container": "Health Communication, 22(1), 59–67",
+    "doi": "10.1080/10410230701310307",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-25",
+      "matched": "In a Manner of Speaking: Communication Between Nurse Aides and Older Adults in Long-Term Care Settings",
+      "fingerprint": "aa68c640a1718d4cf8f0a137dd7433cc784e896bb5505ce9c9e565b243bd3337"
+    }
+  },
+  "burgio2001cometalk": {
+    "authors": "Burgio, L. D., Allen-Burge, R., Roth, D. L., Bourgeois, M. S., Dijkstra, K., Gerstle, J., Jackson, E., & Bankester, L.",
+    "year": 2001,
+    "title": "Come Talk With Me",
+    "container": "The Gerontologist, 41(4), 449–460",
+    "doi": "10.1093/geront/41.4.449",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-25",
+      "matched": "Come Talk With Me",
+      "fingerprint": "b27a8103f13a0d1bbf25a1be386d6f60f0e91bedc91cd385208027a1dbb1ed45"
+    }
+  },
+  "page2016gettoknow": {
+    "authors": "Page, C. G., & Rowles, G. D.",
+    "year": 2016,
+    "title": "“It Doesn't Require Much Effort Once You Get to Know Them”: Certified Nursing Assistants' Views of Communication in Long-Term Care",
+    "container": "Journal of Gerontological Nursing, 42(4), 42–51",
+    "doi": "10.3928/00989134-20160104-01",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-25",
+      "matched": "“It Doesn't Require Much Effort Once You Get to Know Them”: Certified Nursing Assistants' Views of Communication in Long-Term Care",
+      "fingerprint": "673cfbc44ec2c2fed05a4e43565c71a060dec9b4647997e59a44b9d9acae44a3"
+    }
+  },
+  "campion1988structured": {
+    "authors": "CAMPION, M. A., PURSELL, E. D., BROWN, B. K.",
+    "year": 1988,
+    "title": "STRUCTURED INTERVIEWING: RAISING THE PSYCHOMETRIC PROPERTIES OF THE EMPLOYMENT INTERVIEW",
+    "container": "Personnel Psychology, 41(1), 25-42",
+    "doi": "10.1111/j.1744-6570.1988.tb00630.x",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-25",
+      "matched": "STRUCTURED INTERVIEWING: RAISING THE PSYCHOMETRIC PROPERTIES OF THE EMPLOYMENT INTERVIEW",
+      "fingerprint": "d12352aa2633c3f808c4c1d9e0094a528d9c9217b5d41794fb71082802347edf"
+    }
+  },
+  "wingate2024interviews": {
+    "authors": "Wingate, T. G., Bourdage, J. S.",
+    "year": 2024,
+    "title": "What are interviews for? A qualitative study of employment interview goals and design",
+    "container": "Human Resource Management, 63(4), 555-580",
+    "doi": "10.1002/hrm.22215",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-25",
+      "matched": "What are interviews for? A qualitative study of employment interview goals and design",
+      "fingerprint": "53606d0c28073f4bd72551c6dd88b904cfadebaa07cce1a518c8978ebe98f06b"
+    }
+  },
+  "richter2016badnews": {
+    "authors": "Richter, M., König, C. J., Koppermann, C., Schilling, M.",
+    "year": 2016,
+    "title": "Displaying fairness while delivering bad news: Testing the effectiveness of organizational bad news training in the layoff context.",
+    "container": "Journal of Applied Psychology, 101(6), 779-792",
+    "doi": "10.1037/apl0000087",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-25",
+      "matched": "Displaying fairness while delivering bad news: Testing the effectiveness of organizational bad news training in the layoff context.",
+      "fingerprint": "3211a4218995b48915cdebb0fe377e491bcf9122e7d8a0d7d69e00b477cfb3ce"
+    }
+  }
+}
