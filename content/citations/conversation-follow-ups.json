@@ -8,8 +8,8 @@
     "verified": {
       "method": "crossref",
       "date": "2026-11-27",
-      "matched": "It doesn’t hurt to ask: Question-asking increases liking",
-      "fingerprint": "31e07e588ed047299f6811d103729021437d7aef7511a69077df409ba971ed86"
+      "matched": "It doesn’t hurt to ask: Question-asking increases liking.",
+      "fingerprint": "f3a33aad8f80ed2b82175dc4e53a035bc5ee9ccb0d5f7748f32f2f37efadb522"
     }
   },
   "asking2025correction": {
@@ -21,8 +21,8 @@
     "verified": {
       "method": "crossref",
       "date": "2026-11-27",
-      "matched": "Correction to “It doesn’t hurt to ask: Question-asking increases liking” by Huang et al. (2017)",
-      "fingerprint": "7dd5a23fc049871fff7fa840c7cef5e0de3017692414e3435f14d4f89670761c"
+      "matched": "Correction to “It doesn’t hurt to ask: Question-asking increases liking” by Huang et al. (2017).",
+      "fingerprint": "63228ed561a5c019d279a811f9cf9c4d6b1d263c6d38c10d36bd4813e8ed1b42"
     }
   },
   "weger2014active": {
@@ -60,8 +60,8 @@
     "verified": {
       "method": "crossref",
       "date": "2026-11-27",
-      "matched": "Question asking as a dyadic behavior",
-      "fingerprint": "5cecdd885250b9f23fbdfad563ed7c547974c08d5243e1ef52949c0a13ba5e38"
+      "matched": "Question asking as a dyadic behavior.",
+      "fingerprint": "596050eca695b605cd033da6de1e92b5cc311933ff345450bf961aec20b198dc"
     }
   },
   "yeomans2019followup": {
@@ -73,8 +73,8 @@
     "verified": {
       "method": "crossref",
       "date": "2026-11-27",
-      "matched": "It helps to ask: The cumulative benefits of asking follow-up questions",
-      "fingerprint": "76a799587b656566d7d494c661504e63d56973d5dba5abdb3a69d38f40506194"
+      "matched": "It helps to ask: The cumulative benefits of asking follow-up questions.",
+      "fingerprint": "eaf539b64c175bcf19193911e79e83795947946625aad3606ea2a2856ec98eea"
     }
   }
 }
