@@ -35,19 +35,20 @@ export default function AgendaPage() {
           Our draft protocol asks whether a larger trial of speaking-practice schedules is feasible. The proposed
           study would randomly assign 96 adults who use English as an additional language to one of two
           four-week schedules. Both groups would complete twelve 10-minute modules. One group would practice
-          on three separate days each week. The other would do the same work in one weekly sitting.
+          on three nonconsecutive days each week. The other would do the same work in one weekly sitting.
         </p>
         <p>
-          We would track recruitment, attendance, follow-up, usable recordings, whether participants practiced
-          outside their assigned schedule, and whether assessors could guess the assignments. Participants
-          would know their own schedule. Coders and raters would be kept unaware of group and assessment time.
-          An exploratory analysis would count pauses within clauses on an unfamiliar speaking task 28 days
-          after the planned end of practice.
+          We would track recruitment, adherence, follow-up, usable recordings, practice outside the assigned
+          schedule, and whether an assessor learned an assignment or the analyst saw the group key early. Participants
+          would know their own schedule. Coders and raters would assess recordings without knowing the group or
+          assessment time. We would record the raters’ guesses separately. An exploratory analysis would count pauses
+          within clauses on an unfamiliar speaking task 28 days after the planned end of practice.
         </p>
         <p>
-          This is a proposed protocol. Recruitment has not begun. Independent ethics review, investigator
-          sign-off and prospective registration are required before recruitment. We intend to seek journal
-          review through the Registered Report route.
+          Recruitment has not begun. An accountable investigator would sign off on the protocol and obtain
+          independent ethics approval or a waiver for submission. We would register the protocol before
+          recruitment. Under the proposed <a href="https://journals.plos.org/plosone/s/submission-guidelines#loc-registered-reports">PLOS One Registered Report route</a>,
+          recruitment and study-specific data collection would begin only after the journal accepts the protocol.
         </p>
         <h3>Normal ranges for everyday speaking tasks (planned)</h3>
         <p>
