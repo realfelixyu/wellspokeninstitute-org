@@ -1,0 +1,41 @@
+{
+  "endsley1991childcaretransitions": {
+    "authors": "Endsley, R. C., & Minish, P. A.",
+    "year": 1991,
+    "title": "Parent-staff communication in day care centers during morning and afternoon transitions",
+    "container": "Early Childhood Research Quarterly, 6, 119–135",
+    "doi": "10.1016/0885-2006(91)90002-3",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Parent-staff communication in day care centers during morning and afternoon transitions",
+      "fingerprint": "fe1ceede32f0aa6bd7bbd10bdcf12b85f185a0902f865d7036ecd05337b2affb"
+    }
+  },
+  "perlman2012dropoff": {
+    "authors": "Perlman, M., & Fletcher, B. A.",
+    "year": 2012,
+    "title": "Hellos and How Are Yous: Predictors and Correlates of Communication Between Staff and Families During Morning Drop-Off in Child Care Centers",
+    "container": "Early Education and Development, 23(4), 539–557",
+    "doi": "10.1080/10409289.2010.548766",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Hellos and How Are Yous: Predictors and Correlates of Communication Between Staff and Families During Morning Drop-Off in Child Care Centers",
+      "fingerprint": "81d49018e1030a7d776f550cc9cec8e9a30b9014d2a9977334336bcda8e11823"
+    }
+  },
+  "casey2025childcarehandover": {
+    "authors": "Casey, C., Thorpe, K., Houen, S., Zheng, Z., & Staton, S.",
+    "year": 2025,
+    "title": "Policy to practice: drop-off and pick-up times as ‘barometers of quality’ in assessment and rating of Australian early childhood education and care services",
+    "container": "The Australian Educational Researcher, 52, 3421–3444",
+    "doi": "10.1007/s13384-025-00857-x",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Policy to practice: drop-off and pick-up times as ‘barometers of quality’ in assessment and rating of Australian early childhood education and care services",
+      "fingerprint": "7641730cff823509410973b1305ba816827ae6432d6ff5726a4ca5fbdcc1b3eb"
+    }
+  }
+}

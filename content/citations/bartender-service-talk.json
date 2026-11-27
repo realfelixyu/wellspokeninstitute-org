@@ -1,0 +1,41 @@
+{
+  "loth2013barorders": {
+    "authors": "Loth, S., Huth, K., & de Ruiter, J. P.",
+    "year": 2013,
+    "title": "Automatic detection of service initiation signals used in bars",
+    "container": "Frontiers in Psychology, 4, 557",
+    "doi": "10.3389/fpsyg.2013.00557",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Automatic detection of service initiation signals used in bars",
+      "fingerprint": "6774ca2c838deb71995ebfb664b14fff9298fff19d1d627882eb52cb86c7a3f7"
+    }
+  },
+  "toomey1999barpatrons": {
+    "authors": "Toomey, T. L., Wagenaar, A. C., Kilian, G., Fitch, O., Rothstein, C., & Fletcher, L.",
+    "year": 1999,
+    "title": "Alcohol sales to pseudo-intoxicated bar patrons",
+    "container": "Public Health Reports, 114(4), 337–342",
+    "doi": "10.1093/phr/114.4.337",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Research article. Alcohol sales to pseudo-intoxicated bar patrons",
+      "fingerprint": "4f7695a0fc9cf5fcc6c8ba80ea49d3765b3c577b081c1f2c841ee0f6cc8d815f"
+    }
+  },
+  "lenk2018managers": {
+    "authors": "Lenk, K. M., Erickson, D. J., Nelson, T. F., Horvath, K. J., Nederhoff, D. M., Hunt, S. L., Ecklund, A. M., & Toomey, T. L.",
+    "year": 2018,
+    "title": "Changes in alcohol policies and practices in bars and restaurants after completion of manager-focused responsible service training",
+    "container": "Drug and Alcohol Review, 37(3), 356–364",
+    "doi": "10.1111/dar.12629",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Changes in alcohol policies and practices in bars and restaurants after completion of manager‐focused responsible service training",
+      "fingerprint": "206a17cfcd6605c3ea31081c04d394bbb1f8f37c49e8699121c113c0c3f19850"
+    }
+  }
+}

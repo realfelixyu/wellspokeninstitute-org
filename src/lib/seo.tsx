@@ -89,11 +89,11 @@ export function contentMetadata(meta: ContentMeta): Metadata {
     other["citation_author"] = SITE.researchTeamByline;
     other["citation_publication_date"] = meta.publishedAt.replace(/-/g, "/");
     other["citation_publisher"] = SITE.name;
+    other["citation_technical_report_institution"] = SITE.name;
     other["citation_abstract_html_url"] = `${SITE.url}${path}`;
     other["citation_language"] = "en";
     if (meta.pdf) other["citation_pdf_url"] = `${SITE.url}${meta.pdf}`;
     if (meta.doi) other["citation_doi"] = meta.doi;
-    if (meta.kind === "paper" || meta.kind === "study") other["citation_technical_report_institution"] = SITE.name;
   }
   return {
     ...base,

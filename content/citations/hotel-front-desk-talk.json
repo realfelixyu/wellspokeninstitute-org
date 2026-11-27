@@ -1,0 +1,40 @@
+{
+  "blue2003hotelreception": {
+    "authors": "Blue, G. M., & Harun, M.",
+    "year": 2003,
+    "title": "Hospitality language as a professional skill",
+    "container": "English for Specific Purposes, 22(1), 73–91",
+    "doi": "10.1016/S0889-4906(01)00031-X",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Hospitality language as a professional skill",
+      "fingerprint": "d71c14a34f48f6ea025714237d1bf9d00d3e637887be64b2a6ce22dd4328bc71"
+    }
+  },
+  "bengsch2016hoteldesk": {
+    "authors": "Bengsch, G.",
+    "year": 2016,
+    "title": "Interactional structures and engagement in service encounters: An investigation into communication at the hotel front desk",
+    "publisher": "University of York, doctoral thesis",
+    "url": "https://etheses.whiterose.ac.uk/id/eprint/18655/",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-27",
+      "fingerprint": "23f503722d7a184c9a5c203626ebcd40fecc62dc4846d509907c474e0a2c5902"
+    }
+  },
+  "vu2018hotelcurrency": {
+    "authors": "Vu Thi Hong Van",
+    "year": 2018,
+    "title": "An investigation into English language use in the Vietnamese hospitality industry: The language of money exchange",
+    "container": "Ho Chi Minh City Open University Journal of Science – Social Sciences, 8(2), 14–22",
+    "doi": "10.46223/HCMCOUJS.soci.en.8.2.279.2018",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "An investigation into English language use in the Vietnamese hospitality industry: The language of money exchange",
+      "fingerprint": "a64a9cc4ee86274b7f221c26164d598e184fab71b7e0a7e43051a473ff039d53"
+    }
+  }
+}
