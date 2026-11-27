@@ -1,0 +1,67 @@
+{
+  "ren2024disagreement": {
+    "authors": "Ren, Z. B., & Schaumberg, R.",
+    "year": 2024,
+    "title": "Disagreement Gets Mistaken for Bad Listening",
+    "container": "Psychological Science, 35(5), 455–470",
+    "doi": "10.1177/09567976241239935",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Disagreement Gets Mistaken for Bad Listening",
+      "fingerprint": "f9dc456d65f145df554f45cb9d0831f59068f328d1dfd874ce52f86cfd8a301e"
+    }
+  },
+  "yeomans2020receptiveness": {
+    "authors": "Yeomans, M., Minson, J., Collins, H., Chen, F., & Gino, F.",
+    "year": 2020,
+    "title": "Conversational receptiveness: Improving engagement with opposing views",
+    "container": "Organizational Behavior and Human Decision Processes, 160, 131–148",
+    "doi": "10.1016/j.obhdp.2020.03.011",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Conversational receptiveness: Improving engagement with opposing views",
+      "fingerprint": "de4b5c84312ec360e4d7a0bb1c44902f2e3d0ef1eab2fe6e4eecac2ba55462f6"
+    }
+  },
+  "rogers2018conflictperspective": {
+    "authors": "Rogers, S. L., Howieson, J., & Neame, C.",
+    "year": 2018,
+    "title": "I understand you feel that way, but I feel this way: the benefits of I-language and communicating perspective during conflict",
+    "container": "PeerJ, 6, e4831",
+    "doi": "10.7717/peerj.4831",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "I understand you feel that way, but I feel this way: the benefits of I-language and communicating perspective during conflict",
+      "fingerprint": "5304968b3fc3ea6410705e056dbe33b6cb3b97f5b0d6fb391055a71ce5ead211"
+    }
+  },
+  "itzchakov2024listeningdisagreement": {
+    "authors": "Itzchakov, G., Weinstein, N., Leary, M., Saluk, D., & Amar, M.",
+    "year": 2024,
+    "title": "Listening to understand: The role of high-quality listening on speakers’ attitude depolarization during disagreements",
+    "container": "Journal of Personality and Social Psychology, 126(2), 213–239",
+    "doi": "10.1037/pspa0000366",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Listening to understand: The role of high-quality listening on speakers’ attitude depolarization during disagreements.",
+      "fingerprint": "b94ef4ab0623880ae5cd1787536df67a6e824b380f914679b0616ab8a657f810"
+    }
+  },
+  "santoro2025listenforchange": {
+    "authors": "Santoro, E., Broockman, D. E., Kalla, J. L., & Porat, R.",
+    "year": 2025,
+    "title": "Listen for a change? A longitudinal field experiment on listening’s potential to enhance persuasion",
+    "container": "Proceedings of the National Academy of Sciences, 122(8), e2421982122",
+    "doi": "10.1073/pnas.2421982122",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Listen for a change? A longitudinal field experiment on listening’s potential to enhance persuasion",
+      "fingerprint": "7b5813ed43958381dfdd023ea290a73362eceefbacf4c1d03ed5495393d6d967"
+    }
+  }
+}
