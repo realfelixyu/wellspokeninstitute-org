@@ -1,0 +1,54 @@
+{
+  "ritchie2016rehearsal": {
+    "authors": "Ritchie, S. M.",
+    "year": 2016,
+    "title": "Self-assessment of video-recorded presentations: Does it improve skills?",
+    "container": "Active Learning in Higher Education, 17(3), 207–221",
+    "doi": "10.1177/1469787416654807",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Self-assessment of video-recorded presentations: Does it improve skills?",
+      "fingerprint": "1d27c298b0ccc0c0f5ad17cab6f21217be45a3dfff90796de665f5686b22599c"
+    }
+  },
+  "vanginkel2017specificity": {
+    "authors": "van Ginkel, S., Gulikers, J., Biemans, H., & Mulder, M.",
+    "year": 2017,
+    "title": "Fostering oral presentation performance: does the quality of feedback differ when provided by the teacher, peers or peers guided by tutor?",
+    "container": "Assessment & Evaluation in Higher Education, 42(6), 953–966",
+    "doi": "10.1080/02602938.2016.1212984",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Fostering oral presentation performance: does the quality of feedback differ when provided by the teacher, peers or peers guided by tutor?",
+      "fingerprint": "3c57564b34058d7d0722af1bc6f959108e786b49f0fab9a274ac023ed58454e0"
+    }
+  },
+  "mort2010videoreview": {
+    "authors": "Mort, J. R., & Hansen, D. J.",
+    "year": 2010,
+    "title": "First-year Pharmacy Students' Self-Assessment of Communication Skills and the Impact of Video Review",
+    "container": "American Journal of Pharmaceutical Education, 74(5), 78",
+    "doi": "10.5688/aj740578",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "First-year Pharmacy Students' Self-Assessment of Communication Skills and the Impact of Video Review",
+      "fingerprint": "4dc959c508723c635e34f84ba7f40a193d79956add0c20a19e6a4d5ec58ed55a"
+    }
+  },
+  "barry2012groupvideo": {
+    "authors": "Barry, S.",
+    "year": 2012,
+    "title": "A video recording and viewing protocol for student group presentations: Assisting self-assessment through a Wiki environment",
+    "container": "Computers & Education, 59(3), 855–860",
+    "doi": "10.1016/j.compedu.2012.04.008",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "A video recording and viewing protocol for student group presentations: Assisting self-assessment through a Wiki environment",
+      "fingerprint": "941120563d9275a8341c5a4fbce76777f946fd37ce1165d59642d4deaeaf0ca5"
+    }
+  }
+}

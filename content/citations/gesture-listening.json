@@ -1,0 +1,80 @@
+{
+  "sueyoshi2005gestures": {
+    "authors": "Sueyoshi, A., & Hardison, D. M.",
+    "year": 2005,
+    "title": "The Role of Gestures and Facial Cues in Second Language Listening Comprehension",
+    "container": "Language Learning, 55(4), 661-699",
+    "doi": "10.1111/j.0023-8333.2005.00320.x",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "The Role of Gestures and Facial Cues in Second Language Listening Comprehension: Language Learning Vol. 55, No. 4",
+      "fingerprint": "28b2e417a7562c7ef51783bde7a02094bd20690e16aac484c083f0087c478c4c"
+    }
+  },
+  "dahl2014gestures": {
+    "authors": "Dahl, T. I., & Ludvigsen, S.",
+    "year": 2014,
+    "title": "How I See What You're Saying: The Role of Gestures in Native and Foreign Language Listening Comprehension",
+    "container": "The Modern Language Journal, 98(3), 813-833",
+    "doi": "10.1111/j.1540-4781.2014.12124.x",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "How I See What You're Saying: The Role of Gestures in Native and Foreign Language Listening Comprehension: The Modern Language Journal",
+      "fingerprint": "90a5729077766fd1cebc1da6d2f18e4310f21eb50ff52e039eed9dd31afb82a3"
+    }
+  },
+  "hostetter2011gestures": {
+    "authors": "Hostetter, A. B.",
+    "year": 2011,
+    "title": "When do gestures communicate? A meta-analysis",
+    "container": "Psychological Bulletin, 137(2), 297-315",
+    "doi": "10.1037/a0022128",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "When do gestures communicate? A meta-analysis.",
+      "fingerprint": "5f50e9d761edeecb12de883782de876b129cd11b5fc9d23569531e8d29fe3555"
+    }
+  },
+  "kelly2010integrated": {
+    "authors": "Kelly, S. D., Özyürek, A., & Maris, E.",
+    "year": 2010,
+    "title": "Two Sides of the Same Coin: Speech and Gesture Mutually Interact to Enhance Comprehension",
+    "container": "Psychological Science, 21(2), 260-267",
+    "doi": "10.1177/0956797609357327",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Two Sides of the Same Coin: Speech and Gesture Mutually Interact to Enhance Comprehension",
+      "fingerprint": "b1865340bc6733104c2160aceb05f892f1bb3069483ab3f9a8beb0218762b3cc"
+    }
+  },
+  "drijvers2017visual": {
+    "authors": "Drijvers, L., & Özyürek, A.",
+    "year": 2017,
+    "title": "Visual Context Enhanced: The Joint Contribution of Iconic Gestures and Visible Speech to Degraded Speech Comprehension",
+    "container": "Journal of Speech, Language, and Hearing Research, 60(1), 212-222",
+    "doi": "10.1044/2016_JSLHR-H-16-0101",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Visual Context Enhanced: The Joint Contribution of Iconic Gestures and Visible Speech to Degraded Speech Comprehension",
+      "fingerprint": "c48e04b43265bd5e418a27b2efa7c95625ac242687632d6ffdd7a5222acc168c"
+    }
+  },
+  "drijvers2020nonnative": {
+    "authors": "Drijvers, L., & Özyürek, A.",
+    "year": 2020,
+    "title": "Non-native Listeners Benefit Less from Gestures and Visible Speech than Native Listeners During Degraded Speech Comprehension",
+    "container": "Language and Speech, 63(2), 209-220",
+    "doi": "10.1177/0023830919831311",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Non-native Listeners Benefit Less from Gestures and Visible Speech than Native Listeners During Degraded Speech Comprehension",
+      "fingerprint": "c262c7064a40cd48d243d9120f7caedc2a175b90069fce7c85603d9a3ceffb2a"
+    }
+  }
+}

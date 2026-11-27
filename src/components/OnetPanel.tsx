@@ -1,4 +1,5 @@
 import Link from "next/link";
+import outlook from "@data/bls-employment-outlook.json";
 import { findOccupation, percentileOf, OCCUPATIONS, usd } from "@/data/stats";
 
 function level(v: number | null | undefined) {
@@ -6,22 +7,20 @@ function level(v: number | null | undefined) {
   return v >= 4 ? "very important" : v >= 3.5 ? "quite important" : v >= 3 ? "important" : v >= 2 ? "somewhat important" : "not very important";
 }
 
-function freq(v: number | null | undefined) {
-  if (v == null) return "n/a";
-  return v >= 4.5 ? "about every day" : v >= 3.5 ? "about weekly" : v >= 2.5 ? "about monthly" : v >= 1.5 ? "a few times a year" : "rarely or never";
-}
+const projections = new Map(outlook.rows.map(row => [row.soc, row]));
 
 export function OnetPanel({ code }: { code: string }) {
   const o = findOccupation(code);
   if (!o) return null;
   const pct = percentileOf(code);
+  const projection = projections.get(o.soc);
   const rows: [string, string][] = [
-    ["Speaking Demand Score", `${o.speakingDemandScore?.toFixed(1)} of 100 (rank ${o.rank} of ${OCCUPATIONS.count}, higher than ${pct}% of occupations)`],
+    ["Speaking Demand Score", o.speakingDemandScore == null || pct == null ? "n/a" : `${o.speakingDemandScore.toFixed(1)} of 100 (list position ${o.rank} of ${OCCUPATIONS.count}, higher than ${pct}% of rated occupations)`],
     ["Speaking importance", `${o.speakingImportance?.toFixed(2)} of 5 (${level(o.speakingImportance)})`],
-    ["Speaking level required", `${o.speakingLevel?.toFixed(2)} of 7`],
-    ["Oral expression importance", `${o.oralExpressionImportance?.toFixed(2)} of 5`],
-    ["Public speaking", o.publicSpeakingFrequency != null ? `${o.publicSpeakingFrequency.toFixed(2)} of 5 (${freq(o.publicSpeakingFrequency)})` : "n/a"],
-    ["Face-to-face discussions", o.faceToFaceFrequency != null ? `${o.faceToFaceFrequency.toFixed(2)} of 5 (${freq(o.faceToFaceFrequency)})` : "n/a"],
+    ["Speaking level required", o.speakingLevel == null ? "n/a" : `${o.speakingLevel.toFixed(2)} of 7`],
+    ["Oral expression importance", o.oralExpressionImportance == null ? "n/a" : `${o.oralExpressionImportance.toFixed(2)} of 5`],
+    ["Public speaking", o.publicSpeakingFrequency != null ? `${o.publicSpeakingFrequency.toFixed(2)} of 5 on average` : "n/a"],
+    ["Face-to-face discussions", o.faceToFaceFrequency != null ? `${o.faceToFaceFrequency.toFixed(2)} of 5 on average` : "n/a"],
     ["U.S. employment (May 2025)", o.employment ? Math.round(o.employment).toLocaleString("en-US") : "n/a"],
     ["Median annual wage (May 2025)", usd(o.medianWage)],
   ];
@@ -38,6 +37,11 @@ export function OnetPanel({ code }: { code: string }) {
           </div>
         ))}
       </dl>
+      <p className="mt-4 text-sm text-ink-2">
+        {projection ? <>BLS projects a change of <strong>{projection.percentChange > 0 ? "+" : ""}{projection.percentChange.toFixed(1)}%</strong> in national employment for {projection.title.toLowerCase()} from 2025 to 2035. This estimate covers the six-digit occupation group ({o.soc}).</>
+          : <>A matching 2025 to 2035 national employment projection is unavailable for occupation code {o.soc}.</>}{" "}
+        <a className="underline" href={outlook.url}>BLS employment projections, Table 1.2</a>
+      </p>
       <p className="mt-4 text-sm text-ink-3">
         O*NET-SOC {o.code}. Compare every occupation in our{" "}
         <Link href="/data/speaking-by-occupation" className="underline underline-offset-2 hover:text-accent">

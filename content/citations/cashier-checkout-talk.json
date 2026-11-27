@@ -1,0 +1,39 @@
+{
+  "tykesson2006checkout": {
+    "authors": "Tykesson-Bergman, I.",
+    "year": 2006,
+    "title": "Samtal i butik: Språklig interaktion mellan biträden och kunder",
+    "publisher": "Stockholm University, doctoral dissertation",
+    "url": "https://libris.kb.se/tb44c8v55pbx0jk",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-27",
+      "fingerprint": "215c40d69e638334f32f2c0d2b2411a7e6d1852fa2607d48c3d2ab9fe5078944"
+    }
+  },
+  "rafaeli1989cashiers": {
+    "authors": "Rafaeli, A.",
+    "year": 1989,
+    "title": "When Cashiers Meet Customers: An Analysis of the Role of Supermarket Cashiers",
+    "container": "Academy of Management Journal, 32(2), 245–273",
+    "doi": "10.5465/256362",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "WHEN CASHIERS MEET CUSTOMERS: AN ANALYSIS OF THE ROLE OF SUPERMARKET CASHIERS.",
+      "fingerprint": "89e8269601e3c206c0d9ac75ac18cd4ef1dd783f82ce92201d0b117b827b1d96"
+    }
+  },
+  "kriesberg1953cashiers": {
+    "authors": "Kriesberg, M.",
+    "year": 1953,
+    "title": "Improving the performance of retail food store cashiers through better training",
+    "publisher": "U.S. Department of Agriculture, Marketing Research Report No. 48",
+    "url": "https://ageconsearch.umn.edu/record/309960/files/mrr48.pdf",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-27",
+      "fingerprint": "ae597d46b6fc0e8e326871c7e54aa1ab6c4622c93a4f0aa84972d39ac89e194b"
+    }
+  }
+}

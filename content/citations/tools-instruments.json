@@ -1,0 +1,38 @@
+{
+  "mccroskeyprpsa": {
+    "authors": "McCroskey, J. C.",
+    "year": 1970,
+    "title": "Personal Report of Public Speaking Anxiety (PRPSA)",
+    "publisher": "Communication Research Measures",
+    "url": "https://www.jamescmccroskey.com/measures/prpsa.htm",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-25",
+      "fingerprint": "5b11456b8e9e3b8837c590854d0893318bbad94708f6a2175d2e7e07105c7e66"
+    }
+  },
+  "cdcreadability": {
+    "authors": "Centers for Disease Control and Prevention",
+    "year": "n.d.",
+    "title": "Get to the Point: Write for Immediate Understanding",
+    "publisher": "National Center for Environmental Health",
+    "url": "https://www.cdc.gov/nceh/clearwriting/mod2/index.html",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-25",
+      "fingerprint": "518bb132c30b613c0e4de3cf1e122f502aaeee1d400bc94290b632f68723c846"
+    }
+  },
+  "dukeelevatorpitch": {
+    "authors": "Duke University Career Center",
+    "year": "n.d.",
+    "title": "Develop a 30-Second Elevator Pitch",
+    "publisher": "Duke University",
+    "url": "https://careerhub.students.duke.edu/resources/develop-a-30-second-elevator-pitch/",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-25",
+      "fingerprint": "c1d10b922cd1f49804a339667cec8c379f4df6b5c627fbef58bc60a312d41866"
+    }
+  }
+}

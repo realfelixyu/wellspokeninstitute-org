@@ -1,0 +1,40 @@
+{
+  "fine1990kitchentime": {
+    "authors": "Fine, G. A.",
+    "year": 1990,
+    "title": "Organizational Time: Temporal Demands and the Experience of Work in Restaurant Kitchens",
+    "container": "Social Forces, 69(1), 95–114",
+    "doi": "10.1093/sf/69.1.95",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Organizational Time: Temporal Demands and the Experience of Work in Restaurant Kitchens",
+      "fingerprint": "628701005ec3fc698246d93cc2774686833988e1cf19638d38d00f5acbe8cff1"
+    }
+  },
+  "galatolo2008twocooks": {
+    "authors": "Galatolo, R., & Traverso, V.",
+    "year": 2008,
+    "title": "Two cooks at work: independent and coordinated lines of action",
+    "container": "Interacting Bodies: Proceedings of the 2nd Conference of the International Society for Gesture Studies",
+    "url": "https://cris.unibo.it/handle/11585/72762",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-27",
+      "fingerprint": "7f9ebd2fce49811aae7a621925dd6f5285a11858a039640a187fbe7b2ca14dcc"
+    }
+  },
+  "wellton2018restaurantservice": {
+    "authors": "Wellton, L., Jonsson, I. M., & Svingstedt, A.",
+    "year": 2018,
+    "title": "“We are service people, and we stay until the job is done”: enactments of professionalism in restaurants",
+    "container": "Journal of Teaching in Travel & Tourism, 18(4), 265–283",
+    "doi": "10.1080/15313220.2018.1474414",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "“We are service people, and we stay until the job is done”: enactments of professionalism in restaurants",
+      "fingerprint": "5c1427af615122d354609a1bf539c01afea6208318c9d0c5157e1ee199104e93"
+    }
+  }
+}

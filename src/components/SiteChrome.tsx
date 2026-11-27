@@ -1,3 +1,4 @@
+import { MobileMenu } from "./MobileMenu";
 import Link from "next/link";
 import { NAV, SITE } from "@/data/site";
 
@@ -40,7 +41,7 @@ export function SiteHeader() {
               <li key={item.href}>
                 <Link
                   href={item.href}
-                  className="rounded-md px-3 py-2 text-ink-2 transition-colors hover:bg-paper-2 hover:text-ink"
+                  className="inline-flex min-h-11 items-center rounded-md px-3 py-2 text-ink-2 transition-colors hover:bg-paper-2 hover:text-ink"
                 >
                   {item.label}
                 </Link>
@@ -48,30 +49,7 @@ export function SiteHeader() {
             ))}
           </ul>
         </nav>
-        <details className="relative lg:hidden">
-          <summary className="flex h-10 cursor-pointer list-none items-center gap-2 rounded-md border border-rule px-3 text-sm text-ink [&::-webkit-details-marker]:hidden">
-            Menu
-          </summary>
-          <nav
-            aria-label="Mobile"
-            className="absolute right-0 mt-2 w-[min(18rem,calc(100vw-2rem))] rounded-xl border border-rule bg-card p-2 shadow-lg"
-          >
-            <ul>
-              {NAV.map((item) => (
-                <li key={item.href}>
-                  <Link href={item.href} className="block rounded-md px-3 py-2.5 text-ink hover:bg-paper-2">
-                    {item.label}
-                  </Link>
-                </li>
-              ))}
-              <li>
-                <Link href="/newsletter" className="block rounded-md px-3 py-2.5 text-accent hover:bg-paper-2">
-                  Newsletter
-                </Link>
-              </li>
-            </ul>
-          </nav>
-        </details>
+        <MobileMenu />
       </div>
     </header>
   );
@@ -93,6 +71,7 @@ const FOOTER_COLUMNS = [
       { href: "/professions", label: "Speaking by profession" },
       { href: "/tools", label: "Free tools" },
       { href: "/learn", label: "Learn" },
+      { href: "/curriculum", label: "Teach It Everywhere curriculum" },
       { href: "/newsletter", label: "Newsletter" },
     ],
   },

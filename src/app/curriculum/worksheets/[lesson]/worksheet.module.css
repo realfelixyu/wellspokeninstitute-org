@@ -1,0 +1,29 @@
+.sheet {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+  color: var(--ink);
+  line-height: 1.55;
+}
+.actions { display: flex; justify-content: space-between; align-items: center; gap: 1.25rem; margin-bottom: 2.5rem; }
+.actions a, .credit a { text-decoration: underline; text-underline-offset: .18em; }
+.actions button { border: 1px solid var(--control-rule); border-radius: .4rem; padding: .58rem 1rem; font-weight: 600; cursor: pointer; }
+.sheet h1, .sheet h2 { font-family: var(--font-serif); font-weight: 600; line-height: 1.15; }
+.sheet h1 { font-size: clamp(2rem, 5vw, 3.1rem); margin: .45rem 0 1rem; }
+.sheet h2 { font-size: 1.65rem; margin-bottom: .65rem; }
+.audience, .credit { color: var(--ink-2); font-size: .88rem; }
+.card { padding: 1.5rem 0; }
+.card + .card { border-top: 2px dashed var(--control-rule); }
+.answer, .retry { padding: .7rem 0 1.25rem; border-bottom: 1px solid var(--control-rule); }
+.answer { font-weight: 600; }
+.credit { margin-top: .9rem; }
+@media print {
+  .sheet { padding: 0; max-width: none; font: 10.5pt/1.3 Georgia, serif; color: black; }
+  .sheet header { margin-bottom: 2mm; }
+  .sheet h1 { font-size: 20pt; margin: 1.5mm 0 3mm; }
+  .sheet h2 { font-size: 15pt; margin: 0 0 2mm; }
+  .card { break-inside: avoid; padding: 4mm 0; }
+  .card + .card { border-top: 1.5pt dashed #555; }
+  .answer, .retry { padding: 3mm 0 13mm; border-color: #999; }
+  .credit, .audience { color: black; font-size: 9pt; }
+}

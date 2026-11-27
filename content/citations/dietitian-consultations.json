@@ -1,0 +1,41 @@
+{
+  "barkmeijer2024intake": {
+    "authors": "Barkmeijer, A., te Molder, H., Lamerichs, J., & Jager-Wittenaar, H.",
+    "year": 2024,
+    "title": "Dietary intake at stake: Clients’ adjusted diagnostic explanations during dietary treatment of malnutrition (risk)",
+    "container": "SSM - Qualitative Research in Health, 5, 100370",
+    "doi": "10.1016/j.ssmqr.2023.100370",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Dietary intake at stake: Clients’ adjusted diagnostic explanations during dietary treatment of malnutrition (risk)",
+      "fingerprint": "b570f1daf127cfe8b4a0f7759b5afa96915aa783bf614b5fad812c0853928025"
+    }
+  },
+  "meyer2026casetaking": {
+    "authors": "Meyer, H. M., Gomersall, S. R., Giguere, D. Y., Healy, G. N., & Ekberg, K.",
+    "year": 2026,
+    "title": "“I was bad.” Morality in Dietary Case-Taking: A Conversation Analytic Study",
+    "container": "Health Communication, advance online publication",
+    "doi": "10.1080/10410236.2026.2678932",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "“I was bad.” Morality in Dietary Case-Taking: A Conversation Analytic Study",
+      "fingerprint": "321a0e061eaf3036df3b5422f6b71a84791817bf379c88cdd1fddf1a719074ba"
+    }
+  },
+  "vaillancourt2012involvement": {
+    "authors": "Vaillancourt, H., Légaré, F., Lapointe, A., Deschênes, S.-M., & Desroches, S.",
+    "year": 2012,
+    "title": "Assessing patients’ involvement in decision making during the nutritional consultation with a dietitian",
+    "container": "Health Expectations, published online in 2012 and in volume 17(4), 545–554, in 2014",
+    "doi": "10.1111/j.1369-7625.2012.00783.x",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Assessing patients’ involvement in decision making during the nutritional consultation with a dietitian",
+      "fingerprint": "753d6d08dafd67f08e55439aa33fcf6a0d068c1abf20326affb8c9032cc3a60d"
+    }
+  }
+}

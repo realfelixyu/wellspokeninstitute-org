@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { ContentEntry } from "@/lib/content";
 import { extractFaqs, formatDate } from "@/lib/content";
 import { getCitations, citationHref, formatCitation } from "@/lib/citations";
+import { StudyResources } from "@/components/StudyResources";
 import { Mdx } from "@/components/Mdx";
 import { Breadcrumbs } from "@/components/PageHeader";
 import { JsonLd, articleJsonLd, authorNames, breadcrumbJsonLd, contentPath, faqJsonLd } from "@/lib/seo";
@@ -37,7 +38,7 @@ export function ArticleView({ entry }: { entry: ContentEntry }) {
     { name: COLLECTION_LABEL[meta.collection], path: `/${meta.collection}` },
     { name: meta.title, path },
   ];
-  const howToCite = `${SITE.researchTeamByline}${names.length ? ` (${names.join(", ")})` : ""}. (${year}). ${meta.title}. ${SITE.name}.${meta.doi ? ` https://doi.org/${meta.doi}` : ` ${SITE.url}${path}`}`;
+  const howToCite = `${SITE.researchTeamByline}. (${year}). ${meta.title}. ${SITE.name}.${meta.doi ? ` https://doi.org/${meta.doi}` : ` ${SITE.url}${path}`}`;
 
   return (
     <article>
@@ -60,9 +61,9 @@ export function ArticleView({ entry }: { entry: ContentEntry }) {
             <span>
               Published <time dateTime={meta.publishedAt}>{formatDate(meta.publishedAt)}</time>
             </span>
-            {meta.updatedAt && meta.updatedAt !== meta.publishedAt ? (
+            {meta.collection === "statistics" || (meta.updatedAt && meta.updatedAt !== meta.publishedAt) ? (
               <span>
-                Updated <time dateTime={meta.updatedAt}>{formatDate(meta.updatedAt)}</time>
+                Updated <time dateTime={meta.updatedAt ?? meta.publishedAt}>{formatDate(meta.updatedAt ?? meta.publishedAt)}</time>
               </span>
             ) : null}
             <span>{meta.readingMinutes} min read</span>
@@ -81,6 +82,7 @@ export function ArticleView({ entry }: { entry: ContentEntry }) {
               ) : null}
             </div>
           ) : null}
+          {meta.collection === "research" && <StudyResources slug={meta.slug} />}
         </div>
       </header>
 

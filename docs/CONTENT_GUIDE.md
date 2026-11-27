@@ -14,7 +14,7 @@ How content for wellspokeninstitute.org is written, sourced, and validated. Ever
 title: "How important is speaking for registered nurses?"
 description: "One or two plain sentences, under 300 characters, that answer the page's main question."
 kind: profession            # paper | study | brief | article | profession | statistics
-publishedAt: "2026-11-24"   # YYYY-MM-DD. A future date schedules the page; the daily rebuild publishes it.
+publishedAt: "2026-11-24"   # YYYY-MM-DD. Use the actual release date. For a queued page replace this field with scheduledFor and set status to scheduled.
 status: published
 contributors: ["felix-yu", "linfeng-du"]   # real people only, ids from src/data/site.ts
 occupationCode: "29-1141.00"               # profession pages only; renders the O*NET data panel and attribution
@@ -25,7 +25,9 @@ citations: ["key1", "key2", "key3"]        # every source cited in the body, in 
 ---
 ```
 
-Minimum sources per kind: paper 10, statistics 8, article 5, profession 3, study 3, brief 3.
+Minimum sources per kind: paper 10, statistics 8, article 5, profession 5, study 5, brief 5. Sources must be distinct and used. Each occupation panel cites the O*NET and BLS sources it uses.
+
+Published and scheduled articles must contain an Institute calculation. Profession pages use their occupation code and score. Other pages use an instituteStat path in the derived dataset or a reproducible calculation with a cited input and the result visible in the body. See the current flagship and statistics MDX for examples.
 
 ## Citing
 

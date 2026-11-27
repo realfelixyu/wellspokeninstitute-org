@@ -2,6 +2,18 @@ import type { ReactNode, ComponentProps } from "react";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import remarkGfm from "remark-gfm";
 import { SkillChart } from "@/components/SkillChart";
+import { isScheduledLater, type Collection } from "@/lib/content";
+
+const CONTENT_PATH = /^(?:https?:\/\/(?:www\.)?wellspokeninstitute\.org)?\/(research|learn|professions|statistics)\/([a-z0-9-]+)\/?(?:[?#].*)?$/;
+
+/**
+ * A link to an entry scheduled for a later date would 404 on the static host until that date.
+ * Any other missing target (typo, draft, deleted page) stays a link so check-links fails the build.
+ */
+function isUnpublishedContent(href: string) {
+  const m = CONTENT_PATH.exec(href);
+  return Boolean(m) && isScheduledLater(m![1] as Collection, m![2]);
+}
 
 function isExternal(href: string) {
   return /^https?:\/\//i.test(href) && !/^https?:\/\/(www\.)?wellspokeninstitute\.org/i.test(href);
@@ -58,6 +70,8 @@ export function buildComponents(citationKeys: string[]) {
     SkillChart,
     a: (props: ComponentProps<"a">) => {
       const href = typeof props.href === "string" ? props.href : "";
+      // Render plain text until the target publishes; the daily rebuild turns it into a link.
+      if (isUnpublishedContent(href)) return <span>{props.children}</span>;
       return isExternal(href) ? (
         <a {...props} target="_blank" rel="noopener noreferrer" />
       ) : (

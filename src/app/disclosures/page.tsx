@@ -24,19 +24,17 @@ export default function DisclosuresPage() {
         </p>
         <h2>Use of Wellspoken app data</h2>
         <p>
-          Some of our studies analyze speaking-practice data recorded in the Wellspoken app, because large samples
-          of real practice sessions are rare in public research. When we do:
+          Our published research draws on public occupational data and the research literature. Before we accept
+          aggregate tables from the Wellspoken speaking app, we require a written data agreement and privacy review.
+          The following rules apply to any future study using those tables.
         </p>
         <ul>
-          <li>The study says so in a &ldquo;Data&rdquo; line and in its methods.</li>
-          <li>We receive only de-identified, aggregated data. We never receive names, emails, or recordings.</li>
+          <li>The study credits its data source in a visible &ldquo;Data&rdquo; line. Its methods describe which sessions were included.</li>
+          <li>The Institute may receive aggregate tables only. Names, email addresses, recordings and individual session records stay with the data provider.</li>
           <li>Wellspoken Labs has no right to review, approve, delay, or veto a publication.</li>
           <li>We publish our methods and, where privacy allows, the aggregated data behind each figure.</li>
         </ul>
-        <p>
-          Most of our work uses public data (for example U.S. Department of Labor occupational ratings) or the
-          published research literature and involves no company data at all.
-        </p>
+
         <h2>Funding</h2>
         <p>
           The Institute is funded by contributions. We will publish every contributor of 5,000 USD or more in a

@@ -1,0 +1,40 @@
+---
+title: "How did occupational speaking ratings change between two O*NET releases?"
+description: "Of 223 occupations with stable definitions and updated ratings, 64 had higher speaking-importance ratings in the 2026 database, 96 had lower ratings and 63 stayed the same."
+kind: study
+publishedAt: "2026-11-24"
+status: published
+contributors: ["felix-yu", "linfeng-du"]
+onet: true
+instituteStat: "occupationHistory.newer_rating_date"
+pdf: "/research/speaking-demand-over-time.pdf"
+citations: ["onetreleases", "onet31", "onetscales", "onettaxonomy", "onetlicensedb"]
+---
+
+Among 223 occupations that kept the same code, title and definition and received a newer analyst rating, the median change in speaking importance was zero. In the O\*NET® Database released in 2026, 64 had a higher rating than in the 2010 release, 96 had a lower rating and 63 had the same rating. These are comparisons between published ratings. The dates of the underlying observations vary across jobs <Cite k="onetreleases,onet31" />.
+
+## Importance and skill level measure different things
+
+Importance describes how much a job depends on speaking, on a scale of 1 to 5. Level describes how much skill the work requires, on a scale of 0 to 7 <Cite k="onetscales" />. The same job can move in different directions on those measures.
+
+| Change in published rating | Speaking importance | Speaking level |
+| --- | --- | --- |
+| Higher | 64 | 108 |
+| Unchanged | 63 | 56 |
+| Lower | 96 | 59 |
+
+Each column covers the same 223 occupations. With equal weight given to each occupation, importance fell by 0.04 points on average and skill level rose by 0.08. Those means describe differences in analyst ratings rounded by the source. A small difference for one job may reflect variation among raters.
+
+## Why the comparison covers only part of the workforce
+
+The 2010 release had 853 occupations with eligible analyst ratings. The 2026 release had 910. Only 621 occupation codes appeared in both groups. Revisions to the federal occupation classification have split some jobs and combined others <Cite k="onettaxonomy" />. Even when a code stays the same, its definition can change.
+
+We required the title and definition to match as well. That left 227 occupations. In four of them the rating still carried its original date, so we excluded those four from the comparison above. Including them leaves the median change at zero for both measures.
+
+All 223 starting ratings are dated June 2010. Only 33 of the later observations are dated 2026. Some jobs had their most recent rating years earlier. The matching rule also leaves out new occupations and many revised ones. These results cannot establish whether the US economy as a whole required more speaking in 2026.
+
+## Data, chart and methods
+
+The [methods and reproduction files](/data/speaking-demand-over-time) include both source downloads, the matching script and observation dates. The [occupation-level CSV](/data/occupation-history-files/matched-occupations.csv) includes all 227 matches, including the four carried-forward ratings. The [chart](/charts/speaking-ratings-two-releases.png) includes the 223 rerated occupations. For a current snapshot, see [speaking by occupation](/data/speaking-by-occupation).
+
+The Institute matched and compared ratings from the O\*NET 15.0 and 31.0 Databases, produced by the US Department of Labor, Employment and Training Administration. Both releases are available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) <Cite k="onetlicensedb" />. USDOL/ETA has not endorsed, approved or tested these changes.

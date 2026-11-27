@@ -1,0 +1,39 @@
+{
+  "golen1984secretaries": {
+    "authors": "Golen, S., & Titkemeyer, M. A.",
+    "year": 1984,
+    "title": "Assessing Managerial Competencies of Office Systems/Administration Graduates with Implications for Curriculum Development",
+    "publisher": "ERIC, ED247408",
+    "url": "https://files.eric.ed.gov/fulltext/ED247408.pdf",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-27",
+      "fingerprint": "dda47d8632d353b70c5cc50933354e5780e40503c9cc48fb1568de30db253e19"
+    }
+  },
+  "thomson2004frontoffice": {
+    "authors": "Thomson, P., Ellison, L., Byrom, T., & Bulman, D., with Davies, L.",
+    "year": 2004,
+    "title": "An Investigation into Queries that School Offices Receive from Parents and Carers",
+    "publisher": "Department for Education and Skills, Research Report 575",
+    "url": "https://dera.ioe.ac.uk/id/eprint/5028/1/RR575.pdf",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-27",
+      "fingerprint": "8633aadcca74201b7cc0bbf4ac9333f682d8a7757804008fc0629dc6b5ffa90c"
+    }
+  },
+  "listermann2024assistants": {
+    "authors": "Listermann, K., & Salinas, C., Jr.",
+    "year": 2024,
+    "title": "“Underpaid” and “Undervalued”: The Experiences of Women Administrative Assistants in US Higher Education",
+    "container": "Journal of Education Human Resources, 42(2), 257–277",
+    "doi": "10.3138/jehr-2023-0001",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "“Underpaid” and “Undervalued”: The Experiences of Women Administrative Assistants in US Higher Education",
+      "fingerprint": "c30c5a9385fe05fc143d59868d1e11a9442e49f0e7084c6201e4b0cf01efcee0"
+    }
+  }
+}

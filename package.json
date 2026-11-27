@@ -5,12 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "next dev --port 5040",
-    "prebuild": "node scripts/validate-content.mjs",
+    "prebuild": "node scripts/verify-citations.mjs --check && node scripts/validate-content.mjs && node scripts/export-employment-groups.mjs --check",
     "build": "next build",
-    "postbuild": "node scripts/check-output.mjs",
+    "postbuild": "node scripts/check-output.mjs && node scripts/check-links.mjs",
     "validate": "node scripts/validate-content.mjs",
+    "check:live-routes": "python3 scripts/check-live-routes.py",
     "citations:verify": "node scripts/verify-citations.mjs",
     "onet:import": "node scripts/onet-import.mjs",
+    "onet:release": "node scripts/onet-import.mjs --require-employment && node scripts/speaking-demand-summary.mjs && node scripts/export-data.mjs && node scripts/export-employment-groups.mjs",
     "typecheck": "tsc --noEmit",
     "serve": "npx --yes serve out -l 5041"
   },

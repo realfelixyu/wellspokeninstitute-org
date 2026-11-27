@@ -1,0 +1,8 @@
+@media (max-width: 40rem) {
+  .ratings thead th,
+  .ratings tbody th,
+  .ratings tbody td {
+    padding-inline: 0.5rem;
+    overflow-wrap: normal;
+  }
+}

@@ -1,30 +1,31 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Panel } from "./ui";
-
-type Row = [number, string, string, number, number, number, number | null, number | null, number | null, number | null, number | null, number | null];
+import { useOccupationData, type ExplorerRow } from "../useOccupationData";
+import { EmploymentGroupSummary, findOccupationMatches } from "../EmploymentGroupResults";
+import { compareOccupationScore } from "@/lib/occupation-score";
+import { groupForOccupation } from "@/lib/employmentGroups";
 
 export default function DemandLookup() {
-  const [rows, setRows] = useState<Row[]>([]);
+  const { rows, loadState, retry } = useOccupationData();
   const [q, setQ] = useState("");
-  const [sel, setSel] = useState<Row | null>(null);
+  const [sel, setSel] = useState<ExplorerRow | null>(null);
 
+  const resultHeading = useRef<HTMLHeadingElement>(null);
   useEffect(() => {
-    fetch("/data/speaking-by-occupation.json")
-      .then((r) => r.json())
-      .then((d) => setRows(d.rows))
-      .catch(() => setRows([]));
-  }, []);
+    if (sel) resultHeading.current?.focus();
+  }, [sel]);
 
-  const matches = useMemo(() => {
-    const s = q.trim().toLowerCase();
-    if (s.length < 2) return [];
-    return rows.filter((r) => r[2].toLowerCase().includes(s)).slice(0, 8);
+  const { occupations, groups } = useMemo(() => {
+    if (q.trim().length < 2) return { occupations: [], groups: [] };
+    return findOccupationMatches(rows, q);
   }, [q, rows]);
+  const matches = occupations.slice(0, 8);
+  const selectedGroup = sel ? groupForOccupation(sel[1]) : undefined;
 
   const total = rows.length;
-  const pct = sel ? Math.round(((total - sel[0]) / (total - 1)) * 100) : 0;
+  const comparison = sel ? compareOccupationScore(rows.map(row => row[3]), sel[3]) : null;
   const label = (v: number) => (v >= 4 ? "very important" : v >= 3.5 ? "quite important" : v >= 3 ? "important" : v >= 2 ? "somewhat important" : "not very important");
 
   return (
@@ -42,7 +43,15 @@ export default function DemandLookup() {
           className="h-12 w-full rounded-lg border border-rule bg-paper px-3 text-ink"
         />
       </label>
-      {matches.length && !sel ? (
+      {loadState === "loading" && <p role="status">Loading occupations…</p>}
+      {loadState === "error" && <p role="status">The occupation data could not load. <button type="button" onClick={retry} className="underline">Try again</button></p>}
+      {loadState === "ready" && q.trim().length >= 2 && !matches.length && !groups.length && <p role="status">No matching occupations.</p>}
+      {!sel && groups.length > 0 && (
+        <p role="status" className="mt-3 text-sm text-ink-2">
+          Found {groups.length} matching BLS employment {groups.length === 1 ? "group" : "groups"}.
+        </p>
+      )}
+      {matches.length > 0 && !sel ? (
         <ul className="mt-2 divide-y divide-rule rounded-lg border border-rule bg-paper">
           {matches.map((r) => (
             <li key={r[1]}>
@@ -54,19 +63,29 @@ export default function DemandLookup() {
         </ul>
       ) : null}
       {sel ? (
-        <div className="mt-6 rounded-xl border border-rule bg-paper p-5" aria-live="polite">
-          <p className="font-serif text-2xl font-semibold text-ink">{sel[2]}</p>
+        <div className="mt-6 rounded-xl border border-rule bg-paper p-5">
+          <h2 ref={resultHeading} tabIndex={-1} className="font-serif text-2xl font-semibold text-ink">{sel[2]}</h2>
           <p className="mt-3 text-ink-2">
-            Speaking is rated <strong className="text-ink">{label(sel[4])}</strong> ({sel[4].toFixed(2)} of 5) in
-            this job. Its Speaking Demand Score is <strong className="text-ink">{sel[3].toFixed(1)}</strong>, higher
-            than <strong className="text-ink">{pct}%</strong> of the {total} occupations we rank.
+            Speaking is rated <strong className="text-ink">{label(sel[4])}</strong> ({sel[4].toFixed(2)} of 5) in this job.{" "}
+            {comparison && sel[3] !== null ? (
+              <>Its Speaking Demand Score is <strong className="text-ink">{sel[3].toFixed(1)}</strong>, higher
+              than <strong className="text-ink">{comparison.percentBelow}%</strong> of the {comparison.ratedCount} rated {comparison.ratedCount === 1 ? "occupation" : "occupations"}.</>
+            ) : "A composite Speaking Demand Score is unavailable."}
           </p>
           <p className="mt-3 text-sm text-ink-3">
-            Rank {sel[0]} of {total}. Based on O*NET® 31.0 ratings.{" "}
+            {comparison && `List position ${sel[0]} of ${total}. `}Based on O*NET® 31.0 ratings.{" "}
             <a className="underline" href="/data/speaking-by-occupation">See the full dataset and method.</a>
           </p>
         </div>
       ) : null}
+      {sel
+        ? selectedGroup && <EmploymentGroupSummary group={selectedGroup} />
+        : groups.map(group => <EmploymentGroupSummary key={group.code} group={group} heading="h2" />)}
+      <p className="mt-6 text-xs text-ink-3">
+        Data: O*NET® 31.0 Database, U.S. Department of Labor, Employment and Training Administration (USDOL/ETA), used under{" "}
+        <a className="underline" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. The Wellspoken Institute
+        calculated the scores. USDOL/ETA has not approved, endorsed, or tested these modifications. O*NET® is a trademark of USDOL/ETA.
+      </p>
     </Panel>
   );
 }

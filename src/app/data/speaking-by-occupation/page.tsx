@@ -3,6 +3,8 @@ import { PageHeader, Container } from "@/components/PageHeader";
 import { OccupationExplorer } from "@/components/OccupationExplorer";
 import { JsonLd, pageMetadata, breadcrumbJsonLd } from "@/lib/seo";
 import { OCCUPATIONS, SPEAKING_SUMMARY, millions, usd } from "@/data/stats";
+import { getEntries } from "@/lib/content";
+import type { ExplorerRow } from "@/components/useOccupationData";
 import { SITE } from "@/data/site";
 
 const PATH = "/data/speaking-by-occupation";
@@ -17,7 +19,11 @@ export const metadata = pageMetadata({
 export default function SpeakingByOccupation() {
   const s = SPEAKING_SUMMARY;
   const w = s.workerWeighted;
-  const initial = OCCUPATIONS.rows.slice(0, 50).map((r) => [
+  const guides: Record<string, string> = {};
+  for (const { meta } of getEntries("professions")) {
+    if (meta.occupationCode) guides[meta.occupationCode] = `/professions/${meta.slug}`;
+  }
+  const initial = OCCUPATIONS.rows.slice(0, 50).map<ExplorerRow>((r) => [
     r.rank, r.code, r.title, r.speakingDemandScore, r.speakingImportance, r.speakingLevel,
     r.oralExpressionImportance, r.publicSpeakingFrequency, r.faceToFaceFrequency, r.employment, r.medianWage, r.jobZone,
   ]);
@@ -73,11 +79,11 @@ export default function SpeakingByOccupation() {
         <section className="grid gap-6 py-10 sm:grid-cols-3">
           <div className="rounded-xl border border-rule bg-card p-5">
             <p className="font-serif text-3xl font-semibold text-accent">{w.pctSpeakingImportantOrHigher}%</p>
-            <p className="mt-2 text-sm text-ink-2">of workers ({millions(w.workersSpeakingImportantOrHigher)}) are in jobs rating speaking at least &ldquo;important&rdquo; (3 of 5).</p>
+            <p className="mt-2 text-sm text-ink-2">of the employment covered by this analysis ({millions(w.workersSpeakingImportantOrHigher)} jobs) is in occupations rating speaking at least &ldquo;important&rdquo; (3 of 5).</p>
           </div>
           <div className="rounded-xl border border-rule bg-card p-5">
             <p className="font-serif text-3xl font-semibold text-accent">{w.pctSpeakingVeryImportant}%</p>
-            <p className="mt-2 text-sm text-ink-2">of workers ({millions(w.workersSpeakingVeryImportant)}) are in jobs rating speaking &ldquo;very important&rdquo; (4 of 5) or higher.</p>
+            <p className="mt-2 text-sm text-ink-2">of the employment covered ({millions(w.workersSpeakingVeryImportant)} jobs) is in occupations rating speaking &ldquo;very important&rdquo; (4 of 5) or higher.</p>
           </div>
           <div className="rounded-xl border border-rule bg-card p-5">
             <p className="font-serif text-3xl font-semibold text-accent">{s.skills?.pctSpeakingAboveWriting}%</p>
@@ -87,7 +93,8 @@ export default function SpeakingByOccupation() {
 
         <section aria-labelledby="explore" className="pb-10">
           <h2 id="explore" className="mb-4 font-serif text-2xl font-semibold text-ink">Explore the data</h2>
-          <OccupationExplorer initial={initial as never} />
+          <p className="mb-4"><Link className="text-accent underline" href="/data/speaking-importance-rankings">Which occupations rate speaking most important?</Link> See the federal ratings and every occupation tied at the cutoff.</p>
+          <OccupationExplorer initial={initial} guides={guides} />
         </section>
 
         <section aria-labelledby="method" className="prose-body max-w-3xl pb-6">
@@ -96,8 +103,9 @@ export default function SpeakingByOccupation() {
             The <strong>Speaking Demand Score</strong> (0 to 100) is the average of three O*NET® ratings, each rescaled
             to 0 to 1: the importance of the skill <em>Speaking</em> (&ldquo;talking to others to convey information
             effectively,&rdquo; rated 1 to 5), the level of Speaking the job requires (0 to 7), and the importance of
-            the ability <em>Oral Expression</em> (1 to 5). These ratings come from job analysts and surveys of workers
-            in each occupation.
+            the ability <em>Oral Expression</em> (1 to 5). O*NET identifies job analysts as the source of all
+            three ratings in this edition. The displayed score is rounded to one decimal place. The Rank column
+            gives each occupation’s position in the list, with tied scores in alphabetical order.
           </p>
           <p>
             Public speaking and face-to-face frequency come from O*NET work context questions, rated from 1
@@ -105,12 +113,24 @@ export default function SpeakingByOccupation() {
             national estimates, matched at the six-digit SOC level, so several closely related O*NET occupations
             can share one employment figure. Worker-weighted percentages count each SOC occupation once.
           </p>
+          <h3>When jobs share one employment estimate</h3>
+          <p>
+            How many people work as home health aides? BLS counts home health aides and personal care aides
+            together. O*NET rates their speaking demands separately. The explorer follows the same distinction
+            for teaching assistants outside postsecondary education and for miscellaneous assemblers and fabricators.
+            For these three groups, the employment total appears with the list of jobs it covers. Each job keeps its
+            own speaking rating where one is available. The worker-weighted study figures above exclude these
+            three group estimates.
+          </p>
+          <p>
+            <a href="/data/employment-groups.csv" download>Download the three employment groups and their occupations (CSV)</a>
+            {" · "}<a href="https://www.bls.gov/oes/2025/may/oes_stru.htm">BLS May 2025 occupation definitions</a>
+          </p>
           <p>
             Occupations with higher Speaking Demand Scores tend to pay more: typical median pay is{" "}
             {usd(s.wages.quartiles[3].medianOfMedianWages)} in the quarter of occupations with the highest scores and{" "}
             {usd(s.wages.quartiles[0].medianOfMedianWages)} in the lowest quarter (correlation with log median wage, r ={" "}
-            {s.wages.correlationScoreLogMedianWage.toFixed(2)}). Most of that gap reflects education and preparation:
-            comparing occupations within the same O*NET Job Zone, the association falls to about{" "}
+            {s.wages.correlationScoreLogMedianWage.toFixed(2)}). Among occupations in the same O*NET Job Zone, the association is smaller, about{" "}
             {s.wages.withinJobZone.pctWagePer10PointsWithinZone}% higher pay per 10 points (r ={" "}
             {s.wages.withinJobZone.pooledWithinZoneR.toFixed(2)}). None of this shows that speaking skill causes higher pay.
           </p>

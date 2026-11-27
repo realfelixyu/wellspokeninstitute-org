@@ -1,0 +1,41 @@
+{
+  "kim2018mallservice": {
+    "authors": "Kim, H., Button, M., & Lee, J.",
+    "year": 2018,
+    "title": "Public perceptions of private security in shopping malls: A comparison of the United Kingdom and South Korea",
+    "container": "International Journal of Law, Crime and Justice",
+    "doi": "10.1016/j.ijlcj.2018.03.010",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Public perceptions of private security in shopping malls: A comparison of the United Kingdom and South Korea",
+      "fingerprint": "7f4c4c7ce4b5588e197b36bfd7994dee54fc007fb759228a5026899221688c72"
+    }
+  },
+  "saarikkomaki2022youth": {
+    "authors": "Saarikkomäki, E., & Lampela, P.",
+    "year": 2022,
+    "title": "Improving private security–youth relations in quasi-public spaces: control, care, cooperation",
+    "container": "International Journal of Comparative and Applied Criminal Justice, 46(1)",
+    "doi": "10.1080/01924036.2021.1899000",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Improving private security–youth relations in quasi-public spaces: control, care, cooperation",
+      "fingerprint": "10255ff7fa8e0450f7413c38bac5787ec26c7d0fa635392099bb0239bb1ee38e"
+    }
+  },
+  "gooptu2013interactiveservice": {
+    "authors": "Gooptu, N.",
+    "year": 2013,
+    "title": "Servile Sentinels of the City: Private Security Guards, Organized Informality, and Labour in Interactive Services in Globalized India",
+    "container": "International Review of Social History",
+    "doi": "10.1017/S0020859012000788",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Servile Sentinels of the City: Private Security Guards, Organized Informality, and Labour in Interactive Services in Globalized India",
+      "fingerprint": "364fc993bbe6c51dc17c9f7e96c702459d3b6349d3341ae3a0873a46694b5291"
+    }
+  }
+}

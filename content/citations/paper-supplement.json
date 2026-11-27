@@ -1,0 +1,48 @@
+{
+  "onetscales": {
+    "authors": "National Center for O*NET Development",
+    "title": "Scales, Ratings, and Standardized Scores",
+    "year": "n.d.",
+    "url": "https://www.onetonline.org/help/online/scales",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-25",
+      "fingerprint": "abfc46a56d5f3bd7b1d4b64315116aa84b528a038e12bac5caf8946892a1412a"
+    }
+  },
+  "onetzones": {
+    "authors": "National Center for O*NET Development",
+    "title": "Job Zones",
+    "year": "n.d.",
+    "url": "https://www.onetonline.org/help/online/zones",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-25",
+      "fingerprint": "46a1ef88d45748231c4ab679331416996e1b9f447f9cca91f29c264090edb2c4"
+    }
+  },
+  "oracyappg2021": {
+    "authors": "Oracy All-Party Parliamentary Group",
+    "title": "Speak for Change: Final Report and Recommendations from the Oracy All-Party Parliamentary Group Inquiry",
+    "year": 2021,
+    "url": "https://voice21.org/wp-content/uploads/2024/01/Oracy_APPG_FinalReport_28_04-4.pdf",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-25",
+      "fingerprint": "cf5554bdbdca8d81cd48094dc6675ca91c6f0bedf369bd9be54dd9cc0d8891de"
+    }
+  },
+  "chiswickmiller1995": {
+    "authors": "Chiswick, B. R., & Miller, P. W.",
+    "year": 1995,
+    "title": "The Endogeneity between Language and Earnings: International Analyses",
+    "container": "Journal of Labor Economics, 13(2), 246-288",
+    "doi": "10.1086/298374",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-25",
+      "matched": "The Endogeneity between Language and Earnings: International Analyses",
+      "fingerprint": "ccd82bbed21440eb7a446b48bebd830aaa6f267cdbaf4723a23550c643d8e580"
+    }
+  }
+}

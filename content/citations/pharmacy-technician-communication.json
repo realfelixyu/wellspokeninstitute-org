@@ -1,0 +1,41 @@
+{
+  "miller2019pharmacyreferrals": {
+    "authors": "Miller RG, Perras CA, Frail CK, Adeoye OA, Snyder ME",
+    "year": 2019,
+    "title": "Perceived Roles of Independent Community Pharmacists and Pharmacy Technicians in Patient Referrals to Community Resources: A Study from the Medication Safety Research Network of Indiana (Rx-SafeNet)",
+    "container": "Journal of the American College of Clinical Pharmacy : JACCP",
+    "doi": "10.1002/jac5.1142",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Perceived roles of independent community pharmacists and pharmacy technicians in patient referrals to community resources: A Study from the Medication Safety Research Network of Indiana (Rx‐SafeNet)",
+      "fingerprint": "3e3acf69ca9ce22a115fff2df10635021472bb3b3d450389de16381a98099921"
+    }
+  },
+  "reddy2019interruptions": {
+    "authors": "Reddy A, Abebe E, Rivera AJ, Stone JA, Chui MA",
+    "year": 2019,
+    "title": "Interruptions in community pharmacies: Frequency, sources, and mitigation strategies",
+    "container": "Research in social & administrative pharmacy : RSAP",
+    "doi": "10.1016/j.sapharm.2018.10.030",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Interruptions in community pharmacies: Frequency, sources, and mitigation strategies",
+      "fingerprint": "d3d8c895b5b2f4e7d62e09c21ebc2401070559e14d24df248ebcab1df31bdf7c"
+    }
+  },
+  "doucette2018technicians": {
+    "authors": "Doucette WR, Schommer JC",
+    "year": 2018,
+    "title": "Pharmacy Technicians' Willingness to Perform Emerging Tasks in Community Practice",
+    "container": "Pharmacy (Basel, Switzerland)",
+    "doi": "10.3390/pharmacy6040113",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Pharmacy Technicians’ Willingness to Perform Emerging Tasks in Community Practice",
+      "fingerprint": "420290fb99fd2bfe9656bc4a23103152eebd75f8daeae78f361e040da4314665"
+    }
+  }
+}

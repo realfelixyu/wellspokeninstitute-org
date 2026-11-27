@@ -1,0 +1,67 @@
+{
+  "dingemanse2015repair": {
+    "authors": "Dingemanse, M., Roberts, S. G., Baranova, J., Blythe, J., Drew, P., Floyd, S., Gisladottir, R. S., Kendrick, K. H., Levinson, S. C., Manrique, E., Rossi, G., & Enfield, N. J.",
+    "year": 2015,
+    "title": "Universal Principles in the Repair of Communication Problems",
+    "container": "PLOS ONE, 10(9), e0136100",
+    "doi": "10.1371/journal.pone.0136100",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Universal Principles in the Repair of Communication Problems",
+      "fingerprint": "6a9c85287a6b12e7fa666cb9e5a043a57e186a0f05d6a24cb9b5656494c46963"
+    }
+  },
+  "drew1997openrepair": {
+    "authors": "Drew, P.",
+    "year": 1997,
+    "title": "‘Open’ class repair initiators in response to sequential sources of troubles in conversation",
+    "container": "Journal of Pragmatics, 28(1), 69–101",
+    "doi": "10.1016/S0378-2166(97)89759-7",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "‘Open’ class repair initiators in response to sequential sources of troubles in conversation",
+      "fingerprint": "7bcd171017ca1f5023f35bcf6d65bf8b390c9084088533e482c66d7056163d4f"
+    }
+  },
+  "kendrick2015englishrepair": {
+    "authors": "Kendrick, K. H.",
+    "year": 2015,
+    "title": "Other-initiated repair in English",
+    "container": "Open Linguistics, 1(1), 164–190",
+    "doi": "10.2478/opli-2014-0009",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Other-initiated repair in English",
+      "fingerprint": "72630d89825f3432a4efe6738efa39c2946756e893fb28f1431fe4d26f4d5f4e"
+    }
+  },
+  "kaur2010mutualunderstanding": {
+    "authors": "Kaur, J.",
+    "year": 2010,
+    "title": "Achieving mutual understanding in world Englishes",
+    "container": "World Englishes, 29(2), 192–208",
+    "doi": "10.1111/j.1467-971X.2010.01638.x",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Achieving mutual understanding in world Englishes",
+      "fingerprint": "4ccffdf4f21ac8e60f619f1fd563a7715e74b9a62c9d4ce0d22990ad33056680"
+    }
+  },
+  "pica1987interaction": {
+    "authors": "Pica, T., Young, R., & Doughty, C.",
+    "year": 1987,
+    "title": "The Impact of Interaction on Comprehension",
+    "container": "TESOL Quarterly, 21(4), 737–758",
+    "doi": "10.2307/3586992",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "The Impact of Interaction on Comprehension",
+      "fingerprint": "b13bc331fc4b22481bf269f97a2f9d01071e1c5978304bd3deb6d75dbc107ca5"
+    }
+  }
+}

@@ -7,8 +7,9 @@
     "doi": "10.1145/50087.50089",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "A field study of the software design process for large systems"
+      "date": "2026-11-25",
+      "matched": "A field study of the software design process for large systems",
+      "fingerprint": "0ccfe1f9c138e388675516626849fbf7c15be4581a88a9d09bf0c9761911c0cc"
     }
   },
   "ko2007information": {
@@ -19,8 +20,9 @@
     "doi": "10.1109/ICSE.2007.45",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Information Needs in Collocated Software Development Teams"
+      "date": "2026-11-25",
+      "matched": "Information Needs in Collocated Software Development Teams",
+      "fingerprint": "158d97476e44b0ae24ad057a15b2f4974e107a78a8af2f15b62fcbdbe838ee71"
     }
   },
   "stray2016standup": {
@@ -31,8 +33,9 @@
     "doi": "10.1016/j.jss.2016.01.004",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "The daily stand-up meeting: A grounded theory study"
+      "date": "2026-11-25",
+      "matched": "The daily stand-up meeting: A grounded theory study",
+      "fingerprint": "87b64b46ad55f51ae7b1f6278da0cc7aadbf83e22d56c46e8e2d79f644d024c8"
     }
   },
   "davis2006elicitation": {
@@ -43,8 +46,9 @@
     "doi": "10.1109/RE.2006.17",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Effectiveness of Requirements Elicitation Techniques: Empirical Results Derived from a Systematic Review"
+      "date": "2026-11-25",
+      "matched": "Effectiveness of Requirements Elicitation Techniques: Empirical Results Derived from a Systematic Review",
+      "fingerprint": "a4ada37cd84800bd5de9d856cd652c4190f010d2a2061fba6fe1f4275397ec20"
     }
   },
   "hall2014techsupport": {
@@ -55,8 +59,9 @@
     "doi": "10.1002/mar.20711",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "It Takes Just 120 Seconds: Predicting Satisfaction in Technical Support Calls"
+      "date": "2026-11-25",
+      "matched": "It Takes Just 120 Seconds: Predicting Satisfaction in Technical Support Calls",
+      "fingerprint": "26530d0920bc5c0fe8533e0b787f909bf1cb00c950ef92832ef287c632b9f599"
     }
   },
   "pentland1992moves": {
@@ -67,8 +72,9 @@
     "doi": "10.2307/2393471",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Organizing Moves in Software Support Hot Lines"
+      "date": "2026-11-25",
+      "matched": "Organizing Moves in Software Support Hot Lines",
+      "fingerprint": "943607c10d2d7ebc0e164a62d5df1033f77dbb18fa898080d3702d723a333192"
     }
   },
   "das2003techsupport": {
@@ -79,8 +85,9 @@
     "doi": "10.1287/mnsc.49.4.416.14419",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Knowledge and Productivity in Technical Support Work"
+      "date": "2026-11-25",
+      "matched": "Knowledge and Productivity in Technical Support Work",
+      "fingerprint": "881ac418f922c97eeb502702dabc7e5ddb340cecd4f5a497aba33e7c38093956"
     }
   },
   "henderson2008pm": {
@@ -91,8 +98,9 @@
     "doi": "10.1002/pmj.20044",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "The Impact of Project Managers’ Communication Competencies: Validation and Extension of a Research Model for Virtuality, Satisfaction, and Productivity on Project Teams"
+      "date": "2026-11-25",
+      "matched": "The Impact of Project Managers’ Communication Competencies: Validation and Extension of a Research Model for Virtuality, Satisfaction, and Productivity on Project Teams",
+      "fingerprint": "2eb7561012d42429fb2897ad9d93ad8f8299c190882ef3c9566be3a8594ff76f"
     }
   },
   "hoegl2001teamwork": {
@@ -103,8 +111,9 @@
     "doi": "10.1287/orsc.12.4.435.10635",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Teamwork Quality and the Success of Innovative Projects: A Theoretical Concept and Empirical Evidence"
+      "date": "2026-11-25",
+      "matched": "Teamwork Quality and the Success of Innovative Projects: A Theoretical Concept and Empirical Evidence",
+      "fingerprint": "04f1e12ea2fe088a92a7b62923ff616922c66e39d87e0b5c523e8529b49ab3a2"
     }
   },
   "andersen2006projectsuccess": {
@@ -115,8 +124,9 @@
     "doi": "10.1108/17465260610663854",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Exploring project success"
+      "date": "2026-11-25",
+      "matched": "Exploring project success",
+      "fingerprint": "e26f092759ebe5e21841fc2aab5f712d61d68b42cc3bd01c67639237be58662a"
     }
   },
   "sturdy2006dinner": {
@@ -127,8 +137,9 @@
     "doi": "10.1177/0018726706067597",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Guess who's coming to dinner? Structures and uses of liminality in                 strategic management consultancy"
+      "date": "2026-11-25",
+      "matched": "Guess who's coming to dinner? Structures and uses of liminality in                 strategic management consultancy",
+      "fingerprint": "d71e5dd4e1c64269af70df43da8411d732a291c56bbdd407eee94297e4fbe51f"
     }
   },
   "lewis1999change": {
@@ -139,8 +150,9 @@
     "doi": "10.1177/0893318999131002",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Disseminating Information and Soliciting Input during Planned Organizational Change"
+      "date": "2026-11-25",
+      "matched": "Disseminating Information and Soliciting Input during Planned Organizational Change: Implementers’ Targets, Sources, and Channels for Communicating",
+      "fingerprint": "5c8cf0e16db038293f79968c72f4d34c20de9de8704d9ebe5191cfd0c2af1055"
     }
   },
   "kakabadse2006consultant": {
@@ -151,8 +163,9 @@
     "doi": "10.1108/02621710610666268",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Consultant's role: a qualitative inquiry from the consultant's perspective"
+      "date": "2026-11-25",
+      "matched": "Consultant's role: a qualitative inquiry from the consultant's perspective",
+      "fingerprint": "408cf5a16d7aa2d2a7e538957ca9e5365b5f9ede6c48071c1ab9b0ecab938869"
     }
   },
   "fincham1999consultant": {
@@ -163,8 +176,9 @@
     "doi": "10.1111/1467-6486.00139",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "The Consultant–Client Relationship: Critical Perspectives on the Management of Organizational Change"
+      "date": "2026-11-25",
+      "matched": "The Consultant–Client Relationship: Critical Perspectives on the Management of Organizational Change",
+      "fingerprint": "899d22a04271b8974bb995030e70d20fed9f4d1ddb4062a82c460e2e109797bc"
     }
   },
   "luthans1985managers": {
@@ -175,8 +189,9 @@
     "doi": "10.1177/002188638502100303",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "What Do Successful Managers Really Do? An Observation Study of Managerial Activities"
+      "date": "2026-11-25",
+      "matched": "What Do Successful Managers Really Do? An Observation Study of Managerial Activities",
+      "fingerprint": "0970af03f6b2166f0ed10d386407c63c1330557adc0544f728c5b6b9f1554b59"
     }
   },
   "tengblad2006managerial": {
@@ -187,8 +202,9 @@
     "doi": "10.1111/j.1467-6486.2006.00651.x",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Is there a ‘New Managerial Work’? A Comparison with Henry Mintzberg's Classic Study 30 Years Later*"
+      "date": "2026-11-25",
+      "matched": "Is there a ‘New Managerial Work’? A Comparison with Henry Mintzberg's Classic Study 30 Years Later*",
+      "fingerprint": "adfe05871ddd060f8a5a6e3d646063aa5e0da6cf716b190219ae5c09edc90285"
     }
   },
   "kauffeld2012meetings": {
@@ -199,8 +215,9 @@
     "doi": "10.1177/1046496411429599",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Meetings Matter"
+      "date": "2026-11-25",
+      "matched": "Meetings Matter: Effects of Team Meetings on Team and Organizational Success",
+      "fingerprint": "cccdcea6fc3d027d30ae262786cd79e77c1c2fae16c4a05de68ce91b9df92905"
     }
   },
   "mayew2012voice": {
@@ -211,8 +228,9 @@
     "doi": "10.1111/j.1540-6261.2011.01705.x",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "The Power of Voice: Managerial Affective States and Future Firm Performance"
+      "date": "2026-11-25",
+      "matched": "The Power of Voice: Managerial Affective States and Future Firm Performance",
+      "fingerprint": "fc110e9143ce22a0d185139f9260a7d219fea7706aede81c51b7fffe960b3026"
     }
   },
   "mayew2013pitch": {
@@ -223,8 +241,9 @@
     "doi": "10.1016/j.evolhumbehav.2013.03.001",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Voice pitch and the labor market success of male chief executive officers"
+      "date": "2026-11-25",
+      "matched": "Voice pitch and the labor market success of male chief executive officers",
+      "fingerprint": "ce23b70eba24a066651f8944af94f290b0a2335b0d8ae6830615bb2f78f5d204"
     }
   },
   "bandiera2020ceo": {
@@ -235,8 +254,9 @@
     "doi": "10.1086/705331",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "CEO Behavior and Firm Performance"
+      "date": "2026-11-25",
+      "matched": "CEO Behavior and Firm Performance",
+      "fingerprint": "66b58f4f55853802e75e00ec7ea517f86449c2c79cac62999ff0f1543dd60893"
     }
   },
   "matsumoto2011calls": {
@@ -247,8 +267,9 @@
     "doi": "10.2308/accr-10034",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "What Makes Conference Calls Useful? The Information Content of Managers' Presentations and Analysts' Discussion Sessions"
+      "date": "2026-11-25",
+      "matched": "What Makes Conference Calls Useful? The Information Content of Managers' Presentations and Analysts' Discussion Sessions",
+      "fingerprint": "d02f2adead1c84def7b340961d366d5080d1c36127d8ee189037efa688a2bf46"
     }
   },
   "hollander2010silence": {
@@ -259,8 +280,9 @@
     "doi": "10.1111/j.1475-679X.2010.00365.x",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Does Silence Speak? An Empirical Analysis of Disclosure Choices During Conference Calls"
+      "date": "2026-11-25",
+      "matched": "Does Silence Speak? An Empirical Analysis of Disclosure Choices During Conference Calls",
+      "fingerprint": "49dd93199bfbb6cca10d7789a7c1cd056fc6a827d6a6e3d9a8110cef78a56727"
     }
   },
   "larcker2012deceptive": {
@@ -271,8 +293,9 @@
     "doi": "10.1111/j.1475-679X.2012.00450.x",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Detecting Deceptive Discussions in Conference Calls"
+      "date": "2026-11-25",
+      "matched": "Detecting Deceptive Discussions in Conference Calls",
+      "fingerprint": "b4cb94ec368ca301186e67d633506cc011f89db1770a5018e121f9d1d2f26ca7"
     }
   },
   "chen2018diurnal": {
@@ -283,8 +306,9 @@
     "doi": "10.1287/mnsc.2017.2888",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Oh What a Beautiful Morning! Diurnal Influences on Executives and Analysts: Evidence from Conference Calls"
+      "date": "2026-11-25",
+      "matched": "Oh What a Beautiful Morning! Diurnal Influences on Executives and Analysts: Evidence from Conference Calls",
+      "fingerprint": "daee665846f57620e6ddd5b2ca0a1853f992f2402ded3d0e7a6c213ae18f2986"
     }
   },
   "maltz1996dissemination": {
@@ -295,8 +319,9 @@
     "doi": "10.1177/002224379603300105",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Market Intelligence Dissemination across Functional Boundaries"
+      "date": "2026-11-25",
+      "matched": "Market Intelligence Dissemination across Functional Boundaries",
+      "fingerprint": "c4e4a0e2482a7e58da48132e4c7c1032f5fc4ed873bb074e95421c643de460c6"
     }
   },
   "homburg2007thoughtworlds": {
@@ -307,8 +332,9 @@
     "doi": "10.1509/jmkg.71.3.124",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "The Thought Worlds of Marketing and Sales: Which Differences Make a Difference?"
+      "date": "2026-11-25",
+      "matched": "The Thought Worlds of Marketing and Sales: Which Differences Make a Difference?",
+      "fingerprint": "573f063a30a7b584b61b4a07a530b8a0ed3339a4eac91b3b453c19723538bd42"
     }
   },
   "griffin1996rdmarketing": {
@@ -319,8 +345,9 @@
     "doi": "10.1111/1540-5885.1330191",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Integrating R&amp;D and Marketing: A Review and Analysis of the Literature"
+      "date": "2026-11-25",
+      "matched": "Integrating R&amp;D and Marketing: A Review and Analysis of the Literature",
+      "fingerprint": "eb720703ec07481bffe006f5cd69299c6bd62ce95ed595a4b4bc47e0909150ff"
     }
   },
   "dahling2016coaching": {
@@ -331,8 +358,9 @@
     "doi": "10.1111/peps.12123",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Does Coaching Matter? A Multilevel Model Linking Managerial Coaching Skill and Frequency to Sales Goal Attainment"
+      "date": "2026-11-25",
+      "matched": "Does Coaching Matter? A Multilevel Model Linking Managerial Coaching Skill and Frequency to Sales Goal Attainment",
+      "fingerprint": "fc6f6cc3102cd9ee93597270b5ceffb8b6baa845318b9029528dce5569a0d3f7"
     }
   },
   "jaworski1991feedback": {
@@ -343,8 +371,9 @@
     "doi": "10.1177/002224379102800206",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Supervisory Feedback: Alternative Types and Their Impact on Salespeople's Performance and Satisfaction"
+      "date": "2026-11-25",
+      "matched": "Supervisory Feedback: Alternative Types and Their Impact on Salespeople's Performance and Satisfaction",
+      "fingerprint": "eb58581c8e7dd04c86d48c04bf8540d89ecae6d787c293a3cbd88df45df5bfca"
     }
   },
   "mayfield1998motivating": {
@@ -355,8 +384,9 @@
     "doi": "10.1002/(SICI)1099-050X(199823/24)37:3/4<235::AID-HRM6>3.0.CO;2-X",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "The effects of leader motivating language on subordinate performance and satisfaction"
+      "date": "2026-11-25",
+      "matched": "The effects of leader motivating language on subordinate performance and satisfaction",
+      "fingerprint": "f3af5392c3526d1503eda9571ac9b7ea7c95400687812c3bf1922579059803c9"
     }
   },
   "franke2006adaptive": {
@@ -367,8 +397,9 @@
     "doi": "10.1509/jmkr.43.4.693",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Salesperson Adaptive Selling Behavior and Customer Orientation: A Meta-Analysis"
+      "date": "2026-11-25",
+      "matched": "Salesperson Adaptive Selling Behavior and Customer Orientation: A Meta-Analysis",
+      "fingerprint": "5e22ece42fa137b42577b1ac62e6446186fbaeeacd68fe6aaaaf2fd21aa120c1"
     }
   },
   "drollinger2013listening": {
@@ -379,8 +410,9 @@
     "doi": "10.1108/08858621311285714",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Salesperson's listening ability as an antecedent to relationship selling"
+      "date": "2026-11-25",
+      "matched": "Salesperson's listening ability as an antecedent to relationship selling",
+      "fingerprint": "d36f901b9ff0efacacfcd3574734930865d09f13b07115e18bda491a9c723356"
     }
   },
   "hall2015intuition": {
@@ -391,8 +423,9 @@
     "doi": "10.1509/jm.13.0505",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "The Importance of Starting Right: The Influence of Accurate Intuition on Performance in Salesperson–Customer Interactions"
+      "date": "2026-11-25",
+      "matched": "The Importance of Starting Right: The Influence of Accurate Intuition on Performance in Salesperson–Customer Interactions",
+      "fingerprint": "66deb76d6253289b3f437213d35a05c4252d8e7f451d16aca7449c19d1c535df"
     }
   },
   "verbeke2011drivers": {
@@ -403,8 +436,9 @@
     "doi": "10.1007/s11747-010-0211-8",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Drivers of sales performance: a contemporary meta-analysis. Have salespeople become knowledge brokers?"
+      "date": "2026-11-25",
+      "matched": "Drivers of sales performance: a contemporary meta-analysis. Have salespeople become knowledge brokers?",
+      "fingerprint": "35d788b2d0dd84523ecd4ce184250e3e3626de46acd26492174fcefb9974d2a3"
     }
   },
   "jacob2011mimicry": {
@@ -415,8 +449,9 @@
     "doi": "10.1016/j.jretconser.2010.11.006",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Retail salespeople's mimicry of customers: Effects on consumer behavior"
+      "date": "2026-11-25",
+      "matched": "Retail salespeople's mimicry of customers: Effects on consumer behavior",
+      "fingerprint": "00593bd856f1991822dd68e03df0b7364b3fd64aa5b115e5c31145854905fdeb"
     }
   },
   "tsai2002affective": {
@@ -427,8 +462,9 @@
     "doi": "10.1037/0021-9010.87.5.1001",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Mechanisms linking employee affective delivery and customer behavioral intentions."
+      "date": "2026-11-25",
+      "matched": "Mechanisms linking employee affective delivery and customer behavioral intentions.",
+      "fingerprint": "6c35cdbaccd6179856655e8b7a35bdc3715ea8e786b2274fbd7c3212c3e72ec8"
     }
   },
   "gremler2000rapport": {
@@ -439,8 +475,9 @@
     "doi": "10.1177/109467050031006",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Customer-Employee Rapport in Service Relationships"
+      "date": "2026-11-25",
+      "matched": "Customer-Employee Rapport in Service Relationships",
+      "fingerprint": "cec303860443e05858d9d6c5a51d3b2929c8b50cef8524c9e264995761502cc6"
     }
   },
   "silvester2003retail": {
@@ -451,8 +488,9 @@
     "doi": "10.1348/096317903321208916",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Comparing two attributional models of job performance in retail sales: A field study"
+      "date": "2026-11-25",
+      "matched": "Comparing two attributional models of job performance in retail sales: A field study",
+      "fingerprint": "8d8f2113226e520886390bbefa9717e13058611dee1672fc39613b5f8da6e76c"
     }
   },
   "snyder2011realestate": {
@@ -463,8 +501,9 @@
     "doi": "10.1177/0021943611406275",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "How Similar Are Real Estate Agents and Human-Service Workers?: A Study of Real Estate Agents' Responses to Distressed Clients"
+      "date": "2026-11-25",
+      "matched": "How Similar Are Real Estate Agents and Human-Service Workers?: A Study of Real Estate Agents' Responses to Distressed Clients",
+      "fingerprint": "86700db00d577091dd338930769c50533576771dc5998e871cb358d4d10c77fd"
     }
   },
   "levitt2008realestate": {
@@ -475,8 +514,9 @@
     "doi": "10.1162/rest.90.4.599",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Market Distortions When Agents Are Better Informed: The Value of Information in Real Estate Transactions"
+      "date": "2026-11-25",
+      "matched": "Market Distortions When Agents Are Better Informed: The Value of Information in Real Estate Transactions",
+      "fingerprint": "a6f9784ea3afe8012f3e906f7320802cef0beae77fb25af11fe9d2c749b3cc1b"
     }
   },
   "cardella2016listprice": {
@@ -487,8 +527,9 @@
     "doi": "10.1016/j.joep.2015.11.001",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "The effect of listing price strategy on real estate negotiations: An experimental study"
+      "date": "2026-11-25",
+      "matched": "The effect of listing price strategy on real estate negotiations: An experimental study",
+      "fingerprint": "e87583bd3d72291f86c0b0d43f8abb9fd3d572fbcbcb5097017d3c06bb35771b"
     }
   },
   "crosby1990relationship": {
@@ -499,8 +540,9 @@
     "doi": "10.1177/002224299005400306",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Relationship Quality in Services Selling: An Interpersonal Influence Perspective"
+      "date": "2026-11-25",
+      "matched": "Relationship Quality in Services Selling: An Interpersonal Influence Perspective",
+      "fingerprint": "99a6263e48cba2271dc494ed133ac6a5a8a12003cdc124763cd61e293d4b4c00"
     }
   },
   "anagol2017insurance": {
@@ -511,8 +553,9 @@
     "doi": "10.1162/REST_a_00625",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Understanding the Advice of Commissions-Motivated Agents: Evidence from the Indian Life Insurance Market"
+      "date": "2026-11-25",
+      "matched": "Understanding the Advice of Commissions-Motivated Agents: Evidence from the Indian Life Insurance Market",
+      "fingerprint": "ee5c28e89281eee0eb0eb1de789bb7ed44a2603b372cc49d9aaab6ef97f9ca78"
     }
   },
   "seligman1986explanatory": {
@@ -523,8 +566,9 @@
     "doi": "10.1037/0022-3514.50.4.832",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Explanatory style as a predictor of productivity and quitting among life insurance sales agents."
+      "date": "2026-11-25",
+      "matched": "Explanatory style as a predictor of productivity and quitting among life insurance sales agents.",
+      "fingerprint": "9af41482443c3869db16d65b61a9d93f4cec03cb7fb33139846cdc97d8b19faf"
     }
   },
   "laudenbach2025personal": {
@@ -535,8 +579,9 @@
     "doi": "10.1111/jofi.13388",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Personal Communication in an Automated World: Evidence from Loan Repayments"
+      "date": "2026-11-25",
+      "matched": "Personal Communication in an Automated World: Evidence from Loan Repayments",
+      "fingerprint": "7fe1a41dc0852d5163c72884b94303fd1b121d34da69c6792c4c910c237b377e"
     }
   },
   "drexler2014relationships": {
@@ -547,8 +592,9 @@
     "doi": "10.1287/mnsc.2014.1957",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Do Relationships Matter? Evidence from Loan Officer Turnover"
+      "date": "2026-11-25",
+      "matched": "Do Relationships Matter? Evidence from Loan Officer Turnover",
+      "fingerprint": "219850abddd4a23cb33add2ff84a22b49b96972787c0902809249c668174862b"
     }
   },
   "verbeke2000anxiety": {
@@ -559,8 +605,9 @@
     "doi": "10.1509/jmkg.64.3.88.18032",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Sales Call Anxiety: Exploring What it Means When Fear Rules a Sales Encounter"
+      "date": "2026-11-25",
+      "matched": "Sales Call Anxiety: Exploring What it Means When Fear Rules a Sales Encounter",
+      "fingerprint": "8afd9b705c5c4129208ec6cbcb79937b00ef71d542cc68a70a381c6faffe53fb"
     }
   },
   "mullainathan2012advice": {
@@ -571,8 +618,9 @@
     "doi": "10.3386/w17929",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "The Market for Financial Advice: An Audit Study"
+      "date": "2026-11-25",
+      "matched": "The Market for Financial Advice: An Audit Study",
+      "fingerprint": "31f5b98b44bdc8b1318fa7c013d1736eb5051d40fb3382101b86a09e233a7122"
     }
   },
   "lozza2022money": {
@@ -583,8 +631,9 @@
     "doi": "10.1108/IJBM-04-2021-0124",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Money as a symbol in the relationship between financial advisors and their clients: a dyadic study"
+      "date": "2026-11-25",
+      "matched": "Money as a symbol in the relationship between financial advisors and their clients: a dyadic study",
+      "fingerprint": "28031d00c1e8caf0a539548ec16e57d68dbbacba21cee409f62f582ac69d5488"
     }
   },
   "agnew2018first": {
@@ -595,8 +644,9 @@
     "doi": "10.1287/mnsc.2016.2590",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "First Impressions Matter: An Experimental Investigation of Online Financial Advice"
+      "date": "2026-11-25",
+      "matched": "First Impressions Matter: An Experimental Investigation of Online Financial Advice",
+      "fingerprint": "574ac85fd9f240c4a20bf2a332c6c6c290222fbdb057f1ea2b11c4d71db40b98"
     }
   },
   "gibbins2001negotiation": {
@@ -607,8 +657,9 @@
     "doi": "10.1111/1475-679X.00027",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Evidence About Auditor–Client Management Negotiation Concerning Client’s Financial Reporting"
+      "date": "2026-11-25",
+      "matched": "Evidence About Auditor–Client Management Negotiation Concerning Client’s Financial Reporting",
+      "fingerprint": "71834e721f5168afc91d561cf4748458cca38e481c4f46a6fc767d0bd4210e55"
     }
   },
   "kavanagh2008skills": {
@@ -619,8 +670,9 @@
     "doi": "10.1111/j.1467-629X.2007.00245.x",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "What skills and attributes does an accounting graduate need? Evidence from student perceptions and employer expectations"
+      "date": "2026-11-25",
+      "matched": "What skills and attributes does an accounting graduate need? Evidence from student perceptions and employer expectations",
+      "fingerprint": "552aa28e386ac0bddbb751a0b3a9194ef1dd0c613e1c806022430b04ffbbb830"
     }
   },
   "gardner2005apprehension": {
@@ -631,8 +683,9 @@
     "doi": "10.1080/06939280500077269",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Oral and written communication apprehension in accounting students: Curriculum impacts and impacts on academic performance"
+      "date": "2026-11-25",
+      "matched": "Oral and written communication apprehension in accounting students: Curriculum impacts and impacts on academic performance",
+      "fingerprint": "c031e6fe84dd975d7beac4f41fbca5a2bd5a82b6bd8fc91d128ecaa14d8bbe47"
     }
   },
   "mcdaniel1994interviews": {
@@ -643,8 +696,9 @@
     "doi": "10.1037/0021-9010.79.4.599",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "The validity of employment interviews: A comprehensive review and meta-analysis."
+      "date": "2026-11-25",
+      "matched": "The validity of employment interviews: A comprehensive review and meta-analysis.",
+      "fingerprint": "1a9b96c1ac39dc62f1f666ec6bd36e4f0d2c6c70983b24e9fa4d4971c732da2a"
     }
   },
   "chapman2005attraction": {
@@ -655,8 +709,9 @@
     "doi": "10.1037/0021-9010.90.5.928",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Applicant Attraction to Organizations and Job Choice: A Meta-Analytic Review of the Correlates of Recruiting Outcomes."
+      "date": "2026-11-25",
+      "matched": "Applicant Attraction to Organizations and Job Choice: A Meta-Analytic Review of the Correlates of Recruiting Outcomes.",
+      "fingerprint": "8a131379034a853e1eae2dad658cf5038ddab2d15a8f950293a01e64c20faa71"
     }
   },
   "barrick2009selfpresentation": {
@@ -667,8 +722,9 @@
     "doi": "10.1037/a0016532",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "What you see may not be what you get: Relationships among self-presentation tactics and ratings of interview and job performance."
+      "date": "2026-11-25",
+      "matched": "What you see may not be what you get: Relationships among self-presentation tactics and ratings of interview and job performance.",
+      "fingerprint": "bc334b2b4d2f73b028757efd88222eb9cf2b65526b2ac0ab1ceea72acf1fa39c"
     }
   },
   "packard2018pronouns": {
@@ -679,8 +735,9 @@
     "doi": "10.1509/jmr.16.0118",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "(I'm) Happy to Help (You): The Impact of Personal Pronoun Use in Customer–Firm Interactions"
+      "date": "2026-11-25",
+      "matched": "(I'm) Happy to Help (You): The Impact of Personal Pronoun Use in Customer–Firm Interactions",
+      "fingerprint": "b8ba19baa0d8861e6ed5f3be7bf5d3004b561f9e59d61e45f4ebad7190730c2a"
     }
   },
   "packard2021concrete": {
@@ -691,8 +748,9 @@
     "doi": "10.1093/jcr/ucaa038",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "How Concrete Language Shapes Customer Satisfaction"
+      "date": "2026-11-25",
+      "matched": "How Concrete Language Shapes Customer Satisfaction",
+      "fingerprint": "cd2334941313b6b75030b01704bb1c7b836fa93369b6bc60b377d590fc661646"
     }
   },
   "deruyter2000listening": {
@@ -703,8 +761,9 @@
     "doi": "10.1177/109467050023005",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "The Impact of Perceived Listening Behavior in Voice-to-Voice Service Encounters"
+      "date": "2026-11-25",
+      "matched": "The Impact of Perceived Listening Behavior in Voice-to-Voice Service Encounters",
+      "fingerprint": "18e3dc7d021b6c4bd667bfdad6eefeffcfaee495a1e04a05ce89267ae67a8138"
     }
   },
   "marinova2018frontline": {
@@ -715,8 +774,9 @@
     "doi": "10.1509/jmr.15.0243",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Frontline Problem-Solving Effectiveness: A Dynamic Analysis of Verbal and Nonverbal Cues"
+      "date": "2026-11-25",
+      "matched": "Frontline Problem-Solving Effectiveness: A Dynamic Analysis of Verbal and Nonverbal Cues",
+      "fingerprint": "0dad34ac2f1930f91f5996d27435789bfa94b4522e35204c89422b11b4dc2e2c"
     }
   },
   "hewitt2009frontdesk": {
@@ -727,8 +787,9 @@
     "doi": "10.3399/bjgp09X453774",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Front desk talk: discourse analysis of receptionist–patient interaction"
+      "date": "2026-11-25",
+      "matched": "Front desk talk: discourse analysis of receptionist–patient interaction",
+      "fingerprint": "678616973adff94dd8022e2542be797d616ccbe6a1da58069376a065b6b21d67"
     }
   },
   "hammond2013dragon": {
@@ -739,8 +800,9 @@
     "doi": "10.3399/bjgp13X664225",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Slaying the dragon myth: an ethnographic study of receptionists in UK general practice"
+      "date": "2026-11-25",
+      "matched": "Slaying the dragon myth: an ethnographic study of receptionists in UK general practice",
+      "fingerprint": "6b7e4939773209c1dbc206a83ca0419875a0f69e26ddbbce594eb99d6b4753d6"
     }
   },
   "neuwelt2015receptionists": {
@@ -751,8 +813,9 @@
     "doi": "10.1016/j.socscimed.2014.10.010",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "The place of receptionists in access to primary care: Challenges in the space between community and consultation"
+      "date": "2026-11-25",
+      "matched": "The place of receptionists in access to primary care: Challenges in the space between community and consultation",
+      "fingerprint": "8c38c34501001003202ce09724505195f754b586f536fd834b41996100141f71"
     }
   },
   "truss2013secretarial": {
@@ -763,8 +826,9 @@
     "doi": "10.1111/j.1468-0432.2012.00587.x",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Still in the Ghetto? Experiences of Secretarial Work in the 21st Century"
+      "date": "2026-11-25",
+      "matched": "Still in the Ghetto? Experiences of Secretarial Work in the 21st Century",
+      "fingerprint": "010093451169f12d968e96daf00d3b341ff57ee8a9450d1ee81a14d3f3055e54"
     }
   },
   "detert2011implicit": {
@@ -775,8 +839,9 @@
     "doi": "10.5465/amj.2011.61967925",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Implicit Voice Theories: Taken-for-Granted Rules of Self-Censorship at Work"
+      "date": "2026-11-25",
+      "matched": "Implicit Voice Theories: Taken-for-Granted Rules of Self-Censorship at Work",
+      "fingerprint": "47ed038df415af9275babb4473291311f99b1e3b65bd39bc8b7196e7fb7c0bc2"
     }
   },
   "rogelberg2006meetings": {
@@ -787,8 +852,9 @@
     "doi": "10.1037/0021-9010.91.1.83",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "\"Not Another Meeting!\" Are Meeting Time Demands Related to Employee Well-Being?"
+      "date": "2026-11-25",
+      "matched": "\"Not Another Meeting!\" Are Meeting Time Demands Related to Employee Well-Being?",
+      "fingerprint": "0b1e77fc894005845272a29d7ff282b019f809bf7b18ff46eb48c8b39dca734c"
     }
   },
   "garrity1990introduction": {
@@ -799,8 +865,9 @@
     "doi": "10.1111/j.1559-1816.1990.tb00405.x",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Effect of Server Introduction on Restaurant Tipping<sup>1</sup>"
+      "date": "2026-11-25",
+      "matched": "Effect of Server Introduction on Restaurant Tipping<sup>1</sup>",
+      "fingerprint": "42781eb58d93dbe8a2f15e1ebb4a47cd2b42fee798eecc28e69b501e36e6f59b"
     }
   },
   "seiter2007ingratiation": {
@@ -811,8 +878,9 @@
     "doi": "10.1111/j.1559-1816.2007.00169.x",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Ingratiation and Gratuity: The Effect of Complimenting Customers on Tipping Behavior in Restaurants"
+      "date": "2026-11-25",
+      "matched": "Ingratiation and Gratuity: The Effect of Complimenting Customers on Tipping Behavior in Restaurants",
+      "fingerprint": "e8926b87b6637d012e9ae1fc6373c0b8860f21ad2b8b9207dc82c350a020cd0c"
     }
   },
   "lynn1993posture": {
@@ -823,8 +891,9 @@
     "doi": "10.1111/j.1559-1816.1993.tb01109.x",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Effect of Server Posture on Restaurant Tipping<sup>1</sup>"
+      "date": "2026-11-25",
+      "matched": "Effect of Server Posture on Restaurant Tipping<sup>1</sup>",
+      "fingerprint": "b08dd062a3695cfd0441d5fed10bb8ade8ff4c75c4ee7730d1812c348007b834"
     }
   }
 }

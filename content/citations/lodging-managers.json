@@ -1,0 +1,41 @@
+{
+  "schumacher2016recovery": {
+    "authors": "Schumacher, S., & Komppula, R.",
+    "year": 2016,
+    "title": "A case study on service recovery: Frontline employees’ perspectives and the role of empowerment",
+    "container": "European Journal of Tourism, Hospitality and Recreation, 7(2), 117–127",
+    "doi": "10.1515/ejthr-2016-0014",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "A case study on service recovery: Frontline employees’ perspectives and the role of empowerment",
+      "fingerprint": "e6cede01bc78edc51fc9ad2435c2514db9f1f0a2a71313903e6795e65972bf83"
+    }
+  },
+  "magnini2009thankyou": {
+    "authors": "Magnini, V. P., & Karande, K.",
+    "year": 2009,
+    "title": "The influences of transaction history and thank you statements in service recovery",
+    "container": "International Journal of Hospitality Management, 28(4), 540–546",
+    "doi": "10.1016/j.ijhm.2009.03.001",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "The influences of transaction history and thank you statements in service recovery",
+      "fingerprint": "eb5a3ffef6b1c4975dccdd9b1e60ac83d7a37a46bc0f4217a90776661034dd28"
+    }
+  },
+  "manickas1997complaint": {
+    "authors": "Manickas, P. A., & Shea, L. J.",
+    "year": 1997,
+    "title": "Hotel Complaint Behavior and Resolution: A Content Analysis",
+    "container": "Journal of Travel Research, 36(2), 68–73",
+    "doi": "10.1177/004728759703600210",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Hotel Complaint Behavior and Resolution: A Content Analysis",
+      "fingerprint": "25b97b67081d710d1f8a48170026dc597262b05ba91e9a3b1c2724212dcaf9ee"
+    }
+  }
+}

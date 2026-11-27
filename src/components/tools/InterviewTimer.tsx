@@ -24,17 +24,18 @@ export default function InterviewTimer() {
 
   useEffect(() => {
     if (!running) return;
-    const id = setInterval(() => setElapsed((Date.now() - start.current) / 1000), 200);
+    const id = setInterval(() => setElapsed((performance.now() - start.current) / 1000), 200);
     return () => clearInterval(id);
   }, [running]);
 
+  const seconds = done ? Math.round(elapsed) : Math.floor(elapsed);
   const verdict = !done
     ? null
-    : elapsed < item.min
-      ? "Short. Add one concrete example or result so the answer feels complete."
-      : elapsed > item.max
-        ? "Long. Lead with your main point and cut background the interviewer did not ask for."
-        : "On target. That length gives enough detail without losing the listener.";
+    : seconds < item.min
+      ? "Below the practice target. Is there a specific example you want to add?"
+      : seconds > item.max
+        ? "Above the practice target. Try a shorter version and compare the two."
+        : "Within this question’s practice target.";
 
   return (
     <Panel>
@@ -65,7 +66,7 @@ export default function InterviewTimer() {
         {!running ? (
           <Button
             onClick={() => {
-              start.current = Date.now();
+              start.current = performance.now();
               setElapsed(0);
               setDone(false);
               setRunning(true);
@@ -76,6 +77,7 @@ export default function InterviewTimer() {
         ) : (
           <Button
             onClick={() => {
+              setElapsed((performance.now() - start.current) / 1000);
               setRunning(false);
               setDone(true);
             }}
@@ -85,7 +87,7 @@ export default function InterviewTimer() {
         )}
       </div>
       <div className="mt-5 grid gap-3 sm:grid-cols-2">
-        <Stat value={`${Math.floor(elapsed)} s`} label="your answer" />
+        <Stat value={`${seconds} s`} label="your answer" />
         <Stat value={`${item.min} to ${item.max} s`} label="practice target" />
       </div>
       {verdict ? (

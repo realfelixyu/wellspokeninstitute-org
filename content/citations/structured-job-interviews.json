@@ -1,0 +1,41 @@
+{
+  "vance1978interviewratings": {
+    "authors": "Vance, R. J., Kuhnert, K. W., & Farr, J. L.",
+    "year": 1978,
+    "title": "Interview judgments: Using external criteria to compare behavioral and graphic scale ratings",
+    "container": "Organizational Behavior and Human Performance, 22(2), 279–294",
+    "doi": "10.1016/0030-5073(78)90017-X",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Interview judgments: Using external criteria to compare behavioral and graphic scale ratings",
+      "fingerprint": "ac35fb077ee37ac3687b41c02095ee854808d28c064145ebd25d448549f9b2bf"
+    }
+  },
+  "culbertson2017twoformats": {
+    "authors": "Culbertson, S. S., Weyhrauch, W. S., & Huffcutt, A. I.",
+    "year": 2017,
+    "title": "A tale of two formats: Direct comparison of matching situational and behavior description interview questions",
+    "container": "Human Resource Management Review, 27(1), 167–177",
+    "doi": "10.1016/j.hrmr.2016.09.009",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "A tale of two formats: Direct comparison of matching situational and behavior description interview questions",
+      "fingerprint": "e77abab7eb28e54f4592f006dc03a8461ddc053fc86f90f301e68fb6ab9bb324"
+    }
+  },
+  "wingate2025interviewconstructs": {
+    "authors": "Wingate, T. G., Bourdage, J. S., & Steel, P.",
+    "year": 2025,
+    "title": "Evaluating interview criterion-related validity for distinct constructs: A meta-analysis",
+    "container": "International Journal of Selection and Assessment, 33(1), e12494",
+    "doi": "10.1111/ijsa.12494",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Evaluating interview criterion‐related validity for distinct constructs: A meta‐analysis",
+      "fingerprint": "4077862826384e11b79987c2d7e979f1d4ed2c10d0af9e8345462c489d39f89a"
+    }
+  }
+}

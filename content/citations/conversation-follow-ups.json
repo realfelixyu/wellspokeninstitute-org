@@ -1,0 +1,80 @@
+{
+  "huang2017asking": {
+    "authors": "Huang, K., Yeomans, M., Brooks, A. W., Minson, J., & Gino, F.",
+    "year": 2017,
+    "title": "It doesn’t hurt to ask: Question-asking increases liking",
+    "container": "Journal of Personality and Social Psychology, 113(3), 430–452",
+    "doi": "10.1037/pspi0000097",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "It doesn’t hurt to ask: Question-asking increases liking.",
+      "fingerprint": "f3a33aad8f80ed2b82175dc4e53a035bc5ee9ccb0d5f7748f32f2f37efadb522"
+    }
+  },
+  "asking2025correction": {
+    "authors": "Unsigned journal correction",
+    "year": 2025,
+    "title": "Correction to “It doesn’t hurt to ask: Question-asking increases liking” by Huang et al. (2017)",
+    "container": "Journal of Personality and Social Psychology, 128(3), 669",
+    "doi": "10.1037/pspi0000491",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Correction to “It doesn’t hurt to ask: Question-asking increases liking” by Huang et al. (2017).",
+      "fingerprint": "63228ed561a5c019d279a811f9cf9c4d6b1d263c6d38c10d36bd4813e8ed1b42"
+    }
+  },
+  "weger2014active": {
+    "authors": "Weger, H., Jr., Castle Bell, G., Minei, E. M., & Robinson, M. C.",
+    "year": 2014,
+    "title": "The Relative Effectiveness of Active Listening in Initial Interactions",
+    "container": "International Journal of Listening, 28(1), 13–31",
+    "doi": "10.1080/10904018.2013.813234",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "The Relative Effectiveness of Active Listening in Initial Interactions",
+      "fingerprint": "2ce518a6a2ea2dde16fbf90c19779f8cb15ea3636cc32e9001a332d3b4a64312"
+    }
+  },
+  "west2025listening": {
+    "authors": "West, T. N., Huston, S., Chandler, K. R., Zhou, J., & Fredrickson, B. L.",
+    "year": 2025,
+    "title": "High-quality listening behaviors linked to social connection between strangers",
+    "container": "Communications Psychology, 3, 165",
+    "doi": "10.1038/s44271-025-00342-2",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "High-quality listening behaviors linked to social connection between strangers",
+      "fingerprint": "a899b0391aabf5e05d81a42565e1d59e86aedf818dc63c435f868b952a2df465"
+    }
+  },
+  "kluger2019dyadic": {
+    "authors": "Kluger, A. N., & Malloy, T. E.",
+    "year": 2019,
+    "title": "Question asking as a dyadic behavior",
+    "container": "Journal of Personality and Social Psychology, 117(6), 1127–1138",
+    "doi": "10.1037/pspi0000156",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Question asking as a dyadic behavior.",
+      "fingerprint": "596050eca695b605cd033da6de1e92b5cc311933ff345450bf961aec20b198dc"
+    }
+  },
+  "yeomans2019followup": {
+    "authors": "Yeomans, M., Brooks, A. W., Huang, K., Minson, J., & Gino, F.",
+    "year": 2019,
+    "title": "It helps to ask: The cumulative benefits of asking follow-up questions",
+    "container": "Journal of Personality and Social Psychology, 117(6), 1139–1144",
+    "doi": "10.1037/pspi0000220",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "It helps to ask: The cumulative benefits of asking follow-up questions.",
+      "fingerprint": "eaf539b64c175bcf19193911e79e83795947946625aad3606ea2a2856ec98eea"
+    }
+  }
+}

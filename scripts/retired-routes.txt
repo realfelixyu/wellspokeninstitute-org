@@ -1,0 +1,2 @@
+# Paths deliberately removed from the live site, one per line, e.g. /learn/old-slug
+# check-live-routes.py fails a build that drops any other live sitemap URL.

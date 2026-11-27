@@ -1,9 +1,9 @@
 // Builds data/speaking-by-occupation.json from the O*NET 31.0 Database text files.
 // Source: O*NET 31.0 Database by USDOL/ETA, CC BY 4.0. Download db_31_0_text.zip from
-// https://www.onetcenter.org/database.html and unzip into data/raw/onet/.
+// https://www.onetcenter.org/dl_files/database/db_31_0_text.zip and unzip into data/raw/onet/.
 //
 // Wellspoken Institute derives a composite "Speaking Demand Score" from these ratings.
-// The method is documented on /data/speaking-by-occupation/methodology.
+// The method is documented on /data/speaking-by-occupation#method.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -12,6 +12,10 @@ const ROOT = process.cwd();
 const SRC = path.join(ROOT, "data", "raw", "onet", "db_31_0_text");
 const OUT = path.join(ROOT, "data", "speaking-by-occupation.json");
 const OPTIONAL_EMPLOYMENT = path.join(ROOT, "data", "bls-oews-national.json");
+
+if (process.argv.includes("--require-employment") && !fs.existsSync(OPTIONAL_EMPLOYMENT)) {
+  throw new Error("The full dataset release requires data/bls-oews-national.json for employment and wage summaries.");
+}
 
 function readTsv(file) {
   const text = fs.readFileSync(path.join(SRC, file), "utf8");
@@ -69,12 +73,15 @@ if (fs.existsSync(OPTIONAL_EMPLOYMENT)) {
 //   Speaking level (0 to 7)             -> x / 7
 //   Oral Expression importance (1 to 5) -> (x - 1) / 4
 function score(o) {
-  const parts = [];
-  if (o.speakingImportance != null) parts.push((o.speakingImportance - 1) / 4);
-  if (o.speakingLevel != null) parts.push(o.speakingLevel / 7);
-  if (o.oralExpressionImportance != null) parts.push((o.oralExpressionImportance - 1) / 4);
-  if (parts.length < 3) return null;
-  return Math.round((parts.reduce((a, b) => a + b, 0) / parts.length) * 1000) / 10;
+  if (o.speakingImportance == null || o.speakingLevel == null || o.oralExpressionImportance == null) return null;
+  // Source ratings are published in hundredths. Keep the numerator integral
+  // so an exact midpoint rounds up when the score is displayed to one decimal.
+  const speakingImportance = Math.round(o.speakingImportance * 100);
+  const speakingLevel = Math.round(o.speakingLevel * 100);
+  const oralImportance = Math.round(o.oralExpressionImportance * 100);
+  // Bringing the scale divisors (4, 7, 4) to 28 and averaging gives a divisor of 84.
+  const numerator = 7 * (speakingImportance - 100) + 4 * speakingLevel + 7 * (oralImportance - 100);
+  return Math.round(numerator * 10 / 84) / 10;
 }
 
 const round2 = (x) => (x == null ? null : Math.round(x * 100) / 100);
@@ -104,10 +111,10 @@ rows.sort((a, b) => (b.speakingDemandScore ?? 0) - (a.speakingDemandScore ?? 0) 
 rows.forEach((r, i) => (r.rank = i + 1));
 
 const out = {
-  source: "O*NET 31.0 Database (August 2026 release), U.S. Department of Labor, Employment and Training Administration. CC BY 4.0.",
+  source: "O*NET® 31.0 Database (August 2026 release), U.S. Department of Labor, Employment and Training Administration. CC BY 4.0.",
   sourceUrl: "https://www.onetcenter.org/database.html",
-  modifiedBy: "Wellspoken Institute derived the Speaking Demand Score and percent fields. USDOL/ETA has not approved, endorsed, or tested these modifications.",
-  employmentSource: employment.size ? "U.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics (national)." : null,
+  modifiedBy: "Wellspoken Institute calculated the Speaking Demand Score from O*NET ratings. Public-speaking percentages come from the O*NET Work Context data. O*NET® is a trademark of USDOL/ETA. USDOL/ETA has not approved, endorsed, or tested these modifications.",
+  employmentSource: employment.size ? "U.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics, May 2025 national estimates (public domain)." : null,
   generatedAt: new Date().toISOString().slice(0, 10),
   count: rows.length,
   rows,

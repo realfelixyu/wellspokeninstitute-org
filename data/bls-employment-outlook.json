@@ -1,0 +1,393 @@
+{
+  "source": "US Bureau of Labor Statistics, Employment Projections, Table 1.2",
+  "url": "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.Htm",
+  "period": "2025–35",
+  "units": "Percent change in projected employment, 2025 to 2035",
+  "rows": [
+    {
+      "soc": "11-1011",
+      "title": "Chief executives",
+      "percentChange": 3.2
+    },
+    {
+      "soc": "11-1021",
+      "title": "General and operations managers",
+      "percentChange": 5
+    },
+    {
+      "soc": "11-2021",
+      "title": "Marketing managers",
+      "percentChange": 6.9
+    },
+    {
+      "soc": "11-2022",
+      "title": "Sales managers",
+      "percentChange": 4.5
+    },
+    {
+      "soc": "11-3031",
+      "title": "Financial managers",
+      "percentChange": 9.7
+    },
+    {
+      "soc": "11-3121",
+      "title": "Human resources managers",
+      "percentChange": 5.5
+    },
+    {
+      "soc": "11-9021",
+      "title": "Construction managers",
+      "percentChange": 9.1
+    },
+    {
+      "soc": "11-9032",
+      "title": "Education administrators, kindergarten through secondary",
+      "percentChange": -0.3
+    },
+    {
+      "soc": "11-9081",
+      "title": "Lodging managers",
+      "percentChange": 3.8
+    },
+    {
+      "soc": "11-9111",
+      "title": "Medical and health services managers",
+      "percentChange": 24.2
+    },
+    {
+      "soc": "13-1071",
+      "title": "Human resources specialists",
+      "percentChange": 6.4
+    },
+    {
+      "soc": "13-1082",
+      "title": "Project management specialists",
+      "percentChange": 6.7
+    },
+    {
+      "soc": "13-1111",
+      "title": "Management analysts",
+      "percentChange": 10.1
+    },
+    {
+      "soc": "13-1131",
+      "title": "Fundraisers",
+      "percentChange": 5.5
+    },
+    {
+      "soc": "13-1151",
+      "title": "Training and development specialists",
+      "percentChange": 10.8
+    },
+    {
+      "soc": "13-2011",
+      "title": "Accountants and auditors",
+      "percentChange": 5
+    },
+    {
+      "soc": "13-2052",
+      "title": "Personal financial advisors",
+      "percentChange": 1.4
+    },
+    {
+      "soc": "13-2072",
+      "title": "Loan officers",
+      "percentChange": 1.1
+    },
+    {
+      "soc": "15-1232",
+      "title": "Computer user support specialists",
+      "percentChange": -3.5
+    },
+    {
+      "soc": "15-1252",
+      "title": "Software developers",
+      "percentChange": 10.2
+    },
+    {
+      "soc": "15-2051",
+      "title": "Data scientists",
+      "percentChange": 34.6
+    },
+    {
+      "soc": "17-1011",
+      "title": "Architects, except landscape and naval",
+      "percentChange": 4.3
+    },
+    {
+      "soc": "17-2051",
+      "title": "Civil engineers",
+      "percentChange": 6.4
+    },
+    {
+      "soc": "17-2141",
+      "title": "Mechanical engineers",
+      "percentChange": 11.2
+    },
+    {
+      "soc": "19-3033",
+      "title": "Clinical and counseling psychologists",
+      "percentChange": 11.7
+    },
+    {
+      "soc": "21-1012",
+      "title": "Educational, guidance, and career counselors and advisors",
+      "percentChange": 2.9
+    },
+    {
+      "soc": "21-1021",
+      "title": "Child, family, and school social workers",
+      "percentChange": 4.4
+    },
+    {
+      "soc": "21-2011",
+      "title": "Clergy",
+      "percentChange": 2.4
+    },
+    {
+      "soc": "23-1011",
+      "title": "Lawyers",
+      "percentChange": 4.7
+    },
+    {
+      "soc": "23-2011",
+      "title": "Paralegals and legal assistants",
+      "percentChange": -0.3
+    },
+    {
+      "soc": "25-2011",
+      "title": "Preschool teachers, except special education",
+      "percentChange": 4.5
+    },
+    {
+      "soc": "25-2021",
+      "title": "Elementary school teachers, except special education",
+      "percentChange": -0.4
+    },
+    {
+      "soc": "25-2022",
+      "title": "Middle school teachers, except special and career/technical education",
+      "percentChange": -0.4
+    },
+    {
+      "soc": "25-2031",
+      "title": "Secondary school teachers, except special and career/technical education",
+      "percentChange": -0.2
+    },
+    {
+      "soc": "25-4022",
+      "title": "Librarians and media collections specialists",
+      "percentChange": 2.6
+    },
+    {
+      "soc": "27-3023",
+      "title": "News analysts, reporters, and journalists",
+      "percentChange": -5.9
+    },
+    {
+      "soc": "27-3031",
+      "title": "Public relations specialists",
+      "percentChange": 1.8
+    },
+    {
+      "soc": "27-3091",
+      "title": "Interpreters and translators",
+      "percentChange": 2
+    },
+    {
+      "soc": "29-1021",
+      "title": "Dentists, general",
+      "percentChange": 5.7
+    },
+    {
+      "soc": "29-1031",
+      "title": "Dietitians and nutritionists",
+      "percentChange": 7.7
+    },
+    {
+      "soc": "29-1051",
+      "title": "Pharmacists",
+      "percentChange": 5.2
+    },
+    {
+      "soc": "29-1071",
+      "title": "Physician assistants",
+      "percentChange": 21.1
+    },
+    {
+      "soc": "29-1122",
+      "title": "Occupational therapists",
+      "percentChange": 14.8
+    },
+    {
+      "soc": "29-1123",
+      "title": "Physical therapists",
+      "percentChange": 11.9
+    },
+    {
+      "soc": "29-1127",
+      "title": "Speech-language pathologists",
+      "percentChange": 16.6
+    },
+    {
+      "soc": "29-1131",
+      "title": "Veterinarians",
+      "percentChange": 9.4
+    },
+    {
+      "soc": "29-1141",
+      "title": "Registered nurses",
+      "percentChange": 5.6
+    },
+    {
+      "soc": "29-1171",
+      "title": "Nurse practitioners",
+      "percentChange": 41
+    },
+    {
+      "soc": "29-1215",
+      "title": "Family medicine physicians",
+      "percentChange": 3.3
+    },
+    {
+      "soc": "29-1216",
+      "title": "General internal medicine physicians",
+      "percentChange": 4
+    },
+    {
+      "soc": "29-1292",
+      "title": "Dental hygienists",
+      "percentChange": 8
+    },
+    {
+      "soc": "29-2043",
+      "title": "Paramedics",
+      "percentChange": 5.7
+    },
+    {
+      "soc": "29-2052",
+      "title": "Pharmacy technicians",
+      "percentChange": 6.4
+    },
+    {
+      "soc": "31-1131",
+      "title": "Nursing assistants",
+      "percentChange": 2.6
+    },
+    {
+      "soc": "31-9092",
+      "title": "Medical assistants",
+      "percentChange": 12.9
+    },
+    {
+      "soc": "33-3051",
+      "title": "Police and sheriff's patrol officers",
+      "percentChange": 3.5
+    },
+    {
+      "soc": "33-9032",
+      "title": "Security guards",
+      "percentChange": 0.9
+    },
+    {
+      "soc": "35-2014",
+      "title": "Cooks, restaurant",
+      "percentChange": 12.1
+    },
+    {
+      "soc": "35-3011",
+      "title": "Bartenders",
+      "percentChange": 5
+    },
+    {
+      "soc": "35-3023",
+      "title": "Fast food and counter workers",
+      "percentChange": 5.8
+    },
+    {
+      "soc": "35-3031",
+      "title": "Waiters and waitresses",
+      "percentChange": 2
+    },
+    {
+      "soc": "37-2012",
+      "title": "Maids and housekeeping cleaners",
+      "percentChange": 0.6
+    },
+    {
+      "soc": "39-9011",
+      "title": "Childcare workers",
+      "percentChange": -2
+    },
+    {
+      "soc": "41-2011",
+      "title": "Cashiers",
+      "percentChange": -6.5
+    },
+    {
+      "soc": "41-2031",
+      "title": "Retail salespersons",
+      "percentChange": -0.3
+    },
+    {
+      "soc": "41-3021",
+      "title": "Insurance sales agents",
+      "percentChange": 3.3
+    },
+    {
+      "soc": "41-4012",
+      "title": "Sales representatives, wholesale and manufacturing, except technical and scientific products",
+      "percentChange": -0.9
+    },
+    {
+      "soc": "41-9022",
+      "title": "Real estate sales agents",
+      "percentChange": 1.7
+    },
+    {
+      "soc": "43-4051",
+      "title": "Customer service representatives",
+      "percentChange": -5.3
+    },
+    {
+      "soc": "43-4081",
+      "title": "Hotel, motel, and resort desk clerks",
+      "percentChange": 1.8
+    },
+    {
+      "soc": "43-4171",
+      "title": "Receptionists and information clerks",
+      "percentChange": -1.7
+    },
+    {
+      "soc": "43-5031",
+      "title": "Public safety telecommunicators",
+      "percentChange": 3.7
+    },
+    {
+      "soc": "43-6011",
+      "title": "Executive secretaries and executive administrative assistants",
+      "percentChange": 0
+    },
+    {
+      "soc": "43-6014",
+      "title": "Secretaries and administrative assistants, except legal, medical, and executive",
+      "percentChange": -6.0
+    },
+    {
+      "soc": "53-2011",
+      "title": "Airline pilots, copilots, and flight engineers",
+      "percentChange": 8.3
+    },
+    {
+      "soc": "53-2031",
+      "title": "Flight attendants",
+      "percentChange": 8.8
+    },
+    {
+      "soc": "53-3032",
+      "title": "Heavy and tractor-trailer truck drivers",
+      "percentChange": 3.8
+    }
+  ]
+}

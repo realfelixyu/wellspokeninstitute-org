@@ -33,18 +33,18 @@ const esc = (v) => {
   return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
 };
 
-const csv = [COLS.map((c) => esc(c[1])).join(",")]
-  .concat(src.rows.map((r) => COLS.map(([k]) => esc(r[k])).join(",")))
-  .join("\n");
+// Keep every record rectangular so spreadsheet and CSV readers can use row one as the header.
+const credit = [
+  src.source, src.sourceUrl, src.modifiedBy, src.employmentSource,
+  `Wellspoken Institute dataset, ${src.generatedAt}. https://wellspokeninstitute.org/data/speaking-by-occupation`,
+  "License: https://creativecommons.org/licenses/by/4.0/",
+].filter(Boolean).join(" ");
+const csv = [
+  [...COLS.map(([, title]) => title), "Source and license"].map(esc).join(","),
+  ...src.rows.map(row => [...COLS.map(([key]) => row[key]), credit].map(esc).join(",")),
+].join("\n") + "\n";
 
-const header = [
-  "# Speaking by Occupation dataset, Wellspoken Institute (wellspokeninstitute.org/data/speaking-by-occupation)",
-  `# Generated ${src.generatedAt}. License: CC BY 4.0.`,
-  "# Includes information from the O*NET 31.0 Database by the U.S. Department of Labor, Employment and Training Administration (USDOL/ETA), used under the CC BY 4.0 license. Wellspoken Institute has modified all or some of this information. USDOL/ETA has not approved, endorsed, or tested these modifications.",
-  "# Employment and wages: U.S. Bureau of Labor Statistics, OEWS May 2025 national estimates (public domain).",
-];
-
-fs.writeFileSync(path.join(outDir, "speaking-by-occupation.csv"), header.join("\n") + "\n" + csv + "\n");
+fs.writeFileSync(path.join(outDir, "speaking-by-occupation.csv"), csv);
 
 const slim = src.rows.map((r) => [
   r.rank, r.code, r.title, r.speakingDemandScore, r.speakingImportance, r.speakingLevel,
@@ -56,7 +56,10 @@ fs.writeFileSync(
     fields: ["rank", "code", "title", "score", "speakingImportance", "speakingLevel", "oralExpressionImportance", "publicSpeakingFrequency", "faceToFaceFrequency", "employment", "medianWage", "jobZone"],
     source: src.source,
     modifiedBy: src.modifiedBy,
+    employmentSource: src.employmentSource,
+    sourceUrl: src.sourceUrl,
     license: "CC BY 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by/4.0/",
     rows: slim,
   })
 );

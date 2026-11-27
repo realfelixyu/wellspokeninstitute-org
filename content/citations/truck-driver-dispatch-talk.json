@@ -1,0 +1,40 @@
+{
+  "fournier2012truckdispatch": {
+    "authors": "Fournier, P.-S., Lamontagne, S., & Gagnon, J.",
+    "year": 2012,
+    "title": "Interactions between Dispatchers and Truck Drivers in a High Turnover Context",
+    "container": "Relations industrielles / Industrial Relations, 67(2), 263–282",
+    "doi": "10.7202/1009087ar",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Interactions between Dispatchers and Truck Drivers in a High Turnover Context",
+      "fingerprint": "c2f99d07191204a6ca6ddae7fa2c19058068844fc6f2bbc486a27762ede389a1"
+    }
+  },
+  "duke1997shippers": {
+    "authors": "Duke, M. E., Morris, S. W., Swinehart, J. W., & Weppner, M.",
+    "year": 1997,
+    "title": "A Qualitative Assessment of the Role of Shippers and Others in Driver Compliance with Federal Safety Regulations",
+    "publisher": "Federal Highway Administration, report FHWA-MC-98-049",
+    "url": "https://rosap.ntl.bts.gov/view/dot/92808",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-27",
+      "fingerprint": "44ae65de1648af1798c675a0a1ef4fc30e4d2be7728078903056d91d19f79d7c"
+    }
+  },
+  "dijkstra2021truckers": {
+    "authors": "Dijkstra, B. E., Coler, M., & Redeker, G.",
+    "year": 2021,
+    "title": "The multilingual workplace realities of Polish truckers: A case study in the Netherlands",
+    "container": "Multilingua, 40(5), 589–616",
+    "doi": "10.1515/multi-2020-0038",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "The multilingual workplace realities of Polish truckers: A case study in the Netherlands",
+      "fingerprint": "1da71dc732ec42f6d23532cc1402a6e22673e48d220ba10de36f20b4acc435cf"
+    }
+  }
+}

@@ -20,7 +20,7 @@ export interface ContentMeta {
   kind: ContentKind;
   publishedAt: string;
   updatedAt?: string;
-  status: "draft" | "published";
+  status: "draft" | "published" | "scheduled";
   contributors: string[];
   reviewers: string[];
   dataSource?: string;
@@ -63,9 +63,9 @@ function readEntry(collection: Collection, file: string): ContentEntry {
       title: String(data.title ?? ""),
       description: String(data.description ?? ""),
       kind: (data.kind ?? "article") as ContentKind,
-      publishedAt: toDateString(data.publishedAt) ?? "",
+      publishedAt: toDateString(data.status === "scheduled" ? data.scheduledFor : data.publishedAt) ?? "",
       updatedAt: toDateString(data.updatedAt),
-      status: data.status === "published" ? "published" : "draft",
+      status: ["published", "scheduled"].includes(data.status) ? data.status : "draft",
       contributors: asStringArray(data.contributors),
       reviewers: asStringArray(data.reviewers),
       dataSource: data.dataSource ? String(data.dataSource) : undefined,
@@ -89,7 +89,7 @@ function todayISO(): string {
 }
 
 export function isLive(meta: ContentMeta): boolean {
-  return meta.status === "published" && meta.publishedAt <= todayISO();
+  return meta.status !== "draft" && Boolean(meta.publishedAt) && meta.publishedAt <= todayISO();
 }
 
 export function getEntries(collection: Collection): ContentEntry[] {
@@ -107,6 +107,14 @@ export function getEntries(collection: Collection): ContentEntry[] {
     cache.set(collection, entries);
   }
   return cache.get(collection)!;
+}
+
+/** True when content/<collection>/<slug>.mdx exists, is not a draft, and is dated after today. */
+export function isScheduledLater(collection: Collection, slug: string): boolean {
+  const file = `${slug}.mdx`;
+  if (!FILE_RE.test(file) || !fs.existsSync(path.join(ROOT, collection, file))) return false;
+  const { meta } = readEntry(collection, file);
+  return meta.status !== "draft" && Boolean(meta.publishedAt) && meta.publishedAt > todayISO();
 }
 
 export function getEntry(collection: Collection, slug: string): ContentEntry | undefined {

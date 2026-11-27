@@ -8,7 +8,8 @@
     "url": "https://www.naceweb.org/talent-acquisition/candidate-selection/the-key-attributes-employers-are-looking-for-on-graduates-resumes",
     "verified": {
       "method": "url",
-      "date": "2026-11-24"
+      "date": "2026-11-25",
+      "fingerprint": "650ac1175d65001ca13bb103ad68d1257ec4d9146e31df67c7ace81757dba102"
     }
   },
   "demingkahn2018skills": {
@@ -19,8 +20,9 @@
     "doi": "10.1086/694106",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Skill Requirements across Firms and Labor Markets: Evidence from Job Postings for Professionals"
+      "date": "2026-11-25",
+      "matched": "Skill Requirements across Firms and Labor Markets: Evidence from Job Postings for Professionals",
+      "fingerprint": "e8499aba83e8c91c3197eb4e653f41970583c22eddb8bcd85506d5fab7db70fe"
     }
   },
   "atalay2020evolution": {
@@ -31,8 +33,9 @@
     "doi": "10.1257/app.20190070",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "The Evolution of Work in the United States"
+      "date": "2026-11-25",
+      "matched": "The Evolution of Work in the United States",
+      "fingerprint": "8f1f46e30302be0cdd0a632f6d93121e1a01b1e8447387e748d25e6f888692e4"
     }
   },
   "weinberger2014complementarity": {
@@ -43,8 +46,9 @@
     "doi": "10.1162/REST_a_00449",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "The Increasing Complementarity between Cognitive and Social Skills"
+      "date": "2026-11-25",
+      "matched": "The Increasing Complementarity between Cognitive and Social Skills",
+      "fingerprint": "388db48c4c4052343dfa6d97cdc915caa29d854043d082dbd9d9b5a58bb14ae9"
     }
   },
   "borghans2014people": {
@@ -55,8 +59,9 @@
     "doi": "10.1177/001979391406700202",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "People Skills and the Labor-Market Outcomes of Underrepresented Groups"
+      "date": "2026-11-25",
+      "matched": "People Skills and the Labor-Market Outcomes of Underrepresented Groups",
+      "fingerprint": "11d089310630ff17a4bd1b03499a31cfbe0a7617a3c1ce80019c085e432ea281"
     }
   },
   "kuhnweinberger2005leadership": {
@@ -67,8 +72,9 @@
     "doi": "10.1086/430282",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Leadership Skills and Wages"
+      "date": "2026-11-25",
+      "matched": "Leadership Skills and Wages",
+      "fingerprint": "3d6f02b6bee7da023135a038d589fc80002d371d462e3e1275ae612d403f5557"
     }
   },
   "edin2022noncognitive": {
@@ -79,8 +85,9 @@
     "doi": "10.1257/app.20190199",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "The Rising Return to Noncognitive Skill"
+      "date": "2026-11-25",
+      "matched": "The Rising Return to Noncognitive Skill",
+      "fingerprint": "0c2771040b0d851aed66c95a20e51e6c558cb56bbd14ef2a0f022cc22b6689b8"
     }
   },
   "heckmankautz2012soft": {
@@ -91,8 +98,9 @@
     "doi": "10.1016/j.labeco.2012.05.014",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Hard evidence on soft skills"
+      "date": "2026-11-25",
+      "matched": "Hard evidence on soft skills",
+      "fingerprint": "96bd80bcbb463558c467643ce2ecd332aade037fb7c8c8a80171c5b1be3618f0"
     }
   },
   "hjetland2017predictors": {
@@ -103,8 +111,9 @@
     "doi": "10.4073/csr.2017.14",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Preschool predictors of later reading comprehension ability: a systematic review"
+      "date": "2026-11-25",
+      "matched": "Preschool predictors of later reading comprehension ability: a systematic review",
+      "fingerprint": "87886086464616c98b2b7b18e00be93dbb311bb42b6b2398be7487f55ced19e4"
     }
   },
   "law2009language": {
@@ -115,8 +124,9 @@
     "doi": "10.1044/1092-4388(2009/08-0142)",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Modeling Developmental Language Difficulties From School Entry Into Adulthood: Literacy, Mental Health, and Employment Outcomes"
+      "date": "2026-11-25",
+      "matched": "Modeling Developmental Language Difficulties From School Entry Into Adulthood: Literacy, Mental Health, and Employment Outcomes",
+      "fingerprint": "717c588ff8fb60ad73b608866bbb2cd8f7290b6d885ec8c7183c682fde673dbb"
     }
   },
   "norbury2016prevalence": {
@@ -127,8 +137,9 @@
     "doi": "10.1111/jcpp.12573",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "The impact of nonverbal ability on prevalence and clinical presentation of language disorder: evidence from a population study"
+      "date": "2026-11-25",
+      "matched": "The impact of nonverbal ability on prevalence and clinical presentation of language disorder: evidence from a population study",
+      "fingerprint": "92f1267c0a1fc254b8bc681ab25b5874fe97f7ad0327db81fb7920f20fe18e33"
     }
   },
   "fricke2013efficacy": {
@@ -139,8 +150,9 @@
     "doi": "10.1111/jcpp.12010",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Efficacy of language intervention in the early years"
+      "date": "2026-11-25",
+      "matched": "Efficacy of language intervention in the early years",
+      "fingerprint": "bc46ffd8f6c8ff7fc67632cf36a5114ad448242194f79d6b4ee715512c0e558e"
     }
   },
   "fricke2017mainstream": {
@@ -151,8 +163,9 @@
     "doi": "10.1111/jcpp.12737",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "The efficacy of early language intervention in mainstream school settings: a randomized controlled trial"
+      "date": "2026-11-25",
+      "matched": "The efficacy of early language intervention in mainstream school settings: a randomized controlled trial",
+      "fingerprint": "5434c26df6c9a5ff36eb3ea344679fc46e21ed9e157921b1748e3628b8f9ae56"
     }
   },
   "west2021neli": {
@@ -163,8 +176,9 @@
     "doi": "10.1111/jcpp.13415",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Early language screening and intervention can be delivered successfully at scale: evidence from a cluster randomized controlled trial"
+      "date": "2026-11-25",
+      "matched": "Early language screening and intervention can be delivered successfully at scale: evidence from a cluster randomized controlled trial",
+      "fingerprint": "dee54e29dd8c26c15b8b5606fceebc6df28c174801a1794aff0662b9e6c4fb74"
     }
   },
   "hulme2020language": {
@@ -175,8 +189,9 @@
     "doi": "10.1177/0963721420923684",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Children’s Language Skills Can Be Improved: Lessons From Psychological Science for Educational Policy"
+      "date": "2026-11-25",
+      "matched": "Children’s Language Skills Can Be Improved: Lessons From Psychological Science for Educational Policy",
+      "fingerprint": "9689248f4d5d7cc2643a66e915306b5055c445bd5c2882d516a7f6ccc69df4cb"
     }
   },
   "marulis2010vocabulary": {
@@ -187,8 +202,9 @@
     "doi": "10.3102/0034654310377087",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "The Effects of Vocabulary Intervention on Young Children’s Word Learning"
+      "date": "2026-11-25",
+      "matched": "The Effects of Vocabulary Intervention on Young Children’s Word Learning: A Meta-Analysis",
+      "fingerprint": "4d0cedac29b1d9cae0b103a67b1659612c82b6fd1ed8b5d8a8036b1eabf944b8"
     }
   },
   "rogde2019linguistic": {
@@ -199,8 +215,9 @@
     "doi": "10.1002/cl2.1059",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "The effect of linguistic comprehension instruction on generalized language and reading comprehension skills: A systematic review"
+      "date": "2026-11-25",
+      "matched": "The effect of linguistic comprehension instruction on generalized language and reading comprehension skills: A systematic review",
+      "fingerprint": "3c6299b603ce81c8cbace7910585ba2fac5911871094b574795b57f377f25c8e"
     }
   },
   "murphy2009discussion": {
@@ -211,8 +228,9 @@
     "doi": "10.1037/a0015576",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Examining the effects of classroom discussion on students’ comprehension of text: A meta-analysis."
+      "date": "2026-11-25",
+      "matched": "Examining the effects of classroom discussion on students’ comprehension of text: A meta-analysis.",
+      "fingerprint": "62a72667c7b83c728b8aaf44b7e81252f0a57c231680ef38f4aece983b122636"
     }
   },
   "howe2019dialogue": {
@@ -223,8 +241,9 @@
     "doi": "10.1080/10508406.2019.1573730",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Teacher–Student Dialogue During Classroom Teaching: Does It Really Impact on Student Outcomes?"
+      "date": "2026-11-25",
+      "matched": "Teacher–Student Dialogue During Classroom Teaching: Does It Really Impact on Student Outcomes?",
+      "fingerprint": "7021fcc8dad5094fc72c05e6063a544c404d5f7ba70676ea109431ab010e92ac"
     }
   },
   "alexander2018dialogic": {
@@ -235,8 +254,9 @@
     "doi": "10.1080/02671522.2018.1481140",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Developing dialogic teaching: genesis, process, trial"
+      "date": "2026-11-25",
+      "matched": "Developing dialogic teaching: genesis, process, trial",
+      "fingerprint": "b5ddfa36d87a1fc15c9e67ac040ffd204760519f9e071d04cc4b19202b367e41"
     }
   },
   "gorard2017p4c": {
@@ -247,8 +267,9 @@
     "doi": "10.1111/1467-9752.12227",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Can ‘Philosophy for Children’ Improve Primary School Attainment?"
+      "date": "2026-11-25",
+      "matched": "Can ‘Philosophy for Children’ Improve Primary School Attainment?: Can Philosophy for Children Improve Primary School Attainment?",
+      "fingerprint": "13448e3456c92da0ffbe751bbe422cd45902d4a47e4cc231ecd131db89431ea1"
     }
   },
   "mercer1999talk": {
@@ -259,8 +280,9 @@
     "doi": "10.1080/0141192990250107",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Children's Talk and the Development of Reasoning in the Classroom"
+      "date": "2026-11-25",
+      "matched": "Children's Talk and the Development of Reasoning in the Classroom",
+      "fingerprint": "a9dbfef401ece1e49ce8ee52eee961b6188b18594dafd39cde7b4c5c74b589f0"
     }
   },
   "oracycommission2024": {
@@ -272,7 +294,8 @@
     "url": "https://oracyeducationcommission.co.uk/oec-report/",
     "verified": {
       "method": "url",
-      "date": "2026-11-24"
+      "date": "2026-11-25",
+      "fingerprint": "18f7b98b687545cb3b47f6d3b0fc63b36a0d5d3b0bf81d11bc73231a55c18f32"
     }
   },
   "mccroskey1977oral": {
@@ -283,8 +306,9 @@
     "doi": "10.1111/j.1468-2958.1977.tb00599.x",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "ORAL COMMUNICATION APPREHENSION: A SUMMARY OF RECENT THEORY AND RESEARCH"
+      "date": "2026-11-25",
+      "matched": "ORAL COMMUNICATION APPREHENSION: A SUMMARY OF RECENT THEORY AND RESEARCH",
+      "fingerprint": "663c556dd23f4cf2bff42f166f199ad63ebd36a3936ab368ba289eeb6b255f88"
     }
   },
   "mccroskey1977classroom": {
@@ -295,8 +319,9 @@
     "doi": "10.1080/03634527709378196",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Classroom consequences of communication apprehension"
+      "date": "2026-11-25",
+      "matched": "Classroom consequences of communication apprehension",
+      "fingerprint": "bf6615d46e45170452ef02a5c82e228353bf08d6035cfbc83039287028221218"
     }
   },
   "dalymccroskey1975": {
@@ -307,8 +332,9 @@
     "doi": "10.1037/h0076748",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Occupational desirability and choice as a function of communication apprehension."
+      "date": "2026-11-25",
+      "matched": "Occupational desirability and choice as a function of communication apprehension.",
+      "fingerprint": "6dfd910be5397c4872349edc8e4d494f9cc1f209217b306029053f887f216423"
     }
   },
   "bourhisallen1992": {
@@ -319,8 +345,9 @@
     "doi": "10.1080/03634529209378871",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Meta‐analysis of the relationship between communication apprehension and cognitive performance"
+      "date": "2026-11-25",
+      "matched": "Meta‐analysis of the relationship between communication apprehension and cognitive performance",
+      "fingerprint": "d3c47a3ce73021e82cb3c43f7fab0f7d36d38299f5ac0a2a421cfaa9e41fa2dc"
     }
   },
   "stein1996publicspeaking": {
@@ -331,8 +358,9 @@
     "doi": "10.1001/archpsyc.1996.01830020087010",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Public-Speaking Fears in a Community Sample"
+      "date": "2026-11-25",
+      "matched": "Public-Speaking Fears in a Community Sample: Prevalence, Impact on Functioning, and Diagnostic Classification",
+      "fingerprint": "51de7e6139d9e5c82dee5aa4df459119123ab1c29ebf6ff6b564b3fb17a29f5a"
     }
   },
   "ruscio2008socialfears": {
@@ -343,8 +371,9 @@
     "doi": "10.1017/S0033291707001699",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Social fears and social phobia in the USA: results from the National Comorbidity Survey Replication"
+      "date": "2026-11-25",
+      "matched": "Social fears and social phobia in the USA: results from the National Comorbidity Survey Replication",
+      "fingerprint": "3cc992722f95e555ca95fb045ee972d4e2f2b4b3d8090ca419b35a6adfe59435"
     }
   },
   "tillfors2007social": {
@@ -355,8 +384,9 @@
     "doi": "10.1007/s00127-006-0143-2",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Social phobia in Swedish university students: prevalence, subgroups and avoidant behavior"
+      "date": "2026-11-25",
+      "matched": "Social phobia in Swedish university students: prevalence, subgroups and avoidant behavior",
+      "fingerprint": "4039865b9bb56c59d22ead043ed4c30d86a31dbdd88973af1af1b174144dde2b"
     }
   },
   "dwyerdavidson2012": {
@@ -367,8 +397,9 @@
     "doi": "10.1080/08824096.2012.667772",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Is Public Speaking Really More Feared Than Death?"
+      "date": "2026-11-25",
+      "matched": "Is Public Speaking Really More Feared Than Death?",
+      "fingerprint": "eaf25878aaff06b5aa0c4aefff6413cb5dd1500c69d9bb6237943b7b2cdb8815"
     }
   },
   "chapmanfears2026": {
@@ -380,7 +411,8 @@
     "url": "https://www.chapman.edu/wilkinson/research-centers/babbie-center/survey-american-fears.aspx",
     "verified": {
       "method": "url",
-      "date": "2026-11-24"
+      "date": "2026-11-25",
+      "fingerprint": "ac10fda0e95992893c6e0999ab388ff313e79c87577df11e569e8459b80b55a9"
     }
   },
   "bodie2010psa": {
@@ -391,8 +423,9 @@
     "doi": "10.1080/03634520903443849",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "A Racing Heart, Rattling Knees, and Ruminative Thoughts: Defining, Explaining, and Treating Public Speaking Anxiety"
+      "date": "2026-11-25",
+      "matched": "A Racing Heart, Rattling Knees, and Ruminative Thoughts: Defining, Explaining, and Treating Public Speaking Anxiety",
+      "fingerprint": "3c7f858668c5eb0db2039e565450ad9e79dff621e61c1d47096ff39a8526069b"
     }
   },
   "starmer2014ipass": {
@@ -403,8 +436,9 @@
     "doi": "10.1056/NEJMsa1405556",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Changes in Medical Errors after Implementation of a Handoff Program"
+      "date": "2026-11-25",
+      "matched": "Changes in Medical Errors after Implementation of a Handoff Program",
+      "fingerprint": "845fa52e4b78aea69184479628ecb12727ce6aca71d6f92cde64077bcdf37660"
     }
   },
   "lingard2004or": {
@@ -415,8 +449,9 @@
     "doi": "10.1136/qshc.2003.008425",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Communication failures in the operating room: an observational classification of recurrent types and effects"
+      "date": "2026-11-25",
+      "matched": "Communication failures in the operating room: an observational classification of recurrent types and effects",
+      "fingerprint": "25bb76a219a3dd50b721615827d513a532b7538b1dde3d15549ffa486dba9e1a"
     }
   },
   "sutcliffe2004communication": {
@@ -427,8 +462,9 @@
     "doi": "10.1097/00001888-200402000-00019",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Communication Failures: An Insidious Contributor to Medical Mishaps"
+      "date": "2026-11-25",
+      "matched": "Communication Failures: An Insidious Contributor to Medical Mishaps",
+      "fingerprint": "1438f5cb294bf5e1eb05e94452db71b185c85893e314b2eef9dc1aca8c864b84"
     }
   },
   "neily2010teamtraining": {
@@ -439,8 +475,9 @@
     "doi": "10.1001/jama.2010.1506",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Association Between Implementation of a Medical Team Training Program and Surgical Mortality"
+      "date": "2026-11-25",
+      "matched": "Association Between Implementation of a Medical Team Training Program and Surgical Mortality",
+      "fingerprint": "f4de9c3b224fe8b31000097183641eae0cdd3ad3772f6be7dc0548a25a658ffd"
     }
   },
   "zolnierek2009adherence": {
@@ -451,8 +488,9 @@
     "doi": "10.1097/MLR.0b013e31819a5acc",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Physician Communication and Patient Adherence to Treatment"
+      "date": "2026-11-25",
+      "matched": "Physician Communication and Patient Adherence to Treatment: A Meta-Analysis",
+      "fingerprint": "fab2111a5915989dda13d3b8fa5b636d15935d3f7ccefa574f0a795a2314052c"
     }
   },
   "kelley2014relationship": {
@@ -463,8 +501,9 @@
     "doi": "10.1371/journal.pone.0094207",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "The Influence of the Patient-Clinician Relationship on Healthcare Outcomes: A Systematic Review and Meta-Analysis of Randomized Controlled Trials"
+      "date": "2026-11-25",
+      "matched": "The Influence of the Patient-Clinician Relationship on Healthcare Outcomes: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+      "fingerprint": "c0d28ebb2a9814f324cffd2fbd01b6edd4add16a127a44ba1de39a3786dcde99"
     }
   },
   "moore2018cochranecst": {
@@ -475,8 +514,9 @@
     "doi": "10.1002/14651858.CD003751.pub4",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Communication skills training for healthcare professionals working with people who have cancer"
+      "date": "2026-11-25",
+      "matched": "Communication skills training for healthcare professionals working with people who have cancer",
+      "fingerprint": "7310ac1e5e1ff6400f862dd6f764b4e9183bef26a9c52a27535be4b245b8491b"
     }
   },
   "barth2011oncology": {
@@ -487,8 +527,9 @@
     "doi": "10.1093/annonc/mdq441",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Efficacy of communication skills training courses in oncology: a systematic review and meta-analysis"
+      "date": "2026-11-25",
+      "matched": "Efficacy of communication skills training courses in oncology: a systematic review and meta-analysis",
+      "fingerprint": "9596a76f0d0a41e28e33ff126577116ee95f5406ad5cbab3926b1d0bbd3bad1e"
     }
   },
   "acs2019language": {
@@ -500,7 +541,8 @@
     "url": "https://www.census.gov/library/publications/2022/acs/acs-50.html",
     "verified": {
       "method": "url",
-      "date": "2026-11-24"
+      "date": "2026-11-25",
+      "fingerprint": "e9ffe5ac1c31b2d0eb72d3d51acab53c0a468873fc034e283a1c6a8e213235d2"
     }
   },
   "bleakleychin2004": {
@@ -511,8 +553,9 @@
     "doi": "10.1162/003465304323031067",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Language Skills and Earnings: Evidence from Childhood Immigrants*"
+      "date": "2026-11-25",
+      "matched": "Language Skills and Earnings: Evidence from Childhood Immigrants*",
+      "fingerprint": "ceb6f216103aa0686f05b8ad01edb5f108ac3490a63be560393147bedf462803"
     }
   },
   "dustmannfabbri2003": {
@@ -523,8 +566,9 @@
     "doi": "10.1111/1468-0297.t01-1-00151",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Language Proficiency and Labour Market Performance of Immigrants in the UK"
+      "date": "2026-11-25",
+      "matched": "Language Proficiency and Labour Market Performance of Immigrants in the UK",
+      "fingerprint": "46baf6f476519e665d4fa730117772b38bbd84a3a6e0a57f28f02d9359d49ffb"
     }
   },
   "munroderwing1995": {
@@ -535,8 +579,9 @@
     "doi": "10.1111/j.1467-1770.1995.tb00963.x",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Foreign Accent, Comprehensibility, and Intelligibility in the Speech of Second Language Learners"
+      "date": "2026-11-25",
+      "matched": "Foreign Accent, Comprehensibility, and Intelligibility in the Speech of Second Language Learners",
+      "fingerprint": "fc9780573e326acfbdef0eefcf6bb723df4bd8d0efbcd7be6006d9dd573266af"
     }
   },
   "levarikeysar2010": {
@@ -547,8 +592,9 @@
     "doi": "10.1016/j.jesp.2010.05.025",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Why don't we believe non-native speakers? The influence of accent on credibility"
+      "date": "2026-11-25",
+      "matched": "Why don't we believe non-native speakers? The influence of accent on credibility",
+      "fingerprint": "49f379ceeb8817f96e7b61f408541e6d57acf12d6546795ada394148e840501f"
     }
   },
   "lee2015pronunciation": {
@@ -559,8 +605,9 @@
     "doi": "10.1093/applin/amu040",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "The Effectiveness of Second Language Pronunciation Instruction: A Meta-Analysis"
+      "date": "2026-11-25",
+      "matched": "The Effectiveness of Second Language Pronunciation Instruction: A Meta-Analysis",
+      "fingerprint": "1fd7936c1ca28ca0e32b39778a04104b6f1e59a5220e3213616674732ebfd658"
     }
   },
   "saitoplonsky2019": {
@@ -571,8 +618,9 @@
     "doi": "10.1111/lang.12345",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Effects of Second Language Pronunciation Teaching Revisited: A Proposed Measurement Framework and Meta‐Analysis"
+      "date": "2026-11-25",
+      "matched": "Effects of Second Language Pronunciation Teaching Revisited: A Proposed Measurement Framework and Meta‐Analysis",
+      "fingerprint": "d43e6deae0ed4f571b348f971903172a617d6f02b79ca7261c158bed4fc975ba"
     }
   },
   "ebrahimi2019fops": {
@@ -583,8 +631,9 @@
     "doi": "10.3389/fpsyg.2019.00488",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Psychological Interventions for the Fear of Public Speaking: A Meta-Analysis"
+      "date": "2026-11-25",
+      "matched": "Psychological Interventions for the Fear of Public Speaking: A Meta-Analysis",
+      "fingerprint": "41ad4dfea679d0e0e526028b91dcfb7eb1d6fdb1ee20b842a937eeb61dd0edcd"
     }
   },
   "hunter2014speechcourse": {
@@ -595,8 +644,9 @@
     "doi": "10.1080/03634523.2013.875213",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Assessing Success: The Impacts of a Fundamentals of Speech Course on Decreasing Public Speaking Anxiety"
+      "date": "2026-11-25",
+      "matched": "Assessing Success: The Impacts of a Fundamentals of Speech Course on Decreasing Public Speaking Anxiety",
+      "fingerprint": "affca399c9b2b19f37c3e99d527503c0068c13d19618ed8d125c158499a9f266"
     }
   },
   "rubin1997instruction": {
@@ -607,8 +657,9 @@
     "doi": "10.1080/03634529709379080",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Effects of Instruction on Communication Apprehension and Communication Competence"
+      "date": "2026-11-25",
+      "matched": "Effects of Instruction on Communication Apprehension and Communication Competence",
+      "fingerprint": "b5ab451dcced45cf095edcbe8722e5ae7b30990a2bc2922a1d88dd8c94264393"
     }
   },
   "hancock2010curriculum": {
@@ -619,8 +670,9 @@
     "doi": "10.1016/j.jvoice.2008.09.007",
     "verified": {
       "method": "crossref",
-      "date": "2026-11-24",
-      "matched": "Public Speaking Attitudes: Does Curriculum Make a Difference?"
+      "date": "2026-11-25",
+      "matched": "Public Speaking Attitudes: Does Curriculum Make a Difference?",
+      "fingerprint": "35c3680e5c530d5bd2bcf05df03f6809f662d21294cd6a7da9e70a6e87cb166f"
     }
   }
 }
