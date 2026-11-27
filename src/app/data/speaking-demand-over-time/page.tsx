@@ -23,6 +23,7 @@ export default function Methods() {
         <li><a href="/charts/speaking-ratings-two-releases.png" download>Chart for reuse (PNG)</a></li>
         <li><a href="/papers/speaking-demand-over-time-press.html">Press summary</a></li>
       </ul>
+      <p><Link href="/curriculum/explain-a-research-finding">Teach the comparison in a 20-minute college speaking lesson</Link> using two of the occupations in the data.</p>
       <h2>Source files and matching</h2>
       <p>Download the <a href="https://www.onetcenter.org/dl_files/db_15_0.zip">July 2010 O*NET® 15.0 archive</a> and the <a href="https://www.onetcenter.org/dl_files/database/db_31_0_text.zip">August 2026 O*NET 31.0 archive</a> into one folder called <code>archives</code>. Keep their original filenames. With Python 3.8 or later, run <code>python3 reproduce.py archives results</code>. The script checks the SHA-256 checksum of each archive before reading its tables.</p>
       <p>We selected the Speaking element (2.A.1.d), kept analyst ratings on both scales, and excluded ratings flagged for suppression or marked irrelevant. The script joins occupation codes, then compares titles and descriptions after ignoring capitalization and repeated whitespace. Punctuation and wording must match. We did not allocate ratings from a split or merged occupation to its successors.</p>
