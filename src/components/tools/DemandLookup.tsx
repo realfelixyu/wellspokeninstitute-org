@@ -80,7 +80,7 @@ export default function DemandLookup() {
       ) : null}
       {sel
         ? selectedGroup && <EmploymentGroupSummary group={selectedGroup} />
-        : groups.map(group => <EmploymentGroupSummary key={group.code} group={group} />)}
+        : groups.map(group => <EmploymentGroupSummary key={group.code} group={group} heading="h2" />)}
     </Panel>
   );
 }

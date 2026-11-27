@@ -1,11 +1,11 @@
 import type { EmploymentGroup } from "@/lib/employmentGroups";
 export { findOccupationMatches } from "@/lib/employmentGroups";
 
-export function EmploymentGroupSummary({ group }: { group: EmploymentGroup }) {
+export function EmploymentGroupSummary({ group, heading: Heading = "h3" }: { group: EmploymentGroup; heading?: "h2" | "h3" }) {
   const headingId = `employment-group-${group.code}`;
   return (
     <section aria-labelledby={headingId} className="mt-4 rounded-xl border border-rule bg-paper-2 p-4 text-sm">
-      <h3 id={headingId} className="font-semibold text-ink">{group.title}</h3>
+      <Heading id={headingId} className="font-semibold text-ink">{group.title}</Heading>
       <p className="mt-1 text-ink-2">
         BLS reports <strong className="text-ink">{group.employment.toLocaleString("en-US")} U.S. jobs</strong> in
         May 2025 for these occupations combined (BLS {group.code}).

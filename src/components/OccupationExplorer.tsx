@@ -137,7 +137,7 @@ export function OccupationExplorer({ initial, guides }: Props) {
                     {group ? (
                       <button
                         type="button"
-                        aria-label={`Show group employment for ${group.title}`}
+                        aria-label={`Group only, show employment for ${group.title}`}
                         className="min-h-6 whitespace-nowrap underline underline-offset-2"
                         onClick={() => {
                           setQuery(group.code);
