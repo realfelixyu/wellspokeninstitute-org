@@ -73,12 +73,15 @@ if (fs.existsSync(OPTIONAL_EMPLOYMENT)) {
 //   Speaking level (0 to 7)             -> x / 7
 //   Oral Expression importance (1 to 5) -> (x - 1) / 4
 function score(o) {
-  const parts = [];
-  if (o.speakingImportance != null) parts.push((o.speakingImportance - 1) / 4);
-  if (o.speakingLevel != null) parts.push(o.speakingLevel / 7);
-  if (o.oralExpressionImportance != null) parts.push((o.oralExpressionImportance - 1) / 4);
-  if (parts.length < 3) return null;
-  return Math.round((parts.reduce((a, b) => a + b, 0) / parts.length) * 1000) / 10;
+  if (o.speakingImportance == null || o.speakingLevel == null || o.oralExpressionImportance == null) return null;
+  // Source ratings are published in hundredths. Keep the numerator integral
+  // so an exact midpoint rounds up when the score is displayed to one decimal.
+  const speakingImportance = Math.round(o.speakingImportance * 100);
+  const speakingLevel = Math.round(o.speakingLevel * 100);
+  const oralImportance = Math.round(o.oralExpressionImportance * 100);
+  // Bringing the scale divisors (4, 7, 4) to 28 and averaging gives a divisor of 84.
+  const numerator = 7 * (speakingImportance - 100) + 4 * speakingLevel + 7 * (oralImportance - 100);
+  return Math.round(numerator * 10 / 84) / 10;
 }
 
 const round2 = (x) => (x == null ? null : Math.round(x * 100) / 100);
