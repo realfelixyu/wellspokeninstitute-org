@@ -1,0 +1,66 @@
+{
+  "rowe1972classroompauses": {
+    "authors": "Rowe, M. B.",
+    "year": 1972,
+    "title": "Wait-Time and Rewards as Instructional Variables: Their Influence on Language, Logic, and Fate Control",
+    "publisher": "National Association for Research in Science Teaching conference paper, ERIC ED061103",
+    "url": "https://files.eric.ed.gov/fulltext/ED061103.pdf",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-27",
+      "fingerprint": "cc9b990a1bcfbfa6561234277d8be1f265044c21f28b7bb25df1c5c296aab1ba"
+    }
+  },
+  "tobin1986classroompauses": {
+    "authors": "Tobin, K.",
+    "year": 1986,
+    "title": "Effects of Teacher Wait Time on Discourse Characteristics in Mathematics and Language Arts Classes",
+    "container": "American Educational Research Journal, 23(2), 191–200",
+    "doi": "10.3102/00028312023002191",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Effects of Teacher Wait Time on Discourse Characteristics in Mathematics and Language Arts Classes",
+      "fingerprint": "03cc058f0ce0776e5e5a1e6b43be41a2bdf674697f83776040d06acc04348d72"
+    }
+  },
+  "heinze2006questiontiming": {
+    "authors": "Heinze, A., & Erhard, M.",
+    "year": 2006,
+    "title": "How much time do students have to think about teacher questions? An investigation of the quick succession of teacher questions and student responses in the German mathematics classroom",
+    "container": "ZDM, 38(5), 388–398",
+    "doi": "10.1007/BF02652800",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "How much time do students have to think about teacher questions? An investigation of the quick succession of teacher questions and student responses in the German mathematics classroom",
+      "fingerprint": "b4f437e571961c849f64f6fb0e89b256a8847bc24348d945a567cc4abbc327fc"
+    }
+  },
+  "ingram2014classroomturns": {
+    "authors": "Ingram, J., & Elliott, V.",
+    "year": 2014,
+    "title": "Turn taking and ‘wait time’ in classroom interactions",
+    "container": "Journal of Pragmatics, 62, 1–12",
+    "doi": "10.1016/j.pragma.2013.12.002",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Turn taking and ‘wait time’ in classroom interactions",
+      "fingerprint": "93e0dfad0420df728543df69752d19d842e136eb933afdc9aa2e0dd3e4e14f63"
+    }
+  },
+  "gunes2025classroompauses": {
+    "authors": "Güneş, D., & Girgin, U.",
+    "year": 2025,
+    "title": "When extending wait-time is not enough for student participation: Eliciting student responses during L2 whole-class speaking",
+    "container": "System, 135, 103841",
+    "doi": "10.1016/j.system.2025.103841",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "When extending wait-time is not enough for student participation: Eliciting student responses during L2 whole-class speaking",
+      "fingerprint": "a1424953f16e46abe77c9b11a1acec118424d338a7aba98d41ba79639778151e"
+    }
+  }
+}
