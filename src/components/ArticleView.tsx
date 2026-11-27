@@ -71,7 +71,7 @@ export function ArticleView({ entry }: { entry: ContentEntry }) {
           {meta.doi || meta.pdf ? (
             <div className="no-print mt-5 flex flex-wrap gap-3 text-sm">
               {meta.pdf ? (
-                <a href={meta.pdf} className="rounded-md bg-accent px-4 py-2 font-medium text-accent-ink hover:opacity-90">
+                <a href={meta.pdf} className="inline-flex min-h-11 items-center rounded-md bg-accent px-4 py-2 font-medium text-accent-ink hover:opacity-90">
                   Download PDF
                 </a>
               ) : null}

@@ -1,5 +1,13 @@
 import Link from "next/link";
 import { Container } from "@/components/PageHeader";
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata = pageMetadata({
+  title: "Page not found",
+  description: "The page you requested does not exist.",
+  path: "/404",
+  noindex: true,
+});
 
 export default function NotFound() {
   return (

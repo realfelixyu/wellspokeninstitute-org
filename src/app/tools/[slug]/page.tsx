@@ -77,7 +77,7 @@ export default async function ToolPage({ params }: { params: Promise<{ slug: str
           {sources.map(source => <li key={source.key}><a className="underline" href={citationHref(source)}>{formatCitation(source)}</a></li>)}
         </ul>
         <details className="mt-6 rounded-lg border border-rule px-4 py-3">
-          <summary className="cursor-pointer font-medium">Embed this tool on your site</summary>
+          <summary className="cursor-pointer py-3 font-medium">Embed this tool on your site</summary>
           <label className="mt-3 block text-sm">HTML embed code
             <textarea className="mt-2 w-full rounded border border-rule bg-paper p-2 font-mono" readOnly rows={4}
               value={`<iframe title="${t.name}" src="${SITE.url}/embed/${slug}" width="100%" height="640"${slug === "filler-word-counter" ? ' allow="microphone; on-device-speech-recognition"' : ""} style="border:0" loading="lazy"></iframe>`} />

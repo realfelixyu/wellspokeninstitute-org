@@ -97,7 +97,7 @@ export function NumberField({
           step={step}
           value={value}
           onChange={(e) => onChange(Number(e.target.value))}
-          className="w-full accent-[var(--accent)]"
+          className="h-11 w-full cursor-pointer accent-[var(--accent)]"
         />
         <span className="w-24 shrink-0 text-right text-sm text-ink">
           {value}

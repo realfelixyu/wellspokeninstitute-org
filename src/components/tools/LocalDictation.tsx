@@ -15,7 +15,13 @@ type LocalRecognition = {
   stop(): void;
   abort(): void;
 };
-type RecognitionConstructor = new () => LocalRecognition;
+type Availability = "available" | "downloadable" | "downloading" | "unavailable";
+type LocalOptions = { langs: string[]; processLocally: boolean };
+type RecognitionConstructor = (new () => LocalRecognition) & {
+  available?: (options: LocalOptions) => Promise<Availability>;
+  install?: (options: LocalOptions) => Promise<boolean>;
+};
+const LOCAL: LocalOptions = { langs: ["en-US"], processLocally: true };
 
 function recognitionType() {
   const browser = window as typeof window & {
@@ -25,13 +31,16 @@ function recognitionType() {
 }
 
 export default function LocalDictation({ append }: { append: (text: string) => void }) {
+  // The button appears when the browser exposes on-device recognition. Availability is checked on the first
+  // tap, never on page load: starting without a usable English model fails, and some Chromium builds crash.
   const [supported, setSupported] = useState(false);
+  const [availability, setAvailability] = useState<Availability | null>(null);
   const [active, setActive] = useState(false);
   const [message, setMessage] = useState("");
   const session = useRef<LocalRecognition | null>(null);
   useEffect(() => {
     const Recognition = recognitionType();
-    setSupported(Boolean(Recognition && "processLocally" in Recognition.prototype));
+    setSupported(Boolean(Recognition && "processLocally" in Recognition.prototype && typeof Recognition.available === "function"));
     return () => {
       if (session.current) {
         session.current.onresult = null;
@@ -42,9 +51,28 @@ export default function LocalDictation({ append }: { append: (text: string) => v
     };
   }, []);
 
-  function start() {
+  async function start() {
     const Recognition = recognitionType();
     if (!Recognition || session.current) return;
+    let state = availability;
+    if (state === null) {
+      state = await Recognition.available?.(LOCAL).catch(() => "unavailable" as const) ?? "unavailable";
+      setAvailability(state);
+    }
+    if (state === "unavailable") {
+      setSupported(false);
+      setMessage("On-device English dictation is not available in this browser. You can paste a transcript.");
+      return;
+    }
+    if (state !== "available") {
+      setMessage("Downloading the English speech pack for this device…");
+      const installed = await Recognition.install?.(LOCAL).catch(() => false);
+      if (!installed) {
+        setMessage("The English speech pack could not be installed. You can paste a transcript.");
+        return;
+      }
+      setAvailability("available");
+    }
     try {
       const recorder = new Recognition();
       if (!("processLocally" in recorder)) return;

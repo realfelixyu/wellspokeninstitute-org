@@ -98,6 +98,51 @@ body {
 .prose-body section > * + * {
   margin-top: 1.15em;
 }
+.prose-body > :first-child,
+.prose-body > section:first-child > :first-child {
+  margin-top: 0;
+}
+/* Rubric tables stack into one card per skill on phones instead of four cramped columns. */
+@media (max-width: 639px) {
+  .prose-body .table-wrap:has(> table.rubric) {
+    border: 0;
+    overflow: visible;
+  }
+  .prose-body table.rubric thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+  }
+  .prose-body table.rubric,
+  .prose-body table.rubric tbody,
+  .prose-body table.rubric tr,
+  .prose-body table.rubric th,
+  .prose-body table.rubric td {
+    display: block;
+    width: 100%;
+  }
+  .prose-body table.rubric tr {
+    border: 1px solid var(--rule);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .prose-body table.rubric tr + tr {
+    margin-top: 0.75rem;
+  }
+  .prose-body table.rubric td {
+    border-bottom: 0;
+    padding: 0.5rem 0.9rem;
+  }
+  .prose-body table.rubric td::before {
+    content: attr(data-label);
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--accent);
+  }
+}
 /* Words in narrow table cells hyphenate instead of breaking at an arbitrary letter. */
 .prose-body :is(th, td) {
   overflow-wrap: normal;

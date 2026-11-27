@@ -34,7 +34,7 @@ export default function ResearchLesson() {
       <h2>Private presenter cards</h2>
       <p>Open only the card your instructor assigned. Explain how the two ratings changed, when the later database came out, when its ratings for your occupation were last updated, and one question the table leaves open.</p>
       {cards.map(card => <details key={card.letter} className="rounded-md border border-rule px-4 py-2">
-        <summary className="cursor-pointer py-2 font-semibold">Card {card.letter} · {card.job}</summary>
+        <summary className="cursor-pointer py-3 font-semibold">Card {card.letter} · {card.job}</summary>
         <div className="space-y-3 py-3">
           <p>O*NET occupation {card.code} · {card.title}</p>
           <div className="table-wrap"><table className={styles.ratings}>
@@ -58,7 +58,7 @@ export default function ResearchLesson() {
         <li>Did they give one example of a question the data cannot answer?</li>
       </ul>
       <details className="rounded-md border border-rule px-4 py-2">
-        <summary className="cursor-pointer py-2 font-semibold">Instructor answer key</summary>
+        <summary className="cursor-pointer py-3 font-semibold">Instructor answer key</summary>
         <ul className="py-2">
           <li><strong>Restaurant servers.</strong> Speaking importance fell and required skill level rose. The 2026 release carries ratings last updated in 2025.</li>
           <li><strong>Electricians.</strong> Speaking importance rose and required skill level stayed the same. The 2026 release carries ratings last updated in 2022.</li>

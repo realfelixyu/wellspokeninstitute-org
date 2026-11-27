@@ -39,7 +39,7 @@ export function CurriculumDelivery({ siteKey, gaId }: Props) {
   }
   return <section id="teaching-pack">
     <p><a href="/curriculum/teaching-pack.pdf" target="_blank" rel="noopener" download onClick={emailAvailable ? () => { void trackCurriculumClick(window, gaId); } : undefined}>Download the lesson plans and feedback sheet (PDF)</a></p>
-    {emailAvailable && <details className="mt-4"><summary className="cursor-pointer font-semibold">Email me the teaching pack</summary>
+    {emailAvailable && <details className="mt-4"><summary className="cursor-pointer py-3 font-semibold">Email me the teaching pack</summary>
       {!sent && <form action="/api/curriculum-email" method="post" onSubmit={submit} className="mt-3 flex flex-col items-start gap-3">
         <label htmlFor="pack-email">Email address for this one-time delivery</label>
         <input id="pack-email" name="email" type="email" autoComplete="email" maxLength={254} required

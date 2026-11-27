@@ -47,11 +47,11 @@ export default function CurriculumPage() {
       </section>)}
       <h2>Listener feedback sheet</h2>
       <p>Score each row after the first attempt, then again after the second. Use the same prompt for both attempts. Leave a row blank if the task did not give the speaker an opportunity to demonstrate it.</p>
-      <div className="table-wrap"><table><thead><tr><th scope="col">Skill</th><th scope="col">0 · Try again</th><th scope="col">1 · With a prompt</th><th scope="col">2 · Independently</th></tr></thead>
+      <div className="table-wrap"><table className="rubric"><thead><tr><th scope="col">Skill</th><th scope="col">0 · Try again</th><th scope="col">1 · With a prompt</th><th scope="col">2 · Independently</th></tr></thead>
       <tbody>
-        <tr><th scope="row">Main point</th><td>I could not restate it.</td><td>I could restate it after asking.</td><td>I could restate it in my own words.</td></tr>
-        <tr><th scope="row">Supporting detail</th><td>A necessary detail was missing.</td><td>The speaker supplied it when asked.</td><td>The speaker gave the detail I needed.</td></tr>
-        <tr><th scope="row">Response to the listener</th><td>My question remained open.</td><td>A follow-up prompt resolved it.</td><td>The speaker answered my question directly.</td></tr>
+        <tr><th scope="row">Main point</th><td data-label="0 · Try again">I could not restate it.</td><td data-label="1 · With a prompt">I could restate it after asking.</td><td data-label="2 · Independently">I could restate it in my own words.</td></tr>
+        <tr><th scope="row">Supporting detail</th><td data-label="0 · Try again">A necessary detail was missing.</td><td data-label="1 · With a prompt">The speaker supplied it when asked.</td><td data-label="2 · Independently">The speaker gave the detail I needed.</td></tr>
+        <tr><th scope="row">Response to the listener</th><td data-label="0 · Try again">My question remained open.</td><td data-label="1 · With a prompt">A follow-up prompt resolved it.</td><td data-label="2 · Independently">The speaker answered my question directly.</td></tr>
       </tbody></table></div>
       <p>Write the words that helped you understand. Tell the speaker one change to try. Keep the scores with the learner and compare only their two attempts.</p>
     </Prose>
