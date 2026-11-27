@@ -3,7 +3,9 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Panel } from "./ui";
 import { useOccupationData, type ExplorerRow } from "../useOccupationData";
+import { EmploymentGroupSummary, findOccupationMatches } from "../EmploymentGroupResults";
 import { compareOccupationScore } from "@/lib/occupation-score";
+import { groupForOccupation } from "@/lib/employmentGroups";
 
 export default function DemandLookup() {
   const { rows, loadState, retry } = useOccupationData();
@@ -15,11 +17,12 @@ export default function DemandLookup() {
     if (sel) resultHeading.current?.focus();
   }, [sel]);
 
-  const matches = useMemo(() => {
-    const s = q.trim().toLowerCase();
-    if (s.length < 2) return [];
-    return rows.filter((r) => r[2].toLowerCase().includes(s) || r[1].startsWith(s)).slice(0, 8);
+  const { occupations, groups } = useMemo(() => {
+    if (q.trim().length < 2) return { occupations: [], groups: [] };
+    return findOccupationMatches(rows, q);
   }, [q, rows]);
+  const matches = occupations.slice(0, 8);
+  const selectedGroup = sel ? groupForOccupation(sel[1]) : undefined;
 
   const total = rows.length;
   const comparison = sel ? compareOccupationScore(rows.map(row => row[3]), sel[3]) : null;
@@ -42,7 +45,12 @@ export default function DemandLookup() {
       </label>
       {loadState === "loading" && <p role="status">Loading occupations…</p>}
       {loadState === "error" && <p role="status">The occupation data could not load. <button type="button" onClick={retry} className="underline">Try again</button></p>}
-      {loadState === "ready" && q.trim().length >= 2 && !matches.length && <p role="status">No matching occupations.</p>}
+      {loadState === "ready" && q.trim().length >= 2 && !matches.length && !groups.length && <p role="status">No matching occupations.</p>}
+      {!sel && groups.length > 0 && (
+        <p role="status" className="mt-3 text-sm text-ink-2">
+          Found {groups.length} matching BLS employment {groups.length === 1 ? "group" : "groups"}.
+        </p>
+      )}
       {matches.length > 0 && !sel ? (
         <ul className="mt-2 divide-y divide-rule rounded-lg border border-rule bg-paper">
           {matches.map((r) => (
@@ -70,6 +78,9 @@ export default function DemandLookup() {
           </p>
         </div>
       ) : null}
+      {sel
+        ? selectedGroup && <EmploymentGroupSummary group={selectedGroup} />
+        : groups.map(group => <EmploymentGroupSummary key={group.code} group={group} />)}
     </Panel>
   );
 }

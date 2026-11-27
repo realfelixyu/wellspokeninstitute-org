@@ -1,7 +1,9 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 
+import { groupForOccupation } from "@/lib/employmentGroups";
+import { EmploymentGroupSummary, findOccupationMatches } from "./EmploymentGroupResults";
 import { useOccupationData, type ExplorerRow } from "./useOccupationData";
 
 interface Props {
@@ -29,12 +31,12 @@ export function OccupationExplorer({ initial, guides }: Props) {
   const [sort, setSort] = useState<SortKey>("score");
   const [desc, setDesc] = useState(true);
   const [limit, setLimit] = useState(50);
+  const searchInput = useRef<HTMLInputElement>(null);
 
+  const matches = useMemo(() => findOccupationMatches(rows, query), [rows, query]);
   const filtered = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    const list = q ? rows.filter((r) => r[2].toLowerCase().includes(q) || r[1].startsWith(q)) : rows;
     const idx = SORTS[sort].idx;
-    return [...list].sort((a, b) => {
+    return [...matches.occupations].sort((a, b) => {
       const av = a[idx];
       const bv = b[idx];
       if (av === bv) return 0;
@@ -42,7 +44,7 @@ export function OccupationExplorer({ initial, guides }: Props) {
       if (bv === null) return -1;
       return desc ? bv - av : av - bv;
     });
-  }, [rows, query, sort, desc]);
+  }, [matches.occupations, sort, desc]);
 
   const shown = filtered.slice(0, limit);
   const direction = desc ? "descending" : "ascending";
@@ -54,6 +56,7 @@ export function OccupationExplorer({ initial, guides }: Props) {
           <span className="mb-1 block text-sm font-medium text-ink">Search occupations</span>
           <input
             type="search"
+            ref={searchInput}
             value={query}
             onChange={(e) => {
               setQuery(e.target.value);
@@ -87,9 +90,10 @@ export function OccupationExplorer({ initial, guides }: Props) {
         </button>
       </div>
       <p className="mt-3 text-sm text-ink-3" aria-live="polite">
-        {filtered.length === 0 ? "No matching occupations." : (
+        {filtered.length > 0 ? (
           <>Showing {shown.length} of {filtered.length} {query.trim() && "matching "}{filtered.length === 1 ? "occupation" : "occupations"}.</>
-        )}
+        ) : matches.groups.length === 0 && "No matching occupations."}
+        {matches.groups.length > 0 && ` Found ${matches.groups.length} matching BLS employment ${matches.groups.length === 1 ? "group" : "groups"}.`}
         {loadState === "loading" && " Loading all occupations…"}
         {loadState === "error" && ` The full dataset could not load. Search and sorting cover the top ${initial.length} occupations.`}
       </p>
@@ -102,7 +106,8 @@ export function OccupationExplorer({ initial, guides }: Props) {
           Retry loading all occupations
         </button>
       )}
-      <div role="region" aria-label="Occupation rankings" tabIndex={0} className="mt-4 overflow-x-auto rounded-xl border border-rule">
+      {matches.groups.map(group => <EmploymentGroupSummary key={group.code} group={group} />)}
+      <div hidden={shown.length === 0} role="region" aria-label="Occupation rankings" tabIndex={0} className="mt-4 overflow-x-auto rounded-xl border border-rule">
         <table className="w-full min-w-[720px] text-left text-sm">
           <thead className="bg-paper-2 text-ink">
             <tr>
@@ -116,20 +121,38 @@ export function OccupationExplorer({ initial, guides }: Props) {
             </tr>
           </thead>
           <tbody>
-            {shown.map((r) => (
-              <tr key={r[1]} className="border-t border-rule">
-                <td className="px-3 py-2 text-ink-3">{r[0]}</td>
-                <td className="px-3 py-2 text-ink">
-                  {guides[r[1]] ? <a href={guides[r[1]]} className="underline underline-offset-2">{r[2]}</a> : r[2]}
-                  <span className="ml-2 text-xs text-ink-3">{r[1]}</span>
-                </td>
-                <td className="px-3 py-2 text-right font-semibold text-accent">{r[3]?.toFixed(1) ?? "n/a"}</td>
-                <td className="px-3 py-2 text-right text-ink-2">{r[4]?.toFixed(2)}</td>
-                <td className="px-3 py-2 text-right text-ink-2">{r[7] == null ? "n/a" : r[7].toFixed(2)}</td>
-                <td className="px-3 py-2 text-right text-ink-2">{fmtInt(r[9])}</td>
-                <td className="px-3 py-2 text-right text-ink-2">{fmtInt(r[10])}</td>
-              </tr>
-            ))}
+            {shown.map((r) => {
+              const group = r[9] === null ? groupForOccupation(r[1]) : undefined;
+              return (
+                <tr key={r[1]} className="border-t border-rule">
+                  <td className="px-3 py-2 text-ink-3">{r[0]}</td>
+                  <td className="px-3 py-2 text-ink">
+                    {guides[r[1]] ? <a href={guides[r[1]]} className="underline underline-offset-2">{r[2]}</a> : r[2]}
+                    <span className="ml-2 text-xs text-ink-3">{r[1]}</span>
+                  </td>
+                  <td className="px-3 py-2 text-right font-semibold text-accent">{r[3]?.toFixed(1) ?? "n/a"}</td>
+                  <td className="px-3 py-2 text-right text-ink-2">{r[4]?.toFixed(2)}</td>
+                  <td className="px-3 py-2 text-right text-ink-2">{r[7] == null ? "n/a" : r[7].toFixed(2)}</td>
+                  <td className="px-3 py-2 text-right text-ink-2">
+                    {group ? (
+                      <button
+                        type="button"
+                        aria-label={`Show group employment for ${group.title}`}
+                        className="min-h-6 whitespace-nowrap underline underline-offset-2"
+                        onClick={() => {
+                          setQuery(group.code);
+                          setLimit(50);
+                          searchInput.current?.focus();
+                        }}
+                      >
+                        Group only
+                      </button>
+                    ) : fmtInt(r[9])}
+                  </td>
+                  <td className="px-3 py-2 text-right text-ink-2">{fmtInt(r[10])}</td>
+                </tr>
+              );
+            })}
           </tbody>
         </table>
       </div>

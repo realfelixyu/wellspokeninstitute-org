@@ -1,0 +1,74 @@
+{
+  "employmentSource": "U.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics, May 2025 national estimates (public domain).",
+  "occupationSource": "O*NET® 31.0 Database (August 2026 release), U.S. Department of Labor, Employment and Training Administration. CC BY 4.0.",
+  "sourceUrl": "https://www.onetcenter.org/database.html",
+  "modifiedBy": "Wellspoken Institute matched combined BLS employment groups to detailed O*NET occupations and identified which have a Speaking Demand Score. Wellspoken Institute calculated the Speaking Demand Score from O*NET ratings. Public-speaking percentages come from the O*NET Work Context data. O*NET® is a trademark of USDOL/ETA. USDOL/ETA has not approved, endorsed, or tested these modifications.",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "canonical": "https://wellspokeninstitute.org/data/speaking-by-occupation",
+  "sources": {
+    "nationalEstimates": "https://www.bls.gov/oes/special-requests/oesm25nat.zip",
+    "employmentStructure": "https://www.bls.gov/oes/2025/may/oes_stru.htm",
+    "socStructure": "https://www.bls.gov/soc/2018/major_groups.htm",
+    "teachingAssistantDefinition": "https://www.bls.gov/oes/oes_ques.htm",
+    "occupationDatabase": "https://www.onetcenter.org/dl_files/database/db_31_0_text.zip"
+  },
+  "groups": [
+    {
+      "code": "31-1120",
+      "title": "Home Health and Personal Care Aides",
+      "employment": 4305810,
+      "members": [
+        {
+          "code": "31-1121.00",
+          "title": "Home Health Aides",
+          "rated": true
+        },
+        {
+          "code": "31-1122.00",
+          "title": "Personal Care Aides",
+          "rated": true
+        }
+      ]
+    },
+    {
+      "code": "25-9045",
+      "title": "Teaching Assistants, Except Postsecondary",
+      "employment": 1420350,
+      "members": [
+        {
+          "code": "25-9042.00",
+          "title": "Teaching Assistants, Preschool, Elementary, Middle, and Secondary School, Except Special Education",
+          "rated": true
+        },
+        {
+          "code": "25-9043.00",
+          "title": "Teaching Assistants, Special Education",
+          "rated": true
+        },
+        {
+          "code": "25-9049.00",
+          "title": "Teaching Assistants, All Other",
+          "rated": false
+        }
+      ]
+    },
+    {
+      "code": "51-2090",
+      "title": "Miscellaneous Assemblers and Fabricators",
+      "employment": 1405030,
+      "members": [
+        {
+          "code": "51-2092.00",
+          "title": "Team Assemblers",
+          "rated": true
+        },
+        {
+          "code": "51-2099.00",
+          "title": "Assemblers and Fabricators, All Other",
+          "rated": false
+        }
+      ]
+    }
+  ]
+}

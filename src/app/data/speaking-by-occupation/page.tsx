@@ -111,6 +111,19 @@ export default function SpeakingByOccupation() {
             national estimates, matched at the six-digit SOC level, so several closely related O*NET occupations
             can share one employment figure. Worker-weighted percentages count each SOC occupation once.
           </p>
+          <h3>When jobs share one employment estimate</h3>
+          <p>
+            How many people work as home health aides? BLS counts home health aides and personal care aides
+            together. O*NET rates their speaking demands separately. The explorer follows the same distinction
+            for teaching assistants outside postsecondary education and for miscellaneous assemblers and fabricators.
+            For these three groups, the employment total appears with the list of jobs it covers. Each job keeps its
+            own speaking rating where one is available. The worker-weighted study figures above exclude these
+            three group estimates.
+          </p>
+          <p>
+            <a href="/data/employment-groups.csv" download>Download the three employment groups and their occupations (CSV)</a>
+            {" · "}<a href="https://www.bls.gov/oes/2025/may/oes_stru.htm">BLS May 2025 occupation definitions</a>
+          </p>
           <p>
             Occupations with higher Speaking Demand Scores tend to pay more: typical median pay is{" "}
             {usd(s.wages.quartiles[3].medianOfMedianWages)} in the quarter of occupations with the highest scores and{" "}
