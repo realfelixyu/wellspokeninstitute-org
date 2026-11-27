@@ -59,7 +59,7 @@ export function StudyResources({ slug }: { slug: string }) {
       </ul>
       {chart && (
         <details className="mt-4 text-sm">
-          <summary className="cursor-pointer font-medium text-ink">Download or embed the chart</summary>
+          <summary className="cursor-pointer py-3 font-medium text-ink">Download or embed the chart</summary>
           <p className="mt-3 text-ink-2">{chart.alt}</p>
           <a href={chart.image} download className="inline-block py-2 text-accent underline underline-offset-2">Download chart (PNG)</a>
           <p className="mt-2 text-ink-2">Copy this HTML to include the chart and its source.</p>

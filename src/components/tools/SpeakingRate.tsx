@@ -57,11 +57,11 @@ export default function SpeakingRate() {
               setElapsed(0);
               setManualSec(e.target.value);
             }}
-            className="h-10 w-24 rounded-lg border border-rule bg-paper px-2 text-ink"
+            className={`h-11 w-24 rounded-lg border bg-paper px-2 text-ink ${invalidTime ? "border-[var(--highlight)]" : "border-rule"}`}
           />
         </label>
       </div>
-      {invalidTime && <p role="status" className="mt-2 text-sm text-ink-2">Enter a time greater than zero.</p>}
+      {invalidTime && <p role="alert" className="mt-2 text-sm font-medium text-[var(--highlight)]">Enter a time greater than zero.</p>}
       <div className="mt-5 grid gap-3 sm:grid-cols-3">
         <Stat value={n} label="words" />
         <Stat value={invalidTime ? "–" : `${displaySeconds} s`} label="time" />

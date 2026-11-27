@@ -22,12 +22,31 @@ export function groupForOccupation(code: string): EmploymentGroup | undefined {
   return employmentGroups.find(group => group.members.some(member => member.code === fullCode));
 }
 
+// Everyday words people type for occupations whose federal titles use other words.
+const SYNONYMS: [RegExp, string][] = [
+  [/\bhigh[- ]school\b/g, "secondary"],
+  [/\b(?:grade|primary) school\b/g, "elementary"],
+  [/\bmiddle school\b/g, "middle"],
+  [/\b(?:(?:college|university) )?professors?\b/g, "postsecondary teachers"],
+  [/\b(?:college|university|post[- ]secondary)\b/g, "postsecondary"],
+  [/\bdoctors?\b/g, "physicians"],
+  [/\bsoftware engineers?\b/g, "software developers"],
+];
+const STOP_WORDS = new Set(["a", "an", "and", "the", "of", "in", "for", "or", "at"]);
+const wordsOf = (text: string) => text.toLowerCase().split(/[^a-z0-9]+/).filter(word => word && !STOP_WORDS.has(word));
+
 export function occupationMatchesQuery(occupation: { code: string; title: string }, query: string): boolean {
   const text = query.trim().toLowerCase();
   const title = occupation.title.toLowerCase();
   // A search for an excluded specialty should not identify this as one of its occupations.
   const searchableTitle = text.includes("except") ? title : title.split(", except ")[0];
-  return searchableTitle.includes(text) || occupation.code.startsWith(text);
+  if (searchableTitle.includes(text) || occupation.code.startsWith(text)) return true;
+  // Otherwise every typed word (after everyday synonyms) must start a word in the title, in any order,
+  // so "high school teacher" finds "Secondary School Teachers".
+  const queryWords = wordsOf(SYNONYMS.reduce((s, [pattern, replacement]) => s.replace(pattern, replacement), text));
+  if (!queryWords.length || /^\d/.test(text)) return false;
+  const titleWords = wordsOf(searchableTitle);
+  return queryWords.every(word => titleWords.some(titleWord => titleWord.startsWith(word)));
 }
 
 export function groupMatchesQuery(group: EmploymentGroup, query: string): boolean {

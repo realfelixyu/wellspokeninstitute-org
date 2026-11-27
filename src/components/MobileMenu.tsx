@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useRef, type KeyboardEvent, type MouseEvent } from "react";
 import { NAV } from "@/data/site";
+import { NavLink } from "./NavLink";
 
 export function MobileMenu() {
   const menu = useRef<HTMLDetailsElement>(null);
@@ -17,7 +18,8 @@ export function MobileMenu() {
   return (
     <details ref={menu} onKeyDown={handleKey} onClick={handleClick} className="relative lg:hidden">
           <summary className="flex h-12 cursor-pointer list-none items-center gap-2 rounded-md border border-rule px-3 text-sm text-ink [&::-webkit-details-marker]:hidden">
-            Menu
+            <span className="menu-label-closed">Menu</span>
+            <span className="menu-label-open">Close</span>
           </summary>
           <nav
             aria-label="Mobile"
@@ -26,9 +28,9 @@ export function MobileMenu() {
             <ul>
               {NAV.map((item) => (
                 <li key={item.href}>
-                  <Link href={item.href} className="block rounded-md px-3 py-2.5 text-ink hover:bg-paper-2">
+                  <NavLink href={item.href} className="block rounded-md px-3 py-2.5 text-ink hover:bg-paper-2">
                     {item.label}
-                  </Link>
+                  </NavLink>
                 </li>
               ))}
               <li>
