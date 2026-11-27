@@ -25,7 +25,7 @@ export default function ImportanceRankings() {
       <p>Among {rankedCount} occupations with a rating, {above} scored above {cutoff.toFixed(2)} and {tied} scored exactly {cutoff.toFixed(2)}. Those {tied} share rank {above + 1}, spanning positions {above + 1} through {leadingRatings.length}. Occupations appear alphabetically within each tie.</p>
       <figure>
         <img src="/charts/speaking-importance-rankings.png" width={1512} height={1570} loading="lazy" className="h-auto w-full max-w-lg"
-          alt="Occupations by Speaking importance rating: 4.88, one; 4.75, six; 4.62, seven; 4.50, three; 4.38, two; 4.25, twenty-three. The 23 tied at rank 20 bring the total to 42." />
+          alt="Of the 42 occupations, 1 scored 4.88, 6 scored 4.75, 7 scored 4.62, 3 scored 4.50 and 2 scored 4.38. The other 23 scored 4.25 and share rank 20." />
         <figcaption className="mt-2 text-sm"><a href="/charts/speaking-importance-rankings.png" download>Download the chart (PNG)</a>. Credit Wellspoken Institute and the O*NET® 31.0 Database, USDOL/ETA. <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</figcaption>
       </figure>
       <p><a href="/data/speaking-importance-ranks.csv" download>Download the ranked table with occupation codes and source credits (CSV)</a></p>
