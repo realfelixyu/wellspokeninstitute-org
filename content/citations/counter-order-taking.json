@@ -1,0 +1,41 @@
+{
+  "nguyen2012fastfood": {
+    "authors": "Nguyen, H. T., & Ishitobi, N.",
+    "year": 2012,
+    "title": "Ordering fast food: Service encounters in real-life interaction and in textbook dialogs",
+    "container": "JALT Journal, 34(2), 151–185",
+    "doi": "10.37546/JALTJJ34.2-2",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Ordering Fast Food: Service Encounters in Real-Life Interaction and in Textbook Dialogs",
+      "fingerprint": "6fdbbba9c5afc56c676cfb3cc995b73fd410262f3e8fdfe9b4bc23477884b87c"
+    }
+  },
+  "schau2007codeswitching": {
+    "authors": "Schau, H. J., Dellande, S., & Gilly, M. C.",
+    "year": 2007,
+    "title": "The impact of code switching on service encounters",
+    "container": "Journal of Retailing, 83(1), 65–78",
+    "doi": "10.1016/j.jretai.2006.10.008",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "The impact of code switching on service encounters",
+      "fingerprint": "173c66e7643f8998dee6a9bed8408908e5b5195db12b74e288898ca894a10efa"
+    }
+  },
+  "fink2015caferequests": {
+    "authors": "Fink, L. N., & Félix-Brasdefer, J. C.",
+    "year": 2015,
+    "title": "Pragmalinguistic variation and barista perceptions in US café service encounters",
+    "container": "Researching Sociopragmatic Variability, 19–48",
+    "doi": "10.1057/9781137373953_2",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Pragmalinguistic Variation and Barista Perceptions in US Café Service Encounters∗",
+      "fingerprint": "691f063923f748ddb4c3a070b3d56bd78c52b91b8448f999126b67101af67375"
+    }
+  }
+}

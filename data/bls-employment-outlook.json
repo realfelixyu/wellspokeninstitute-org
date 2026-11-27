@@ -295,6 +295,11 @@
       "percentChange": 5
     },
     {
+      "soc": "35-3023",
+      "title": "Fast food and counter workers",
+      "percentChange": 5.8
+    },
+    {
       "soc": "35-3031",
       "title": "Waiters and waitresses",
       "percentChange": 2
@@ -303,6 +308,11 @@
       "soc": "39-9011",
       "title": "Childcare workers",
       "percentChange": -2
+    },
+    {
+      "soc": "41-2011",
+      "title": "Cashiers",
+      "percentChange": -6.5
     },
     {
       "soc": "41-2031",
