@@ -95,7 +95,7 @@ export function OccupationExplorer({ initial, guides }: Props) {
         ) : matches.groups.length === 0 && (
           <>
             No occupation matches “{query.trim()}”. Try a broader word, such as “teacher” or “manager”, or{" "}
-            <button type="button" onClick={() => setQuery("")} className="font-medium text-accent underline underline-offset-2">clear the search</button>.
+            <button type="button" onClick={() => { setQuery(""); searchInput.current?.focus(); }} className="font-medium text-accent underline underline-offset-2">clear the search</button>.
           </>
         )}
         {matches.groups.length > 0 && ` Found ${matches.groups.length} matching BLS employment ${matches.groups.length === 1 ? "group" : "groups"}.`}

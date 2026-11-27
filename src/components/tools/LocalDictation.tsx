@@ -38,10 +38,15 @@ export default function LocalDictation({ append }: { append: (text: string) => v
   const [active, setActive] = useState(false);
   const [message, setMessage] = useState("");
   const session = useRef<LocalRecognition | null>(null);
+  // Guards for the async start: one start at a time, and nothing starts after the page is left.
+  const starting = useRef(false);
+  const mounted = useRef(true);
   useEffect(() => {
     const Recognition = recognitionType();
     setSupported(Boolean(Recognition && "processLocally" in Recognition.prototype && typeof Recognition.available === "function"));
+    mounted.current = true;
     return () => {
+      mounted.current = false;
       if (session.current) {
         session.current.onresult = null;
         session.current.onend = null;
@@ -53,10 +58,20 @@ export default function LocalDictation({ append }: { append: (text: string) => v
 
   async function start() {
     const Recognition = recognitionType();
-    if (!Recognition || session.current) return;
+    if (!Recognition || session.current || starting.current) return;
+    starting.current = true;
+    try {
+      await begin(Recognition);
+    } finally {
+      starting.current = false;
+    }
+  }
+
+  async function begin(Recognition: RecognitionConstructor) {
     let state = availability;
     if (state === null) {
       state = await Recognition.available?.(LOCAL).catch(() => "unavailable" as const) ?? "unavailable";
+      if (!mounted.current) return;
       setAvailability(state);
     }
     if (state === "unavailable") {
@@ -67,6 +82,7 @@ export default function LocalDictation({ append }: { append: (text: string) => v
     if (state !== "available") {
       setMessage("Downloading the English speech pack for this device…");
       const installed = await Recognition.install?.(LOCAL).catch(() => false);
+      if (!mounted.current) return;
       if (!installed) {
         setMessage("The English speech pack could not be installed. You can paste a transcript.");
         return;

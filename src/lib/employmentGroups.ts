@@ -28,7 +28,7 @@ const SYNONYMS: [RegExp, string][] = [
   [/\b(?:grade|primary) school\b/g, "elementary"],
   [/\bmiddle school\b/g, "middle"],
   [/\b(?:(?:college|university) )?professors?\b/g, "postsecondary teachers"],
-  [/\b(?:college|university)\b/g, "postsecondary"],
+  [/\b(?:college|university|post[- ]secondary)\b/g, "postsecondary"],
   [/\bdoctors?\b/g, "physicians"],
   [/\bsoftware engineers?\b/g, "software developers"],
 ];

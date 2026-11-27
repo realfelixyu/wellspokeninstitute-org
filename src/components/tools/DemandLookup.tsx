@@ -13,6 +13,7 @@ export default function DemandLookup() {
   const [sel, setSel] = useState<ExplorerRow | null>(null);
 
   const resultHeading = useRef<HTMLHeadingElement>(null);
+  const searchInput = useRef<HTMLInputElement>(null);
   useEffect(() => {
     if (sel) resultHeading.current?.focus();
   }, [sel]);
@@ -22,7 +23,13 @@ export default function DemandLookup() {
     return findOccupationMatches(rows, q);
   }, [q, rows]);
   // Most-held jobs first: a search for "teacher" should surface K-12 teachers before narrow specialties.
-  const ranked = useMemo(() => [...occupations].sort((a, b) => (b[9] ?? -1) - (a[9] ?? -1)), [occupations]);
+  // Specialty codes (not ".00") repeat their parent's employment, so list base occupations first.
+  // Members of a combined BLS group use the group's employment.
+  const ranked = useMemo(() => {
+    const employment = (r: ExplorerRow) => r[9] ?? groupForOccupation(r[1])?.employment ?? -1;
+    const specialty = (r: ExplorerRow) => (r[1].endsWith(".00") ? 0 : 1);
+    return [...occupations].sort((a, b) => specialty(a) - specialty(b) || employment(b) - employment(a));
+  }, [occupations]);
   const [limit, setLimit] = useState(8);
   const matches = ranked.slice(0, limit);
   const selectedGroup = sel ? groupForOccupation(sel[1]) : undefined;
@@ -36,6 +43,7 @@ export default function DemandLookup() {
       <label className="block">
         <span className="mb-1.5 block text-sm font-medium text-ink">Your occupation</span>
         <input
+          ref={searchInput}
           type="search"
           value={q}
           onChange={(e) => {
@@ -52,7 +60,7 @@ export default function DemandLookup() {
       {loadState === "ready" && q.trim().length >= 2 && !matches.length && !groups.length && (
         <p role="status" className="mt-3 text-ink-2">
           No occupation matches “{q.trim()}”. Try a broader word, such as “teacher”, “nurse” or “manager”, or{" "}
-          <button type="button" onClick={() => setQ("")} className="font-medium text-accent underline underline-offset-2">clear the search</button>.
+          <button type="button" onClick={() => { setQ(""); searchInput.current?.focus(); }} className="font-medium text-accent underline underline-offset-2">clear the search</button>.
         </p>
       )}
       {!sel && groups.length > 0 && (
