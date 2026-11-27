@@ -81,6 +81,11 @@ export default function DemandLookup() {
       {sel
         ? selectedGroup && <EmploymentGroupSummary group={selectedGroup} />
         : groups.map(group => <EmploymentGroupSummary key={group.code} group={group} heading="h2" />)}
+      <p className="mt-6 text-xs text-ink-3">
+        Data: O*NET® 31.0 Database, U.S. Department of Labor, Employment and Training Administration (USDOL/ETA), used under{" "}
+        <a className="underline" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. The Wellspoken Institute
+        calculated the scores. USDOL/ETA has not approved, endorsed, or tested these modifications. O*NET® is a trademark of USDOL/ETA.
+      </p>
     </Panel>
   );
 }

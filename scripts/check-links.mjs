@@ -38,8 +38,9 @@ for (const { name, base, href } of links) {
     const url = new URL(href,origin + base);
     if (url.origin !== origin) continue;
     const pathname = decodeURIComponent(url.pathname);
-    const clean = pathname.replace(/\/$/,"");
-    const dest = [pathname,clean + ".html",clean + "/index.html"].find(p => paths.has(p));
+    // Pages serves "/x/" only from x/index.html; "/x" from x, x.html or x/index.html.
+    const candidates = pathname.endsWith("/") ? [pathname + "index.html"] : [pathname, pathname + ".html", pathname + "/index.html"];
+    const dest = candidates.find(p => paths.has(p));
     if (!dest) errors.add(name + " links to missing " + href);
     else if (url.hash.length > 1 && ids.has(dest) && !url.hash.startsWith("#:~:") &&
       !ids.get(dest).has(decodeURIComponent(url.hash.slice(1)))) errors.add(name + " links to missing anchor " + href);

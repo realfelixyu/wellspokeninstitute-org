@@ -32,6 +32,8 @@ jobs:
         env:
           NEXT_PUBLIC_GA_ID: ${{ vars.NEXT_PUBLIC_GA_ID }}
           NEXT_PUBLIC_NEWSLETTER_ACTION: ${{ vars.NEXT_PUBLIC_NEWSLETTER_ACTION }}
+      # Fail closed: never deploy a build that drops a URL the live sitemap already lists.
+      - run: python3 scripts/check-live-routes.py
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out

@@ -68,6 +68,14 @@ export default function Teleprompter() {
   function togglePlayback() {
     const el = box.current;
     if (!running && el && el.scrollTop >= el.scrollHeight - el.clientHeight - 1) el.scrollTop = 0;
+    // On a phone the prompter sits below the controls; bring it on screen when playback starts.
+    if (!running && el) {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < 0 || rect.bottom > window.innerHeight) {
+        const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        el.scrollIntoView({ block: "nearest", behavior: reduce ? "auto" : "smooth" });
+      }
+    }
     setRunning(!running);
   }
 

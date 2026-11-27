@@ -39,7 +39,7 @@ export default function CurriculumPage() {
         {l.id === "adult-esl" ? <>
           <p>Caller: {l.caller}</p><p>Receptionist: {l.receptionist}</p>
         </> : <p>{l.prompt}</p>}
-        <p><Link href={`/curriculum/worksheets/${l.id}`}>Printable {l.audience.toLowerCase()} practice sheet</Link></p>
+        <p><Link href={`/curriculum/worksheets/${l.id}`}>Printable practice sheet: {l.audience}</Link></p>
         {l.id === "college" && <p><Link href="/curriculum/explain-a-research-finding">Teach this lesson with real job ratings</Link>. The 20-minute version includes private presenter cards and a separate listener sheet.</p>}
         <h3>Teacher guide</h3><ol>{l.steps.map(s => <li key={s}>{s}</li>)}</ol>
         <p><strong>What to listen for.</strong> {l.lookFor}</p>

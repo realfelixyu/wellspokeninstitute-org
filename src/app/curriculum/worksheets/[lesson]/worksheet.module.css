@@ -24,6 +24,6 @@
   .sheet h2 { font-size: 15pt; margin: 0 0 2mm; }
   .card { break-inside: avoid; padding: 4mm 0; }
   .card + .card { border-top: 1.5pt dashed #555; }
-  .answer, .retry { padding: 3mm 0 5mm; border-color: #999; }
+  .answer, .retry { padding: 3mm 0 13mm; border-color: #999; }
   .credit, .audience { color: black; font-size: 9pt; }
 }

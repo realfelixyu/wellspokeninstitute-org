@@ -107,12 +107,13 @@ export function OccupationExplorer({ initial, guides }: Props) {
         </button>
       )}
       {matches.groups.map(group => <EmploymentGroupSummary key={group.code} group={group} />)}
+      <p hidden={shown.length === 0} className="mt-4 text-xs text-ink-3 sm:hidden">Swipe the table sideways to see every column.</p>
       <div hidden={shown.length === 0} role="region" aria-label="Occupation rankings" tabIndex={0} className="mt-4 overflow-x-auto rounded-xl border border-rule">
         <table className="w-full min-w-[720px] text-left text-sm">
           <thead className="bg-paper-2 text-ink">
             <tr>
               <th className="px-3 py-2.5 font-semibold">Rank</th>
-              <th className="px-3 py-2.5 font-semibold">Occupation</th>
+              <th className="sticky left-0 z-10 bg-paper-2 px-3 py-2.5 font-semibold">Occupation</th>
               {Object.entries(SORTS).map(([key, column]) => (
                 <th key={key} aria-sort={sort === key ? direction : undefined} className="px-3 py-2.5 text-right font-semibold">
                   {column.heading}
@@ -126,9 +127,9 @@ export function OccupationExplorer({ initial, guides }: Props) {
               return (
                 <tr key={r[1]} className="border-t border-rule">
                   <td className="px-3 py-2 text-ink-3">{r[0]}</td>
-                  <td className="px-3 py-2 text-ink">
+                  <td className="sticky left-0 z-10 bg-card px-3 py-2 text-ink">
                     {guides[r[1]] ? <a href={guides[r[1]]} className="underline underline-offset-2">{r[2]}</a> : r[2]}
-                    <span className="ml-2 text-xs text-ink-3">{r[1]}</span>
+                    <span className="ml-2 whitespace-nowrap text-xs text-ink-3">{r[1]}</span>
                   </td>
                   <td className="px-3 py-2 text-right font-semibold text-accent">{r[3]?.toFixed(1) ?? "n/a"}</td>
                   <td className="px-3 py-2 text-right text-ink-2">{r[4]?.toFixed(2)}</td>

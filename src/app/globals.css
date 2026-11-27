@@ -94,8 +94,14 @@ body {
   line-height: 1.75;
   color: var(--ink-2);
 }
-.prose-body > * + * {
+.prose-body > * + *,
+.prose-body section > * + * {
   margin-top: 1.15em;
+}
+/* Words in narrow table cells hyphenate instead of breaking at an arbitrary letter. */
+.prose-body :is(th, td) {
+  overflow-wrap: normal;
+  hyphens: auto;
 }
 .prose-body h2 {
   font-family: var(--font-serif);
@@ -205,6 +211,23 @@ body {
 }
 
 @media print {
+  /* Print in light colors even when the reader's device uses dark mode. */
+  :root,
+  :root[data-theme],
+  :root:not([data-theme="light"]) {
+    --paper: #fff;
+    --paper-2: #f3f3f3;
+    --card: #fff;
+    --ink: #000;
+    --ink-2: #1f1f1f;
+    --ink-3: #444;
+    --control-rule: #777;
+    --rule: #bbb;
+    --accent: #0b5d5a;
+    --accent-ink: #fff;
+    --accent-soft: #f1f5f4;
+    --highlight: #b4532a;
+  }
   header[data-site-header],
   footer[data-site-footer],
   .no-print {

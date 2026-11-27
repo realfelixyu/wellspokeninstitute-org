@@ -67,7 +67,7 @@ export default function ResearchLesson() {
       </details>
       <p>For each round, tally the number of accounts you observed, the number meeting each check and the number meeting all four. Follow the same presenters across rounds if you can. Leave out any account you missed. If you observed none, that round has no result. Keep the tally anonymous and use it to choose what to explain differently in the next class.</p>
       <h2>Where the ratings come from</h2>
-      <p>Wellspoken Institute compared the O*NET® 15.0 and 31.0 Databases from the U.S. Department of Labor, Employment and Training Administration (USDOL/ETA). Adapted under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. USDOL/ETA has not approved, endorsed or tested the Institute’s changes. See the <Link href="/data/speaking-demand-over-time">study methods and data</Link> and the <a href="https://www.onetcenter.org/dictionary/31.0/csv/essential_skills.html">O*NET definitions of the rating fields</a>.</p>
+      <p>Wellspoken Institute compared the O*NET® 15.0 and 31.0 Databases from the U.S. Department of Labor, Employment and Training Administration (USDOL/ETA). Adapted under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. USDOL/ETA has not approved, endorsed or tested the Institute’s changes. O*NET® is a trademark of USDOL/ETA. See the <Link href="/data/speaking-demand-over-time">study methods and data</Link> and the <a href="https://www.onetcenter.org/dictionary/31.0/csv/essential_skills.html">O*NET definitions of the rating fields</a>.</p>
       <p><Link href="/curriculum#college">Return to the college speaking lesson</Link></p>
     </Prose>
   </>;

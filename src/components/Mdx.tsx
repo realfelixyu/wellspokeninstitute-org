@@ -2,6 +2,15 @@ import type { ReactNode, ComponentProps } from "react";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import remarkGfm from "remark-gfm";
 import { SkillChart } from "@/components/SkillChart";
+import { getEntry, type Collection } from "@/lib/content";
+
+const CONTENT_PATH = /^(?:https?:\/\/(?:www\.)?wellspokeninstitute\.org)?\/(research|learn|professions|statistics)\/([a-z0-9-]+)\/?(?:[?#].*)?$/i;
+
+/** A link to a content page that is not live yet (scheduled for a later date) would 404 on the static host. */
+function isUnpublishedContent(href: string) {
+  const m = CONTENT_PATH.exec(href);
+  return Boolean(m) && !getEntry(m![1].toLowerCase() as Collection, m![2]);
+}
 
 function isExternal(href: string) {
   return /^https?:\/\//i.test(href) && !/^https?:\/\/(www\.)?wellspokeninstitute\.org/i.test(href);
@@ -58,6 +67,8 @@ export function buildComponents(citationKeys: string[]) {
     SkillChart,
     a: (props: ComponentProps<"a">) => {
       const href = typeof props.href === "string" ? props.href : "";
+      // Render plain text until the target publishes; the daily rebuild turns it into a link.
+      if (isUnpublishedContent(href)) return <span>{props.children}</span>;
       return isExternal(href) ? (
         <a {...props} target="_blank" rel="noopener noreferrer" />
       ) : (
