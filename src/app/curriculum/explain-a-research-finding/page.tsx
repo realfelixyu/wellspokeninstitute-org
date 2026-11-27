@@ -2,6 +2,7 @@ import Link from "next/link";
 import { PageHeader } from "@/components/PageHeader";
 import { Prose } from "@/components/Prose";
 import { pageMetadata } from "@/lib/seo";
+import styles from "./lesson.module.css";
 
 const path = "/curriculum/explain-a-research-finding";
 export const metadata = pageMetadata({
@@ -36,7 +37,7 @@ export default function ResearchLesson() {
         <summary className="cursor-pointer py-2 font-semibold">Card {card.letter} · {card.job}</summary>
         <div className="space-y-3 py-3">
           <p>O*NET occupation {card.code} · {card.title}</p>
-          <div className="table-wrap"><table>
+          <div className="table-wrap"><table className={styles.ratings}>
             <caption className="pb-2 text-left">Speaking ratings for {card.job.toLowerCase()} in two database releases</caption>
             <thead><tr><th scope="col">Measure</th><th scope="col">July 2010 release</th><th scope="col">August 2026 release</th></tr></thead>
             <tbody>
