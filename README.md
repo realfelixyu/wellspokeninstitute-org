@@ -40,6 +40,6 @@ The free PDF is always available at `/curriculum`. To enable one-time email deli
 
 Email link delivery sends a transactional message through Brevo rather than adding a contact to a list. Local tests use a temporary SQLite database and mocked provider calls. They use Python 3’s standard SQLite module.
 
-Rebuild the occupation dataset with `npm run onet:import` using the O*NET and BLS inputs specified in the importer.
+Rebuild the occupation dataset, summary and public downloads together with `npm run onet:release`. This requires the raw O*NET files and `data/bls-oews-national.json`. For an O*NET-only analysis, `npm run onet:import` regenerates the source dataset and accepts the BLS file when present. To recreate the downloads alone from the versioned dataset, run `node scripts/export-data.mjs`.
 
 Text and derived data are licensed CC BY 4.0 unless noted.

@@ -12,5 +12,5 @@ export function Confirmation({ pending, gaId }: { pending: boolean; gaId: string
   return <PageHeader eyebrow="Newsletter"
     title={requested ? "Check your inbox" : "Research newsletter"}
     lede={requested ? "Open the link in the confirmation email to subscribe."
-      : "The Institute sends research and teaching resources by email. Visit the newsletter page to subscribe."} />;
+      : "If you followed the confirmation link in your newsletter email, you’ve finished the signup steps and can close this page."} />;
 }

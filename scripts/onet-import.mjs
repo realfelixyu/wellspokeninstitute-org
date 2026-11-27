@@ -13,6 +13,10 @@ const SRC = path.join(ROOT, "data", "raw", "onet", "db_31_0_text");
 const OUT = path.join(ROOT, "data", "speaking-by-occupation.json");
 const OPTIONAL_EMPLOYMENT = path.join(ROOT, "data", "bls-oews-national.json");
 
+if (process.argv.includes("--require-employment") && !fs.existsSync(OPTIONAL_EMPLOYMENT)) {
+  throw new Error("The full dataset release requires data/bls-oews-national.json for employment and wage summaries.");
+}
+
 function readTsv(file) {
   const text = fs.readFileSync(path.join(SRC, file), "utf8");
   const [header, ...rows] = text.trim().split(/\r?\n/);
@@ -104,10 +108,10 @@ rows.sort((a, b) => (b.speakingDemandScore ?? 0) - (a.speakingDemandScore ?? 0) 
 rows.forEach((r, i) => (r.rank = i + 1));
 
 const out = {
-  source: "O*NET 31.0 Database (August 2026 release), U.S. Department of Labor, Employment and Training Administration. CC BY 4.0.",
+  source: "O*NET® 31.0 Database (August 2026 release), U.S. Department of Labor, Employment and Training Administration. CC BY 4.0.",
   sourceUrl: "https://www.onetcenter.org/database.html",
-  modifiedBy: "Wellspoken Institute derived the Speaking Demand Score and percent fields. USDOL/ETA has not approved, endorsed, or tested these modifications.",
-  employmentSource: employment.size ? "U.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics (national)." : null,
+  modifiedBy: "Wellspoken Institute calculated the Speaking Demand Score from O*NET ratings. Public-speaking percentages come from the O*NET Work Context data. O*NET® is a trademark of USDOL/ETA. USDOL/ETA has not approved, endorsed, or tested these modifications.",
+  employmentSource: employment.size ? "U.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics, May 2025 national estimates (public domain)." : null,
   generatedAt: new Date().toISOString().slice(0, 10),
   count: rows.length,
   rows,

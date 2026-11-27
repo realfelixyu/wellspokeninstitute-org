@@ -9,11 +9,11 @@ interface Props {
 }
 
 const SORTS = {
-  score: { label: "Speaking Demand Score", idx: 3 },
-  importance: { label: "Speaking importance", idx: 4 },
-  public: { label: "Public speaking frequency", idx: 7 },
-  employment: { label: "Employment", idx: 9 },
-  wage: { label: "Median wage", idx: 10 },
+  score: { label: "Speaking Demand Score", heading: "Score", idx: 3 },
+  importance: { label: "Speaking importance", heading: "Speaking importance", idx: 4 },
+  public: { label: "Public speaking frequency", heading: "Public speaking", idx: 7 },
+  employment: { label: "Employment", heading: "Employment", idx: 9 },
+  wage: { label: "Median wage", heading: "Median wage (USD)", idx: 10 },
 } as const;
 
 type SortKey = keyof typeof SORTS;
@@ -24,40 +24,48 @@ function fmtInt(n: number | null) {
 
 export function OccupationExplorer({ initial }: Props) {
   const [rows, setRows] = useState<Row[]>(initial);
-  const [loaded, setLoaded] = useState(false);
+  const [loadState, setLoadState] = useState<"loading" | "ready" | "error">("loading");
+  const [attempt, setAttempt] = useState(0);
   const [query, setQuery] = useState("");
   const [sort, setSort] = useState<SortKey>("score");
   const [desc, setDesc] = useState(true);
   const [limit, setLimit] = useState(50);
 
   useEffect(() => {
-    let alive = true;
-    fetch("/data/speaking-by-occupation.json")
-      .then((r) => r.json())
-      .then((d) => {
-        if (alive) {
-          setRows(d.rows);
-          setLoaded(true);
-        }
+    const controller = new AbortController();
+    fetch("/data/speaking-by-occupation.json", { signal: controller.signal })
+      .then((response) => {
+        if (!response.ok) throw new Error("Dataset request failed");
+        return response.json();
       })
-      .catch(() => setLoaded(false));
-    return () => {
-      alive = false;
-    };
-  }, []);
+      .then((d) => {
+        if (!Array.isArray(d.rows)) throw new Error("Missing occupation rows");
+        if (controller.signal.aborted) return;
+        setRows(d.rows);
+        setLoadState("ready");
+      })
+      .catch(() => {
+        if (!controller.signal.aborted) setLoadState("error");
+      });
+    return () => controller.abort();
+  }, [attempt]);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
     const list = q ? rows.filter((r) => r[2].toLowerCase().includes(q) || r[1].startsWith(q)) : rows;
     const idx = SORTS[sort].idx;
     return [...list].sort((a, b) => {
-      const av = (a[idx] as number | null) ?? -Infinity;
-      const bv = (b[idx] as number | null) ?? -Infinity;
+      const av = a[idx];
+      const bv = b[idx];
+      if (av === bv) return 0;
+      if (av === null) return 1;
+      if (bv === null) return -1;
       return desc ? bv - av : av - bv;
     });
   }, [rows, query, sort, desc]);
 
   const shown = filtered.slice(0, limit);
+  const direction = desc ? "descending" : "ascending";
 
   return (
     <div>
@@ -99,19 +107,35 @@ export function OccupationExplorer({ initial }: Props) {
         </button>
       </div>
       <p className="mt-3 text-sm text-ink-3" aria-live="polite">
-        {loaded ? `${filtered.length} of ${rows.length} occupations` : `Showing top ${initial.length} occupations. Loading all…`}
+        {filtered.length === 0 ? "No matching occupations." : (
+          <>Showing {shown.length} of {filtered.length} {query.trim() && "matching "}{filtered.length === 1 ? "occupation" : "occupations"}.</>
+        )}
+        {loadState === "loading" && " Loading all occupations…"}
+        {loadState === "error" && ` The full dataset could not load. Search and sorting cover the top ${initial.length} occupations.`}
       </p>
-      <div className="mt-4 overflow-x-auto rounded-xl border border-rule">
+      {loadState === "error" && (
+        <button
+          type="button"
+          onClick={() => {
+            setLoadState("loading");
+            setAttempt((previous) => previous + 1);
+          }}
+          className="mt-2 rounded-lg border border-rule bg-card px-4 py-2 text-sm text-ink hover:border-accent"
+        >
+          Retry loading all occupations
+        </button>
+      )}
+      <div role="region" aria-label="Occupation rankings" tabIndex={0} className="mt-4 overflow-x-auto rounded-xl border border-rule">
         <table className="w-full min-w-[720px] text-left text-sm">
           <thead className="bg-paper-2 text-ink">
             <tr>
-              <th className="px-3 py-2.5 font-semibold">#</th>
+              <th className="px-3 py-2.5 font-semibold">Rank</th>
               <th className="px-3 py-2.5 font-semibold">Occupation</th>
-              <th className="px-3 py-2.5 text-right font-semibold">Score</th>
-              <th className="px-3 py-2.5 text-right font-semibold">Speaking importance</th>
-              <th className="px-3 py-2.5 text-right font-semibold">Public speaking</th>
-              <th className="px-3 py-2.5 text-right font-semibold">Employment</th>
-              <th className="px-3 py-2.5 text-right font-semibold">Median wage (USD)</th>
+              {Object.entries(SORTS).map(([key, column]) => (
+                <th key={key} aria-sort={sort === key ? direction : undefined} className="px-3 py-2.5 text-right font-semibold">
+                  {column.heading}
+                </th>
+              ))}
             </tr>
           </thead>
           <tbody>

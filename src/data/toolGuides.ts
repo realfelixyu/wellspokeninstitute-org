@@ -98,6 +98,12 @@ export const TOOL_GUIDES: Record<string, GuideSection[]> = {
   ],
   teleprompter: [
     {
+      heading: "How the scroll speed works",
+      paragraphs: [
+        "At 130 words per minute, a 65-word script takes about 30 seconds to scroll from start to finish. The timer uses the word count and your selected pace. It keeps your line breaks for cues, but leaves the length of each spoken pause up to you.",
+      ],
+    },
+    {
       heading: "Tips for reading naturally",
       paragraphs: [
         "Set the speed a little slower than you think you need, and use larger text than feels necessary so you can glance rather than stare. Put the device as close to your camera or audience sight line as you can.",

@@ -5,8 +5,8 @@ import { subscribe } from "../lib/newsletter.mjs";
 
 const origin = "https://wellspokeninstitute.org";
 const env = { TURNSTILE_SECRET: "test", BREVO_API_KEY: "test", BREVO_LIST_ID: "5", BREVO_DOI_TEMPLATE_ID: "2" };
-function request(email = "test@example.org", caller = origin) {
-  return new Request(origin + "/api/subscribe", { method: "POST", headers: { Origin: caller },
+function request(email = "test@example.org", caller = origin, accept = "*/*") {
+  return new Request(origin + "/api/subscribe", { method: "POST", headers: { Origin: caller, Accept: accept },
     body: new URLSearchParams({ email, "cf-turnstile-response": "dummy" }) });
 }
 const valid = { success: true, action: "newsletter", hostname: new URL(origin).hostname };
@@ -90,4 +90,57 @@ test("production conversion and pending message both require the function receip
   assert.deepEqual(countEvents(origin + "/thanks?s=1", receipt, "G-TEST123", false), none);
   assert.deepEqual(countEvents("https://example.pages.dev/thanks?s=1", receipt), none);
   assert.deepEqual(countEvents(origin + "/thanks?s=1", receipt, ""), { validReceipt: true, events: 0 });
+});
+
+const gatewaySource = fs.readFileSync(new URL("../functions/api/subscribe.ts", import.meta.url), "utf8");
+const gatewayCode = ts.transpileModule(gatewaySource, { compilerOptions: {
+  module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2020,
+} }).outputText;
+const gateway = { exports: {}, require(name) {
+  assert.equal(name, "../../lib/newsletter.mjs");
+  return { subscribe };
+} };
+vm.runInNewContext(gatewayCode, gateway);
+
+test("the Pages gateway issues one request event and the email return issues none", async t => {
+  let providerRequest;
+  t.mock.method(globalThis, "fetch", async (url, options) => {
+    assert.equal(options.method, "POST");
+    if (url === "https://challenges.cloudflare.com/turnstile/v0/siteverify") {
+      assert.equal(options.body.get("response"), "dummy");
+      return Response.json(valid);
+    }
+    assert.equal(url, "https://api.brevo.com/v3/contacts/doubleOptinConfirmation");
+    providerRequest = JSON.parse(options.body);
+    return Response.json({}, { status: 201 });
+  });
+  const result = await gateway.exports.onRequestPost({ request: request(" reader@example.org ", origin, "text/html"), env });
+  assert.deepEqual(providerRequest, { email: "reader@example.org", includeListIds: [5], templateId: 2,
+    redirectionUrl: origin + "/thanks", contactPixelTrackingConsent: false });
+  assert.equal(result.status, 303);
+  const receipt = result.headers.get("set-cookie").split(";")[0];
+  assert.deepEqual(countEvents(new URL(result.headers.get("location"), origin), receipt), { validReceipt: true, events: 1 });
+  assert.deepEqual(countEvents(providerRequest.redirectionUrl, receipt), { validReceipt: false, events: 0 });
+});
+
+test("a browser can return to the form after an expired challenge or unavailable email provider", async t => {
+  let providerCalls = 0;
+  let challenge = { ...valid, success: false };
+  t.mock.method(globalThis, "fetch", async url => {
+    if (url === "https://challenges.cloudflare.com/turnstile/v0/siteverify") return Response.json(challenge);
+    providerCalls++;
+    throw new TypeError("Network unavailable");
+  });
+  for (const [status, expectedCalls] of [[400, 0], [503, 1]]) {
+    const result = await gateway.exports.onRequestPost({ request: request("reader@example.org", origin, "text/html"), env });
+    assert.equal(result.status, status);
+    assert.equal(result.headers.get("set-cookie"), null);
+    assert.equal(result.headers.get("location"), null);
+    assert.match(result.headers.get("content-type"), /text\/html/);
+    const body = await result.text();
+    assert.match(body, /href="\/newsletter"/);
+    assert.doesNotMatch(body, /reader@example.org/);
+    assert.equal(providerCalls, expectedCalls);
+    challenge = valid;
+  }
 });

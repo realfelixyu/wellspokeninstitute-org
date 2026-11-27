@@ -12,6 +12,7 @@
     "check:live-routes": "python3 scripts/check-live-routes.py",
     "citations:verify": "node scripts/verify-citations.mjs",
     "onet:import": "node scripts/onet-import.mjs",
+    "onet:release": "node scripts/onet-import.mjs --require-employment && node scripts/speaking-demand-summary.mjs && node scripts/export-data.mjs",
     "typecheck": "tsc --noEmit",
     "serve": "npx --yes serve out -l 5041"
   },

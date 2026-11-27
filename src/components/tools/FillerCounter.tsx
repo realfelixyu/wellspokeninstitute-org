@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { Fragment, useMemo, useState } from "react";
 import LocalDictation from "./LocalDictation";
 import { Panel, TextArea, Stat } from "./ui";
 import { FILLERS, wordCount } from "@/lib/text";
@@ -11,14 +11,18 @@ const SAMPLE =
 export default function FillerCounter() {
   const [text, setText] = useState(SAMPLE);
   const result = useMemo(() => {
-    const counts = FILLERS.map((f) => ({ label: f.label, count: (text.match(f.re) || []).length })).filter((c) => c.count > 0);
-    const total = counts.reduce((a, c) => a + c.count, 0);
+    const matches: { start: number; end: number }[] = [];
+    const counts = FILLERS.map(({ label, re }) => {
+      const occurrences = Array.from(text.matchAll(re));
+      for (const match of occurrences) {
+        matches.push({ start: match.index, end: match.index + match[0].length });
+      }
+      return { label, count: occurrences.length };
+    }).filter(({ count }) => count > 0);
+    matches.sort((a, b) => a.start - b.start);
+    const total = matches.length;
     const n = wordCount(text);
-    let html = text.replace(/&/g, "&amp;").replace(/</g, "&lt;");
-    for (const f of FILLERS) {
-      html = html.replace(f.re, (m) => `<mark class="rounded bg-accent-soft px-0.5 text-ink">${m}</mark>`);
-    }
-    return { counts, total, n, per100: n ? (total / n) * 100 : 0, html };
+    return { counts, total, n, per100: n ? (total / n) * 100 : 0, matches };
   }, [text]);
 
   return (
@@ -39,7 +43,15 @@ export default function FillerCounter() {
           ))}
         </ul>
       ) : null}
-      <div className="mt-5 rounded-lg border border-rule bg-paper p-4 text-[0.98rem] leading-relaxed text-ink-2" dangerouslySetInnerHTML={{ __html: result.html }} />
+      <div className="mt-5 whitespace-pre-wrap break-words rounded-lg border border-rule bg-paper p-4 text-[0.98rem] leading-relaxed text-ink-2">
+        {result.matches.map(({ start, end }, i) => (
+          <Fragment key={start}>
+            {text.slice(i ? result.matches[i - 1].end : 0, start)}
+            <mark className="rounded bg-accent-soft px-0.5 text-ink">{text.slice(start, end)}</mark>
+          </Fragment>
+        ))}
+        {text.slice(result.matches.at(-1)?.end ?? 0)}
+      </div>
       <p className="mt-3 text-sm text-ink-3">
         Automatic detection is approximate. Words like &ldquo;like&rdquo; and &ldquo;so&rdquo; are often used
         correctly, so check the highlights.

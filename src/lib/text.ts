@@ -1,9 +1,9 @@
 export function words(text: string): string[] {
   return text
     .replace(/[‘’]/g, "'")
-    .split(/\s+/)
+    .split(/[\s–—]+/u)
     .map((w) => w.replace(/^[^\p{L}\p{N}']+|[^\p{L}\p{N}']+$/gu, ""))
-    .filter(Boolean);
+    .filter((w) => /[\p{L}\p{N}]/u.test(w));
 }
 
 export function wordCount(text: string): number {
@@ -40,12 +40,13 @@ export const FILLERS: { label: string; re: RegExp }[] = [
   { label: "um", re: /\b(um+|umm+|erm+)\b/gi },
   { label: "uh", re: /\b(uh+|er+|ah+)\b/gi },
   { label: "like", re: /\blike\b(?!\s+(?:to|a|the|this|that|it)\b)/gi },
-  { label: "you know", re: /\byou know\b/gi },
-  { label: "I mean", re: /\bi mean\b/gi },
-  { label: "sort of / kind of", re: /\b(sort of|kind of|kinda|sorta)\b/gi },
+  { label: "you know", re: /\byou\s+know\b/gi },
+  { label: "I mean", re: /\bi\s+mean\b/gi },
+  { label: "sort of / kind of", re: /\b(?:(?:sort|kind)\s+of|kinda|sorta)\b/gi },
   { label: "basically", re: /\bbasically\b/gi },
   { label: "actually", re: /\bactually\b/gi },
   { label: "literally", re: /\bliterally\b/gi },
-  { label: "so (at the start of a sentence)", re: /(^|[.!?]\s+)so\b/gi },
+  // A quoted sentence can open after a reporting comma or colon, or end before its closing quote.
+  { label: "so (at the start of a sentence)", re: /(?<=^\s*["'“‘]?|[.!?]["'”’]?\s+["'“‘]?|[,:]\s*["'“‘])\bso\b/gi },
   { label: "right?", re: /\bright\?/gi },
 ];

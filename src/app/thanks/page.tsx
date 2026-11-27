@@ -17,7 +17,8 @@ export default function ThanksPage() {
       <Confirmation gaId={SITE.gaId} pending={process.env.CF_PAGES === "1" && !!process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY} />
       <Container narrow>
         <p className="py-10 text-ink-2">
-          Explore <Link className="text-accent underline" href="/data/speaking-by-occupation">speaking demands by occupation</Link>{" "}
+          <Link className="text-accent underline" href="/newsletter">Visit the newsletter page</Link>,{" "}
+          explore <Link className="text-accent underline" href="/data/speaking-by-occupation">speaking demands by occupation</Link>{" "}
           or try a <Link className="text-accent underline" href="/tools">free practice tool</Link>.
         </p>
       </Container>
