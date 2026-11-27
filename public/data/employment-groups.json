@@ -2,7 +2,7 @@
   "employmentSource": "U.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics, May 2025 national estimates (public domain).",
   "occupationSource": "O*NET® 31.0 Database (August 2026 release), U.S. Department of Labor, Employment and Training Administration. CC BY 4.0.",
   "sourceUrl": "https://www.onetcenter.org/database.html",
-  "modifiedBy": "Wellspoken Institute matched combined BLS employment groups to detailed O*NET occupations and identified which have a Speaking Demand Score. Wellspoken Institute calculated the Speaking Demand Score from O*NET ratings. Public-speaking percentages come from the O*NET Work Context data. O*NET® is a trademark of USDOL/ETA. USDOL/ETA has not approved, endorsed, or tested these modifications.",
+  "modifiedBy": "Wellspoken Institute matched BLS employment groups to O*NET occupations and identified which have an Institute Speaking Demand Score calculated from O*NET ratings. O*NET® is a trademark of USDOL/ETA. USDOL/ETA has not approved, endorsed, or tested these modifications.",
   "license": "CC BY 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "canonical": "https://wellspokeninstitute.org/data/speaking-by-occupation",

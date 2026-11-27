@@ -41,7 +41,7 @@ const groups = membership.map(([code, codes]) => {
 
 const licenseUrl = "https://creativecommons.org/licenses/by/4.0/";
 const canonical = "https://wellspokeninstitute.org/data/speaking-by-occupation";
-const modifiedBy = "Wellspoken Institute matched combined BLS employment groups to detailed O*NET occupations and identified which have a Speaking Demand Score. " + occupations.modifiedBy;
+const modifiedBy = "Wellspoken Institute matched BLS employment groups to O*NET occupations and identified which have an Institute Speaking Demand Score calculated from O*NET ratings. O*NET® is a trademark of USDOL/ETA. USDOL/ETA has not approved, endorsed, or tested these modifications.";
 const crosswalk = {
   employmentSource: occupations.employmentSource, occupationSource: occupations.source,
   sourceUrl: occupations.sourceUrl, modifiedBy, license: "CC BY 4.0", licenseUrl, canonical, sources, groups,
