@@ -109,6 +109,14 @@ export function getEntries(collection: Collection): ContentEntry[] {
   return cache.get(collection)!;
 }
 
+/** True when content/<collection>/<slug>.mdx exists, is not a draft, and is dated after today. */
+export function isScheduledLater(collection: Collection, slug: string): boolean {
+  const file = `${slug}.mdx`;
+  if (!FILE_RE.test(file) || !fs.existsSync(path.join(ROOT, collection, file))) return false;
+  const { meta } = readEntry(collection, file);
+  return meta.status !== "draft" && Boolean(meta.publishedAt) && meta.publishedAt > todayISO();
+}
+
 export function getEntry(collection: Collection, slug: string): ContentEntry | undefined {
   return getEntries(collection).find((e) => e.meta.slug === slug);
 }

@@ -2,14 +2,17 @@ import type { ReactNode, ComponentProps } from "react";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import remarkGfm from "remark-gfm";
 import { SkillChart } from "@/components/SkillChart";
-import { getEntry, type Collection } from "@/lib/content";
+import { isScheduledLater, type Collection } from "@/lib/content";
 
-const CONTENT_PATH = /^(?:https?:\/\/(?:www\.)?wellspokeninstitute\.org)?\/(research|learn|professions|statistics)\/([a-z0-9-]+)\/?(?:[?#].*)?$/i;
+const CONTENT_PATH = /^(?:https?:\/\/(?:www\.)?wellspokeninstitute\.org)?\/(research|learn|professions|statistics)\/([a-z0-9-]+)\/?(?:[?#].*)?$/;
 
-/** A link to a content page that is not live yet (scheduled for a later date) would 404 on the static host. */
+/**
+ * A link to an entry scheduled for a later date would 404 on the static host until that date.
+ * Any other missing target (typo, draft, deleted page) stays a link so check-links fails the build.
+ */
 function isUnpublishedContent(href: string) {
   const m = CONTENT_PATH.exec(href);
-  return Boolean(m) && !getEntry(m![1].toLowerCase() as Collection, m![2]);
+  return Boolean(m) && isScheduledLater(m![1] as Collection, m![2]);
 }
 
 function isExternal(href: string) {

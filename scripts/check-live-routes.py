@@ -2,6 +2,7 @@
 
 import argparse
 import sys
+import time
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 from urllib.request import HTTPRedirectHandler, Request, build_opener
@@ -64,10 +65,27 @@ class RejectRedirect(HTTPRedirectHandler):
         raise ValueError(f"Sitemap redirected to {newurl}")
 
 
-def fetch_live(path):
+def fetch_live(path, attempts=4):
     request = Request(ORIGIN + path, headers={"User-Agent": "WellspokenInstitute-ReleaseCheck/1.0"})
-    with build_opener(RejectRedirect).open(request, timeout=20) as response:
-        return response.read()
+    for attempt in range(attempts):
+        try:
+            with build_opener(RejectRedirect).open(request, timeout=20) as response:
+                return response.read()
+        except OSError:
+            if attempt == attempts - 1:
+                raise
+            time.sleep(5 * 2 ** attempt)
+
+
+RETIRED = Path(__file__).with_name("retired-routes.txt")
+
+
+def retired_routes():
+    """Routes deliberately removed from the site, one path per line (# starts a comment)."""
+    if not RETIRED.is_file():
+        return set()
+    lines = (line.split("#", 1)[0].strip() for line in RETIRED.read_text().splitlines())
+    return {line for line in lines if line}
 
 
 def directory_loader(directory):
@@ -100,6 +118,7 @@ def main():
     except ValueError as error:
         sys.exit(f"Could not read staged sitemap: {error}")
 
+    live -= retired_routes()
     missing_sitemap = live - staged
     missing_html = {route for route in live if not exported_html(args.out, route)}
     for route in sorted(missing_sitemap):

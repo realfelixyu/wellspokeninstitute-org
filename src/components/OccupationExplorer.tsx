@@ -127,7 +127,7 @@ export function OccupationExplorer({ initial, guides }: Props) {
               return (
                 <tr key={r[1]} className="border-t border-rule">
                   <td className="px-3 py-2 text-ink-3">{r[0]}</td>
-                  <td className="sticky left-0 z-10 bg-card px-3 py-2 text-ink">
+                  <td className="sticky left-0 z-10 bg-paper px-3 py-2 text-ink">
                     {guides[r[1]] ? <a href={guides[r[1]]} className="underline underline-offset-2">{r[2]}</a> : r[2]}
                     <span className="ml-2 whitespace-nowrap text-xs text-ink-3">{r[1]}</span>
                   </td>
