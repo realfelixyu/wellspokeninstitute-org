@@ -15,10 +15,10 @@ export function OnetPanel({ code }: { code: string }) {
   const pct = percentileOf(code);
   const projection = projections.get(o.soc);
   const rows: [string, string][] = [
-    ["Speaking Demand Score", `${o.speakingDemandScore?.toFixed(1)} of 100 (rank ${o.rank} of ${OCCUPATIONS.count}, higher than ${pct}% of occupations)`],
+    ["Speaking Demand Score", o.speakingDemandScore == null || pct == null ? "n/a" : `${o.speakingDemandScore.toFixed(1)} of 100 (list position ${o.rank} of ${OCCUPATIONS.count}, higher than ${pct}% of rated occupations)`],
     ["Speaking importance", `${o.speakingImportance?.toFixed(2)} of 5 (${level(o.speakingImportance)})`],
-    ["Speaking level required", `${o.speakingLevel?.toFixed(2)} of 7`],
-    ["Oral expression importance", `${o.oralExpressionImportance?.toFixed(2)} of 5`],
+    ["Speaking level required", o.speakingLevel == null ? "n/a" : `${o.speakingLevel.toFixed(2)} of 7`],
+    ["Oral expression importance", o.oralExpressionImportance == null ? "n/a" : `${o.oralExpressionImportance.toFixed(2)} of 5`],
     ["Public speaking", o.publicSpeakingFrequency != null ? `${o.publicSpeakingFrequency.toFixed(2)} of 5 on average` : "n/a"],
     ["Face-to-face discussions", o.faceToFaceFrequency != null ? `${o.faceToFaceFrequency.toFixed(2)} of 5 on average` : "n/a"],
     ["U.S. employment (May 2025)", o.employment ? Math.round(o.employment).toLocaleString("en-US") : "n/a"],

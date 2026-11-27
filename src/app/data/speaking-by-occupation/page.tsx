@@ -3,6 +3,8 @@ import { PageHeader, Container } from "@/components/PageHeader";
 import { OccupationExplorer } from "@/components/OccupationExplorer";
 import { JsonLd, pageMetadata, breadcrumbJsonLd } from "@/lib/seo";
 import { OCCUPATIONS, SPEAKING_SUMMARY, millions, usd } from "@/data/stats";
+import { getEntries } from "@/lib/content";
+import type { ExplorerRow } from "@/components/useOccupationData";
 import { SITE } from "@/data/site";
 
 const PATH = "/data/speaking-by-occupation";
@@ -17,7 +19,11 @@ export const metadata = pageMetadata({
 export default function SpeakingByOccupation() {
   const s = SPEAKING_SUMMARY;
   const w = s.workerWeighted;
-  const initial = OCCUPATIONS.rows.slice(0, 50).map((r) => [
+  const guides: Record<string, string> = {};
+  for (const { meta } of getEntries("professions")) {
+    if (meta.occupationCode) guides[meta.occupationCode] = `/professions/${meta.slug}`;
+  }
+  const initial = OCCUPATIONS.rows.slice(0, 50).map<ExplorerRow>((r) => [
     r.rank, r.code, r.title, r.speakingDemandScore, r.speakingImportance, r.speakingLevel,
     r.oralExpressionImportance, r.publicSpeakingFrequency, r.faceToFaceFrequency, r.employment, r.medianWage, r.jobZone,
   ]);
@@ -87,7 +93,7 @@ export default function SpeakingByOccupation() {
 
         <section aria-labelledby="explore" className="pb-10">
           <h2 id="explore" className="mb-4 font-serif text-2xl font-semibold text-ink">Explore the data</h2>
-          <OccupationExplorer initial={initial as never} />
+          <OccupationExplorer initial={initial} guides={guides} />
         </section>
 
         <section aria-labelledby="method" className="prose-body max-w-3xl pb-6">
@@ -97,7 +103,7 @@ export default function SpeakingByOccupation() {
             to 0 to 1: the importance of the skill <em>Speaking</em> (&ldquo;talking to others to convey information
             effectively,&rdquo; rated 1 to 5), the level of Speaking the job requires (0 to 7), and the importance of
             the ability <em>Oral Expression</em> (1 to 5). These ratings come from job analysts and surveys of workers
-            in each occupation.
+            in each occupation. Tied scores appear in alphabetical order.
           </p>
           <p>
             Public speaking and face-to-face frequency come from O*NET work context questions, rated from 1

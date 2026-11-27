@@ -1,3 +1,4 @@
+import { compareOccupationScore } from "@/lib/occupation-score";
 import summary from "@data/speaking-demand-summary.json";
 import occupations from "@data/speaking-by-occupation.json";
 
@@ -23,9 +24,7 @@ export function percentileOf(code: string): number | null {
   const rows = occupations.rows;
   const score = findOccupation(code)?.speakingDemandScore;
   if (score == null) return null;
-  const rated = rows.filter(row => row.speakingDemandScore != null);
-  const lower = rated.filter(row => row.speakingDemandScore! < score);
-  return Math.round((lower.length / rated.length) * 100);
+  return compareOccupationScore(rows.map(row => row.speakingDemandScore), score)?.percentBelow ?? null;
 }
 
 export function slugifyTitle(title: string): string {

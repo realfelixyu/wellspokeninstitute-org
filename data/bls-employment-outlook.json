@@ -45,6 +45,11 @@
       "percentChange": -0.3
     },
     {
+      "soc": "11-9081",
+      "title": "Lodging managers",
+      "percentChange": 3.8
+    },
+    {
       "soc": "11-9111",
       "title": "Medical and health services managers",
       "percentChange": 24.2
@@ -195,6 +200,11 @@
       "percentChange": 5.7
     },
     {
+      "soc": "29-1031",
+      "title": "Dietitians and nutritionists",
+      "percentChange": 7.7
+    },
+    {
       "soc": "29-1051",
       "title": "Pharmacists",
       "percentChange": 5.2
@@ -203,6 +213,11 @@
       "soc": "29-1071",
       "title": "Physician assistants",
       "percentChange": 21.1
+    },
+    {
+      "soc": "29-1122",
+      "title": "Occupational therapists",
+      "percentChange": 14.8
     },
     {
       "soc": "29-1123",
@@ -250,6 +265,11 @@
       "percentChange": 5.7
     },
     {
+      "soc": "29-2052",
+      "title": "Pharmacy technicians",
+      "percentChange": 6.4
+    },
+    {
       "soc": "31-1131",
       "title": "Nursing assistants",
       "percentChange": 2.6
@@ -263,6 +283,11 @@
       "soc": "33-3051",
       "title": "Police and sheriff's patrol officers",
       "percentChange": 3.5
+    },
+    {
+      "soc": "33-9032",
+      "title": "Security guards",
+      "percentChange": 0.9
     },
     {
       "soc": "35-3031",
@@ -308,6 +333,11 @@
       "soc": "43-6011",
       "title": "Executive secretaries and executive administrative assistants",
       "percentChange": 0
+    },
+    {
+      "soc": "43-6014",
+      "title": "Secretaries and administrative assistants, except legal, medical, and executive",
+      "percentChange": -6.0
     },
     {
       "soc": "53-2011",

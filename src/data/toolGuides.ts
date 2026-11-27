@@ -125,7 +125,7 @@ export const TOOL_GUIDES: Record<string, GuideSection[]> = {
       heading: "Where the numbers come from",
       paragraphs: [
         "The ratings come from the O*NET 31.0 Database, maintained for the U.S. Department of Labor, which surveys workers and job analysts about the skills each occupation requires. Speaking importance is rated from 1 (not important) to 5 (extremely important).",
-        "The Speaking Demand Score combines speaking importance, the level of speaking skill required, and the importance of oral expression into a 0 to 100 score. The full method and the downloadable dataset are on our Speaking by Occupation page.",
+        "The Speaking Demand Score combines speaking importance, the level of speaking skill required, and the importance of oral expression into a 0 to 100 score. The comparison counts occupations with a strictly lower score. Tied jobs receive the same percentage and appear in alphabetical order within the ranking. The full method and the downloadable dataset are on our Speaking by Occupation page.",
       ],
     },
   ],

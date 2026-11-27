@@ -2,6 +2,8 @@
 
 import argparse
 import csv
+import xml.etree.ElementTree as ET
+from urllib.parse import urlsplit
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
@@ -88,6 +90,62 @@ def check_retry(page, url):
     expect(status).to_have_text("Showing 50 of 910 occupations.")
 
 
+def check_guide_links(page, base):
+    sitemap = ET.fromstring(page.request.get(base + "/sitemap-professions.xml").body())
+    ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+    expected = {urlsplit(item.text).path for item in sitemap.findall("s:url/s:loc", ns)
+                if urlsplit(item.text).path.startswith("/professions/")}
+    page.goto(base + "/data/speaking-by-occupation")
+    expect(page.get_by_text("Showing 50 of 910 occupations.", exact=True)).to_be_visible()
+    more = page.get_by_role("button", name="Show more")
+    while more.count():
+        more.click()
+    links = page.get_by_role("table").get_by_role("link")
+    actual = links.evaluate_all("(links) => links.map(link => link.getAttribute('href'))")
+    assert expected and len(actual) == len(expected) and set(actual) == expected
+    first = links.first
+    target = first.get_attribute("href")
+    first.press("Enter")
+    expect(page).to_have_url(base + target)
+    expect(page.locator("#onet-panel")).to_be_visible()
+
+
+def check_lookup(page, base, route):
+    url = base + "/data/speaking-by-occupation.json"
+    rows = page.request.get(url).json()["rows"]
+    page.route(url, lambda request: request.fulfill(status=503))
+    page.goto(base + route)
+    expect(page.get_by_text("The occupation data could not load.", exact=False)).to_be_visible()
+    page.unroute(url)
+    page.get_by_role("button", name="Try again").press("Enter")
+    field = page.get_by_role("searchbox", name="Your occupation")
+    ties = [r for r in rows if r[3] == 69]
+    assert len(ties) > 1
+    rated = [r for r in rows if r[3] is not None]
+    comparison = round(100 * sum(r[3] < 69 for r in rated) / len(rated), 1)
+    for row in [ties[0], ties[-1]]:
+        field.fill(row[1])
+        page.get_by_role("button", name=row[2], exact=True).press("Enter")
+        expect(page.get_by_role("heading", name=row[2], exact=True)).to_be_focused()
+        expect(page.get_by_text(f"{comparison:g}%", exact=True)).to_be_visible()
+    field.fill("nonexistent occupation")
+    expect(page.get_by_text("No matching occupations.")).to_be_visible()
+
+    # The importer permits a missing composite when an underlying measure is absent.
+    page.route(url, lambda request: request.fulfill(json={"rows": [
+        [1,"01-0001.00","Rated occupation",70,4,4,None,None,None,None,None,None],
+        [2,"01-0002.00","Missing composite",None,3,None,None,None,None,None,None,None],
+    ]}))
+    page.reload()
+    field.fill("Missing composite")
+    page.get_by_role("button", name="Missing composite").press("Enter")
+    expect(page.get_by_text("A composite Speaking Demand Score is unavailable.", exact=False)).to_be_visible()
+    field.fill("Rated occupation")
+    page.get_by_role("button", name="Rated occupation").press("Enter")
+    expect(page.get_by_text("0%", exact=True)).to_be_visible()
+    page.unroute(url)
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("base_url")
@@ -100,6 +158,10 @@ if __name__ == "__main__":
             page = browser.new_page(viewport={"width": width, "height": 800})
             check_explorer(page, url, mobile=width == 375)
             check_retry(page, url)
+            route = "/embed/speaking-demand-lookup" if width == 375 else "/tools/speaking-demand-lookup"
+            check_lookup(page, args.base_url.rstrip("/"), route)
+            if width == 1280:
+                check_guide_links(page, args.base_url.rstrip("/"))
             page.close()
         browser.close()
     print("Occupation explorer passed desktop and mobile browser checks.")

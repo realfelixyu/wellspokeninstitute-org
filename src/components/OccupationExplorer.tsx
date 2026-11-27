@@ -1,11 +1,12 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 
-type Row = [number, string, string, number, number, number, number | null, number | null, number | null, number | null, number | null, number | null];
+import { useOccupationData, type ExplorerRow } from "./useOccupationData";
 
 interface Props {
-  initial: Row[];
+  initial: ExplorerRow[];
+  guides: Record<string, string>;
 }
 
 const SORTS = {
@@ -22,33 +23,12 @@ function fmtInt(n: number | null) {
   return n == null ? "n/a" : Math.round(n).toLocaleString("en-US");
 }
 
-export function OccupationExplorer({ initial }: Props) {
-  const [rows, setRows] = useState<Row[]>(initial);
-  const [loadState, setLoadState] = useState<"loading" | "ready" | "error">("loading");
-  const [attempt, setAttempt] = useState(0);
+export function OccupationExplorer({ initial, guides }: Props) {
+  const { rows, loadState, retry } = useOccupationData(initial);
   const [query, setQuery] = useState("");
   const [sort, setSort] = useState<SortKey>("score");
   const [desc, setDesc] = useState(true);
   const [limit, setLimit] = useState(50);
-
-  useEffect(() => {
-    const controller = new AbortController();
-    fetch("/data/speaking-by-occupation.json", { signal: controller.signal })
-      .then((response) => {
-        if (!response.ok) throw new Error("Dataset request failed");
-        return response.json();
-      })
-      .then((d) => {
-        if (!Array.isArray(d.rows)) throw new Error("Missing occupation rows");
-        if (controller.signal.aborted) return;
-        setRows(d.rows);
-        setLoadState("ready");
-      })
-      .catch(() => {
-        if (!controller.signal.aborted) setLoadState("error");
-      });
-    return () => controller.abort();
-  }, [attempt]);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -116,10 +96,7 @@ export function OccupationExplorer({ initial }: Props) {
       {loadState === "error" && (
         <button
           type="button"
-          onClick={() => {
-            setLoadState("loading");
-            setAttempt((previous) => previous + 1);
-          }}
+          onClick={retry}
           className="mt-2 rounded-lg border border-rule bg-card px-4 py-2 text-sm text-ink hover:border-accent"
         >
           Retry loading all occupations
@@ -143,10 +120,10 @@ export function OccupationExplorer({ initial }: Props) {
               <tr key={r[1]} className="border-t border-rule">
                 <td className="px-3 py-2 text-ink-3">{r[0]}</td>
                 <td className="px-3 py-2 text-ink">
-                  {r[2]}
+                  {guides[r[1]] ? <a href={guides[r[1]]} className="underline underline-offset-2">{r[2]}</a> : r[2]}
                   <span className="ml-2 text-xs text-ink-3">{r[1]}</span>
                 </td>
-                <td className="px-3 py-2 text-right font-semibold text-accent">{r[3]?.toFixed(1)}</td>
+                <td className="px-3 py-2 text-right font-semibold text-accent">{r[3]?.toFixed(1) ?? "n/a"}</td>
                 <td className="px-3 py-2 text-right text-ink-2">{r[4]?.toFixed(2)}</td>
                 <td className="px-3 py-2 text-right text-ink-2">{r[7] == null ? "n/a" : r[7].toFixed(2)}</td>
                 <td className="px-3 py-2 text-right text-ink-2">{fmtInt(r[9])}</td>
