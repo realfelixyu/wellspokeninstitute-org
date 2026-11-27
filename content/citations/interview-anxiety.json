@@ -1,0 +1,106 @@
+{
+  "powell2018interviewanxiety": {
+    "authors": "Powell, D. M., Stanley, D. J., & Brown, K. N.",
+    "year": 2018,
+    "title": "Meta-analysis of the relation between interview anxiety and interview performance",
+    "container": "Canadian Journal of Behavioural Science, 50(4), 195-207",
+    "doi": "10.1037/cbs0000108",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Meta-analysis of the relation between interview anxiety and interview performance.",
+      "fingerprint": "3845acf3dcaa3941ab887681e1717e69b0e374527bcb375c04b7e2cf6b6f8c04"
+    }
+  },
+  "mccarthy2004masi": {
+    "authors": "McCarthy, J. M., & Goffin, R. D.",
+    "year": 2004,
+    "title": "Measuring Job Interview Anxiety: Beyond Weak Knees and Sweaty Palms",
+    "container": "Personnel Psychology, 57(3), 607-637",
+    "doi": "10.1111/j.1744-6570.2004.00002.x",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Measuring Job Interview Anxiety: Beyond Weak Knees and Sweaty Palms",
+      "fingerprint": "e44f7c32d89768d9aa9f7a044fca23d196f5980265905f6e37b4ce80ac50e0c2"
+    }
+  },
+  "schneider2019anxietyjob": {
+    "authors": "Schneider, L., Powell, D. M., & Bonaccio, S.",
+    "year": 2019,
+    "title": "Does interview anxiety predict job performance and does it influence the predictive validity of interviews?",
+    "container": "International Journal of Selection and Assessment, 27(4), 328-336",
+    "doi": "10.1111/ijsa.12263",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Does interview anxiety predict job performance and does it influence the predictive validity of interviews?",
+      "fingerprint": "a030faaf4f82138c221b17b992e6d3d9173d71434514c683695c0896928b5b86"
+    }
+  },
+  "maurer2001coaching": {
+    "authors": "Maurer, T. J., Solamon, J. M., Andrews, K. D., & Troxtel, D. D.",
+    "year": 2001,
+    "title": "Interviewee coaching, preparation strategies, and response strategies in relation to performance in situational employment interviews: An extension of Maurer, Solamon, and Troxtel (1998)",
+    "container": "Journal of Applied Psychology, 86(4), 709-717",
+    "doi": "10.1037/0021-9010.86.4.709",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Interviewee coaching, preparation strategies, and response strategies in relation to performance in situational employment interviews: An extension of Maurer, Solamon, and Troxtel (1998).",
+      "fingerprint": "5eed987a74a3f248c8aa178bcab7dabd78ff381ca5facfe37c6023fbed2103e7"
+    }
+  },
+  "tross2008coaching": {
+    "authors": "Tross, S. A., & Maurer, T. J.",
+    "year": 2008,
+    "title": "The effect of coaching interviewees on subsequent interview performance in structured experience-based interviews",
+    "container": "Journal of Occupational and Organizational Psychology, 81(4), 589-605",
+    "doi": "10.1348/096317907X248653",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "The effect of coaching interviewees on subsequent interview performance in structured experience‐based interviews",
+      "fingerprint": "0e65c1b7a3bb2c49f896d9e037fdf002d8e3cfdb80cc6574b33c32245908ed86"
+    }
+  },
+  "brooks2014excited": {
+    "authors": "Brooks, A. W.",
+    "year": 2014,
+    "title": "Get excited: Reappraising pre-performance anxiety as excitement",
+    "container": "Journal of Experimental Psychology: General, 143(3), 1144-1158",
+    "doi": "10.1037/a0035325",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Get excited: Reappraising pre-performance anxiety as excitement.",
+      "fingerprint": "3a793697064aeaa786efa26d8ff0622a7426a7230c3b2078b268e49ceb604629"
+    }
+  },
+  "poynter2025excited": {
+    "authors": "Poynter, M., & Smith Pasqualini, M.",
+    "year": 2025,
+    "title": "Getting Excited About Public Speaking: A Replication",
+    "container": "Psychology of Language and Communication, 29(1), 254-265",
+    "doi": "10.58734/plc-2025-0011",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Getting Excited About Public Speaking: A Replication",
+      "fingerprint": "75c3ae7c5620540b00538a179ddebbee25d28407dd6bb5dde1b98701f6d4ce09"
+    }
+  },
+  "constantin2021tiaf": {
+    "authors": "Constantin, K. L., Powell, D. M., & McCarthy, J. M.",
+    "year": 2021,
+    "title": "Expanding conceptual understanding of interview anxiety and performance: Integrating cognitive, behavioral, and physiological features",
+    "container": "International Journal of Selection and Assessment, 29(2), 234-252",
+    "doi": "10.1111/ijsa.12326",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Expanding conceptual understanding of interview anxiety and performance: Integrating cognitive, behavioral, and physiological features",
+      "fingerprint": "ab8ca9347e8fb55dbfc5df4acadca4b78a84ae5ba7abe3f2b3c80a46cd554e00"
+    }
+  }
+}
