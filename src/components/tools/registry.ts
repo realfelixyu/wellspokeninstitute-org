@@ -10,10 +10,8 @@ import Teleprompter from "@/components/tools/Teleprompter";
 import PitchBuilder from "@/components/tools/PitchBuilder";
 import DemandLookup from "@/components/tools/DemandLookup";
 
-import SpeakingAssessment from "@/components/tools/SpeakingAssessment";
 
 export const TOOL_COMPONENTS: Record<string, ComponentType> = {
-  "speaking-self-assessment": SpeakingAssessment,
   "speaking-rate-calculator": SpeakingRate,
   "speech-length-calculator": SpeechLength,
   "filler-word-counter": FillerCounter,

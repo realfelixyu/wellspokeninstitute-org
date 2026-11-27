@@ -71,13 +71,6 @@ export const TOOL_GUIDES: Record<string, GuideSection[]> = {
       "The author’s scoring key reverses 12 of the 34 responses. A higher total reflects more self-reported anxiety about giving speeches. The published cutoffs describe responses to this questionnaire. A clinical diagnosis requires a separate assessment."
     ],
   }],
-  "speaking-self-assessment": [{
-    heading: "What the scores mean",
-    paragraphs: [
-      "Each pair of questions concerns one speaking habit. Choices earn zero to three points, giving each habit a score from zero to six. The scores reflect your judgments about recent conversations. They do not measure a speech sample or compare you with other speakers.",
-      "Pick one answer that surprised you. Ask someone who heard you speak last week what they noticed in that moment."
-    ],
-  }],
   "speakability-checker": [
     {
       heading: "Writing for the ear",
@@ -143,5 +136,4 @@ export const TOOL_SOURCES: Record<string, string[]> = {
   teleprompter: ["yuan2006speakingrate"],
   "elevator-pitch-builder": ["dukeelevatorpitch"],
   "speaking-demand-lookup": ["onet31", "blsoews2025"],
-  "speaking-self-assessment": ["vanginkel2015feedback"],
 };

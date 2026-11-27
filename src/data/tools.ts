@@ -70,12 +70,6 @@ export const TOOLS: ToolInfo[] = [
       "Answer five short prompts and get a structured spoken introduction you can rehearse, with a timing estimate.",
   },
   {
-    slug: "speaking-self-assessment",
-    name: "How well-spoken are you?",
-    short: "Reflect on your speaking habits.",
-    description: "Answer 12 questions about everyday conversations and presentations. See which habits you feel sure of and choose one to practice.",
-  },
-  {
     slug: "speaking-demand-lookup",
     name: "How much does my job depend on speaking?",
     short: "Look up any occupation.",
