@@ -6,16 +6,17 @@ export function NewsletterForm({ source = "site" }: { source?: string }) {
   const action = siteKey ? "/api/subscribe" : SITE.newsletterAction;
   if (!action) {
     return (
-      <p className="text-[0.98rem] text-ink-2">
-        To request the Institute’s research newsletter, email{" "}
+      <div className="flex flex-col items-start gap-2">
         <a
-          className="font-medium text-accent underline underline-offset-2"
+          className="inline-flex h-12 items-center rounded-lg bg-accent px-6 font-medium text-accent-ink transition-opacity hover:opacity-90"
           href={`mailto:${SITE.email}?subject=Add%20me%20to%20the%20research%20newsletter`}
         >
-          {SITE.email}
+          Subscribe by email
         </a>
-        .
-      </p>
+        <p className="text-sm text-ink-3">
+          Opens a message to {SITE.email}. Send it as is and we will add you to the list.
+        </p>
+      </div>
     );
   }
   return (

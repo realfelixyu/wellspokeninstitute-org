@@ -92,7 +92,12 @@ export function OccupationExplorer({ initial, guides }: Props) {
       <p className="mt-3 text-sm text-ink-3" aria-live="polite">
         {filtered.length > 0 ? (
           <>Showing {shown.length} of {filtered.length} {query.trim() && "matching "}{filtered.length === 1 ? "occupation" : "occupations"}.</>
-        ) : matches.groups.length === 0 && "No matching occupations."}
+        ) : matches.groups.length === 0 && (
+          <>
+            No occupation matches “{query.trim()}”. Try a broader word, such as “teacher” or “manager”, or{" "}
+            <button type="button" onClick={() => setQuery("")} className="font-medium text-accent underline underline-offset-2">clear the search</button>.
+          </>
+        )}
         {matches.groups.length > 0 && ` Found ${matches.groups.length} matching BLS employment ${matches.groups.length === 1 ? "group" : "groups"}.`}
         {loadState === "loading" && " Loading all occupations…"}
         {loadState === "error" && ` The full dataset could not load. Search and sorting cover the top ${initial.length} occupations.`}

@@ -58,6 +58,12 @@ export default function ProfessionsIndex() {
       <Container>
         <div className="space-y-12 py-12">
           {groups.length === 0 ? <p className="text-ink-3">The first guides are in review.</p> : null}
+          {groups.length > 0 ? (
+            <p className="text-sm text-ink-2">
+              The number on each guide is its Speaking Demand Score out of 100: how much the job relies on speaking, from U.S.
+              Department of Labor ratings. <Link href="/data/speaking-by-occupation#method" className="text-accent underline underline-offset-2">How it is calculated</Link>.
+            </p>
+          ) : null}
           {groups.map(([name, list]) => (
             <section key={name} aria-labelledby={`g-${name}`}>
               <h2 id={`g-${name}`} className="font-serif text-2xl font-semibold text-ink">
@@ -76,8 +82,9 @@ export default function ProfessionsIndex() {
                         >
                           <span className="font-medium leading-snug text-ink">{o?.title ?? e.meta.title}</span>
                           {o?.speakingDemandScore != null ? (
-                            <span className="shrink-0 rounded-md bg-accent-soft px-2 py-1 text-sm font-semibold text-accent" title="Speaking Demand Score">
-                              {o.speakingDemandScore.toFixed(0)}
+                            <span className="shrink-0 rounded-md bg-accent-soft px-2 py-1 text-sm font-semibold text-accent">
+                              {o.speakingDemandScore.toFixed(0)}<span className="font-normal">/100</span>
+                              <span className="sr-only"> Speaking Demand Score</span>
                             </span>
                           ) : null}
                         </Link>

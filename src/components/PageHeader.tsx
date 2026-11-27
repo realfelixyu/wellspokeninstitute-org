@@ -4,16 +4,16 @@ import type { ReactNode } from "react";
 export function Breadcrumbs({ items }: { items: { name: string; path: string }[] }) {
   return (
     <nav aria-label="Breadcrumb" className="text-sm text-ink-3">
-      <ol className="flex flex-wrap items-center gap-1.5">
+      <ol className="flex items-center gap-1.5">
         {items.map((it, i) => (
-          <li key={it.path} className="flex items-center gap-1.5">
+          <li key={it.path} className={`flex items-center gap-1.5 ${i === items.length - 1 ? "min-w-0" : "shrink-0"}`}>
             {i > 0 ? <span aria-hidden="true">/</span> : null}
             {i < items.length - 1 ? (
               <Link href={it.path} className="hover:text-accent">
                 {it.name}
               </Link>
             ) : (
-              <span aria-current="page" className="text-ink-2">
+              <span aria-current="page" className="truncate text-ink-2">
                 {it.name}
               </span>
             )}

@@ -21,7 +21,10 @@ export default function DemandLookup() {
     if (q.trim().length < 2) return { occupations: [], groups: [] };
     return findOccupationMatches(rows, q);
   }, [q, rows]);
-  const matches = occupations.slice(0, 8);
+  // Most-held jobs first: a search for "teacher" should surface K-12 teachers before narrow specialties.
+  const ranked = useMemo(() => [...occupations].sort((a, b) => (b[9] ?? -1) - (a[9] ?? -1)), [occupations]);
+  const [limit, setLimit] = useState(8);
+  const matches = ranked.slice(0, limit);
   const selectedGroup = sel ? groupForOccupation(sel[1]) : undefined;
 
   const total = rows.length;
@@ -38,6 +41,7 @@ export default function DemandLookup() {
           onChange={(e) => {
             setQ(e.target.value);
             setSel(null);
+            setLimit(8);
           }}
           placeholder="Start typing, for example: accountant"
           className="h-12 w-full rounded-lg border border-rule bg-paper px-3 text-ink"
@@ -45,7 +49,12 @@ export default function DemandLookup() {
       </label>
       {loadState === "loading" && <p role="status">Loading occupations…</p>}
       {loadState === "error" && <p role="status">The occupation data could not load. <button type="button" onClick={retry} className="underline">Try again</button></p>}
-      {loadState === "ready" && q.trim().length >= 2 && !matches.length && !groups.length && <p role="status">No matching occupations.</p>}
+      {loadState === "ready" && q.trim().length >= 2 && !matches.length && !groups.length && (
+        <p role="status" className="mt-3 text-ink-2">
+          No occupation matches “{q.trim()}”. Try a broader word, such as “teacher”, “nurse” or “manager”, or{" "}
+          <button type="button" onClick={() => setQ("")} className="font-medium text-accent underline underline-offset-2">clear the search</button>.
+        </p>
+      )}
       {!sel && groups.length > 0 && (
         <p role="status" className="mt-3 text-sm text-ink-2">
           Found {groups.length} matching BLS employment {groups.length === 1 ? "group" : "groups"}.
@@ -61,6 +70,12 @@ export default function DemandLookup() {
             </li>
           ))}
         </ul>
+      ) : null}
+      {!sel && ranked.length > matches.length ? (
+        <p className="mt-2 text-sm text-ink-2">
+          Showing the {matches.length} most common of {ranked.length} matching jobs.{" "}
+          <button type="button" onClick={() => setLimit(ranked.length)} className="min-h-11 font-medium text-accent underline underline-offset-2">Show all {ranked.length}</button>
+        </p>
       ) : null}
       {sel ? (
         <div className="mt-6 rounded-xl border border-rule bg-paper p-5">

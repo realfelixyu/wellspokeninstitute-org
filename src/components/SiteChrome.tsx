@@ -1,4 +1,5 @@
 import { MobileMenu } from "./MobileMenu";
+import { NavLink } from "./NavLink";
 import Link from "next/link";
 import { NAV, SITE } from "@/data/site";
 
@@ -39,12 +40,12 @@ export function SiteHeader() {
           <ul className="flex items-center gap-1 text-[0.93rem]">
             {NAV.map((item) => (
               <li key={item.href}>
-                <Link
+                <NavLink
                   href={item.href}
                   className="inline-flex min-h-11 items-center rounded-md px-3 py-2 text-ink-2 transition-colors hover:bg-paper-2 hover:text-ink"
                 >
                   {item.label}
-                </Link>
+                </NavLink>
               </li>
             ))}
           </ul>
@@ -110,10 +111,10 @@ export function SiteFooter() {
         {FOOTER_COLUMNS.map((col) => (
           <div key={col.title}>
             <h2 className="text-sm font-semibold text-ink">{col.title}</h2>
-            <ul className="mt-3 space-y-2 text-sm">
+            <ul className="mt-3 space-y-1 text-sm">
               {col.links.map((l) => (
                 <li key={l.href}>
-                  <Link href={l.href} className="text-ink-2 hover:text-accent">
+                  <Link href={l.href} className="inline-block py-1 text-ink-2 hover:text-accent">
                     {l.label}
                   </Link>
                 </li>
