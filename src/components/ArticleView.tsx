@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { ContentEntry } from "@/lib/content";
 import { extractFaqs, formatDate } from "@/lib/content";
 import { getCitations, citationHref, formatCitation } from "@/lib/citations";
+import { StudyResources } from "@/components/StudyResources";
 import { Mdx } from "@/components/Mdx";
 import { Breadcrumbs } from "@/components/PageHeader";
 import { JsonLd, articleJsonLd, authorNames, breadcrumbJsonLd, contentPath, faqJsonLd } from "@/lib/seo";
@@ -81,6 +82,7 @@ export function ArticleView({ entry }: { entry: ContentEntry }) {
               ) : null}
             </div>
           ) : null}
+          {meta.collection === "research" && <StudyResources slug={meta.slug} />}
         </div>
       </header>
 

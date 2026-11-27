@@ -10,6 +10,8 @@ Write articles in `content/<collection>/*.mdx` and register sources in `content/
 
 ## Hosting and scheduled releases
 
+Immediately before changing hosts, build the candidate with its production settings and run `npm run check:live-routes` with Python 3 and network access. The command reads the current public sitemap and follows each sitemap index on both sides. Each public route must have an HTML file in `out/` and an entry in the candidate sitemap. Resolve any reported omissions before switching hosts. Use `-- --out <directory>` for another candidate export. To replay a saved baseline offline, add `--live-dir <directory>` after the npm argument separator and place the captured `sitemap.xml` and its referenced sitemaps there at their original paths.
+
 The default GitHub Actions workflow builds and publishes GitHub Pages on main-branch pushes and daily at 11:17 UTC. To switch after Institute-owned Cloudflare Pages is configured:
 
 1. Connect the production branch `main`, use `node --test test/*.test.mjs && npm run build` and publish `out`. Keep the repository root as the project root so Pages discovers `functions/`. Cloudflare’s Git integration builds pushes.

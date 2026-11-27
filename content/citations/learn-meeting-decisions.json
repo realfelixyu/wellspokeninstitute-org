@@ -1,0 +1,41 @@
+{
+  "stasser1985unshared": {
+    "authors": "Stasser, G., & Titus, W.",
+    "year": 1985,
+    "title": "Pooling of unshared information in group decision making: Biased information sampling during discussion.",
+    "container": "Journal of Personality and Social Psychology, 48(6), 1467-1478",
+    "doi": "10.1037/0022-3514.48.6.1467",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Pooling of unshared information in group decision making: Biased information sampling during discussion.",
+      "fingerprint": "5e20dc08961411f8a14d8d31f9da616b28fa2f64c8e52146f1fbccade2c06db8"
+    }
+  },
+  "mojzisch2010preferences": {
+    "authors": "Mojzisch, A., & Schulz-Hardt, S.",
+    "year": 2010,
+    "title": "Knowing others' preferences degrades the quality of group decisions.",
+    "container": "Journal of Personality and Social Psychology, 98(5), 794-808",
+    "doi": "10.1037/a0017627",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Knowing others' preferences degrades the quality of group decisions.",
+      "fingerprint": "7c13b7b25bd200cf98098fdc6e7ff5fd396866b903b23f77d61118cad8bf22fb"
+    }
+  },
+  "stasser1995expertroles": {
+    "authors": "Stasser, G., Stewart, D. D., & Wittenbaum, G. M.",
+    "year": 1995,
+    "title": "Expert roles and information exchange during discussion: The importance of knowing who knows what",
+    "container": "Journal of Experimental Social Psychology, 31(3), 244-265",
+    "doi": "10.1006/jesp.1995.1012",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Expert Roles and Information Exchange during Discussion: The Importance of Knowing Who Knows What",
+      "fingerprint": "887693d808278e8b42c99a98faf28f8938a077f8837018a18106e0faffa2f192"
+    }
+  }
+}

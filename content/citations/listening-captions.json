@@ -1,0 +1,54 @@
+{
+  "mitterer2009subtitles": {
+    "authors": "Mitterer, H., McQueen, J. M.",
+    "year": 2009,
+    "title": "Foreign Subtitles Help but Native-Language Subtitles Harm Foreign Speech Perception",
+    "container": "PLOS ONE, 4(11), e7785",
+    "doi": "10.1371/journal.pone.0007785",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Foreign Subtitles Help but Native-Language Subtitles Harm Foreign Speech Perception",
+      "fingerprint": "ac11771edb173e326fae9314489bb5d71a5e085b0d4c54f75f0914c835076e10"
+    }
+  },
+  "birules2016films": {
+    "authors": "Birulés-Muntané, J., Soto-Faraco, S.",
+    "year": 2016,
+    "title": "Watching Subtitled Films Can Help Learning Foreign Languages",
+    "container": "PLOS ONE, 11(6), e0158409",
+    "doi": "10.1371/journal.pone.0158409",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Watching Subtitled Films Can Help Learning Foreign Languages",
+      "fingerprint": "1b600023f9212a42ae8cb4d1aebef12487d2ee55dc2c01f6cc0050a02c118e2e"
+    }
+  },
+  "pujadas2024captions": {
+    "authors": "Pujadas, G., Muñoz, C.",
+    "year": 2024,
+    "title": "When to switch captions off? Exploring the effects of L2 proficiency and vocabulary knowledge on comprehension of captioned and uncaptioned TV",
+    "container": "Studies in Second Language Learning and Teaching, 14(3), 545–570",
+    "doi": "10.14746/ssllt.38036",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "When to switch captions off? Exploring the effects of L2 proficiency and vocabulary knowledge on comprehension of captioned and uncaptioned TV",
+      "fingerprint": "57f7cea10e4a3cf595c704ef2bf23a06c5eb046a45ae43862de62c54ea13cc64"
+    }
+  },
+  "bradlow2008adaptation": {
+    "authors": "Bradlow, A. R., Bent, T.",
+    "year": 2008,
+    "title": "Perceptual adaptation to non-native speech",
+    "container": "Cognition, 106(2), 707–729",
+    "doi": "10.1016/j.cognition.2007.04.005",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Perceptual adaptation to non-native speech",
+      "fingerprint": "607d73c73eb81336821f789fe653cac13b9cd96d1d74c7918f0c2d8b2ad46363"
+    }
+  }
+}

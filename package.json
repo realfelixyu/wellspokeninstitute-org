@@ -9,6 +9,7 @@
     "build": "next build",
     "postbuild": "node scripts/check-output.mjs && node scripts/check-links.mjs",
     "validate": "node scripts/validate-content.mjs",
+    "check:live-routes": "python3 scripts/check-live-routes.py",
     "citations:verify": "node scripts/verify-citations.mjs",
     "onet:import": "node scripts/onet-import.mjs",
     "typecheck": "tsc --noEmit",

@@ -1,4 +1,5 @@
 import { SITE } from "@/data/site";
+import { lessons } from "@/data/curriculum";
 import { TOOLS } from "@/data/tools";
 import { getEntries, type Collection } from "@/lib/content";
 
@@ -8,7 +9,7 @@ export const sitemapName = (section: string) => `sitemap-${section}.xml`;
 
 export function urlsForSection(section: string): { path: string; modified?: string }[] {
   if (section === "institute") {
-    return ["/", "/data/speaking-by-occupation", "/data/speaking-demand-over-time", "/curriculum", "/about", "/mission", "/governance", "/disclosures", "/editorial-policy", "/newsletter", "/contact", "/privacy"].map(path => ({ path }));
+    return ["/", "/data/speaking-by-occupation", "/data/speaking-demand-over-time", "/curriculum", ...lessons.map(lesson => `/curriculum/worksheets/${lesson.id}`), "/about", "/mission", "/governance", "/disclosures", "/editorial-policy", "/newsletter", "/contact", "/privacy"].map(path => ({ path }));
   }
   if (section === "tools") {
     return ["/tools", ...TOOLS.map(tool => `/tools/${tool.slug}`)].map(path => ({ path }));
