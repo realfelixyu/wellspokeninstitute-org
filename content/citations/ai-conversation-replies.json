@@ -1,0 +1,67 @@
+{
+  "hohenstein2023smartreplies": {
+    "authors": "Hohenstein, J., Kizilcec, R. F., DiFranzo, D., Aghajari, Z., Mieczkowski, H., Levy, K., Naaman, M., Hancock, J., & Jung, M. F.",
+    "year": 2023,
+    "title": "Artificial intelligence in communication impacts language and social relationships",
+    "container": "Scientific Reports, 13, 5487",
+    "doi": "10.1038/s41598-023-30938-9",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Artificial intelligence in communication impacts language and social relationships",
+      "fingerprint": "6b35a34b1aac3710c83ab553175b20e99e44d4cfc876d061dfc4c770067610a3"
+    }
+  },
+  "yin2024feelheard": {
+    "authors": "Yin, Y., Jia, N., & Wakslak, C. J.",
+    "year": 2024,
+    "title": "AI can help people feel heard, but an AI label diminishes this impact",
+    "container": "Proceedings of the National Academy of Sciences, 121(14), e2319112121",
+    "doi": "10.1073/pnas.2319112121",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "AI can help people feel heard, but an AI label diminishes this impact",
+      "fingerprint": "840410abfcbd37c3e5f89faf03a929f3bb067f791714e59bef6632f59e121c47"
+    }
+  },
+  "purcell2025writingtrust": {
+    "authors": "Purcell, Z. A., Jakesch, M., Dong, M., Nussberger, A.-M., & Köbis, N.",
+    "year": 2025,
+    "title": "Writing with AI boosts trust-building efficiency",
+    "container": "iScience, 28(12), 114092",
+    "doi": "10.1016/j.isci.2025.114092",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Writing with AI boosts trust-building efficiency",
+      "fingerprint": "34f21f2fe4b2972e639e0dd08c85477cafd32311b5da8c711d92af52624d1819"
+    }
+  },
+  "hohenstein2020trust": {
+    "authors": "Hohenstein, J., & Jung, M.",
+    "year": 2020,
+    "title": "AI as a moral crumple zone: The effects of AI-mediated communication on attribution and trust",
+    "container": "Computers in Human Behavior, 106, 106190",
+    "doi": "10.1016/j.chb.2019.106190",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "AI as a moral crumple zone: The effects of AI-mediated communication on attribution and trust",
+      "fingerprint": "2b814ed052e9b98b19d1380b6f1caa8ea2131d00f4d7acb7bc38cfa332b83358"
+    }
+  },
+  "kumar2021voice": {
+    "authors": "Kumar, A., & Epley, N.",
+    "year": 2021,
+    "title": "It's surprisingly nice to hear you: Misunderstanding the impact of communication media can lead to suboptimal choices of how to connect with others",
+    "container": "Journal of Experimental Psychology: General, 150(3), 595–607",
+    "doi": "10.1037/xge0000962",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "It’s surprisingly nice to hear you: Misunderstanding the impact of communication media can lead to suboptimal choices of how to connect with others.",
+      "fingerprint": "4e39a6df987325751dbf1e52ec8816caa3d3778f2178eb2debdce59ea6e1d8d1"
+    }
+  }
+}
