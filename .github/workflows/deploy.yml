@@ -48,6 +48,21 @@ jobs:
       - id: deployment
         uses: actions/deploy-pages@v4
 
+  indexnow:
+    # Tell Bing and other IndexNow engines about pages that went live today, including scheduled ones.
+    needs: deploy
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: sleep 60
+      - run: node scripts/indexnow.mjs --since "$(date -u -d '1 day ago' +%F)"
+
 
   refresh-cloudflare:
     if: vars.INSTITUTE_HOSTING == 'cloudflare' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
