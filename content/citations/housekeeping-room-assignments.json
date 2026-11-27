@@ -1,0 +1,41 @@
+{
+  "jasso1999waikiki": {
+    "authors": "Jasso-Aguilar, R.",
+    "year": 1999,
+    "title": "Sources, Methods and Triangulation in Needs Analysis: A Critical Perspective in a Case Study of Waikiki Hotel Maids",
+    "container": "English for Specific Purposes, 18(1), 27–46",
+    "doi": "10.1016/S0889-4906(97)00048-3",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Sources, Methods and Triangulation in Needs Analysis: a Critical Perspective in a Case Study of Waikiki Hotel Maids",
+      "fingerprint": "3a6d2dc84ab56f639b73b07a87fe9c9d94b3c315561a4842ca860bf677eb534c"
+    }
+  },
+  "strommer2021seasonalcleaning": {
+    "authors": "Strömmer, M.",
+    "year": 2021,
+    "title": "Physical Work, Customer Service, or Teamwork?",
+    "container": "Language, Global Mobilities, Blue-Collar Workers and Blue-Collar Workplaces, 187–203",
+    "doi": "10.4324/9780429298622-10",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Physical Work, Customer Service, or Teamwork?",
+      "fingerprint": "a52b0d2cdbe682cf4e44828ed82af2778721082a75705e388bb56a730eb69b05"
+    }
+  },
+  "spektor2023housekeeping": {
+    "authors": "Spektor, F., Fox, S. E., Awumey, E., Riordan, C. A., Rho, H. J., Kulkarni, C., Martinez-Lopez, M., Stringam, B., Begleiter, B., & Forlizzi, J.",
+    "year": 2023,
+    "title": "Designing for Wellbeing: Worker-Generated Ideas on Adapting Algorithmic Management in the Hospitality Industry",
+    "container": "Proceedings of the 2023 ACM Designing Interactive Systems Conference, 623–637",
+    "doi": "10.1145/3563657.3596018",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Designing for Wellbeing: Worker-Generated Ideas on Adapting Algorithmic Management in the Hospitality Industry",
+      "fingerprint": "95028e4cd1de9e351bc97bd52be410c5b8d0035340f1b2e39edd08363009359b"
+    }
+  }
+}

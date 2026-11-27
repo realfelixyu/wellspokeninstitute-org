@@ -12,7 +12,7 @@
     {
       "soc": "11-1021",
       "title": "General and operations managers",
-      "percentChange": 5
+      "percentChange": 5.0
     },
     {
       "soc": "11-2021",
@@ -82,7 +82,7 @@
     {
       "soc": "13-2011",
       "title": "Accountants and auditors",
-      "percentChange": 5
+      "percentChange": 5.0
     },
     {
       "soc": "13-2052",
@@ -192,7 +192,7 @@
     {
       "soc": "27-3091",
       "title": "Interpreters and translators",
-      "percentChange": 2
+      "percentChange": 2.0
     },
     {
       "soc": "29-1021",
@@ -242,7 +242,7 @@
     {
       "soc": "29-1171",
       "title": "Nurse practitioners",
-      "percentChange": 41
+      "percentChange": 41.0
     },
     {
       "soc": "29-1215",
@@ -252,12 +252,12 @@
     {
       "soc": "29-1216",
       "title": "General internal medicine physicians",
-      "percentChange": 4
+      "percentChange": 4.0
     },
     {
       "soc": "29-1292",
       "title": "Dental hygienists",
-      "percentChange": 8
+      "percentChange": 8.0
     },
     {
       "soc": "29-2043",
@@ -290,9 +290,14 @@
       "percentChange": 0.9
     },
     {
+      "soc": "35-2014",
+      "title": "Cooks, restaurant",
+      "percentChange": 12.1
+    },
+    {
       "soc": "35-3011",
       "title": "Bartenders",
-      "percentChange": 5
+      "percentChange": 5.0
     },
     {
       "soc": "35-3023",
@@ -302,12 +307,17 @@
     {
       "soc": "35-3031",
       "title": "Waiters and waitresses",
-      "percentChange": 2
+      "percentChange": 2.0
+    },
+    {
+      "soc": "37-2012",
+      "title": "Maids and housekeeping cleaners",
+      "percentChange": 0.6
     },
     {
       "soc": "39-9011",
       "title": "Childcare workers",
-      "percentChange": -2
+      "percentChange": -2.0
     },
     {
       "soc": "41-2011",
@@ -357,7 +367,7 @@
     {
       "soc": "43-6011",
       "title": "Executive secretaries and executive administrative assistants",
-      "percentChange": 0
+      "percentChange": 0.0
     },
     {
       "soc": "43-6014",
