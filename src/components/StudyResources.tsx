@@ -20,6 +20,7 @@ const materials: Record<string, StudyMaterials | undefined> = {
   "speaking-at-work-2026": {
     links: [
       ["Occupation data (CSV)", "/data/speaking-by-occupation.csv"],
+      ["Highest speaking-importance ratings, including ties", "/data/speaking-importance-rankings"],
       ["Methods and source attribution", "/data/speaking-by-occupation#method"],
       ["Press release", "/papers/speaking-at-work-2026-press.html"],
     ],

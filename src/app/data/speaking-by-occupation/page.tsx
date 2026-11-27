@@ -93,6 +93,7 @@ export default function SpeakingByOccupation() {
 
         <section aria-labelledby="explore" className="pb-10">
           <h2 id="explore" className="mb-4 font-serif text-2xl font-semibold text-ink">Explore the data</h2>
+          <p className="mb-4"><Link className="text-accent underline" href="/data/speaking-importance-rankings">Which occupations rate speaking most important?</Link> See the federal ratings and every occupation tied at the cutoff.</p>
           <OccupationExplorer initial={initial} guides={guides} />
         </section>
 
@@ -102,8 +103,9 @@ export default function SpeakingByOccupation() {
             The <strong>Speaking Demand Score</strong> (0 to 100) is the average of three O*NET® ratings, each rescaled
             to 0 to 1: the importance of the skill <em>Speaking</em> (&ldquo;talking to others to convey information
             effectively,&rdquo; rated 1 to 5), the level of Speaking the job requires (0 to 7), and the importance of
-            the ability <em>Oral Expression</em> (1 to 5). These ratings come from job analysts and surveys of workers
-            in each occupation. Tied scores appear in alphabetical order.
+            the ability <em>Oral Expression</em> (1 to 5). O*NET identifies job analysts as the source of all
+            three ratings in this edition. The displayed score is rounded to one decimal place. The Rank column
+            gives each occupation’s position in the list, with tied scores in alphabetical order.
           </p>
           <p>
             Public speaking and face-to-face frequency come from O*NET work context questions, rated from 1
