@@ -1,0 +1,14 @@
+.rankings tr > :first-child,
+.rankings tr > :last-child {
+  white-space: nowrap;
+  width: 1%;
+}
+
+@media (max-width: 40rem), print {
+  .rankings thead th,
+  .rankings tbody th,
+  .rankings tbody td {
+    padding-inline: 0.5rem;
+    overflow-wrap: normal;
+  }
+}

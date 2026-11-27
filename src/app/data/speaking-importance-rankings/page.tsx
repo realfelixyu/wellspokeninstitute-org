@@ -3,6 +3,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { Prose } from "@/components/Prose";
 import { archiveUrl, cutoff, leadingRatings, position, rankedCount } from "@/data/speakingImportance";
 import { pageMetadata } from "@/lib/seo";
+import styles from "./rankings.module.css";
 
 export const metadata = pageMetadata({
   title: "Which U.S. occupations rate speaking most important?",
@@ -24,11 +25,11 @@ export default function ImportanceRankings() {
       <p>Among {rankedCount} occupations with a rating, {above} scored above {cutoff.toFixed(2)} and {tied} scored exactly {cutoff.toFixed(2)}. Those {tied} share rank {above + 1}, spanning positions {above + 1} through {leadingRatings.length}. Occupations appear alphabetically within each tie.</p>
       <figure>
         <img src="/charts/speaking-importance-rankings.png" width={1512} height={1570} loading="lazy" className="h-auto w-full max-w-lg"
-          alt="The six highest Speaking importance ratings cover 42 occupations. From 4.88 down to 4.25, the counts are 1, 6, 7, 3, 2 and 23. The 23 at 4.25 share rank 20." />
+          alt="Occupations by Speaking importance rating: 4.88, one; 4.75, six; 4.62, seven; 4.50, three; 4.38, two; 4.25, twenty-three. The 23 tied at rank 20 bring the total to 42." />
         <figcaption className="mt-2 text-sm"><a href="/charts/speaking-importance-rankings.png" download>Download the chart (PNG)</a>. Credit Wellspoken Institute and the O*NET® 31.0 Database, USDOL/ETA. <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</figcaption>
       </figure>
       <p><a href="/data/speaking-importance-ranks.csv" download>Download the ranked table with occupation codes and source credits (CSV)</a></p>
-      <div className="table-wrap"><table>
+      <div className="table-wrap"><table className={styles.rankings}>
         <caption className="p-2 text-left">O*NET 31.0 Speaking importance, on a scale from 1 to 5</caption>
         <thead><tr><th scope="col">Rank</th><th scope="col">Occupation</th><th scope="col">Rating</th></tr></thead>
         <tbody>{leadingRatings.map(row => <tr key={row.code}>
