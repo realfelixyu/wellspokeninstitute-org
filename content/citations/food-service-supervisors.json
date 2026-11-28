@@ -1,0 +1,80 @@
+{
+  "radke2017allergy": {
+    "authors": "Radke, T. J., Brown, L. G., Faw, B., Hedeen, N., Matis, B., Perez, P., Viveiros, B., & Ripley, D.",
+    "year": 2017,
+    "title": "Restaurant Food Allergy Practices — Six Selected Sites, United States, 2014",
+    "container": "MMWR. Morbidity and Mortality Weekly Report, 66(15), 404-407",
+    "doi": "10.15585/mmwr.mm6615a2",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Restaurant Food Allergy Practices — Six Selected Sites, United States, 2014",
+      "fingerprint": "b8c8fd72475612481554da0bd346cf784b257757751116a124a0d1dd5022a4c0"
+    }
+  },
+  "arendt2014foodsafetysupervisors": {
+    "authors": "Arendt, S. W., Roberts, K. R., Strohbehn, C., Arroyo, P. P., Ellis, J., & Meyer, J.",
+    "year": 2014,
+    "title": "Motivating Foodservice Employees to Follow Safe Food Handling Practices: Perspectives From a Multigenerational Workforce",
+    "container": "Journal of Human Resources in Hospitality & Tourism, 13(4), 323-349",
+    "doi": "10.1080/15332845.2014.888505",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Motivating Foodservice Employees to Follow Safe Food Handling Practices: Perspectives From a Multigenerational Workforce",
+      "fingerprint": "bc2f20a9557b55ce1c0a7e7d15937301859e22838d093dc4ae4644b004f04b80"
+    }
+  },
+  "norton2015illworkers": {
+    "authors": "Norton, D. M., Brown, L. G., Frick, R., Carpenter, L. R., Green, A. L., Tobin-D'Angelo, M., Reimann, D. W., Blade, H., Nicholas, D. C., Egan, J. S., & Everstine, K.",
+    "year": 2015,
+    "title": "Managerial Practices regarding Workers Working while III",
+    "container": "Journal of Food Protection, 78(1), 187-195",
+    "doi": "10.4315/0362-028X.JFP-14-134",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Managerial Practices regarding Workers Working while III",
+      "fingerprint": "9cbb157cf9c8ab7889eb2011c2cc115e508f2286e47791be289fb25dc6a8df85"
+    }
+  },
+  "carpenter2013workingill": {
+    "authors": "Carpenter, L. R., Green, A. L., Norton, D. M., Frick, R., Tobin-D'Angelo, M., Reimann, D. W., Blade, H., Nicholas, D. C., Egan, J. S., Everstine, K., Brown, L. G., & Le, B.",
+    "year": 2013,
+    "title": "Food Worker Experiences with and Beliefs about Working While III",
+    "container": "Journal of Food Protection, 76(12), 2146-2154",
+    "doi": "10.4315/0362-028X.JFP-13-128",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Food Worker Experiences with and Beliefs about Working While III",
+      "fingerprint": "3eb228e2ebd4478bff6420f342cbfaf804d96ffdd57edfe4fd5b5dde76b737fa"
+    }
+  },
+  "bitner1994employeeview": {
+    "authors": "Bitner, M. J., Booms, B. H., & Mohr, L. A.",
+    "year": 1994,
+    "title": "Critical Service Encounters: The Employee's Viewpoint",
+    "container": "Journal of Marketing, 58(4), 95-106",
+    "doi": "10.1177/002224299405800408",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Critical Service Encounters: The Employee's Viewpoint",
+      "fingerprint": "4674bb9b96013dff3e9eb709b783e5b0a59a9890e0fb22c23a778b9f637f60dc"
+    }
+  },
+  "susskind2005restaurantcomplaints": {
+    "authors": "Susskind, A. M.",
+    "year": 2005,
+    "title": "A Content Analysis of Consumer Complaints, Remedies, and Repatronage Intentions Regarding Dissatisfying Service Experiences",
+    "container": "Journal of Hospitality & Tourism Research, 29(2), 150-169",
+    "doi": "10.1177/1096348004273426",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "A Content Analysis of Consumer Complaints, Remedies, and Repatronage Intentions Regarding Dissatisfying Service Experiences",
+      "fingerprint": "bad07ddba3ac17e53e0af15c4fa5ea081825ceddc30f723a73038772290fe919"
+    }
+  }
+}

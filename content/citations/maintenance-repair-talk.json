@@ -1,0 +1,78 @@
+{
+  "hse2024shifthandover": {
+    "authors": "Health and Safety Executive",
+    "year": 2024,
+    "title": "Shift handover",
+    "publisher": "Health and Safety Executive (UK), Human factors topics",
+    "url": "https://www.hse.gov.uk/humanfactors/topics/shift-handover.htm",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-28",
+      "fingerprint": "239ae7e56060668a9685c2ec1fb6813c3075ba4d30faf72d614acff66753c633"
+    }
+  },
+  "orr1986narratives": {
+    "authors": "Orr, J. E.",
+    "year": 1986,
+    "title": "Narratives at work: story telling as cooperative diagnostic activity",
+    "container": "Proceedings of the 1986 ACM Conference on Computer-Supported Cooperative Work (CSCW '86), 62",
+    "doi": "10.1145/637069.637077",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Narratives at work: story telling as cooperative diagnostic activity",
+      "fingerprint": "14611622da56ffb046639b40cbcb1f96f2624ebfc617b560d28420072c28ec44"
+    }
+  },
+  "osha1910lockout": {
+    "authors": "Occupational Safety and Health Administration",
+    "year": 2024,
+    "title": "The control of hazardous energy (lockout/tagout)",
+    "publisher": "Code of Federal Regulations, 29 CFR 1910.147 (2024 edition), U.S. Government Publishing Office",
+    "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title29-vol5/pdf/CFR-2024-title29-vol5-sec1910-147.pdf",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-28",
+      "fingerprint": "d0da2bfee7f0c1005ee32a98f8e7710509efc4c01c95d9e630476b0160325a8a"
+    }
+  },
+  "illankoon2019lockout": {
+    "authors": "Illankoon, P., Manathunge, Y., Tretten, P., Abeysekara, J., & Singh, S.",
+    "year": 2019,
+    "title": "Lockout and Tagout in a Manufacturing Setting from a Situation Awareness Perspective",
+    "container": "Safety, 5(2), 25",
+    "doi": "10.3390/safety5020025",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Lockout and Tagout in a Manufacturing Setting from a Situation Awareness Perspective",
+      "fingerprint": "69e4a37f4ac2554ada1b8b4a84bd40417ba27fc64e09f70b3ddad5b747bd1d84"
+    }
+  },
+  "ruiz2022operators": {
+    "authors": "Ruiz, S. N., Day, J. K., Govertsen, K., & Kane, M.",
+    "year": 2022,
+    "title": "Communication breakdown: Energy efficiency recommendations to address the disconnect between building operators and occupants",
+    "container": "Energy Research & Social Science, 91, 102719",
+    "doi": "10.1016/j.erss.2022.102719",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Communication breakdown: Energy efficiency recommendations to address the disconnect between building operators and occupants",
+      "fingerprint": "c5d2d813fd1555a8738594b9be7b5d04224c4f066921043d2807ea8055dd81bb"
+    }
+  },
+  "chatzi2019maintenancetrust": {
+    "authors": "Chatzi, A. V., Martin, W., Bates, P., & Murray, P.",
+    "year": 2019,
+    "title": "The Unexplored Link between Communication and Trust in Aviation Maintenance Practice",
+    "container": "Aerospace, 6(6), 66",
+    "doi": "10.3390/aerospace6060066",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "The Unexplored Link between Communication and Trust in Aviation Maintenance Practice",
+      "fingerprint": "3d119c07e66f4c981b877861db8ab934796f3cf789ffa0019a53e70f7df9bf63"
+    }
+  }
+}

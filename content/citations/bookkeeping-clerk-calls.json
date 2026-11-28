@@ -1,0 +1,66 @@
+{
+  "gray2010accountancyoral": {
+    "authors": "Gray, F. E.",
+    "year": 2010,
+    "title": "Specific Oral Communication Skills Desired in New Accountancy Graduates",
+    "container": "Business Communication Quarterly, 73(1), 40-67",
+    "doi": "10.1177/1080569909356350",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Specific Oral Communication Skills Desired in New Accountancy Graduates",
+      "fingerprint": "83d77008f950e669ecce48a680216aa6fee55541030100154ac922ea9349eb2d"
+    }
+  },
+  "gray2011distinguishing": {
+    "authors": "Gray, F. E., & Murray, N.",
+    "year": 2011,
+    "title": "‘A distinguishing factor’: Oral Communication Skills in New Accountancy Graduates",
+    "container": "Accounting Education, 20(3), 275-294",
+    "doi": "10.1080/09639284.2011.560763",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "‘A distinguishing factor’: Oral Communication Skills in New Accountancy Graduates",
+      "fingerprint": "d95cfa4340398183eeef0b7eeb6b72ee44f6266982296f83a487ef27bec0a35b"
+    }
+  },
+  "barenfanger2004readback": {
+    "authors": "Barenfanger, J., Sautter, R. L., Lang, D. L., Collins, S. M., Hacek, D. M., & Peterson, L. R.",
+    "year": 2004,
+    "title": "Improving Patient Safety by Repeating (Read-Back) Telephone Reports of Critical Information",
+    "container": "American Journal of Clinical Pathology, 121(6), 801-803",
+    "doi": "10.1309/9DYM6R0TM830U95Q",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Improving Patient Safety by Repeating (Read-Back) Telephone Reports of Critical Information",
+      "fingerprint": "5183e71509f7746036839111aa669a7202e32dff8b024bb06173953765848c04"
+    }
+  },
+  "harrington2018debtcollection": {
+    "authors": "Harrington, L.",
+    "year": 2018,
+    "title": "“Helping you to pay us”: Rapport management in debt collection call centre encounters",
+    "container": "Journal of Politeness Research, 14(2), 193-223",
+    "doi": "10.1515/pr-2018-0013",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "“Helping you to pay us”: Rapport management in debt collection call centre encounters",
+      "fingerprint": "c9e431a96622c73dd8407d61d50d7f0f2073fefe83f2c3db0c8657d37070d9a7"
+    }
+  },
+  "ic32024bec": {
+    "authors": "Federal Bureau of Investigation, Internet Crime Complaint Center",
+    "year": 2024,
+    "title": "Business Email Compromise: The $55 Billion Scam",
+    "publisher": "Internet Crime Complaint Center (IC3)",
+    "url": "https://www.ic3.gov/PSA/2024/PSA240911",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-28",
+      "fingerprint": "a59227586e8869d9a8cc94f9917e704053ed5f10b3fddc409fcf5d6629abca78"
+    }
+  }
+}

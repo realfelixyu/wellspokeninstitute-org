@@ -1,0 +1,79 @@
+{
+  "osha1926voicesignals": {
+    "authors": "Occupational Safety and Health Administration",
+    "year": 2024,
+    "title": "Signals--voice signals--additional requirements",
+    "publisher": "Code of Federal Regulations, 29 CFR 1926.1421 (2024 edition), U.S. Government Publishing Office",
+    "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title29-vol8/xml/CFR-2024-title29-vol8-sec1926-1421.xml",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-28",
+      "fingerprint": "9576fbbee29b76b3256492e61be8f65d35e2a69b800c4b8a9c0546a317e1a968"
+    }
+  },
+  "premji2022languagereporting": {
+    "authors": "Premji, S., Begum, M., & Medley, A.",
+    "year": 2022,
+    "title": "Systemic barriers to reporting work injuries and illnesses in contexts of language barriers",
+    "container": "American Journal of Industrial Medicine, 66(2), 122-131",
+    "doi": "10.1002/ajim.23453",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Systemic barriers to reporting work injuries and illnesses in contexts of language barriers",
+      "fingerprint": "e136c27f019c81b59cff964555b2d541d0f0c2d00bb09bf45fab297b6ab5da56"
+    }
+  },
+  "fellows2022informalinterpreters": {
+    "authors": "Fellows, M. F., Phua, F. T. T., & Tutt, D. E.",
+    "year": 2022,
+    "title": "Building bridges: the bilingual language work of migrant construction workers",
+    "container": "Construction Management and Economics, 41(2), 153-171",
+    "doi": "10.1080/01446193.2022.2151022",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Building bridges: the bilingual language work of migrant construction workers",
+      "fingerprint": "672964b38c20e858175f79678831b852f3314e62c23b1f2445009ad1c3d20505"
+    }
+  },
+  "wasilkiewicz2016polishworkers": {
+    "authors": "Wasilkiewicz, K., Albrechtsen, E., & Antonsen, S.",
+    "year": 2016,
+    "title": "Occupational safety in a globalized construction industry: a study on Polish workers in Norway",
+    "container": "Policy and Practice in Health and Safety, 14(2), 128-143",
+    "doi": "10.1080/14773996.2016.1256553",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Occupational safety in a globalized construction industry: a study on Polish workers in Norway*",
+      "fingerprint": "8d5fdb19ca2e726f6757a2fd60a6c4ea0a9785bf8cfd4ab5f63fa70a46ff2986"
+    }
+  },
+  "dijkstra2023logistics": {
+    "authors": "Dijkstra, B.",
+    "year": 2023,
+    "title": "Multilingual communication strategies in the workplace: an ethnographic study of practices and ideologies in logistics",
+    "container": "Doctoral dissertation, University of Groningen",
+    "doi": "10.33612/diss.622646773",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Multilingual communication strategies in the workplace: an ethnographic study of practices and ideologies in logistics",
+      "fingerprint": "14d4f7592b7008a1974bd6c83e35aefd0252732355d4a2f55f07b4c6119288e5"
+    }
+  },
+  "kraft2019languagebroker": {
+    "authors": "Kraft, K.",
+    "year": 2019,
+    "title": "Trajectory of a language broker: between privilege and precarity",
+    "container": "International Journal of Multilingualism, 17(1), 80-96",
+    "doi": "10.1080/14790718.2020.1682256",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Trajectory of a language broker: between privilege and precarity",
+      "fingerprint": "f7163377b721c92834452c5160d3b0107f717d3feaca2af4a63784ebb5ac6113"
+    }
+  }
+}

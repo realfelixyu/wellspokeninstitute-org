@@ -1,0 +1,67 @@
+{
+  "huma2019coldcalls": {
+    "authors": "Humă, B., Stokoe, E., & Sikveland, R. O.",
+    "year": 2019,
+    "title": "Persuasive Conduct: Alignment and Resistance in Prospecting “Cold” Calls",
+    "container": "Journal of Language and Social Psychology, 38(1), 33-60",
+    "doi": "10.1177/0261927X18783474",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Persuasive Conduct: Alignment and Resistance in Prospecting “Cold” Calls",
+      "fingerprint": "496e527d2daa3810e4423f897d74c56476740cd3ac7b898082b37a90fd041c2c"
+    }
+  },
+  "huma2020anatomy": {
+    "authors": "Humă, B., & Stokoe, E.",
+    "year": 2020,
+    "title": "The Anatomy of First-Time and Subsequent Business-to-Business “Cold” Calls",
+    "container": "Research on Language and Social Interaction, 53(2), 271-294",
+    "doi": "10.1080/08351813.2020.1739432",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "The Anatomy of First-Time and Subsequent Business-to-Business “Cold” Calls",
+      "fingerprint": "dfce02a0bca19b24051855b52f14323429f57774803eeba45bc720b45742323f"
+    }
+  },
+  "clark2003prospectrapport": {
+    "authors": "Clark, C., Drew, P., & Pinch, T.",
+    "year": 2003,
+    "title": "Managing prospect affiliation and rapport in real-life sales encounters",
+    "container": "Discourse Studies, 5(1), 5-31",
+    "doi": "10.1177/14614456030050010101",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Managing prospect affiliation and rapport in real-life sales encounters",
+      "fingerprint": "0368ec7da956b54beb32d7768652869b20ea1c920d4888a347c9c24a3d1940d8"
+    }
+  },
+  "galinsky2001firstoffers": {
+    "authors": "Galinsky, A. D., & Mussweiler, T.",
+    "year": 2001,
+    "title": "First offers as anchors: The role of perspective-taking and negotiator focus",
+    "container": "Journal of Personality and Social Psychology, 81(4), 657-669",
+    "doi": "10.1037/0022-3514.81.4.657",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "First offers as anchors: The role of perspective-taking and negotiator focus.",
+      "fingerprint": "25c820d7a35aa14162f29461ac6d961353f3c0ffae00d4d7194dc7b3d31be912"
+    }
+  },
+  "ames2015rangeoffers": {
+    "authors": "Ames, D. R., & Mason, M. F.",
+    "year": 2015,
+    "title": "Tandem anchoring: Informational and politeness effects of range offers in social exchange",
+    "container": "Journal of Personality and Social Psychology, 108(2), 254-274",
+    "doi": "10.1037/pspi0000016",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Tandem anchoring: Informational and politeness effects of range offers in social exchange.",
+      "fingerprint": "55f310f06f95978f80288ffd40695aaad255f742e9ffd34af4843f551bd348c0"
+    }
+  }
+}

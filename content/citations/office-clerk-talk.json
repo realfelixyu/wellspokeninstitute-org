@@ -1,0 +1,80 @@
+{
+  "swinglehurst2011repeatprescribing": {
+    "authors": "Swinglehurst, D., Greenhalgh, T., Russell, J., & Myall, M.",
+    "year": 2011,
+    "title": "Receptionist input to quality and safety in repeat prescribing in UK general practice: ethnographic case study",
+    "container": "BMJ, 343, d6788",
+    "doi": "10.1136/bmj.d6788",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Receptionist input to quality and safety in repeat prescribing in UK general practice: ethnographic case study",
+      "fingerprint": "86cc4654ece4cdae5eac95436cf724283da130af711d12f8c7f539d348b1fcf2"
+    }
+  },
+  "bayat2018schoolclerks": {
+    "authors": "Bayat, A., & Fataar, A.",
+    "year": 2018,
+    "title": "Countering testimonial injustice: The spatial practices of school administrative clerks",
+    "container": "Journal of Education, 73, 39-54",
+    "doi": "10.17159/2520-9868/i73a03",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Countering testimonial injustice: The spatial practices of school administrative clerks",
+      "fingerprint": "57fee59cec0c6d57177a6cd3a3bfa33740879eb369b3467b788c0d30daa555e7"
+    }
+  },
+  "bayat2012clerkspace": {
+    "authors": "Bayat, A.",
+    "year": 2012,
+    "title": "The spatial practices of school administrative clerks: making space for contributive justice",
+    "container": "Perspectives in Education, 30(4), 64-75",
+    "doi": "10.38140/pie.v30i4.1783",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "The spatial practices of school administrative clerks: making space for contributive justice",
+      "fingerprint": "4cb570fbb1f89d6f09eead6d4430aad3c628193b798fff170473592b5bffd772"
+    }
+  },
+  "roghanizad2021askchannel": {
+    "authors": "Roghanizad, M. M., & Bohns, V. K.",
+    "year": 2021,
+    "title": "Should I Ask Over Zoom, Phone, Email, or In-Person? Communication Channel and Predicted Versus Actual Compliance",
+    "container": "Social Psychological and Personality Science, 13(7), 1163-1172",
+    "doi": "10.1177/19485506211063259",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Should I Ask Over Zoom, Phone, Email, or In-Person? Communication Channel and Predicted Versus Actual Compliance",
+      "fingerprint": "445adf64f4b013ba04ad927408ec27b7ff1c84f0e538d206d8fee9c738b73eb2"
+    }
+  },
+  "mark2008interruptedwork": {
+    "authors": "Mark, G., Gudith, D., & Klocke, U.",
+    "year": 2008,
+    "title": "The cost of interrupted work: more speed and stress",
+    "container": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, 107-110",
+    "doi": "10.1145/1357054.1357072",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "The cost of interrupted work: more speed and stress",
+      "fingerprint": "d1d854cd3683b24b25eb25988f7e052096264e445ace39ddf1926a480ed83169"
+    }
+  },
+  "arora2011informalinterruptions": {
+    "authors": "Arora, A.",
+    "year": 2011,
+    "title": "The Social Nature of Work Fragmentation: Revisiting Informal Workplace Communication",
+    "container": "The Ergonomics Open Journal, 4(1), 23-27",
+    "doi": "10.2174/1875934301104010023",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "The Social Nature of Work Fragmentation: Revisiting Informal Workplace Communication",
+      "fingerprint": "f563b74c0471d4b6d7009aa1c5a9203116279b35407646e858627f819f18878f"
+    }
+  }
+}

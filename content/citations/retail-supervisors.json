@@ -1,0 +1,67 @@
+{
+  "harris2010complaintconcealment": {
+    "authors": "Harris, L. C., & Ogbonna, E.",
+    "year": 2010,
+    "title": "Hiding Customer Complaints: Studying the Motivations and Forms of Service Employees' Complaint Concealment Behaviours",
+    "container": "British Journal of Management, 21(2), 262-279",
+    "doi": "10.1111/j.1467-8551.2008.00617.x",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Hiding Customer Complaints: Studying the Motivations and Forms of Service Employees' Complaint Concealment Behaviours",
+      "fingerprint": "6b5358834ccf047d1a506977fad71e1f248fce54d58323bc22eea228c2537f44"
+    }
+  },
+  "friebel2022middlemanagers": {
+    "authors": "Friebel, G., Heinz, M., & Zubanov, N.",
+    "year": 2022,
+    "title": "Middle Managers, Personnel Turnover, and Performance: A Long-Term Field Experiment in a Retail Chain",
+    "container": "Management Science, 68(1), 211-229",
+    "doi": "10.1287/mnsc.2020.3905",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Middle Managers, Personnel Turnover, and Performance: A Long‐Term Field Experiment in a Retail Chain",
+      "fingerprint": "aed4cac37b34ad5c6324533f63b60fb62461371a90ca5e63899991ebe82a053a"
+    }
+  },
+  "netemeyer2010storemanagers": {
+    "authors": "Netemeyer, R. G., Maxham, J. G., & Lichtenstein, D. R.",
+    "year": 2010,
+    "title": "Store manager performance and satisfaction: Effects on store employee performance and satisfaction, store customer satisfaction, and store customer spending growth",
+    "container": "Journal of Applied Psychology, 95(3), 530-545",
+    "doi": "10.1037/a0017630",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Store manager performance and satisfaction: Effects on store employee performance and satisfaction, store customer satisfaction, and store customer spending growth.",
+      "fingerprint": "99166592e9c56a56c5ce43c9c38bdac53c4c9c5a0dc7105eb278f2231ca879a7"
+    }
+  },
+  "schneider2019schedules": {
+    "authors": "Schneider, D., & Harknett, K.",
+    "year": 2019,
+    "title": "Consequences of Routine Work-Schedule Instability for Worker Health and Well-Being",
+    "container": "American Sociological Review, 84(1), 82-114",
+    "doi": "10.1177/0003122418823184",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Consequences of Routine Work-Schedule Instability for Worker Health and Well-Being",
+      "fingerprint": "13a2c844df093d94bdcf25fc9429e597385a5da574b3c12b7301b852dae7ef08"
+    }
+  },
+  "wilderom2015storecohesion": {
+    "authors": "Wilderom, C. P. M., Hur, Y., Wiersma, U. J., Van den Berg, P. T., & Lee, J.",
+    "year": 2015,
+    "title": "From manager's emotional intelligence to objective store performance: Through store cohesiveness and sales-directed employee behavior",
+    "container": "Journal of Organizational Behavior, 36(6), 825-844",
+    "doi": "10.1002/job.2006",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "From manager's emotional intelligence to objective store performance: Through store cohesiveness and sales-directed employee behavior: Manager's Emotional Intelligence and Store Performance",
+      "fingerprint": "9c3f82d9c0d315b0365600ac6517b4d19d18c0c25abad3517e610510c2abc49a"
+    }
+  }
+}

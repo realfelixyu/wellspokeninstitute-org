@@ -1,0 +1,67 @@
+{
+  "berger2007voicepicking": {
+    "authors": "Berger, S. M., & Ludwig, T. D.",
+    "year": 2007,
+    "title": "Reducing Warehouse Employee Errors Using Voice-Assisted Technology That Provided Immediate Feedback",
+    "container": "Journal of Organizational Behavior Management, 27(1), 1-31",
+    "doi": "10.1300/J075v27n01_01",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Reducing Warehouse Employee Errors Using Voice-Assisted Technology That Provided Immediate Feedback",
+      "fingerprint": "0695c0843f7eb1421ee4053e7231e7c0cf4bda3917fc73c501977092d19c9a5b"
+    }
+  },
+  "lonsmann2018logisticslanguage": {
+    "authors": "Lønsmann, D., & Kraft, K.",
+    "year": 2018,
+    "title": "Language policy and practice in multilingual production workplaces",
+    "container": "Multilingua, 37(4), 403-427",
+    "doi": "10.1515/multi-2017-0088",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Language policy and practice in multilingual production workplaces",
+      "fingerprint": "a19835df43e1b89d2e7c1c3830e11995b0bb7a9ca3fcfc7ef1e9c2cd2d98dfe7"
+    }
+  },
+  "hofstra2018warehousesafety": {
+    "authors": "Hofstra, N., Petkova, B., Dullaert, W., Reniers, G., & de Leeuw, S.",
+    "year": 2018,
+    "title": "Assessing and facilitating warehouse safety",
+    "container": "Safety Science, 105, 134-148",
+    "doi": "10.1016/j.ssci.2018.02.010",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Assessing and facilitating warehouse safety",
+      "fingerprint": "1e12a8d2df8cdb058d18dcbe2877492c684e339fc7b29325e1ddd70059379a1b"
+    }
+  },
+  "otterbring2023proactivity": {
+    "authors": "Otterbring, T., Arsenovic, J., Samuelsson, P., Malodia, S., & Dhir, A.",
+    "year": 2023,
+    "title": "Going the Extra Mile, Now or After a While: The Impact of Employee Proactivity in Retail Service Encounters on Customers’ Shopping Responses",
+    "container": "British Journal of Management, 35(3), 1425-1448",
+    "doi": "10.1111/1467-8551.12765",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Going the Extra Mile, Now or After a While: The Impact of Employee Proactivity in Retail Service Encounters on Customers’ Shopping Responses",
+      "fingerprint": "db90649a8245ac9c8c7e86b15e7cc4d267b29c54106ae9f6adf419ee3003d8ed"
+    }
+  },
+  "cheon2025fulfillment": {
+    "authors": "Cheon, E., & Erickson, I.",
+    "year": 2025,
+    "title": "Fulfillment of the Work Games: Warehouse Workers' Experiences with Algorithmic Management",
+    "container": "Proceedings of the ACM on Human-Computer Interaction, 9(7), 1-30",
+    "doi": "10.1145/3757409",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Fulfillment of the Work Games: Warehouse Workers' Experiences with Algorithmic Management",
+      "fingerprint": "7138db670ac7a6c16d84a345351dd86e2d6af85b2340ba4f0aa90fa193581ec9"
+    }
+  }
+}

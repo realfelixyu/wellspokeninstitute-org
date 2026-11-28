@@ -1,0 +1,80 @@
+{
+  "anderson2021janitorsurvey": {
+    "authors": "Anderson, N. J., Smith, C. K., & Foley, M. P.",
+    "year": 2021,
+    "title": "Work‐related injury burden, workers' compensation claim filing, and barriers: Results from a statewide survey of janitors",
+    "container": "American Journal of Industrial Medicine, 65(3), 173-195",
+    "doi": "10.1002/ajim.23319",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Work‐related injury burden, workers' compensation claim filing, and barriers: Results from a statewide survey of janitors",
+      "fingerprint": "d5a83b892cbc1e1e6c779e411419ba1f709cbcc86f9fc0002b2dcd87a946ef50"
+    }
+  },
+  "strommer2016cleaningaffordances": {
+    "authors": "Strömmer, M.",
+    "year": 2016,
+    "title": "Affordances and constraints: Second language learning in cleaning work",
+    "container": "Multilingua, 35(6), 697-721",
+    "doi": "10.1515/multi-2014-0113",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Affordances and constraints: Second language learning in cleaning work",
+      "fingerprint": "0df7a4ed030c66eb6b3175555ccb1b040d0cabf3e16085a6ab42f20dd94dbbed"
+    }
+  },
+  "strommer2016materialscaffolding": {
+    "authors": "Strömmer, M.",
+    "year": 2016,
+    "title": "Material scaffolding: Supporting the comprehension of migrant cleaners at work",
+    "container": "European Journal of Applied Linguistics, 4(2), 239-274",
+    "doi": "10.1515/eujal-2015-0039",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Material scaffolding: Supporting the comprehension of migrant cleaners at work",
+      "fingerprint": "bb465d6ac003f34326e3435cb00fa6b5e8696b30a295a802787ed35e1ac964aa"
+    }
+  },
+  "hviid2012cleanersvisibility": {
+    "authors": "Hviid, K., Smith, L., Frydendall, K., & Flyvholm, M.-A.",
+    "year": 2012,
+    "title": "Visibility and Social Recognition as Psychosocial Work Environment Factors among Cleaners in a Multi-Ethnic Workplace Intervention",
+    "container": "International Journal of Environmental Research and Public Health, 10(1), 85-106",
+    "doi": "10.3390/ijerph10010085",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Visibility and Social Recognition as Psychosocial Work Environment Factors among Cleaners in a Multi-Ethnic Workplace Intervention",
+      "fingerprint": "664d0f9c220dd5d43a6055c09f91f20ace8abfe2e8e84629321bd70265aaab88"
+    }
+  },
+  "messing1998hospitaltrash": {
+    "authors": "Messing, K.",
+    "year": 1998,
+    "title": "Hospital Trash: Cleaners Speak of Their Role in Disease Prevention",
+    "container": "Medical Anthropology Quarterly, 12(2), 168-187",
+    "doi": "10.1525/maq.1998.12.2.168",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Hospital Trash: Cleaners Speak of Their Role in Disease Prevention",
+      "fingerprint": "aa193c0890275c2c480297920fe656353bd1009ccf0b29fcf9ba6f6b5549b5d5"
+    }
+  },
+  "sardadvar2026daytimecleaning": {
+    "authors": "Sardadvar, K.",
+    "year": 2026,
+    "title": "Hidden work at the fissured workplace: ambivalent visibility in daytime cleaning",
+    "container": "Frontiers in Sociology, 11",
+    "doi": "10.3389/fsoc.2026.1696463",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Hidden work at the fissured workplace: ambivalent visibility in daytime cleaning",
+      "fingerprint": "cb5f4abaf19a88e24f161123e136ebd31be944bf78e3eb85f70948180fb6bbc0"
+    }
+  }
+}
