@@ -1,0 +1,67 @@
+{
+  "klofstad2012winner": {
+    "authors": "Casey A. Klofstad, Rindy C. Anderson, Susan Peters",
+    "title": "Sounds like a winner: voice pitch influences perception of leadership capacity in both men and women",
+    "container": "Proceedings of the Royal Society B: Biological Sciences",
+    "doi": "10.1098/rspb.2012.0311",
+    "year": 2012,
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Sounds like a winner: voice pitch influences perception of leadership capacity in both men and women",
+      "fingerprint": "2a0633862e44003495ebe8b7843f43010d31b64bddabf6d81ad77623c3489c85"
+    }
+  },
+  "cinar2023policy": {
+    "authors": "Asli Ceren Cinar, Özgür Kıbrıs",
+    "title": "Persistence of voice pitch bias against policy differences",
+    "container": "Political Science Research and Methods",
+    "doi": "10.1017/psrm.2023.51",
+    "year": 2023,
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Persistence of voice pitch bias against policy differences",
+      "fingerprint": "8f0b41ba73447ca449170d031dae69430a0ef77ded676f0db1bcb5de224a7b61"
+    }
+  },
+  "bowern2023japan": {
+    "authors": "Claire Bowern, Rieko Kage, Frances Rosenbluth, Seiki Tanaka",
+    "title": "Voter responses to female candidates' voice pitch: experimental evidence from Japan",
+    "container": "Japanese Journal of Political Science",
+    "doi": "10.1017/S1468109922000354",
+    "year": 2023,
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Voter responses to female candidates' voice pitch: experimental evidence from Japan",
+      "fingerprint": "afe40dde7605cf55ae51211a243f67311dc858066d7a3d10fe124a0edf1aff1c"
+    }
+  },
+  "klofstad2016elections": {
+    "authors": "Casey A. Klofstad",
+    "title": "Candidate Voice Pitch Influences Election Outcomes",
+    "container": "Political Psychology",
+    "doi": "10.1111/pops.12280",
+    "year": 2015,
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Candidate Voice Pitch Influences Election Outcomes",
+      "fingerprint": "4fcea7fd5f31122ff3a686b49566396cc2abc85c1dca762d807efbb2f2422448"
+    }
+  },
+  "klofstad2018ability": {
+    "authors": "Casey A. Klofstad, Rindy C. Anderson",
+    "title": "Voice pitch predicts electability, but does not signal leadership ability",
+    "container": "Evolution and Human Behavior",
+    "doi": "10.1016/j.evolhumbehav.2018.02.007",
+    "year": 2018,
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Voice pitch predicts electability, but does not signal leadership ability",
+      "fingerprint": "3b846792382e049c4103ad51f256737815088723adbdf1fa939bb412cd6c3455"
+    }
+  }
+}

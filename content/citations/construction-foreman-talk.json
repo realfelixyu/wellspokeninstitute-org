@@ -1,0 +1,54 @@
+{
+  "kaskutas2016residentialforemen": {
+    "authors": "Kaskutas, V., Buckner‐Petty, S., Dale, A. M., Gaal, J., & Evanoff, B. A.",
+    "year": 2016,
+    "title": "Foremen's intervention to prevent falls and increase safety communication at residential construction sites",
+    "container": "American Journal of Industrial Medicine, 59(10), 823-831",
+    "doi": "10.1002/ajim.22597",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Foremen's intervention to prevent falls and increase safety communication at residential construction sites",
+      "fingerprint": "8fc0fd67b0ce10f3760dc9e62c098caef734bced66326ef8423da6e200112703"
+    }
+  },
+  "schwatka2019frontline": {
+    "authors": "Schwatka, N. V., Goldenhar, L. M., Johnson, S. K., Beldon, M. A., Tessler, J., Dennerlein, J. T., Fullen, M., & Trieu, H.",
+    "year": 2019,
+    "title": "A training intervention to improve frontline construction leaders' safety leadership practices and overall jobsite safety climate",
+    "container": "Journal of Safety Research, 70, 253-262",
+    "doi": "10.1016/j.jsr.2019.04.010",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "A training intervention to improve frontline construction leaders' safety leadership practices and overall jobsite safety climate",
+      "fingerprint": "f4b74ea817b0507037f57488fc9d3a5692e0f29327814537d5460d4798df8f66"
+    }
+  },
+  "sparer2016bostonconstruction": {
+    "authors": "Sparer, E. H., Catalano, P. J., Herrick, R. F., & Dennerlein, J. T.",
+    "year": 2016,
+    "title": "Improving safety climate through a communication and recognition program for construction: a mixed methods study",
+    "container": "Scandinavian Journal of Work, Environment & Health, 42(4), 329-337",
+    "doi": "10.5271/sjweh.3569",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Improving safety climate through a communication and recognition program for construction: a mixed methods study",
+      "fingerprint": "c87eed3a24de331080b1f5f1decc6fa6f1708a99c446a1372704bf2f0a18f3a7"
+    }
+  },
+  "jeschke2017foremen": {
+    "authors": "Jeschke, K. C., Kines, P., Rasmussen, L., Andersen, L. P. S., Dyreborg, J., Ajslev, J., Kabel, A., Jensen, E., & Andersen, L. L.",
+    "year": 2017,
+    "title": "Process evaluation of a Toolbox-training program for construction foremen in Denmark",
+    "container": "Safety Science, 94, 152-160",
+    "doi": "10.1016/j.ssci.2017.01.010",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Process evaluation of a Toolbox-training program for construction foremen in Denmark",
+      "fingerprint": "ad6ce5e899b638433fc3592f8b18cb031e14569a3e99a52f02a1b358f71aa1a8"
+    }
+  }
+}

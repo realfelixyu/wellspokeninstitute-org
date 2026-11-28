@@ -189,11 +189,14 @@ export const TOPIC_ASSIGNMENTS: Record<string, Assignment> = {
   "learn/do-filler-words-hurt-how-listeners-judge-you": { "fear-of-public-speaking": "delivery" },
   "learn/do-gestures-help-second-language-listening": { "english-learners": "listening" },
   "learn/do-people-who-talk-more-in-meetings-get-seen-as-leaders": { "speaking-at-work": "meetings" },
+  "learn/do-students-learn-more-when-they-explain-ideas-out-loud": { "teaching-speaking": "classroom" },
   "learn/do-video-interviews-change-how-job-candidates-are-rated": { "job-interviews": "nerves-format-bias" },
   "learn/does-a-foreign-accent-affect-hiring-decisions": {
     "job-interviews": "nerves-format-bias",
     "english-learners": "accent",
   },
+  "learn/does-a-lower-voice-make-people-seem-more-like-leaders": { "speaking-at-work": "meetings" },
+  "learn/does-eye-contact-make-a-speaker-more-persuasive": { "speaking-at-work": "conversations" },
   "learn/does-feeling-nervous-hurt-a-job-interview": {
     "job-interviews": "nerves-format-bias",
     "fear-of-public-speaking": "what-helps",

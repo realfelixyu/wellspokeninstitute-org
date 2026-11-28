@@ -25,8 +25,12 @@ const GROUPS: Record<string, string> = {
   "31": "Healthcare support",
   "33": "Public safety",
   "35": "Food service",
+  "37": "Building and grounds cleaning and maintenance",
+  "39": "Personal care and service",
   "41": "Sales",
   "43": "Office and customer service",
+  "47": "Construction and extraction",
+  "49": "Installation, maintenance and repair",
   "53": "Transportation",
 };
 
@@ -38,7 +42,9 @@ export default function ProfessionsIndex() {
     if (!grouped.has(g)) grouped.set(g, []);
     grouped.get(g)!.push(e);
   }
-  const groups = [...grouped.entries()].sort((a, b) => a[0].localeCompare(b[0]));
+  const groups = [...grouped.entries()]
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([name, list]) => ({ name, list, headingId: `g-${name.replace(/ +/g, "-")}` }));
   return (
     <>
       <PageHeader
@@ -64,9 +70,9 @@ export default function ProfessionsIndex() {
               Department of Labor ratings. <Link href="/data/speaking-by-occupation#method" className="text-accent underline underline-offset-2">How it is calculated</Link>.
             </p>
           ) : null}
-          {groups.map(([name, list]) => (
-            <section key={name} aria-labelledby={`g-${name}`}>
-              <h2 id={`g-${name}`} className="font-serif text-2xl font-semibold text-ink">
+          {groups.map(({ name, list, headingId }) => (
+            <section key={name} aria-labelledby={headingId}>
+              <h2 id={headingId} className="font-serif text-2xl font-semibold text-ink">
                 {name}
               </h2>
               <ul className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">

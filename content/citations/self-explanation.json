@@ -1,0 +1,80 @@
+{
+  "chi1994eliciting": {
+    "authors": "Michelene T.H. Chi, Nicholas De Leeuw, Mei‐Hung Chiu, Christian Lavancher",
+    "title": "Eliciting Self‐Explanations Improves Understanding",
+    "container": "Cognitive Science",
+    "year": 1994,
+    "doi": "10.1207/s15516709cog1803_3",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Eliciting Self‐Explanations Improves Understanding",
+      "fingerprint": "3f5660c8499ee8d253d5e5ffb8c6e30c40deb076dc23e212af3938ca97a91399"
+    }
+  },
+  "bisra2018selfexplanation": {
+    "authors": "Kiran Bisra, Qing Liu, John C. Nesbit, Farimah Salimi, Philip H. Winne",
+    "title": "Inducing Self-Explanation: a Meta-Analysis",
+    "container": "Educational Psychology Review",
+    "year": 2018,
+    "doi": "10.1007/s10648-018-9434-x",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Inducing Self-Explanation: a Meta-Analysis",
+      "fingerprint": "260f887ff0eda3074d3c6416457c9f13bef3238318e0641ddeca41c13d87dc5f"
+    }
+  },
+  "rittlejohnson2008listening": {
+    "authors": "Bethany Rittle-Johnson, Megan Saylor, Kathryn E. Swygert",
+    "title": "Learning from explaining: Does it matter if mom is listening?",
+    "container": "Journal of Experimental Child Psychology",
+    "year": 2008,
+    "doi": "10.1016/j.jecp.2007.10.002",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Learning from explaining: Does it matter if mom is listening?",
+      "fingerprint": "138862f6cf1563db59fde1ae282256c62228541ab8c41141e9ecccb7762dcc6e"
+    }
+  },
+  "kobayashi2019prepareteach": {
+    "authors": "Keiichi Kobayashi",
+    "title": "Learning by Preparing‐to‐Teach and Teaching: A Meta‐Analysis",
+    "container": "Japanese Psychological Research",
+    "year": 2019,
+    "doi": "10.1111/jpr.12221",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Learning by Preparing‐to‐Teach and Teaching: A Meta‐Analysis",
+      "fingerprint": "6bffaf1c645120177e83a63ba9a41223b4c80a994a9165dfde3b0f30eb766458"
+    }
+  },
+  "koh2018retrievalteaching": {
+    "authors": "Aloysius Wei Lun Koh, Sze Chi Lee, Stephen Wee Hun Lim",
+    "title": "The learning benefits of teaching: A retrieval practice hypothesis",
+    "container": "Applied Cognitive Psychology",
+    "year": 2018,
+    "doi": "10.1002/acp.3410",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "The learning benefits of teaching: A retrieval practice hypothesis",
+      "fingerprint": "0e8c4e2a9145c52d9b04c7926403330e825e25b54cfad2c2911957c9da1cd7ba"
+    }
+  },
+  "lachner2021writingexplanations": {
+    "authors": "Andreas Lachner, Leonie Jacob, Vincent Hoogerheide",
+    "title": "Learning by writing explanations: Is explaining to a fictitious student more effective than self-explaining?",
+    "container": "Learning and Instruction",
+    "year": 2021,
+    "doi": "10.1016/j.learninstruc.2020.101438",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Learning by writing explanations: Is explaining to a fictitious student more effective than self-explaining?",
+      "fingerprint": "a10fdcb29de96e7c8e1eb874425bb759bfc4daedbc2e853d2a12367e2dad6ed8"
+    }
+  }
+}

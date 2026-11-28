@@ -1,0 +1,65 @@
+{
+  "kearney2025landscapetalks": {
+    "authors": "Kearney, G. D., Getto, G., & Hisel, J.",
+    "year": 2025,
+    "title": "Bridging the occupational policy to practice gap: user-centered designed toolbox talks for landscaping tree care",
+    "container": "Frontiers in Public Health, 13, 1690149",
+    "doi": "10.3389/fpubh.2025.1690149",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Bridging the occupational policy to practice gap: user-centered designed toolbox talks for landscaping tree care",
+      "fingerprint": "3a372ef37787574ff9705b41fb14acd8ace321fa17503ed50a91911701a0d5e7"
+    }
+  },
+  "balanay2016groundsnoise": {
+    "authors": "Balanay, J. A. G., Kearney, G. D., & Mannarino, A. J.",
+    "year": 2016,
+    "title": "Assessment of Occupational Noise Exposure among Groundskeepers in North Carolina Public Universities",
+    "container": "Environmental Health Insights, 10, EHI.S39682",
+    "doi": "10.4137/EHI.S39682",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Assessment of Occupational Noise Exposure among Groundskeepers in North Carolina Public Universities",
+      "fingerprint": "6c38252c553e60cbe23502f86d005256d80a4f2055f62aa0fb3c8b2dbf4943b2"
+    }
+  },
+  "kearney2017groundsmeetings": {
+    "authors": "Kearney, G. D., Balanay, J. A. G., & Mannarino, A. J.",
+    "year": 2017,
+    "title": "Safety behavior and work safety climate among landscaping and groundskeeping workers in North Carolina: A pilot study",
+    "container": "Work, 56(1), 45-53",
+    "doi": "10.3233/WOR-162475",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Safety behavior and work safety climate among landscaping and groundskeeping workers in North Carolina: A pilot study",
+      "fingerprint": "73319be01949ce8b25135eed6056a72829592283fec60963224e2a49566522a9"
+    }
+  },
+  "socias2016mowerstake": {
+    "authors": "Socias, C.",
+    "year": 2016,
+    "title": "Hispanic Worker Dies After Being Hit With a Projectile From a Nearby Commercial Lawnmower—North Carolina",
+    "publisher": "National Institute for Occupational Safety and Health, FACE Report 2013-04",
+    "url": "https://stacks.cdc.gov/view/cdc/167254",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-28",
+      "fingerprint": "881151f992feafb94206f2124aae8cb873b33e984136f808acdafd5f4a1c6750"
+    }
+  },
+  "ohagan2001treebriefing": {
+    "authors": "O’Hagan Smith, E., Bost, P., Schill, D., Valiante, D., & O’Leary, K.",
+    "year": 2001,
+    "title": "Groundsman Killed by Falling Tree Section During Tree Trimming Work - New Jersey: Report 00-NJ-087-01",
+    "publisher": "New Jersey Fatality Assessment and Control Evaluation Project",
+    "url": "https://stacks.cdc.gov/view/cdc/169236",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-28",
+      "fingerprint": "dee2888041a0538a3ec727a72dd4cc5529c21c2a8f26a61ef94e20ae97f09b31"
+    }
+  }
+}

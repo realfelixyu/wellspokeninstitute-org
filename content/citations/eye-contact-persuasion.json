@@ -1,0 +1,67 @@
+{
+  "chen2013persuasiongaze": {
+    "authors": "Frances S. Chen, Julia A. Minson, Maren Schöne, Markus Heinrichs",
+    "title": "In the Eye of the Beholder: Eye Contact Increases Resistance to Persuasion",
+    "container": "Psychological Science",
+    "doi": "10.1177/0956797613491968",
+    "year": 2013,
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "In the Eye of the Beholder: Eye Contact Increases Resistance to Persuasion",
+      "fingerprint": "ca28c29e645bc61d89c6965565d3a83fc07b937d71030a6dcfac489c0e511d80"
+    }
+  },
+  "kreysa2016gaze": {
+    "authors": "Helene Kreysa, Luise Kessler, Stefan R. Schweinberger",
+    "title": "Direct Speaker Gaze Promotes Trust in Truth-Ambiguous Statements",
+    "container": "PLOS ONE",
+    "doi": "10.1371/journal.pone.0162291",
+    "year": 2016,
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Direct Speaker Gaze Promotes Trust in Truth-Ambiguous Statements",
+      "fingerprint": "aedb149f0a829db4f378e79ec2d859d790c68960758a0ad7c238e02302a23092"
+    }
+  },
+  "tyler2021conversationgaze": {
+    "authors": "Cali Tyler, Sam Light, Anika Notthoff, Laura Cacciamani",
+    "title": "Eye Gaze During Controversial Conversations Depends on Agreement and Conversational Role",
+    "container": "Journal of Nonverbal Behavior",
+    "doi": "10.1007/s10919-021-00363-5",
+    "year": 2021,
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Eye Gaze During Controversial Conversations Depends on Agreement and Conversational Role",
+      "fingerprint": "167e7bb1b3834ee59811d8d186e6aeeaadd75bfe165b66a1f7e837baf8c9c1d5"
+    }
+  },
+  "yokoyama2012persuasivegaze": {
+    "authors": "Hitomi Yokoyama, Ikuo Daibo",
+    "title": "Effects of Gaze and Speech Rate on Receivers' Evaluations of Persuasive Speech",
+    "container": "Psychological Reports",
+    "doi": "10.2466/07.11.21.28.PR0.110.2.663-676",
+    "year": 2012,
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Effects of Gaze and Speech Rate on Receivers' Evaluations of Persuasive Speech",
+      "fingerprint": "0607fc5fd374942ceb27d5e3428ea540cb210c2bc2d6707246774e33f00a1a9d"
+    }
+  },
+  "fullwood2006videorecall": {
+    "authors": "Chris Fullwood, Gwyneth Doherty-Sneddon",
+    "title": "Effect of gazing at the camera during a video link on recall",
+    "container": "Applied Ergonomics",
+    "doi": "10.1016/j.apergo.2005.05.003",
+    "year": 2006,
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Effect of gazing at the camera during a video link on recall",
+      "fingerprint": "0e16eda974c4f9e387d13f16c3e3b51ebe6d9363535cd5fe7079889772172b6f"
+    }
+  }
+}
