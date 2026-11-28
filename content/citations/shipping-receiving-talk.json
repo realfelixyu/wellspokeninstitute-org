@@ -1,0 +1,51 @@
+{
+  "bls2026materialrecording": {
+    "authors": "U.S. Bureau of Labor Statistics",
+    "year": 2026,
+    "title": "Material Recording Clerks",
+    "publisher": "Occupational Outlook Handbook",
+    "url": "https://www.bls.gov/ooh/office-and-administrative-support/material-recording-clerks.htm",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-28",
+      "fingerprint": "02d6de00c9b0b242c8710b6f3b4e7c1ce3907569332ce374e7cf3148c2c40af0"
+    }
+  },
+  "rydstrom2025warehouse": {
+    "authors": "Rydström, K.",
+    "year": 2025,
+    "title": "‘There’s Nothing Strange’: Language Policy and Racialisation at Warehouse Workplaces",
+    "container": "Journal of Intercultural Studies, 46(3), 466–481",
+    "doi": "10.1080/07256868.2024.2418618",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "‘There’s Nothing Strange’: Language Policy and Racialisation at Warehouse Workplaces",
+      "fingerprint": "516c82a8aa066505c4a24c8f8c10165aa34ebbbe69eb8edfa7b94f32ca84c3de"
+    }
+  },
+  "gao2011truckwaiting": {
+    "authors": "U.S. Government Accountability Office",
+    "year": 2011,
+    "title": "Commercial Motor Carriers: More Could Be Done to Determine Impact of Excessive Loading and Unloading Wait Times on Hours of Service Violations",
+    "publisher": "U.S. Government Accountability Office, GAO-11-198",
+    "url": "https://www.gao.gov/products/gao-11-198",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-28",
+      "fingerprint": "ba38f573f3d6e80e496406fb9a23967177cfdbede1424bcd8a3c1e8eca396a42"
+    }
+  },
+  "dotoig2018detention": {
+    "authors": "U.S. Department of Transportation, Office of Inspector General",
+    "year": 2018,
+    "title": "Estimates Show Commercial Driver Detention Increases Crash Risks and Costs, but Current Data Limit Further Analysis",
+    "publisher": "U.S. Department of Transportation, Office of Inspector General, ST2018019",
+    "url": "https://www.oig.dot.gov/library-item/36237",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-28",
+      "fingerprint": "2e4abb76699c64ae675e854df1286d34a26be0906c58a498875e510b245a20d8"
+    }
+  }
+}

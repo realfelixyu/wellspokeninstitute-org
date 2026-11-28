@@ -1,0 +1,106 @@
+{
+  "mol2008dialogic": {
+    "authors": "Mol, S. E., Bus, A. G., de Jong, M. T., & Smeets, D. J. H.",
+    "year": 2008,
+    "title": "Added Value of Dialogic Parent–Child Book Readings: A Meta-Analysis",
+    "container": "Early Education and Development, 19(1), 7-26",
+    "doi": "10.1080/10409280701838603",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Added Value of Dialogic Parent–Child Book Readings: A Meta-Analysis",
+      "fingerprint": "43fcf2724ab96d82d0edbe3207827973bc01d7be919e9ad4f5cdc0592822201e"
+    }
+  },
+  "mol2009interactive": {
+    "authors": "Mol, S. E., Bus, A. G., & de Jong, M. T.",
+    "year": 2009,
+    "title": "Interactive Book Reading in Early Education: A Tool to Stimulate Print Knowledge as Well as Oral Language",
+    "container": "Review of Educational Research, 79(2), 979-1007",
+    "doi": "10.3102/0034654309332561",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Interactive Book Reading in Early Education: A Tool to Stimulate Print Knowledge as Well as Oral Language",
+      "fingerprint": "0310ca8dbc88f2a0d966d1e1280a08a52092a44866def87443024e70bddbecd7"
+    }
+  },
+  "noble2019sharedreading": {
+    "authors": "Noble, C., Sala, G., Peter, M., Lingwood, J., Rowland, C., Gobet, F., & Pine, J.",
+    "year": 2019,
+    "title": "The impact of shared book reading on children's language skills: A meta-analysis",
+    "container": "Educational Research Review, 28, 100290",
+    "doi": "10.1016/j.edurev.2019.100290",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "The impact of shared book reading on children's language skills: A meta-analysis",
+      "fingerprint": "9ccd0ae1a184df92770f145e62a845c0ab50c6f4c6ab9f6fdf6098abaca1a8be"
+    }
+  },
+  "dowdall2020booksharing": {
+    "authors": "Dowdall, N., Melendez-Torres, G. J., Murray, L., Gardner, F., Hartford, L., & Cooper, P. J.",
+    "year": 2020,
+    "title": "Shared Picture Book Reading Interventions for Child Language Development: A Systematic Review and Meta-Analysis",
+    "container": "Child Development, 91(2), e383-e399",
+    "doi": "10.1111/cdev.13225",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Shared Picture Book Reading Interventions for Child Language Development: A Systematic Review and Meta-Analysis",
+      "fingerprint": "bf4b82fd1042b3b846226775a45642ad2b9b5328bf88260221ce99140b25adce"
+    }
+  },
+  "romeo2018conversational": {
+    "authors": "Romeo, R. R., Leonard, J. A., Robinson, S. T., West, M. R., Mackey, A. P., Rowe, M. L., & Gabrieli, J. D. E.",
+    "year": 2018,
+    "title": "Beyond the 30-Million-Word Gap: Children’s Conversational Exposure Is Associated With Language-Related Brain Function",
+    "container": "Psychological Science, 29(5), 700-710",
+    "doi": "10.1177/0956797617742725",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Beyond the 30-Million-Word Gap: Children’s Conversational Exposure Is Associated With Language-Related Brain Function",
+      "fingerprint": "acd6edca01ac9c9ad6ba12b812839a3761b63c3608880acaab2507140de1d2f0"
+    }
+  },
+  "gilkerson2018turns": {
+    "authors": "Gilkerson, J., Richards, J. A., Warren, S. F., Oller, D. K., Russo, R., & Vohr, B.",
+    "year": 2018,
+    "title": "Language Experience in the Second Year of Life and Language Outcomes in Late Childhood",
+    "container": "Pediatrics, 142(4), e20174276",
+    "doi": "10.1542/peds.2017-4276",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Language Experience in the Second Year of Life and Language Outcomes in Late Childhood",
+      "fingerprint": "9c7de9e44494fd2d4e22b15029dd1e0745606d6dd056508d8c1b1b2c1f718cac"
+    }
+  },
+  "donnelly2021turntaking": {
+    "authors": "Donnelly, S., & Kidd, E.",
+    "year": 2021,
+    "title": "The Longitudinal Relationship Between Conversational Turn-Taking and Vocabulary Growth in Early Language Development",
+    "container": "Child Development, 92(2), 609-625",
+    "doi": "10.1111/cdev.13511",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "The Longitudinal Relationship Between Conversational Turn-Taking and Vocabulary Growth in Early Language Development",
+      "fingerprint": "a8cd3a658a21c65ce8a489d89d1c31d70ade1a5297ef9743841e882f4f5e4ac5"
+    }
+  },
+  "romeo2021turntaking": {
+    "authors": "Romeo, R. R., Leonard, J. A., Grotzinger, H. M., Robinson, S. T., Takada, M. E., Mackey, A. P., Scherer, E., Rowe, M. L., West, M. R., & Gabrieli, J. D. E.",
+    "year": 2021,
+    "title": "Neuroplasticity associated with changes in conversational turn-taking following a family-based intervention",
+    "container": "Developmental Cognitive Neuroscience, 49, 100967",
+    "doi": "10.1016/j.dcn.2021.100967",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Neuroplasticity associated with changes in conversational turn-taking following a family-based intervention",
+      "fingerprint": "7c27c23d7db4d06d0a2c8b578f752f4edd517b752a726d4ade52182c2bb5cbb0"
+    }
+  }
+}

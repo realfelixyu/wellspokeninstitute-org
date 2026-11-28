@@ -1,0 +1,80 @@
+{
+  "asmuss2008appraisal": {
+    "authors": "Asmuss, B.",
+    "year": 2008,
+    "title": "Performance Appraisal Interviews: Preference Organization in Assessment Sequences",
+    "container": "Journal of Business Communication, 45(4), 408-429",
+    "doi": "10.1177/0021943608319382",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Performance Appraisal Interviews: Preference Organization in Assessment Sequences",
+      "fingerprint": "e1e492ff6e68e605dafa65e58449dae3c91d4ca8b77e9f0c03e460c17c50eab1"
+    }
+  },
+  "cawley1998participation": {
+    "authors": "Cawley, B. D., Keeping, L. M., & Levy, P. E.",
+    "year": 1998,
+    "title": "Participation in the performance appraisal process and employee reactions: A meta-analytic review of field investigations",
+    "container": "Journal of Applied Psychology, 83(4), 615-633",
+    "doi": "10.1037/0021-9010.83.4.615",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Participation in the performance appraisal process and employee reactions: A meta-analytic review of field investigations.",
+      "fingerprint": "7ecde6fa4aa9f52c905fa5d760e4e7b84f763d473057eea24a00a75cce988047"
+    }
+  },
+  "kluger1996feedback": {
+    "authors": "Kluger, A. N., & DeNisi, A.",
+    "year": 1996,
+    "title": "The effects of feedback interventions on performance: A historical review, a meta-analysis, and a preliminary feedback intervention theory",
+    "container": "Psychological Bulletin, 119(2), 254-284",
+    "doi": "10.1037/0033-2909.119.2.254",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "The effects of feedback interventions on performance: A historical review, a meta-analysis, and a preliminary feedback intervention theory.",
+      "fingerprint": "870a95acf51edc203aac2d4031c522feac2a3b2d5a41e3f13d37443e756d1011"
+    }
+  },
+  "shaw2003explanations": {
+    "authors": "Shaw, J. C., Wild, E., & Colquitt, J. A.",
+    "year": 2003,
+    "title": "To justify or excuse?: A meta-analytic review of the effects of explanations",
+    "container": "Journal of Applied Psychology, 88(3), 444-458",
+    "doi": "10.1037/0021-9010.88.3.444",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "To justify or excuse?: A meta-analytic review of the effects of explanations.",
+      "fingerprint": "1480551a85280a15c997481328071d850b403580667f5f4d872ef1395bf3666e"
+    }
+  },
+  "kluger2022listeningwork": {
+    "authors": "Kluger, A. N., & Itzchakov, G.",
+    "year": 2022,
+    "title": "The Power of Listening at Work",
+    "container": "Annual Review of Organizational Psychology and Organizational Behavior, 9, 121-146",
+    "doi": "10.1146/annurev-orgpsych-012420-091013",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "The Power of Listening at Work",
+      "fingerprint": "2c12f64ff6ef7c96e89241a9dade64a788af2ac0cd354f5f84f02a2a358e4815"
+    }
+  },
+  "grandey2004aggression": {
+    "authors": "Grandey, A. A., Dickter, D. N., & Sin, H.-P.",
+    "year": 2004,
+    "title": "The customer is not always right: customer aggression and emotion regulation of service employees",
+    "container": "Journal of Organizational Behavior, 25(3), 397-418",
+    "doi": "10.1002/job.252",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "The customer is <i>not</i> always right: customer aggression and emotion regulation of service employees",
+      "fingerprint": "fbe5b06ab0ab10c311661c56e8329ae44c8b90255ee4be67fe73e73dcc93dfe0"
+    }
+  }
+}

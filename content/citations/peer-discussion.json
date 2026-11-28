@@ -1,0 +1,93 @@
+{
+  "smith2009peer": {
+    "authors": "Smith, M. K., Wood, W. B., Adams, W. K., Wieman, C., Knight, J. K., Guild, N., & Su, T. T.",
+    "year": 2009,
+    "title": "Why Peer Discussion Improves Student Performance on In-Class Concept Questions",
+    "container": "Science, 323(5910), 122-124",
+    "doi": "10.1126/science.1165919",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Why Peer Discussion Improves Student Performance on In-Class Concept Questions",
+      "fingerprint": "d4f88cd1ea2a989ec33d17d63e193f970de79b24dca300cb79f9053c7a8fbc99"
+    }
+  },
+  "smith2011combining": {
+    "authors": "Smith, M. K., Wood, W. B., Krauter, K., & Knight, J. K.",
+    "year": 2011,
+    "title": "Combining Peer Discussion with Instructor Explanation Increases Student Learning from In-Class Concept Questions",
+    "container": "CBE-Life Sciences Education, 10(1), 55-63",
+    "doi": "10.1187/cbe.10-08-0101",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Combining Peer Discussion with Instructor Explanation Increases Student Learning from In-Class Concept Questions",
+      "fingerprint": "30da7dbb4b5263a5a78087c1c27ccc48e7b84f05d13e3ffb2ab4220b7b082747"
+    }
+  },
+  "crouch2001peer": {
+    "authors": "Crouch, C. H., & Mazur, E.",
+    "year": 2001,
+    "title": "Peer Instruction: Ten years of experience and results",
+    "container": "American Journal of Physics, 69(9), 970-977",
+    "doi": "10.1119/1.1374249",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Peer Instruction: Ten years of experience and results",
+      "fingerprint": "ab87cd7b68ae873b5d86c0946637f60a8af597d3f88c6f82902e2adafb33bb83"
+    }
+  },
+  "freeman2014active": {
+    "authors": "Freeman, S., Eddy, S. L., McDonough, M., Smith, M. K., Okoroafor, N., Jordt, H., & Wenderoth, M. P.",
+    "year": 2014,
+    "title": "Active learning increases student performance in science, engineering, and mathematics",
+    "container": "Proceedings of the National Academy of Sciences, 111(23), 8410-8415",
+    "doi": "10.1073/pnas.1319030111",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Active learning increases student performance in science, engineering, and mathematics",
+      "fingerprint": "0661cf993dc18d98c2983481d9d8ed436e8568cca023c8505045c30c1157eb44"
+    }
+  },
+  "deslauriers2019feeling": {
+    "authors": "Deslauriers, L., McCarty, L. S., Miller, K., Callaghan, K., & Kestin, G.",
+    "year": 2019,
+    "title": "Measuring actual learning versus feeling of learning in response to being actively engaged in the classroom",
+    "container": "Proceedings of the National Academy of Sciences, 116(39), 19251-19257",
+    "doi": "10.1073/pnas.1821936116",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Measuring actual learning versus feeling of learning in response to being actively engaged in the classroom",
+      "fingerprint": "825e825f32fbf235c7b0d790d8c2a2dde4d5198c300d1fe0b28033e8beed14fa"
+    }
+  },
+  "theobald2020gaps": {
+    "authors": "Theobald, E. J., Hill, M. J., Tran, E., et al.",
+    "year": 2020,
+    "title": "Active learning narrows achievement gaps for underrepresented students in undergraduate science, technology, engineering, and math",
+    "container": "Proceedings of the National Academy of Sciences, 117(12), 6476-6483",
+    "doi": "10.1073/pnas.1916903117",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Active learning narrows achievement gaps for underrepresented students in undergraduate science, technology, engineering, and math",
+      "fingerprint": "894bda1395d6e12f4c5bb66083a86c68270386e103c877eda7f67ee4c7cda716"
+    }
+  },
+  "vickrey2015peer": {
+    "authors": "Vickrey, T., Rosploch, K., Rahmanian, R., Pilarz, M., & Stains, M.",
+    "year": 2015,
+    "title": "Research-Based Implementation of Peer Instruction: A Literature Review",
+    "container": "CBE-Life Sciences Education, 14(1), es3",
+    "doi": "10.1187/cbe.14-11-0198",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Research-Based Implementation of Peer Instruction: A Literature Review",
+      "fingerprint": "723941613cd15802f5b50a77d07684948d2050a100946b198b529f9cccce321a"
+    }
+  }
+}

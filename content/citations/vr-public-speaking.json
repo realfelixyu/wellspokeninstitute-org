@@ -1,0 +1,106 @@
+{
+  "chesham2018vret": {
+    "authors": "Chesham, R. K., Malouff, J. M., & Schutte, N. S.",
+    "year": 2018,
+    "title": "Meta-Analysis of the Efficacy of Virtual Reality Exposure Therapy for Social Anxiety",
+    "container": "Behaviour Change, 35(3), 152-166",
+    "doi": "10.1017/bec.2018.15",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Meta-Analysis of the Efficacy of Virtual Reality Exposure Therapy for Social Anxiety",
+      "fingerprint": "d2b0293cfe093696b835e8fa40c69d8db6c0680abd8ca4c317688f12efd18101"
+    }
+  },
+  "wechsler2019vrinvivo": {
+    "authors": "Wechsler, T. F., Kümpers, F., & Mühlberger, A.",
+    "year": 2019,
+    "title": "Inferiority or Even Superiority of Virtual Reality Exposure Therapy in Phobias? A Systematic Review and Quantitative Meta-Analysis on Randomized Controlled Trials Specifically Comparing the Efficacy of Virtual Reality Exposure to Gold Standard in vivo Exposure in Agoraphobia, Specific Phobia, and Social Phobia",
+    "container": "Frontiers in Psychology, 10, 1758",
+    "doi": "10.3389/fpsyg.2019.01758",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Inferiority or Even Superiority of Virtual Reality Exposure Therapy in Phobias?—A Systematic Review and Quantitative Meta-Analysis on Randomized Controlled Trials Specifically Comparing the Efficacy of Virtual Reality Exposure to Gold Standard in vivo Exposure in Agoraphobia, Specific Phobia, and Social Phobia",
+      "fingerprint": "1d2ba948e4f7d21de62e0f613c893bd3618c38e6d8e31451b394bb7dd87ad5c8"
+    }
+  },
+  "horigome2020vret": {
+    "authors": "Horigome, T., Kurokawa, S., Sawada, K., Kudo, S., Shiga, K., Mimura, M., & Kishimoto, T.",
+    "year": 2020,
+    "title": "Virtual reality exposure therapy for social anxiety disorder: a systematic review and meta-analysis",
+    "container": "Psychological Medicine, 50(15), 2487-2497",
+    "doi": "10.1017/S0033291720003785",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Virtual reality exposure therapy for social anxiety disorder: a systematic review and meta-analysis",
+      "fingerprint": "eae4ce85cc2d150e973d3d14271b2b4192dd948b52856338ea57d307dbfeb833"
+    }
+  },
+  "morina2021vretreanalysis": {
+    "authors": "Morina, N., Kampmann, I., Emmelkamp, P., Barbui, C., & Hoppen, T. H.",
+    "year": 2021,
+    "title": "Meta-analysis of virtual reality exposure therapy for social anxiety disorder",
+    "container": "Psychological Medicine, 53(5), 2176-2178",
+    "doi": "10.1017/S0033291721001690",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Meta-analysis of virtual reality exposure therapy for social anxiety disorder",
+      "fingerprint": "2f8b17f9bd34808c0305aa4e044855928498d2bb4e7f9d8cb8666f34e65b2046"
+    }
+  },
+  "anderson2013vret": {
+    "authors": "Anderson, P. L., Price, M., Edwards, S. M., Obasaju, M. A., Schmertz, S. K., Zimand, E., & Calamaras, M. R.",
+    "year": 2013,
+    "title": "Virtual reality exposure therapy for social anxiety disorder: A randomized controlled trial",
+    "container": "Journal of Consulting and Clinical Psychology, 81(5), 751-760",
+    "doi": "10.1037/a0033559",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Virtual reality exposure therapy for social anxiety disorder: A randomized controlled trial.",
+      "fingerprint": "88521cbaa32fee5a3517d8d41e9f81caf81d9dc2f2b039ae7c6be6553500e641"
+    }
+  },
+  "kampmann2016vret": {
+    "authors": "Kampmann, I. L., Emmelkamp, P. M. G., Hartanto, D., Brinkman, W.-P., Zijlstra, B. J. H., & Morina, N.",
+    "year": 2016,
+    "title": "Exposure to virtual social interactions in the treatment of social anxiety disorder: A randomized controlled trial",
+    "container": "Behaviour Research and Therapy, 77, 147-156",
+    "doi": "10.1016/j.brat.2015.12.016",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Exposure to virtual social interactions in the treatment of social anxiety disorder: A randomized controlled trial",
+      "fingerprint": "f68ae7a604e896280905e4fa056e33ce47d63b3aa18ec0ad47079b31855be50a"
+    }
+  },
+  "bouchard2017vrinvivo": {
+    "authors": "Bouchard, S., Dumoulin, S., Robillard, G., Guitard, T., Klinger, É., Forget, H., Loranger, C., & Roucaut, F. X.",
+    "year": 2017,
+    "title": "Virtual reality compared with in vivo exposure in the treatment of social anxiety disorder: A three-arm randomised controlled trial",
+    "container": "British Journal of Psychiatry, 210(4), 276-283",
+    "doi": "10.1192/bjp.bp.116.184234",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Virtual reality compared with\n                    <i>in vivo</i>\n                    exposure in the treatment of social anxiety disorder: A three-arm randomised controlled trial",
+      "fingerprint": "10adcab3e0dbf3269f467640977416a0521c3ff5fee7cae092255f9840ea3e72"
+    }
+  },
+  "horigome2021reply": {
+    "authors": "Horigome, T., Kurokawa, S., Sawada, K., Kudo, S., Shiga, K., Mimura, M., & Kishimoto, T.",
+    "year": 2021,
+    "title": "Response to Morina et al.'s criticisms of Horigome et al.'s recent report on the efficacy of virtual reality exposure therapy for social anxiety disorder",
+    "container": "Psychological Medicine, 53(5), 2179-2180",
+    "doi": "10.1017/s0033291721004086",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Response to Morina et al.'s criticisms of Horigome et al.'s recent report on the efficacy of virtual reality exposure therapy for social anxiety disorder",
+      "fingerprint": "d59f96f567c8158f8a64a5ed97b6ad27cee17ff72b48068c657aa4407872a2cc"
+    }
+  }
+}

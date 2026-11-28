@@ -1,0 +1,93 @@
+{
+  "spence2022accenthiring": {
+    "authors": "Spence, J. L., Hornsey, M. J., Stephenson, E. M., & Imuta, K.",
+    "year": 2022,
+    "title": "Is Your Accent Right for the Job? A Meta-Analysis on Accent Bias in Hiring Decisions",
+    "container": "Personality and Social Psychology Bulletin, published online in 2022 and in volume 50(3), 371-386, in 2024",
+    "doi": "10.1177/01461672221130595",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Is Your Accent Right for the Job? A Meta-Analysis on Accent Bias in Hiring Decisions",
+      "fingerprint": "f8aff761b675d681173cc0963263bae3cbb3e458f2b7bca1e39e79a4cca6f063"
+    }
+  },
+  "hosoda2010accent": {
+    "authors": "Hosoda, M., & Stone-Romero, E.",
+    "year": 2010,
+    "title": "The effects of foreign accents on employment‐related decisions",
+    "container": "Journal of Managerial Psychology, 25(2), 113-132",
+    "doi": "10.1108/02683941011019339",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "The effects of foreign accents on employment‐related decisions",
+      "fingerprint": "74cf8a94dd209c9d5c219710ac3a18f7232b5e0c2fa064288ad8f06e2c03a6a1"
+    }
+  },
+  "deprezsims2010accent": {
+    "authors": "Deprez-Sims, A.-S., & Morris, S. B.",
+    "year": 2010,
+    "title": "Accents in the workplace: Their effects during a job interview",
+    "container": "International Journal of Psychology, 45(6), 417-426",
+    "doi": "10.1080/00207594.2010.499950",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Accents in the workplace: Their effects during a job interview",
+      "fingerprint": "7654202201cbf67f01c03a5601318bbd7bcac3476b9d11530793686a46335e34"
+    }
+  },
+  "schmaus2021accentfield": {
+    "authors": "Schmaus, M., & Kristen, C.",
+    "year": 2021,
+    "title": "Foreign Accents in the Early Hiring Process: A Field Experiment on Accent-Related Ethnic Discrimination in Germany",
+    "container": "International Migration Review, published online in 2021 and in volume 56(2), 562-593, in 2022",
+    "doi": "10.1177/01979183211042004",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Foreign Accents in the Early Hiring Process: A Field Experiment on Accent-Related Ethnic Discrimination in Germany",
+      "fingerprint": "3fdf73f638d0aa00e7731bd0279b9f8b86a4c6765996fa3efd6e7dee73502d7d"
+    }
+  },
+  "boduchgrabka2021exposure": {
+    "authors": "Boduch-Grabka, K., & Lev-Ari, S.",
+    "year": 2021,
+    "title": "Exposing Individuals to Foreign Accent Increases their Trust in What Nonnative Speakers Say",
+    "container": "Cognitive Science, 45(11), e13064",
+    "doi": "10.1111/cogs.13064",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Exposing Individuals to Foreign Accent Increases their Trust in What Nonnative Speakers Say",
+      "fingerprint": "13c4563132524d36bf6f86802e47f372630d633731d8e6a19bb62fdd5516c2f8"
+    }
+  },
+  "lorenzoni2024illusorytruth": {
+    "authors": "Lorenzoni, A., Faccio, R., & Navarrete, E.",
+    "year": 2024,
+    "title": "Does Foreign-Accented Speech Affect Credibility? Evidence from the Illusory-Truth Paradigm",
+    "container": "Journal of Cognition, 7(1), 26",
+    "doi": "10.5334/joc.353",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Does Foreign-Accented Speech Affect Credibility? Evidence from the Illusory-Truth Paradigm",
+      "fingerprint": "16219943fb9889ad735d6b5fbf0f1d13b04ed59c931e2b05df708d2bdd220107"
+    }
+  },
+  "stocker2017credibility": {
+    "authors": "Stocker, L.",
+    "year": 2016,
+    "title": "The Impact of Foreign Accent on Credibility: An Analysis of Cognitive Statement Ratings in a Swiss Context",
+    "container": "Journal of Psycholinguistic Research, published online in 2016 and in volume 46(3), 617-628, in 2017",
+    "doi": "10.1007/s10936-016-9455-x",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "The Impact of Foreign Accent on Credibility: An Analysis of Cognitive Statement Ratings in a Swiss Context",
+      "fingerprint": "0d5d161453098fde5a76f5150481fa58ba0ec6efce26bce0ed5848a76f1ab4f5"
+    }
+  }
+}

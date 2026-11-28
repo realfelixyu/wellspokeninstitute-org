@@ -28,8 +28,10 @@ export function PageHeader({
   eyebrow,
   title,
   lede,
+  crumbs,
   children,
 }: {
+  crumbs?: { name: string; path: string }[];
   eyebrow?: string;
   title: string;
   lede?: ReactNode;
@@ -38,6 +40,11 @@ export function PageHeader({
   return (
     <section className="border-b border-rule bg-paper">
       <div className="mx-auto max-w-6xl px-4 pb-12 pt-12 sm:px-6 sm:pt-16">
+        {crumbs ? (
+          <div className="mb-6">
+            <Breadcrumbs items={crumbs} />
+          </div>
+        ) : null}
         {eyebrow ? (
           <p className="text-sm font-semibold uppercase tracking-[0.12em] text-accent">{eyebrow}</p>
         ) : null}

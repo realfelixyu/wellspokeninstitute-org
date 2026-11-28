@@ -1,0 +1,106 @@
+{
+  "blacksmith2016technology": {
+    "authors": "Blacksmith, N., Willford, J. C., & Behrend, T. S.",
+    "year": 2016,
+    "title": "Technology in the Employment Interview: A Meta-Analysis and Future Research Agenda",
+    "container": "Personnel Assessment and Decisions, 2(1), 12-20",
+    "doi": "10.25035/pad.2016.002",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Technology in the Employment Interview: A Meta-Analysis and Future Research Agenda",
+      "fingerprint": "05d209dc1de90141b22d3a50294c83d2849cbe3f1322afa458757ebfd23c8883"
+    }
+  },
+  "melchers2021technology": {
+    "authors": "Melchers, K. G., Petrig, A., Basch, J. M., & Sauer, J.",
+    "year": 2021,
+    "title": "A Comparison of Conventional and Technology-Mediated Selection Interviews With Regard to Interviewees’ Performance, Perceptions, Strain, and Anxiety",
+    "container": "Frontiers in Psychology, 11, 603632",
+    "doi": "10.3389/fpsyg.2020.603632",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "A Comparison of Conventional and Technology-Mediated Selection Interviews With Regard to Interviewees’ Performance, Perceptions, Strain, and Anxiety",
+      "fingerprint": "1fc21a46925ab2b2ec465a847b8f21bba887699a91298ca0b4c75d375bc124a1"
+    }
+  },
+  "basch2021videoconference": {
+    "authors": "Basch, J. M., Melchers, K. G., Kurz, A., Krieger, M., & Miller, L.",
+    "year": 2021,
+    "title": "It Takes More Than a Good Camera: Which Factors Contribute to Differences Between Face-to-Face Interviews and Videoconference Interviews Regarding Performance Ratings and Interviewee Perceptions?",
+    "container": "Journal of Business and Psychology, 36(5), 921-940",
+    "doi": "10.1007/s10869-020-09714-3",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "It Takes More Than a Good Camera: Which Factors Contribute to Differences Between Face-to-Face Interviews and Videoconference Interviews Regarding Performance Ratings and Interviewee Perceptions?",
+      "fingerprint": "366765142f2fbdb8c07d653827d7d0c5c89b74604c6ade068d1a7cf63e228cae"
+    }
+  },
+  "langer2017digital": {
+    "authors": "Langer, M., König, C. J., & Krause, K.",
+    "year": 2017,
+    "title": "Examining digital interviews for personnel selection: Applicant reactions and interviewer ratings",
+    "container": "International Journal of Selection and Assessment, 25(4), 371-382",
+    "doi": "10.1111/ijsa.12191",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Examining digital interviews for personnel selection: Applicant reactions and interviewer ratings",
+      "fingerprint": "28490d74970d018e4c9b0b61aef75777d0bf191714c04d23f0827f280e2329d2"
+    }
+  },
+  "suen2019synchrony": {
+    "authors": "Suen, H.-Y., Chen, M. Y.-C., & Lu, S.-H.",
+    "year": 2019,
+    "title": "Does the use of synchrony and artificial intelligence in video interviews affect interview ratings and applicant attitudes?",
+    "container": "Computers in Human Behavior, 98, 93-101",
+    "doi": "10.1016/j.chb.2019.04.012",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Does the use of synchrony and artificial intelligence in video interviews affect interview ratings and applicant attitudes?",
+      "fingerprint": "de49ddef7766129d2e19433992fb450c287c1544cfda5180a65236d54b845004"
+    }
+  },
+  "basch2025eyecontact": {
+    "authors": "Basch, J. M., & Melchers, K. G.",
+    "year": 2025,
+    "title": "Here’s Looking at You: Does Eye Contact in Video Interviews Affect How Applicants are Perceived and Evaluated?",
+    "container": "Journal of Business and Psychology, 40(3), 669-685",
+    "doi": "10.1007/s10869-024-09981-4",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Here’s Looking at You: Does Eye Contact in Video Interviews Affect How Applicants are Perceived and Evaluated?",
+      "fingerprint": "12912e1140fd3220b406cd2b405a26626fb5d63a3cf77751d76235f124f3ac04"
+    }
+  },
+  "roulin2023preparation": {
+    "authors": "Roulin, N., Wong, O., Langer, M., & Bourdage, J. S.",
+    "year": 2023,
+    "title": "Is more always better? How preparation time and re-recording opportunities impact fairness, anxiety, impression management, and performance in asynchronous video interviews",
+    "container": "European Journal of Work and Organizational Psychology, 32(3), 333-345",
+    "doi": "10.1080/1359432X.2022.2156862",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Is more always better? How preparation time and re-recording opportunities impact fairness, anxiety, impression management, and performance in asynchronous video interviews",
+      "fingerprint": "940b8e5c58ccee5c7cf9bf04cc69ae98c916246f20a3c073e6ce78d9ca65e753"
+    }
+  },
+  "langer2024quasi": {
+    "authors": "Langer, M., Demetriou, A., Arvanitidis, A., Vanderveken, S., & Hiemstra, A. M. F.",
+    "year": 2024,
+    "title": "A quasi-experimental investigation of differences between face-to-face and videoconference interviews in an actual selection process",
+    "container": "Applied Psychology, 74(1)",
+    "doi": "10.1111/apps.12558",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "A quasi‐experimental investigation of differences between face‐to‐face and videoconference interviews in an actual selection process",
+      "fingerprint": "7ca5d455f0854301223cdc364c3f4f5b7d33ff2fb7133cefc7fb0a98726ef697"
+    }
+  }
+}

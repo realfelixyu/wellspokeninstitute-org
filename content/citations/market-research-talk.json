@@ -1,0 +1,67 @@
+{
+  "conrad2000householdclarify": {
+    "authors": "Conrad, F. G. & Schober, M. F.",
+    "title": "Clarifying Question Meaning in a Household Telephone Survey",
+    "container": "Public Opinion Quarterly, 64(1), 1-28",
+    "doi": "10.1086/316757",
+    "year": 2000,
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Clarifying Question Meaning in a Household Telephone Survey",
+      "fingerprint": "145ae760a8c8484c7ae9cc71616e9b40830d1e5816570e360ee6e0a2d1e07329"
+    }
+  },
+  "rasinski1989spendingwording": {
+    "authors": "Rasinski, K. A.",
+    "title": "The Effect of Question Wording on Public Support for Government Spending",
+    "container": "Public Opinion Quarterly, 53(3), 388",
+    "doi": "10.1086/269158",
+    "year": 1989,
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "The Effect of Question Wording on Public Support for Government Spending",
+      "fingerprint": "f700ce56a32747279811fecc15a3bf8d971900b9608a12e7a8e849be4d3f88ff"
+    }
+  },
+  "mcdonald1994moderatoruse": {
+    "authors": "McDonald, W. J.",
+    "title": "Provider Perceptions of Focus Group Research Use: A Multicountry Perspective",
+    "container": "Journal of the Academy of Marketing Science, 22(3), 265-273",
+    "doi": "10.1177/0092070394223007",
+    "year": 1994,
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Provider Perceptions of Focus Group Research Use: A Multicountry Perspective",
+      "fingerprint": "5d209b4cbb606be0e268afbf0db068c2f8078a2082610db693d7606221c5eb1e"
+    }
+  },
+  "deshpande1982researchuse": {
+    "authors": "Deshpande, R. & Zaltman, G.",
+    "title": "Factors Affecting the Use of Market Research Information: A Path Analysis",
+    "container": "Journal of Marketing Research, 19(1), 14-31",
+    "doi": "10.1177/002224378201900102",
+    "year": 1982,
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Factors Affecting the Use of Market Research Information: A Path Analysis",
+      "fingerprint": "269e166e8c8c3074647d56699fcc16b12f61e7c89d994bdefb609ef6a2f4de0d"
+    }
+  },
+  "moorman1992researchtrust": {
+    "authors": "Moorman, C., Zaltman, G., & Deshpande, R.",
+    "title": "Relationships between Providers and Users of Market Research: The Dynamics of Trust within and between Organizations",
+    "container": "Journal of Marketing Research, 29(3), 314-328",
+    "doi": "10.1177/002224379202900303",
+    "year": 1992,
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Relationships between Providers and Users of Market Research: The Dynamics of Trust within and between Organizations",
+      "fingerprint": "3ca38cd0ab603737272021d014b921e96b00dfa40f255cac0e080d544a6ebb06"
+    }
+  }
+}

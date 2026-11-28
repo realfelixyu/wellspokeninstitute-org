@@ -1,0 +1,66 @@
+{
+  "bates2018parcelrounds": {
+    "authors": "Bates, O., Friday, A., Allen, J., Cherrett, T., McLeod, F., Bektas, T., Nguyen, T., Piecyk, M., Piotrowska, M., Wise, S., & Davies, N.",
+    "year": 2018,
+    "title": "Transforming Last-mile Logistics: Opportunities for more Sustainable Deliveries",
+    "container": "Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems, 1-14",
+    "doi": "10.1145/3173574.3174100",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Transforming Last-mile Logistics: Opportunities for more Sustainable Deliveries",
+      "fingerprint": "1b0424d649d417150d4f065dad5dc8170ddb09e4504c42f16f9ee703ff75352e"
+    }
+  },
+  "kim2018seattledeliveries": {
+    "authors": "Kim, H., Boyle, L. N., & Goodchild, A.",
+    "year": 2018,
+    "title": "Delivery Process for an Office Building in the Seattle Central Business District",
+    "container": "Transportation Research Record: Journal of the Transportation Research Board, 2672(9), 173-183",
+    "doi": "10.1177/0361198118798730",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Delivery Process for an Office Building in the Seattle Central Business District",
+      "fingerprint": "373f27bca50a83ee41c8e39ec411bb3897faf6805a0fc9f00f8ac3a2910050ea"
+    }
+  },
+  "miszczynski2024couriers": {
+    "authors": "Miszczynski, M. & Pieczka, A.",
+    "year": 2024,
+    "title": "Territorial labour and worker agency: a case study of delivery couriers in first/last mile logistics in Poland",
+    "container": "Labour and Industry, 34(4), 412-436",
+    "doi": "10.1080/10301763.2024.2430159",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Territorial labour and worker agency: a case study of delivery couriers in first/last mile logistics in Poland",
+      "fingerprint": "9fb970f3cc17b832798e308a3af12823fc0e9aa8f3d791d2b4c987531da8b39f"
+    }
+  },
+  "deroeck2026vandelivery": {
+    "authors": "De Roeck, M.",
+    "year": 2026,
+    "title": "Occupational road safety in last-mile delivery: a qualitative comparison of parcel delivery drivers and platform food couriers in Belgium",
+    "container": "Traffic Safety Research, 10, e000156",
+    "doi": "10.55329/qzrv3358",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Occupational road safety in last-mile delivery: a qualitative comparison of parcel delivery drivers and platform food couriers in Belgium",
+      "fingerprint": "b1ead199a553b2400d7cf30b4d344bce5c86d428a2251f3092d4c61e450ce4b7"
+    }
+  },
+  "niosh2026workdriving": {
+    "authors": "National Institute for Occupational Safety and Health",
+    "year": 2026,
+    "title": "Distracted Driving at Work",
+    "publisher": "Centers for Disease Control and Prevention",
+    "url": "https://www.cdc.gov/niosh/motor-vehicle/distracted-driving/",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-28",
+      "fingerprint": "a242f275653d10692c700c44eeaf41fb3f3dbc9bc8e19b5e79f44f9fe5145f58"
+    }
+  }
+}

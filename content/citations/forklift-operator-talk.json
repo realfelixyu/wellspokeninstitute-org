@@ -1,0 +1,65 @@
+{
+  "osha1910forklift": {
+    "authors": "Occupational Safety and Health Administration",
+    "year": 2024,
+    "title": "Powered industrial trucks",
+    "publisher": "Code of Federal Regulations, 29 CFR 1910.178 (2024 edition), U.S. Government Publishing Office",
+    "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title29-vol5/xml/CFR-2024-title29-vol5-sec1910-178.xml",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-28",
+      "fingerprint": "a1a0e1b8e70c0788afc011991661756bda5eddcde16cec4e152d5e5edc31d91d"
+    }
+  },
+  "niosh2001forklifts": {
+    "authors": "National Institute for Occupational Safety and Health",
+    "year": 2001,
+    "title": "Preventing Injuries and Deaths of Workers Who Operate or Work Near Forklifts",
+    "publisher": "NIOSH Alert, DHHS (NIOSH) Publication No. 2001-109, Centers for Disease Control and Prevention",
+    "url": "https://www.cdc.gov/niosh/publications/numbered/2001-109.html",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-28",
+      "fingerprint": "4d37b5db02e20434b1ae2aa9a18c08cc7ba4bc7d54af13c159b5082128684bc3"
+    }
+  },
+  "bobick2020forkliftlights": {
+    "authors": "Bobick, T. G., Hause, M., Socias-Morales, C., Gwilliam, M., & Decker, T.",
+    "year": 2020,
+    "title": "Forklift Safety - Pilot Study Evaluation of Retrofit Lights",
+    "container": "Professional Safety, 65(12), 41-45",
+    "publisher": "PubMed Central (HHS author manuscript)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11119981/",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-28",
+      "fingerprint": "71b1175031f4170d2111a15d351b630175ba3836650415232ad2c5d7d1252911"
+    }
+  },
+  "oregon2008forkliftclerk": {
+    "authors": "Oregon Fatality Assessment and Control Evaluation Program",
+    "year": 2008,
+    "title": "Young warehouse worker killed by backing forklift.",
+    "publisher": "National Institute for Occupational Safety and Health, Oregon FACE report 06OR044",
+    "doi": "10.26616/NIOSHSFACE06OR044",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Young warehouse worker killed by backing forklift.",
+      "fingerprint": "47e5d9b3de17f4b702a30911e7643878881c8515d8bfa0b8356411b15ec1b8dd"
+    }
+  },
+  "kleinmann2023forkliftspotter": {
+    "authors": "Kleinmann, R. L. P., & Chan, J.",
+    "year": 2023,
+    "title": "Warehouse worker dies when material falling off of pallet strikes him - California.",
+    "publisher": "National Institute for Occupational Safety and Health, California FACE report 22CA002",
+    "doi": "10.26616/NIOSHSFACE22CA002",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Warehouse worker dies when material falling off of pallet strikes him - California.",
+      "fingerprint": "37ae031daa379e40f88b957a7154f63faf8bb90309e29872864f143921656684"
+    }
+  }
+}

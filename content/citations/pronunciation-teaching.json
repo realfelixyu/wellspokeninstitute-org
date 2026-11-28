@@ -1,0 +1,54 @@
+{
+  "thomson2015narrative": {
+    "authors": "Thomson, R. I., & Derwing, T. M.",
+    "year": 2015,
+    "title": "The Effectiveness of L2 Pronunciation Instruction: A Narrative Review",
+    "container": "Applied Linguistics, 36(3), 326-344",
+    "doi": "10.1093/applin/amu076",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "The Effectiveness of L2 Pronunciation Instruction: A Narrative Review",
+      "fingerprint": "88312b099d9488f254405c009fa2aa6dcaac3c1c4a7747f035b8bf4072c268fb"
+    }
+  },
+  "saito2021comprehensible": {
+    "authors": "Saito, K.",
+    "year": 2021,
+    "title": "What Characterizes Comprehensible and Native-like Pronunciation Among English-as-a-Second-Language Speakers? Meta-Analyses of Phonological, Rater, and Instructional Factors",
+    "container": "TESOL Quarterly, 55(3), 866-900",
+    "doi": "10.1002/tesq.3027",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "What Characterizes Comprehensible and Native‐like Pronunciation Among English‐as‐a‐Second‐Language Speakers? Meta‐Analyses of Phonological, Rater, and Instructional Factors",
+      "fingerprint": "7e701ce03fcbf9b4968a281dbfcd1a1ad4648663e3ccc077c8d452dc63c8ff59"
+    }
+  },
+  "sakai2018perception": {
+    "authors": "Sakai, M., & Moorman, C.",
+    "year": 2018,
+    "title": "Can perception training improve the production of second language phonemes? A meta-analytic review of 25 years of perception training research",
+    "container": "Applied Psycholinguistics, 39(1), 187-224",
+    "doi": "10.1017/S0142716417000418",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Can perception training improve the production of second language phonemes? A meta-analytic review of 25 years of perception training research",
+      "fingerprint": "cf86525461c6c582a09079718b37d4bd8a78a17412912399371a80cbd6c5ced8"
+    }
+  },
+  "derwing2014workplace": {
+    "authors": "Derwing, T. M., Munro, M. J., Foote, J. A., Waugh, E., & Fleming, J.",
+    "year": 2014,
+    "title": "Opening the Window on Comprehensible Pronunciation After 19 Years: A Workplace Training Study",
+    "container": "Language Learning, 64(3), 526-548",
+    "doi": "10.1111/lang.12053",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Opening the Window on Comprehensible Pronunciation After 19 Years: A Workplace Training Study",
+      "fingerprint": "e3d82bfc70ddd466bcb5d07a63853110a2601870079531cc197ee552b1cae2fe"
+    }
+  }
+}

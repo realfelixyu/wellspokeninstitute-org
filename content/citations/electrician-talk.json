@@ -1,0 +1,64 @@
+{
+  "thomee2018electricians": {
+    "authors": "Thomée, S. & Jakobsson, K.",
+    "year": 2018,
+    "title": "Life-changing or trivial: Electricians’ views about electrical accidents",
+    "container": "Work, 60(4), 573-585",
+    "doi": "10.3233/WOR-182765",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Life-changing or trivial: Electricians’ views about electrical accidents",
+      "fingerprint": "c76317eb3d9fd9fb0aa95a414db4504ee9fffa0d16a3b0598fb119d6434299a4"
+    }
+  },
+  "shi2026electricalworkers": {
+    "authors": "Shi, Z., Obeidat, D., Bani-Fatemi, A., Howe, A., & Nowrouzi-Kia, B.",
+    "year": 2026,
+    "title": "A qualitative study of lived experiences of underrepresented electrical workers using creative non-fiction",
+    "container": "PLOS One, 21(3), e0345572",
+    "doi": "10.1371/journal.pone.0345572",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "A qualitative study of lived experiences of underrepresented electrical workers using creative non-fiction",
+      "fingerprint": "028fce781d7ffcdd6a98c81c444d10b467ea63ff6f8474dd5eadd5af3b4c50e1"
+    }
+  },
+  "washington2005electrician": {
+    "authors": "Washington State Department of Labor and Industries, Washington FACE Program",
+    "year": 2005,
+    "title": "Fatality Narrative: Electrician Electrocuted When Contact Is Made with an Energized Disconnect Switch - Washington",
+    "publisher": "Washington State Department of Labor and Industries, CDC Stacks copy",
+    "url": "https://stacks.cdc.gov/view/cdc/228837",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-28",
+      "fingerprint": "ab80a4ac0aa4be7acc2854f5cf7d3e2e448390dbf181cd8b25f204ce5cde9af9"
+    }
+  },
+  "osha2025electricalworkpractices": {
+    "authors": "Occupational Safety and Health Administration",
+    "year": 2025,
+    "title": "Selection and use of work practices",
+    "publisher": "Code of Federal Regulations, 29 CFR 1910.333 (2025 edition), U.S. Government Publishing Office",
+    "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title29-vol5/xml/CFR-2025-title29-vol5-sec1910-333.xml",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-28",
+      "fingerprint": "8859c6566917c0a8d285d0ff85dbf329ba4c608512768994c711ebed35410cbe"
+    }
+  },
+  "osha2025constructioncircuittags": {
+    "authors": "Occupational Safety and Health Administration",
+    "year": 2025,
+    "title": "Lockout and tagging of circuits",
+    "publisher": "Code of Federal Regulations, 29 CFR 1926.417 (2025 edition), U.S. Government Publishing Office",
+    "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title29-vol8/xml/CFR-2025-title29-vol8-sec1926-417.xml",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-28",
+      "fingerprint": "cb966d16ca24d55c2dc645028855217bb4a441e5c89c88732a8a9efd2ca87a7c"
+    }
+  }
+}

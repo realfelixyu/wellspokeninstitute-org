@@ -1,0 +1,66 @@
+{
+  "radke2016foodworkerknowledge": {
+    "authors": "Radke, T. J., Brown, L. G., Hoover, E. R., Faw, B. V., Reimann, D., Wong, M. R., Nicholas, D., Barkley, J., & Ripley, D.",
+    "year": 2016,
+    "title": "Food Allergy Knowledge and Attitudes of Restaurant Managers and Staff: An EHS-Net Study",
+    "container": "Journal of Food Protection, 79(9), 1588-1598",
+    "doi": "10.4315/0362-028X.JFP-16-085",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Food Allergy Knowledge and Attitudes of Restaurant Managers and Staff: An EHS-Net Study",
+      "fingerprint": "945fe5e2b5c987cd5e7922d8dd3f334e822893bffd5de61140b565a41e31b4cb"
+    }
+  },
+  "eisenblaetter2022allergeninformation": {
+    "authors": "Eisenblätter, J., Schumacher, G., Hirt, M., Wild, J., Catalano, L., Schoenberg, S., Baru, B., & Jent, S.",
+    "year": 2022,
+    "title": "How do food businesses provide information on allergens in non-prepacked foods? A cross-sectional survey in Switzerland",
+    "container": "Allergo Journal International, 31(2), 43-50",
+    "doi": "10.1007/s40629-021-00191-5",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "How do food businesses provide information on allergens in non-prepacked foods? A cross-sectional survey in Switzerland",
+      "fingerprint": "8c2936f6c4e4f66fff458a466ac7503d1b51a0f3b6acf99e6d9aeac1fed0f9c8"
+    }
+  },
+  "sumner2011illnessreporting": {
+    "authors": "Sumner, S., Brown, L. G., Frick, R., Stone, C., Carpenter, L. R., Bushnell, L., Nicholas, D., Mack, J., Blade, H., Tobin-D’Angelo, M., & Everstine, K.",
+    "year": 2011,
+    "title": "Factors associated with food workers working while experiencing vomiting or diarrhea",
+    "container": "Journal of Food Protection, 74(2), 215-220",
+    "doi": "10.4315/0362-028X.JFP-10-108",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Factors associated with food workers working while experiencing vomiting or diarrhea",
+      "fingerprint": "14db83f0827896e6df2d34b87bc00e612df63c8399f447a4aab029a91585b7a6"
+    }
+  },
+  "green2005prepconstraints": {
+    "authors": "Green, L. R., & Selman, C.",
+    "year": 2005,
+    "title": "Factors Impacting Food Workers' and Managers' Safe Food Preparation Practices: A Qualitative Study",
+    "container": "Food Protection Trends, 25(12), 981-990",
+    "publisher": "International Association for Food Protection, CDC Stacks copy",
+    "url": "https://stacks.cdc.gov/view/cdc/142282",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-28",
+      "fingerprint": "1bfa9bcfb27b9c0c53708afc4949afc2da334d35f2b71679e0dca5a4c0d28419"
+    }
+  },
+  "fsabasis2023foodallergen": {
+    "authors": "Food Standards Agency & Basis Social",
+    "year": 2023,
+    "title": "SME allergen provision in the non-prepacked sector",
+    "publisher": "Food Standards Agency, FSA Research and Evidence",
+    "url": "https://science.food.gov.uk/article/156227-sme-allergen-provision-in-the-non-prepacked-sector",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-28",
+      "fingerprint": "3d673088cb2e5f6f15f7464c0f404ab10cafba30fd47c8bf8be256d005bed637"
+    }
+  }
+}

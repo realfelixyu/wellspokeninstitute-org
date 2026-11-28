@@ -18,7 +18,7 @@ const HOSTED_FORM_ON = !CF_SIGNUP_ON && Boolean(SITE.newsletterAction);
 export default function PrivacyPage() {
   return (
     <>
-      <PageHeader eyebrow="Privacy" title="Privacy policy" lede="Last updated November 26, 2026." />
+      <PageHeader eyebrow="Privacy" title="Privacy policy" lede="Last updated November 27, 2026." />
       <Prose>
         <h2>Our free tools run in your browser</h2>
         <p>
@@ -28,7 +28,7 @@ export default function PrivacyPage() {
         <h2>Site analytics</h2>
         {GA_ON || CF_ANALYTICS_ON ? (
           <p>
-            {GA_ON ? "Google Analytics collects page visits, newsletter requests and teaching-pack downloads, and may use cookies. " : ""}
+            {GA_ON ? "Google Analytics records page visits and how pages are used, such as scrolling, clicks on links to other sites and file downloads, and uses cookies to do so. " : ""}
             {CF_ANALYTICS_ON ? "Cloudflare Web Analytics measures visits and page performance without cookies. " : ""}
             The Institute does not send your email address, practice text or audio to an analytics service. We do not sell personal information.
           </p>

@@ -2,7 +2,8 @@ import Link from "next/link";
 import { PageHeader } from "@/components/PageHeader";
 import { Prose } from "@/components/Prose";
 import { archiveUrl, cutoff, leadingRatings, position, rankedCount } from "@/data/speakingImportance";
-import { pageMetadata } from "@/lib/seo";
+import { JsonLd, pageMetadata } from "@/lib/seo";
+import { SITE } from "@/data/site";
 import styles from "./rankings.module.css";
 
 export const metadata = pageMetadata({
@@ -17,6 +18,16 @@ export default function ImportanceRankings() {
   const above = leadingRatings.length - tied;
 
   return <>
+    <JsonLd data={{
+      "@context": "https://schema.org", "@type": "Dataset",
+      name: "Highest O*NET Speaking importance ratings, with ties",
+      description: "Occupations with the highest published Speaking importance ratings in the O*NET 31.0 Database, ranked with every tie at the cutoff retained.",
+      url: `${SITE.url}/data/speaking-importance-rankings`,
+      creator: { "@type": "NGO", name: SITE.name, url: SITE.url },
+      license: "https://creativecommons.org/licenses/by/4.0/", isAccessibleForFree: true,
+      spatialCoverage: "United States", isBasedOn: "https://www.onetcenter.org/database.html",
+      distribution: [{ "@type": "DataDownload", encodingFormat: "text/csv", contentUrl: `${SITE.url}/data/speaking-importance-ranks.csv` }],
+    }} />
     <PageHeader eyebrow="Speaking at Work · Open data" title="Which U.S. occupations rate speaking most important?"
       lede={<>College and university teachers of anthropology and archeology have the highest published Speaking importance rating, at {first.importance.toFixed(2)} out of 5. Further down the list, {tied} occupations share the rating at position {position}.</>} />
     <Prose>
