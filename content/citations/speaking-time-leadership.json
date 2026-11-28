@@ -1,0 +1,106 @@
+{
+  "mullen1989participation": {
+    "authors": "Mullen, B., Salas, E., & Driskell, J. E.",
+    "year": 1989,
+    "title": "Salience, motivation, and artifact as contributions to the relation between participation rate and leadership",
+    "container": "Journal of Experimental Social Psychology, 25(6), 545-559",
+    "doi": "10.1016/0022-1031(89)90005-X",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Salience, motivation, and artifact as contributions to the relation between participation rate and leadership",
+      "fingerprint": "926809a3dfde6b50a6f0bf43c3850e4c1204f95de307a6fe06a60a6b557df427"
+    }
+  },
+  "schmidmast2002speakingtime": {
+    "authors": "Schmid Mast, M.",
+    "year": 2002,
+    "title": "Dominance as Expressed and Inferred Through Speaking Time: A Meta-Analysis",
+    "container": "Human Communication Research, 28(3), 420-450",
+    "doi": "10.1111/j.1468-2958.2002.tb00814.x",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Dominance as Expressed and Inferred Through Speaking Time.: A Meta-Analysis",
+      "fingerprint": "021d85944d4ffee85553f9a5a03be59ba572ea8d71563459a99efad4ba328379"
+    }
+  },
+  "maclaren2020babble": {
+    "authors": "MacLaren, N. G., Yammarino, F. J., Dionne, S. D., Sayama, H., Mumford, M. D., Connelly, S., Martin, R. W., Mulhearn, T. J., Todd, E. M., Kulkarni, A., Cao, Y., & Ruark, G. A.",
+    "year": 2020,
+    "title": "Testing the babble hypothesis: Speaking time predicts leader emergence in small groups",
+    "container": "The Leadership Quarterly, 31(5), 101409",
+    "doi": "10.1016/j.leaqua.2020.101409",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Testing the babble hypothesis: Speaking time predicts leader emergence in small groups",
+      "fingerprint": "462437c388da33756175b4ec83ebc28e5b6a52bb89fcef8469b3bb2cc870e719"
+    }
+  },
+  "jones2007quantityquality": {
+    "authors": "Jones, E. E., & Kelly, J. R.",
+    "year": 2007,
+    "title": "Contributions to a group discussion and perceptions of leadership: Does quantity always count more than quality?",
+    "container": "Group Dynamics: Theory, Research, and Practice, 11(1), 15-30",
+    "doi": "10.1037/1089-2699.11.1.15",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Contributions to a group discussion and perceptions of leadership: Does quantity always count more than quality?",
+      "fingerprint": "ffb32d4270a169010ccca5b2bbbe0d7954571f66f335abdb009e0c6273956db8"
+    }
+  },
+  "bottger1984airtime": {
+    "authors": "Bottger, P. C.",
+    "year": 1984,
+    "title": "Expertise and air time as bases of actual and perceived influence in problem-solving groups.",
+    "container": "Journal of Applied Psychology, 69(2), 214-221",
+    "doi": "10.1037/0021-9010.69.2.214",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Expertise and air time as bases of actual and perceived influence in problem-solving groups.",
+      "fingerprint": "4c6344400745d269e88d496dbdd28624cec0a53441b6506248445f91495e55c5"
+    }
+  },
+  "anderson2009dominance": {
+    "authors": "Anderson, C., & Kilduff, G. J.",
+    "year": 2009,
+    "title": "Why do dominant personalities attain influence in face-to-face groups? The competence-signaling effects of trait dominance.",
+    "container": "Journal of Personality and Social Psychology, 96(2), 491-503",
+    "doi": "10.1037/a0014201",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Why do dominant personalities attain influence in face-to-face groups? The competence-signaling effects of trait dominance.",
+      "fingerprint": "7f86c66d121a6f64972a5ee942989432957494ab8d02452cc729967b71956db9"
+    }
+  },
+  "woolley2010collective": {
+    "authors": "Woolley, A. W., Chabris, C. F., Pentland, A., Hashmi, N., & Malone, T. W.",
+    "year": 2010,
+    "title": "Evidence for a Collective Intelligence Factor in the Performance of Human Groups",
+    "container": "Science, 330(6004), 686-688",
+    "doi": "10.1126/science.1193147",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Evidence for a Collective Intelligence Factor in the Performance of Human Groups",
+      "fingerprint": "0fa8c927aa07be8a5ec70bc13519a04b4a90584c463c3423857d0a52b01a44b4"
+    }
+  },
+  "hong2026participationfeedback": {
+    "authors": "Hong, W., & Jung, H.",
+    "year": 2026,
+    "title": "When Feedback Backfires: Effects of Real-Time Participation Feedback and Group Norm Prompt on Team Creativity in Virtual Workspaces",
+    "container": "Behavioral Sciences, 16(2), 204",
+    "doi": "10.3390/bs16020204",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "When Feedback Backfires: Effects of Real-Time Participation Feedback and Group Norm Prompt on Team Creativity in Virtual Workspaces",
+      "fingerprint": "85660445ef1fe77a71aa64e1bb664a276ebaa55d9559c1b3e709cde6506c2f66"
+    }
+  }
+}

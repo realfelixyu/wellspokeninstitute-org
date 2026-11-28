@@ -1,0 +1,93 @@
+{
+  "whitworth2025shadowing": {
+    "authors": "Whitworth, B., & Rose, H.",
+    "year": 2025,
+    "title": "A Systematic Review of Research on the use of Shadowing for Second Language Pronunciation Teaching",
+    "container": "Research Synthesis in Applied Linguistics, 1(2), 239-269",
+    "doi": "10.1080/29984475.2025.2546827",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "A Systematic Review of Research on the use of Shadowing for Second Language Pronunciation Teaching",
+      "fingerprint": "d188ce4d6452229190db3c21457e748adc1cc047d38178b8877a2328a2e0712b"
+    }
+  },
+  "hamada2019shadowing": {
+    "authors": "Hamada, Y.",
+    "year": 2019,
+    "title": "Shadowing: What is It? How to Use It. Where Will It Go?",
+    "container": "RELC Journal, 50(3), 386-393",
+    "doi": "10.1177/0033688218771380",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Shadowing: What is It? How to Use It. Where Will It Go?",
+      "fingerprint": "ee5009bde96a6db12f42d81a435a13ad97697f64d1b64cbdc79d98a714a4b7a4"
+    }
+  },
+  "hamada2016shadowing": {
+    "authors": "Hamada, Y.",
+    "year": 2016,
+    "title": "Shadowing: Who benefits and how? Uncovering a booming EFL teaching technique for listening comprehension",
+    "container": "Language Teaching Research, 20(1), 35-52",
+    "doi": "10.1177/1362168815597504",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Shadowing: Who benefits and how? Uncovering a booming EFL teaching technique for listening comprehension",
+      "fingerprint": "9863b15cebf2a234b5f0337848e2a5ca2c40fd17c5e416dfe78b0b48034605c3"
+    }
+  },
+  "hamada2020procedure": {
+    "authors": "Hamada, Y.",
+    "year": 2020,
+    "title": "Developing a New Shadowing Procedure for Japanese EFL Learners",
+    "container": "RELC Journal, published online in 2020 and in volume 53(3), 490-504, in 2022",
+    "doi": "10.1177/0033688220937628",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Developing a New Shadowing Procedure for Japanese EFL Learners",
+      "fingerprint": "cfcf75b87af5d78f9463649784de6fff9447a4417ec0bb420b5bbefe501dece4"
+    }
+  },
+  "foote2017shadowing": {
+    "authors": "Foote, J. A., & McDonough, K.",
+    "year": 2017,
+    "title": "Using shadowing with mobile technology to improve L2 pronunciation",
+    "container": "Journal of Second Language Pronunciation, 3(1), 34-56",
+    "doi": "10.1075/jslp.3.1.02foo",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Using shadowing with mobile technology to improve L2 pronunciation",
+      "fingerprint": "746d9e58299865b4ec8c94cf48c999c698294f0c1d250f61a36779f6943eefd6"
+    }
+  },
+  "shao2023choral": {
+    "authors": "Shao, Y., Saito, K., & Tierney, A.",
+    "year": 2023,
+    "title": "How Does Having a Good Ear Promote Instructed Second Language Pronunciation Development? Roles of Domain-General Auditory Processing in Choral Repetition Training",
+    "container": "TESOL Quarterly, 57(1), 33-63",
+    "doi": "10.1002/tesq.3120",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "How Does Having a Good Ear Promote Instructed Second Language Pronunciation Development? Roles of Domain‐General Auditory Processing in Choral Repetition Training",
+      "fingerprint": "a2931354afd7e7caacd3e0fb0494cc6c23231031f9e1e026a34c3f8dfbcb151e"
+    }
+  },
+  "jeong2026face": {
+    "authors": "Jeong, H., Kadota, S., Kajiura, M., Nakanishi, H., Kazai, K., Kawasaki, M., Nakano, Y., & Hase, N.",
+    "year": 2026,
+    "title": "Seeing the Speaker's Face Enhances Second Language Shadowing: Neural and Behavioral Evidence",
+    "container": "Language Learning, advance online publication",
+    "doi": "10.1111/lang.70026",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-27",
+      "matched": "Seeing the Speaker's Face Enhances Second Language Shadowing: Neural and Behavioral Evidence",
+      "fingerprint": "958ce3231d335f434a1fcbafef9ef37d9be43f74c82d99e3bf61104144384149"
+    }
+  }
+}
