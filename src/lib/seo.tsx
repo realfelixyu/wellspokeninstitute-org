@@ -86,7 +86,7 @@ export function contentMetadata(meta: ContentMeta): Metadata {
   const other: Record<string, string | string[]> = {};
   if (scholarly) {
     other["citation_title"] = meta.title;
-    other["citation_author"] = [...authorNames(meta), SITE.researchTeamByline]; // Scholar parses people; the organization is listed last
+    other["citation_author"] = [SITE.researchTeamByline, ...authorNames(meta)]; // Institute byline first (Felix, Nov 27)
     other["citation_publication_date"] = meta.publishedAt.replace(/-/g, "/");
     other["citation_publisher"] = SITE.name;
     other["citation_technical_report_institution"] = SITE.name;
