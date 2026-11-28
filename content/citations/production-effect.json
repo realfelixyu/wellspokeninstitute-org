@@ -1,0 +1,106 @@
+{
+  "macleod2010production": {
+    "authors": "MacLeod, C. M., Gopie, N., Hourihan, K. L., Neary, K. R., & Ozubko, J. D.",
+    "year": 2010,
+    "title": "The production effect: Delineation of a phenomenon.",
+    "container": "Journal of Experimental Psychology: Learning, Memory, and Cognition, 36(3), 671-685",
+    "doi": "10.1037/a0018785",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "The production effect: Delineation of a phenomenon.",
+      "fingerprint": "d03d67f3021ca28a467058f5ed288fe9e4dd026343aa4e07d8cd2f69ca3872d6"
+    }
+  },
+  "fawcett2013production": {
+    "authors": "Fawcett, J. M.",
+    "year": 2013,
+    "title": "The production effect benefits performance in between-subject designs: A meta-analysis",
+    "container": "Acta Psychologica, 142(1), 1-5",
+    "doi": "10.1016/j.actpsy.2012.10.001",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "The production effect benefits performance in between-subject designs: A meta-analysis",
+      "fingerprint": "6aac65afdd4fd7315727d88c3ab5e55e215c0d3411b83736762c01c843a65b0c"
+    }
+  },
+  "bodner2014production": {
+    "authors": "Bodner, G. E., Taikh, A., & Fawcett, J. M.",
+    "year": 2013,
+    "title": "Assessing the costs and benefits of production in recognition",
+    "container": "Psychonomic Bulletin & Review, published online in 2013 and in volume 21(1), 149-154, in 2014",
+    "doi": "10.3758/s13423-013-0485-1",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Assessing the costs and benefits of production in recognition",
+      "fingerprint": "e19bf79047f7c2e52a881b4f5550b9f15eb998f1a9c3cfe11fa69060c175a385"
+    }
+  },
+  "fawcett2023production": {
+    "authors": "Fawcett, J. M., Baldwin, M. M., Whitridge, J. W., Swab, M., Malayang, K., Hiscock, B., Drakes, D. H., & Willoughby, H. V.",
+    "year": 2023,
+    "title": "Production improves recognition and reduces intrusions in between-subject designs: An updated meta-analysis.",
+    "container": "Canadian Journal of Experimental Psychology, 77(1), 35-44",
+    "doi": "10.1037/cep0000302",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Production improves recognition and reduces intrusions in between-subject designs: An updated meta-analysis.",
+      "fingerprint": "829f7a2f48e9f5f4c970ad00448197e3c67de12232ea6d9c886c789f9e331c47"
+    }
+  },
+  "ozubko2012production": {
+    "authors": "Ozubko, J. D., Hourihan, K. L., & MacLeod, C. M.",
+    "year": 2012,
+    "title": "Production benefits learning: The production effect endures and improves memory for text",
+    "container": "Memory, 20(7), 717-727",
+    "doi": "10.1080/09658211.2012.699070",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Production benefits learning: The production effect endures and improves memory for text",
+      "fingerprint": "6b2272fb0e7f8038b4e115239d6fe08a4ecb68fadfbe70d16cc2540343a067f6"
+    }
+  },
+  "roberts2023readaloud": {
+    "authors": "Roberts, B. R. T., Hu, Z. S., Curtis, E., Bodner, G. E., McLean, D., & MacLeod, C. M.",
+    "year": 2023,
+    "title": "Reading text aloud benefits memory but not comprehension",
+    "container": "Memory & Cognition, published online in 2023 and in volume 52(1), 57-72, in 2024",
+    "doi": "10.3758/s13421-023-01442-2",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Reading text aloud benefits memory but not comprehension",
+      "fingerprint": "62430f629c0bdb6e160fcb9a5822e63526b8c9230cb1fa72776c78481e3e1456"
+    }
+  },
+  "menzel1994preparation": {
+    "authors": "Menzel, K. E., & Carrell, L. J.",
+    "year": 1994,
+    "title": "The relationship between preparation and performance in public speaking",
+    "container": "Communication Education, 43(1), 17-26",
+    "doi": "10.1080/03634529409378958",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "The relationship between preparation and performance in public speaking",
+      "fingerprint": "dc640919ab232d913d251e3c1ca7a8a0797d4f4f43d9a1a391a85131a6d2e54d"
+    }
+  },
+  "pearson2006preparation": {
+    "authors": "Pearson, J. C., Child, J. T., & Kahl, D. H.",
+    "year": 2006,
+    "title": "Preparation Meeting Opportunity: How Do College Students Prepare for Public Speeches?",
+    "container": "Communication Quarterly, 54(3), 351-366",
+    "doi": "10.1080/01463370600878321",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Preparation Meeting Opportunity: How Do College Students Prepare for Public Speeches?",
+      "fingerprint": "89d902c73b87e6a62188e1ef373ed557fcfd52a132c0b16e7e212e187415cd9d"
+    }
+  }
+}

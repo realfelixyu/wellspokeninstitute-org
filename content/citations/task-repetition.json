@@ -1,0 +1,93 @@
+{
+  "lambert2017taskrepetition": {
+    "authors": "Lambert, C., Kormos, J., & Minn, D.",
+    "year": 2017,
+    "title": "TASK REPETITION AND SECOND LANGUAGE SPEECH PROCESSING",
+    "container": "Studies in Second Language Acquisition, 39(1), 167-196",
+    "doi": "10.1017/S0272263116000085",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "TASK REPETITION AND SECOND LANGUAGE SPEECH PROCESSING",
+      "fingerprint": "593542ce65f3c4642c72f39be17b347491530f48bc76ab30dc9ed8e621271608"
+    }
+  },
+  "dejong2011fluency": {
+    "authors": "de Jong, N., & Perfetti, C. A.",
+    "year": 2011,
+    "title": "Fluency Training in the ESL Classroom: An Experimental Study of Fluency Development and Proceduralization",
+    "container": "Language Learning, 61(2), 533-568",
+    "doi": "10.1111/j.1467-9922.2010.00620.x",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Fluency Training in the ESL Classroom: An Experimental Study of Fluency Development and Proceduralization",
+      "fingerprint": "7d0199929b8c4884ac4fa1dc88b6df5561f7d9cafe800d9f0d72ce11c48b64e4"
+    }
+  },
+  "suzuki2022massed": {
+    "authors": "Suzuki, Y., & Hanzawa, K.",
+    "year": 2022,
+    "title": "MASSED TASK REPETITION IS A DOUBLE-EDGED SWORD FOR FLUENCY DEVELOPMENT: AN EFL CLASSROOM STUDY",
+    "container": "Studies in Second Language Acquisition, 44(2), 536-561",
+    "doi": "10.1017/S0272263121000358",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "MASSED TASK REPETITION IS A DOUBLE-EDGED SWORD FOR FLUENCY DEVELOPMENT: AN EFL CLASSROOM STUDY",
+      "fingerprint": "13043f7654971957e598e636b2fdfe64ef1590be1fc0fe7097cf84d54226af73"
+    }
+  },
+  "bui2019spacing": {
+    "authors": "Bui, G., Ahmadian, M. J., & Hunter, A.-M.",
+    "year": 2019,
+    "title": "Spacing effects on repeated L2 task performance",
+    "container": "System, 81, 1-13",
+    "doi": "10.1016/j.system.2018.12.006",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Spacing effects on repeated L2 task performance",
+      "fingerprint": "5629a3650801d67ec4e16c9e57a3c4420839f165aa51df737d14aef5cbd0e3da"
+    }
+  },
+  "thai2016monologue": {
+    "authors": "Thai, C., & Boers, F.",
+    "year": 2016,
+    "title": "Repeating a Monologue Under Increasing Time Pressure: Effects on Fluency, Complexity, and Accuracy",
+    "container": "TESOL Quarterly, 50(2), 369-393",
+    "doi": "10.1002/tesq.232",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Repeating a Monologue Under Increasing Time Pressure: Effects on Fluency, Complexity, and Accuracy",
+      "fingerprint": "482137a61967281302ffd92000bb5fe4bef3c6c7c19d2c9e0c6f41797a66ce7b"
+    }
+  },
+  "boers2014reappraisal": {
+    "authors": "Boers, F.",
+    "year": 2014,
+    "title": "A Reappraisal of the 4/3/2 Activity",
+    "container": "RELC Journal, 45(3), 221-235",
+    "doi": "10.1177/0033688214546964",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "A Reappraisal of the 4/3/2 Activity",
+      "fingerprint": "87972c0a7fc55076f81c16493741066778d36001743f5c2e8512ccba7fa93d60"
+    }
+  },
+  "ahmadian2011planning": {
+    "authors": "Ahmadian, M. J., & Tavakoli, M.",
+    "year": 2011,
+    "title": "The effects of simultaneous use of careful online planning and task repetition on accuracy, complexity, and fluency in EFL learners’ oral production",
+    "container": "Language Teaching Research, 15(1), 35-59",
+    "doi": "10.1177/1362168810383329",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "The effects of simultaneous use of careful online planning and task repetition on accuracy, complexity, and fluency in EFL learners’ oral production",
+      "fingerprint": "5e8e7f4bcfa673aaddb80c952cc9edc4a44259ace81ff13271dafb0615e5f35e"
+    }
+  }
+}
