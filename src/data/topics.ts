@@ -49,14 +49,15 @@ export const TOPICS: TopicMap = {
     description:
       "Practice timing a job interview answer and explore research on speaking at work.",
     intro: [
-      "Try an interview answer with a timer, then listen for the point you want the interviewer to remember.",
-      "The timer lets you choose a target for practice.",
+      "Choose an interview question and rehearse your answer aloud.",
+      "The timer compares your answer’s length with the practice range for that question.",
     ],
     groups: {
       answers: {
         title: "Preparing your answers",
         links: [
           { href: "/tools/interview-answer-timer", title: "Interview answer timer", description: "Time a practice answer in your browser." },
+          { href: "/tools/speech-length-calculator", title: "Estimate the length of a draft answer", description: "Paste a practice answer and choose a speaking pace." },
         ],
       },
       "nerves-format-bias": { title: "Nerves, video formats and accents" },
@@ -144,7 +145,7 @@ export const TOPICS: TopicMap = {
     slug: "speaking-at-work",
     title: "Speaking at work",
     description:
-      "How much U.S. jobs depend on speaking, with guides to meetings, leadership and workplace conversations and profession-by-profession speaking data.",
+      "Look up speaking ratings for U.S. occupations and find examples of conversations on the job.",
     intro: [
       "An Institute analysis of U.S. Department of Labor ratings for 910 occupations finds that 85.5% of matched jobs are in occupations where speaking is at least important.",
       "Use the occupation table to find a job, or open a profession guide for examples of conversations at work.",
