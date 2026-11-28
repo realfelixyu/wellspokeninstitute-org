@@ -1,0 +1,78 @@
+{
+  "osha1926cranesignals": {
+    "authors": "Occupational Safety and Health Administration",
+    "year": 2024,
+    "title": "Signals--general requirements",
+    "publisher": "Code of Federal Regulations, 29 CFR 1926.1419 (2024 edition), U.S. Government Publishing Office",
+    "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title29-vol8/xml/CFR-2024-title29-vol8-sec1926-1419.xml",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-28",
+      "fingerprint": "1f42f1de95b051840346ce4ac0316604d07aaed626c186ba440a82e97614caba"
+    }
+  },
+  "osha1926flaggers": {
+    "authors": "Occupational Safety and Health Administration",
+    "year": 2024,
+    "title": "Signaling",
+    "publisher": "Code of Federal Regulations, 29 CFR 1926.201 (2024 edition), U.S. Government Publishing Office",
+    "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title29-vol8/xml/CFR-2024-title29-vol8-sec1926-201.xml",
+    "verified": {
+      "method": "url",
+      "date": "2026-11-28",
+      "fingerprint": "80196af39f2756afabfc00a6b9b2d1a0e149a55ce006c949cfa5797bacf60e8b"
+    }
+  },
+  "roelofs2011hispanicfocus": {
+    "authors": "Roelofs, C., Sprague-Martinez, L., Brunette, M., & Azaroff, L.",
+    "year": 2011,
+    "title": "A qualitative investigation of Hispanic construction worker perspectives on factors impacting worksite safety and risk",
+    "container": "Environmental Health, 10, 84",
+    "doi": "10.1186/1476-069X-10-84",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "A qualitative investigation of Hispanic construction worker perspectives on factors impacting worksite safety and risk",
+      "fingerprint": "b484a5640a832fe44ff773110ed18b5c9291b2dd0175cf90ce133414511201e3"
+    }
+  },
+  "shrestha2014assertiveness": {
+    "authors": "Shrestha, P. P., & Menzel, N. N.",
+    "year": 2014,
+    "title": "Hispanic construction workers and assertiveness training",
+    "container": "Work, 49(3), 517-522",
+    "doi": "10.3233/WOR-131728",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Hispanic construction workers and assertiveness training",
+      "fingerprint": "da26b04a8e0306a5c751e8f643f72e3f0c8904da2e24d1788118c3ec66dd8f29"
+    }
+  },
+  "oconnor2005latinotraining": {
+    "authors": "O'Connor, T., Loomis, D., Runyan, C., dal Santo, J. A., & Schulman, M.",
+    "year": 2005,
+    "title": "Adequacy of Health and Safety Training Among Young Latino Construction Workers",
+    "container": "Journal of Occupational and Environmental Medicine, 47(3), 272-277",
+    "doi": "10.1097/01.jom.0000150204.12937.f5",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Adequacy of Health and Safety Training Among Young Latino Construction Workers",
+      "fingerprint": "795e4429059743638d72c3f1284a12ec80195b0b35bce28cf98f7f16aca2d233"
+    }
+  },
+  "arcury2012latinoclimate": {
+    "authors": "Arcury, T. A., Mills, T., Marín, A. J., Summers, P., Quandt, S. A., Rushing, J., Lang, W., & Grzywacz, J. G.",
+    "year": 2012,
+    "title": "Work safety climate and safety practices among immigrant Latino residential construction workers",
+    "container": "American Journal of Industrial Medicine, 55(8), 736-745",
+    "doi": "10.1002/ajim.22058",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Work safety climate and safety practices among immigrant Latino residential construction workers",
+      "fingerprint": "f0f7032e55458b560602052f078e7bc03ef52d8863ca207d6cfd5f0604d0f4a2"
+    }
+  }
+}

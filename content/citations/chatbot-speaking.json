@@ -1,0 +1,68 @@
+{
+  "hou2025dialogue": {
+    "authors": "Zhuohan Hou, Shangchao Min",
+    "title": "Dialogue-based computer-assisted language learning systems for second language speaking development: A three-level meta-analysis",
+    "container": "ReCALL",
+    "doi": "10.1017/S0958344025100268",
+    "year": 2025,
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Dialogue-based computer-assisted language learning systems for second language speaking development: A three-level meta-analysis",
+      "fingerprint": "fc3750e5412b21879be789811f278fbaca98c4a6cc0bbaaa2a79d28a6df5eeff"
+    }
+  },
+  "lyu2024chatbots": {
+    "authors": "Boning Lyu, Chun Lai, Jianing Guo",
+    "title": "Effectiveness of Chatbots in Improving Language Learning: A Meta‐Analysis of Comparative Studies",
+    "container": "International Journal of Applied Linguistics",
+    "doi": "10.1111/ijal.12668",
+    "year": 2024,
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Effectiveness of Chatbots in Improving Language Learning: A Meta‐Analysis of Comparative Studies",
+      "fingerprint": "fc4cdd289565ec5074fe37224466e946fba13f2a1efc29fc2a74ba9fe48a4ce0"
+    }
+  },
+  "ballidag2025anxiety": {
+    "authors": "Meltem Ballıdağ, Selami Aydın",
+    "title": "A comparison of the effects of AI‐based chatbots and peer interactions on speaking anxiety among EFL learners",
+    "container": "Future in Educational Research",
+    "doi": "10.1002/fer3.70005",
+    "year": 2025,
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "A comparison of the effects of AI‐based chatbots and peer interactions on speaking anxiety among EFL learners",
+      "fingerprint": "4d0ead0b54cbfc3fb26f528ca44c7ab6e82837679c7af9d8ff01b86d4e4792ff"
+    }
+  },
+  "fathi2024speaking": {
+    "authors": "Jalil Fathi, Masoud Rahimi, Ali Derakhshan",
+    "title": "Improving EFL learners’ speaking skills and willingness to communicate via artificial intelligence-mediated interactions",
+    "container": "System",
+    "doi": "10.1016/j.system.2024.103254",
+    "year": 2024,
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Improving EFL learners’ speaking skills and willingness to communicate via artificial intelligence-mediated interactions",
+      "fingerprint": "453c24e4eebcb668b6fe5162c078c300c34eab2bdb368d8bfde3813d932b63e1"
+    }
+  },
+  "dizon2020ipa": {
+    "authors": "Gilbert Dizon",
+    "title": "Evaluating intelligent personal assistants for L2 listening and speaking development",
+    "container": "Language Learning & Technology",
+    "year": 2020,
+    "url": "https://www.lltjournal.org/item-detail/934/",
+    "verified": {
+      "method": "crossref",
+      "date": "2026-11-28",
+      "matched": "Evaluating intelligent personal assistants for L2 listening and speaking development",
+      "fingerprint": "092345e56d2fffedc667786409ccd64511bf7f3d387acbef486e83fc31e4df13"
+    },
+    "doi": "10.64152/10125/44705"
+  }
+}

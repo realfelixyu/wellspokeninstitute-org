@@ -200,6 +200,7 @@ export const TOPIC_ASSIGNMENTS: Record<string, Assignment> = {
   },
   "learn/does-peer-discussion-help-college-students-learn": { "teaching-speaking": "classroom" },
   "learn/does-practicing-in-virtual-reality-reduce-fear-of-public-speaking": { "fear-of-public-speaking": "what-helps" },
+  "learn/does-practicing-speaking-with-an-ai-chatbot-help-english-learners": { "english-learners": "speaking" },
   "learn/does-pronunciation-teaching-help-adults-be-understood": {
     "english-learners": "accent",
     "teaching-speaking": "classroom",
