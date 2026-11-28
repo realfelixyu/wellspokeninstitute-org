@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Container, PageHeader } from "@/components/PageHeader";
-import { pageMetadata } from "@/lib/seo";
+import { JsonLd, pageMetadata } from "@/lib/seo";
+import { SITE } from "@/data/site";
 
 const base = "/data/speaking-demand-over-time";
 const downloads = "/data/occupation-history-files";
@@ -12,6 +13,19 @@ export const metadata = pageMetadata({
 
 export default function Methods() {
   return <>
+    <JsonLd data={{
+      "@context": "https://schema.org", "@type": "Dataset",
+      name: "Occupational speaking ratings in O*NET releases 15.0 and 31.0",
+      description: "Occupation-level Speaking importance and level ratings matched between the July 2010 and August 2026 O*NET Database releases, with rating dates and changes.",
+      url: `${SITE.url}/data/speaking-demand-over-time`,
+      creator: { "@type": "NGO", name: SITE.name, url: SITE.url },
+      license: "https://creativecommons.org/licenses/by/4.0/", isAccessibleForFree: true,
+      temporalCoverage: "2010/2026", spatialCoverage: "United States", isBasedOn: "https://www.onetcenter.org/db_releases.html",
+      distribution: [
+        { "@type": "DataDownload", encodingFormat: "text/csv", contentUrl: `${SITE.url}/data/occupation-history-files/matched-occupations.csv` },
+        { "@type": "DataDownload", encodingFormat: "application/json", contentUrl: `${SITE.url}/data/occupation-history-files/summary.json` },
+      ],
+    }} />
     <PageHeader eyebrow="Methods and data" title="Comparing two releases of occupational speaking ratings"
       lede="Download the occupation-level results or reproduce the comparison with the original archives. Each row identifies the job and the dates of the two sets of ratings." />
     <Container narrow><div className="prose-body pb-12">
