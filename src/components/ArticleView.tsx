@@ -9,6 +9,7 @@ import { JsonLd, articleJsonLd, authorNames, breadcrumbJsonLd, contentPath, faqJ
 import { PEOPLE, SITE } from "@/data/site";
 import { NewsletterInline } from "@/components/Newsletter";
 import { OnetAttribution, OnetPanel } from "@/components/OnetPanel";
+import { RelatedReading } from "@/components/TopicLinks";
 
 const KIND_LABEL: Record<string, string> = {
   paper: "Research paper",
@@ -173,6 +174,8 @@ export function ArticleView({ entry }: { entry: ContentEntry }) {
         </section>
 
         {meta.onet ? <OnetAttribution /> : null}
+
+        <RelatedReading entry={entry} />
 
         <div className="no-print mt-14">
           <NewsletterInline />

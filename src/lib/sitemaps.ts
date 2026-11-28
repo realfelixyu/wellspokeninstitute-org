@@ -2,14 +2,21 @@ import { SITE } from "@/data/site";
 import { lessons } from "@/data/curriculum";
 import { TOOLS } from "@/data/tools";
 import { getEntries, type Collection } from "@/lib/content";
+import { orderedTopics, resolveTopic, topicPath } from "@/lib/topics";
 
 const collections: Collection[] = ["research", "statistics", "professions", "learn"];
-export const sections = ["institute", ...collections, "tools"] as const;
+export const sections = ["institute", ...collections, "topics", "tools"] as const;
 export const sitemapName = (section: string) => `sitemap-${section}.xml`;
 
 export function urlsForSection(section: string): { path: string; modified?: string }[] {
   if (section === "institute") {
     return ["/", "/data/speaking-by-occupation", "/data/speaking-importance-rankings", "/data/speaking-demand-over-time", "/curriculum", "/curriculum/explain-a-research-finding", "/curriculum/explain-a-research-finding/listener", ...lessons.map(lesson => `/curriculum/worksheets/${lesson.id}`), "/about", "/mission", "/governance", "/disclosures", "/editorial-policy", "/newsletter", "/contact", "/privacy"].map(path => ({ path }));
+  }
+  if (section === "topics") {
+    // A hub's lastmod is its newest linked page, so it changes when a scheduled page goes live.
+    const hubs = orderedTopics().map(topic => ({ path: topicPath(topic.slug), modified: resolveTopic(topic.slug).lastModified }));
+    const newest = hubs.map(hub => hub.modified).filter(Boolean).sort().at(-1);
+    return [{ path: "/topics", modified: newest }, ...hubs];
   }
   if (section === "tools") {
     return ["/tools", ...TOOLS.map(tool => `/tools/${tool.slug}`)].map(path => ({ path }));

@@ -72,6 +72,7 @@ const FOOTER_COLUMNS = [
       { href: "/professions", label: "Speaking by profession" },
       { href: "/tools", label: "Free tools" },
       { href: "/learn", label: "Learn" },
+      { href: "/topics", label: "Browse by topic" },
       { href: "/curriculum", label: "Teach It Everywhere curriculum" },
       { href: "/newsletter", label: "Newsletter" },
     ],
